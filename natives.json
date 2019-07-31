@@ -1,0 +1,1914 @@
+	"SYSTEM": {
+		"0x7715C03B": {
+			"name": "WAIT",
+			"comment": "",
+			"params": [
+				{
+					"type": "int",
+					"name": "ms"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x01185F9B": {
+			"name": "WAITUNWARPED",
+			"comment": "",
+			"params": [
+				{
+					"type": "int",
+					"name": "ms"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x7C496803": {
+			"name": "WAITUNPAUSED",
+			"comment": "",
+			"params": [
+				{
+					"type": "int",
+					"name": "ms"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x3F166D0E": {
+			"name": "START_NEW_SCRIPT",
+			"comment": "",
+			"params": [
+				{
+					"type": "const char*",
+					"name": "scriptName"
+				},
+				{
+					"type": "int",
+					"name": "stackSize"
+				}
+			],
+			"return_type": "int",
+			"variadic": false,
+			"unused": false
+		},
+		"0x4A2100E4": {
+			"name": "START_NEW_SCRIPT_WITH_ARGS",
+			"comment": "",
+			"params": [
+				{
+					"type": "const char*",
+					"name": "scriptName"
+				},
+				{
+					"type": "Any*",
+					"name": "args"
+				},
+				{
+					"type": "int",
+					"name": "argCount"
+				},
+				{
+					"type": "int",
+					"name": "stackSize"
+				}
+			],
+			"return_type": "int",
+			"variadic": false,
+			"unused": true
+		},
+		"0x35785333": {
+			"name": "SETTIMERA",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x50597EE2": {
+			"name": "TIMESTEP",
+			"comment": "",
+			"params": [],
+			"return_type": "float",
+			"variadic": false,
+			"unused": false
+		},
+		"0xECF8EB5F": {
+			"name": "PRINTSTRING",
+			"comment": "",
+			"params": [
+        {
+					"type": "const char*",
+					"name": "value"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": true
+		},
+		"0xD48B90B6": {
+			"name": "PRINTFLOAT",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "value"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x63651F03": {
+			"name": "PRINTINT",
+			"comment": "",
+			"params": [
+				{
+					"type": "int",
+					"name": "value"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x868997DA": {
+			"name": "PRINTNL",
+			"comment": "",
+			"params": [],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x085F31FB": {
+			"name": "PRINTVECTOR",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "x"
+				},
+				{
+					"type": "float",
+					"name": "y"
+				},
+				{
+					"type": "float",
+					"name": "z"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x145C7701": {
+			"name": "SQRT",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "value"
+				}
+			],
+			"return_type": "float",
+			"variadic": false,
+			"unused": false
+		},
+		"0x85D134F8": {
+			"name": "POW",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "base"
+				},
+				{
+					"type": "float",
+					"name": "exponent"
+				}
+			],
+			"return_type": "float",
+			"variadic": false,
+			"unused": true
+		},
+		"0xE2313450": {
+			"name": "EXP",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "value"
+				}
+			],
+			"return_type": "float",
+			"variadic": false,
+			"unused": true
+		},
+		"0x1FCF1ECD": {
+			"name": "VMAG",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "x"
+				},
+				{
+					"type": "float",
+					"name": "y"
+				},
+				{
+					"type": "float",
+					"name": "z"
+				}
+			],
+			"return_type": "float",
+			"variadic": false,
+			"unused": false
+		},
+		"0x3C08ECB7": {
+			"name": "VDIST",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "x1"
+				},
+				{
+					"type": "float",
+					"name": "y1"
+				},
+				{
+					"type": "float",
+					"name": "z1"
+				},
+				{
+					"type": "float",
+					"name": "x2"
+				},
+				{
+					"type": "float",
+					"name": "y2"
+				},
+				{
+					"type": "float",
+					"name": "z2"
+				}
+			],
+			"return_type": "float",
+			"variadic": false,
+			"unused": false
+		},
+		"0xC85DEF1F": {
+			"name": "VDIST2",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "x1"
+				},
+				{
+					"type": "float",
+					"name": "y1"
+				},
+				{
+					"type": "float",
+					"name": "z1"
+				},
+				{
+					"type": "float",
+					"name": "x2"
+				},
+				{
+					"type": "float",
+					"name": "y2"
+				},
+				{
+					"type": "float",
+					"name": "z2"
+				}
+			],
+			"return_type": "float",
+			"variadic": false,
+			"unused": false
+		},
+		"0x314CC6CD": {
+			"name": "SHIFT_LEFT",
+			"comment": "",
+			"params": [
+				{
+					"type": "int",
+					"name": "value"
+				},
+				{
+					"type": "int",
+					"name": "bitShift"
+				}
+			],
+			"return_type": "int",
+			"variadic": false,
+			"unused": false
+		},
+		"0x352633CA": {
+			"name": "SHIFT_RIGHT",
+			"comment": "",
+			"params": [
+				{
+					"type": "int",
+					"name": "value"
+				},
+				{
+					"type": "int",
+					"name": "bitShift"
+				}
+			],
+			"return_type": "int",
+			"variadic": false,
+			"unused": false
+		},
+		"0x32E9BE04": {
+			"name": "FLOOR",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "value"
+				}
+			],
+			"return_type": "int",
+			"variadic": false,
+			"unused": false
+		},
+    "0xD536A1DF": {
+			"name": "CEIL",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "value"
+				}
+			],
+			"return_type": "int",
+			"variadic": false,
+			"unused": false
+		},
+    "0x323B0E24": {
+			"name": "ROUND",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "value"
+				}
+			],
+			"return_type": "int",
+			"variadic": false,
+			"unused": false
+		},
+		"0x67116627": {
+			"name": "TO_FLOAT",
+			"comment": "",
+			"params": [
+				{
+					"type": "int",
+					"name": "value"
+				}
+			],
+			"return_type": "float",
+			"variadic": false,
+			"unused": false
+		},
+		"0x5A25520E": {
+			"name": "SNAPSHOT_GLOBALS",
+			"comment": "",
+			"params": [],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x2B547FE6": {
+			"name": "GET_LATEST_CONSOLE_COMMAND",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				}
+			],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+    "0xAA3EC981": {
+			"name": "RESET_LATEST_CONSOLE_COMMAND",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				}
+			],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+    "0x9DE3DE24": {
+			"name": "GET_CONSOLE_COMMAND_TOKEN",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				}
+			],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+    "0x608F5BC6": {
+			"name": "GET_NUM_CONSOLE_COMMAND_TOKENS",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				}
+			],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		}
+	},
+	"DOOR": {
+		"0x9CB5372B": {
+			"name": "FIND_NEAREST_DOOR",
+			"comment": "",
+			"params": [
+				{
+					"type": "float",
+					"name": "x"
+				},
+				{
+					"type": "float",
+					"name": "y"
+				},
+				{
+					"type": "float",
+					"name": "z"
+				},
+        {
+					"type": "float",
+					"name": "range"
+				}
+			],
+			"return_type": "Object",
+			"variadic": false,
+			"unused": false
+		},
+    "0x30503E81": {
+			"name": "OPEN_DOOR",
+			"comment": "",
+			"params": [
+				{
+					"type": "Object",
+					"name": "door"
+				},
+				{
+					"type": "Any",
+					"name": "p1"
+				},
+				{
+					"type": "Any",
+					"name": "p2"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+    "0xCF89BC95": {
+			"name": "OPEN_DOOR_FAST",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				},
+				{
+					"type": "Any",
+					"name": "p1"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+	"PHYSINST": {
+		"0x5AEA8801": {
+			"name": "GET_PROP_VELOCITY",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				}
+			],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+		"0x16C0A6CB": {
+			"name": "IS_PHYSINST_VALID",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				}
+			],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+		"0xC0961D18": {
+			"name": "ACTIVATE_PHYSINST",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x8B9659EF": {
+			"name": "RELEASE_CONSTRAINT",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x342FDCD6": {
+			"name": "SHOW_PHYSINST",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+	"WORLDFX": {
+		"0xD4799325": {
+			"name": "CREATE_FIRE_IN_VOLUME",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				},
+				{
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				},
+        {
+					"type": "Any",
+					"name": "p3"
+				},
+        {
+					"type": "Any",
+					"name": "p4"
+				},
+        {
+					"type": "Any",
+					"name": "p5"
+				},
+        {
+					"type": "Any",
+					"name": "p6"
+				},
+        {
+					"type": "Any",
+					"name": "p7"
+				},
+        {
+					"type": "Any",
+					"name": "p8"
+				},
+        {
+					"type": "Any",
+					"name": "p9"
+				}
+			],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+		"0x9544570A": {
+			"name": "STOP_ALL_FIRES",
+			"comment": "",
+			"params": [],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x9E1AE585": {
+			"name": "DISABLE_CHILD_SECTOR",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x3F67DEDB": {
+			"name": "_CHEAT_BLAZING_GUNS",
+			"comment": "",
+			"params": [
+				{
+					"type": "BOOL",
+					"name": "toggle"
+				}
+			],
+			"return_type": "int",
+			"variadic": false,
+			"unused": false
+		},
+	},
+	"STREAMING": {
+		"0xB0A79FEE": {
+			"name": "STREAMING_REQUEST_ACTOR",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+		"0x7DF72579": {
+			"name": "STREAMING_IS_ACTOR_LOADED",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "BOOL",
+			"variadic": false,
+			"unused": false
+		},
+	},
+	"MISC": {
+		"0x7BDCBD45": {
+			"name": "SET_RICH_PRESENCE",
+			"comment": "",
+			"params": [
+				{
+					"type": "Any*",
+					"name": "p0"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+	"RENDER": {
+		"0xB84DE79E": {
+			"name": "PRINT_FRAME_TIME",
+			"comment": "",
+			"params": [
+				{
+					"type": "int",
+					"name": "p0"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+	"EXPLOSION": {
+		"0xE7023D23": {
+			"name": "_CREATE_EXPLOSION",
+			"comment": "",
+			"params": [
+				{
+					"type": "Vector3*",
+					"name": "coords"
+				},
+				{
+					"type": "const char*",
+					"name": "explosionName"
+				},
+				{
+					"type": "BOOL",
+					"name": "p2"
+				},
+				{
+					"type": "Vector3*",
+					"name": "damageVector"
+				},
+				{
+					"type": "BOOL",
+					"name": "p4"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+	"WEATHER": {
+		"0x456D7F38": {
+			"name": "SET_WEATHER",
+			"comment": "",
+			"params": [
+				{
+					"type": "int",
+					"name": "weatherType"
+				},
+				{
+					"type": "Time",
+					"name": "time"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+	"AUDIO": {
+		"0x1CEA7FCE": {
+			"name": "NEW_SCRIPTED_CONVERSATION",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		}
+	},
+  "PLAYER": {
+		"0x2D54B916": {
+			"name": "TELEPORT_ACTOR",
+			"comment": "",
+			"params": [
+				{
+					"type": "Actor",
+					"name": "actor"
+				},
+				{
+					"type": "float",
+					"name": "x"
+				},
+        {
+					"type": "float",
+					"name": "y"
+				},
+        {
+					"type": "float",
+					"name": "z"
+				},
+        {
+					"type": "BOOL",
+					"name": "p4"
+				},
+        {
+					"type": "BOOL",
+					"name": "p5"
+				},
+        {
+					"type": "BOOL",
+					"name": "p6"
+				}
+			],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		}
+	},
+  "ACTORSET": {
+		"0x009DFC82": {
+			"name": "CREATE_ACTORSET_IN_LAYOUT",
+			"comment": "",
+			"params": [
+      	{
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				},
+        {
+					"type": "Any",
+					"name": "p3"
+				},
+        {
+					"type": "Any",
+					"name": "p4"
+				},
+        {
+					"type": "Any",
+					"name": "p5"
+				},
+        {
+					"type": "Any",
+					"name": "p6"
+				},
+        {
+					"type": "Any",
+					"name": "p7"
+				},
+        {
+					"type": "Any",
+					"name": "p8"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "FACTION": {
+		"0x40ABFD17": {
+			"name": "_0x40ABFD17",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "ANIMAL": {
+		"0x651ACCB1": {
+			"name": "ANIMAL_SPECIES_TUNING_SET_ATTRIB_BOOL",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				},
+        {
+					"type": "Any",
+					"name": "p3"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "COMBAT": {
+		"0x80D51606": {
+			"name": "COMBAT_CLASS_AI_SET_ATTRIB_FLOAT",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "MEMORY": {
+		"0x4485B246": {
+			"name": "MEMORY_CLEAR_ALL",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "AI": {
+		"0x3CD232B2": {
+			"name": "AI_GOAL_AIM_AT_OBJECT",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "SQUAD": {
+		"0xBDB3061E": {
+			"name": "SQUAD_IS_VALID",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "TASK": {
+		"0xB6131204": {
+			"name": "TASK_MOUNT",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				},
+        {
+					"type": "Any",
+					"name": "p3"
+				},
+        {
+					"type": "Any",
+					"name": "p4"
+				},
+        {
+					"type": "Any",
+					"name": "p5"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "AMBIENT": {
+		"0xB6131204": {
+			"name": "ADD_AMBIENT_MOVE_RESTRICTION_STAY_OUTSIDE_OF_VOLUME",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "UNK1": {
+		"0xD85BAFA8": {
+			"name": "_0xD85BAFA8",
+			"comment": "",
+			"params": [],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "ANIM": {
+		"0x2988B3FC": {
+			"name": "REQUEST_ANIM_SET",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "UI": {
+		"0xA77E0DDF": {
+			"name": "UI_SET_PROMPT_ICON",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "GAME": {
+		"0xA81DABA3": {
+			"name": "SCRIPT_BREAKPOINT",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "DECORATOR": {
+		"0x8E101F5C": {
+			"name": "DECOR_SET_BOOL",
+			"comment": "",
+			"params": [
+        {
+					"type": "Actor",
+					"name": "actor"
+				},
+        {
+					"type": "Any*",
+					"name": "decorName"
+				},
+        {
+					"type": "BOOL",
+					"name": "p2"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "LAYOUT": {
+		"0x0B396DFF": {
+			"name": "_GET_NUM_SCRIPTS_ACTIVE",
+			"comment": "",
+			"params": [
+        {
+					"type": "Hash",
+					"name": "p0"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "CAMERA": {
+		"0x4A65F0B7": {
+			"name": "GET_CAMERA_POSITION",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "float*",
+					"name": "pitch"
+				},
+        {
+					"type": "float*",
+					"name": "roll"
+				},
+        {
+					"type": "float*",
+					"name": "yaw"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "GRAVE": {
+		"0x5BF5A39C": {
+			"name": "_0x5BF5A39C",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				},
+        {
+					"type": "Any",
+					"name": "p3"
+				},
+        {
+					"type": "Any",
+					"name": "p4"
+				},
+        {
+					"type": "Any",
+					"name": "p5"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "ELEMENT": {
+		"0x598815BD": {
+			"name": "_0x598815BD",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "MOVIE": {
+		"0x7614AEBA": {
+			"name": "_0x7614AEBA",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "TIME": {
+		"0xC52F07A8": {
+			"name": "GET_TOTAL_MINUTES",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "GAMEPLAY": {
+		"0x6B7677BF": {
+			"name": "GET_GAME_CAMERA",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "NET": {
+		"0x7BD7A465": {
+			"name": "NET_GAMER_SET_TITLE",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "ACTOR": {
+		"0xE6644CE5": {
+			"name": "SET_DRAW_ACTOR",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "AMBIENT2": {
+		"0x9A2B05F4": {
+			"name": "AMBIENT_SET_SEARCH_CENTER_ACTOR",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "ANIMATOR": {
+		"0xBEDB066C": {
+			"name": "LINK_OBJECT_ANIMATOR_TO_ACTOR",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "COVER": {
+		"0x50AE988A": {
+			"name": "_0x50AE988A",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "CURVE": {
+		"0x9A933060": {
+			"name": "GET_CURVE_NAME",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "EVENT": {
+		"0x82112B85": {
+			"name": "GET_EVENT_TIME",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "int",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "SOCIALCLUB": {
+		"0x6FCF6BC8": {
+			"name": "DISABLE_PLAYER_GRINGO_USE",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "UNK2": {
+		"0x9953D4FC": {
+			"name": "_0x9953D4FC",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "LASSO": {
+		"0xAA364907": {
+			"name": "GET_LASSO_TARGET",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "MINIGAME": {
+		"0x117D7E71": {
+			"name": "IS_MINIGAME_RUNNING",
+			"comment": "",
+			"params": [],
+			"return_type": "BOOL",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "NAV": {
+		"0xE2F41226": {
+			"name": "CREATE_NAV_QUERY",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "PATH": {
+		"0x44930268": {
+			"name": "_0x44930268",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "PERSCHAR": {
+		"0x2CA16327": {
+			"name": "ACTIVATE_ACTOR_FOR_PERS_CHAR",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "SIMULATOR": {
+		"0xB5F9F4CF": {
+			"name": "BREAK_OFF_ABOVE",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "POPULATION": {
+		"0xFA5EA974": {
+			"name": "IS_POPULATION_SET_READY",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "PROP": {
+		"0x7DBB277A": {
+			"name": "SET_PROP_FIXED",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "MOUNT": {
+		"0x00AF2CB0": {
+			"name": "SET_MOST_RECENT_MOUNT",
+			"comment": "",
+			"params": [
+        {
+					"type": "Actor",
+					"name": "actor"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "STRING": {
+		"0xBDC61056": {
+			"name": "IS_STRING_VALID",
+			"comment": "",
+			"params": [
+        {
+					"type": "const char*",
+					"name": "text"
+				}
+      ],
+			"return_type": "BOOL",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "VOLUME": {
+		"0x8D5609F2": {
+			"name": "GET_VOLUME_HEADING",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "GATEWAY": {
+		"0x820699A8": {
+			"name": "GATEWAY_GET_ACTOR",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "CUTSCENE": {
+		"0xD89902F1": {
+			"name": "_0xD89902F1",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "INTERSECTION": {
+		"0x9CD3AD70": {
+			"name": "FIND_INTERSECTION",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				},
+        {
+					"type": "Any",
+					"name": "p3"
+				},
+        {
+					"type": "Any",
+					"name": "p4"
+				},
+        {
+					"type": "Any",
+					"name": "p5"
+				},
+        {
+					"type": "Any",
+					"name": "p6"
+				},
+        {
+					"type": "Any",
+					"name": "p7"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "VEHICLE": {
+		"0x58745E4B": {
+			"name": "GET_ACTOR_MOST_RECENT_VEHICLE",
+			"comment": "",
+			"params": [
+        {
+					"type": "Actor",
+					"name": "actor"
+				}
+      ],
+			"return_type": "Vehicle",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "LEASH": {
+		"0xE58339B3": {
+			"name": "LEASH_RESTART",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "PROBE": {
+		"0x7080E24A": {
+			"name": "_0x7080E24A",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "PHYSINST2": {
+		"0x11069324": {
+			"name": "_0x11069324",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "GOHEVENT": {
+		"0x945F518F": {
+			"name": "_0x945F518F",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "UNK3": {
+		"0x30402375": {
+			"name": "_0x30402375",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "JOURNAL": {
+		"0x6398AF9A": {
+			"name": "SET_EXCLUSIVE_JOURNAL_ID",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "STAT": {
+		"0x32A3A7AE": {
+			"name": "CREATE_STAT",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				},
+        {
+					"type": "Any",
+					"name": "p1"
+				},
+        {
+					"type": "Any",
+					"name": "p2"
+				},
+        {
+					"type": "Any",
+					"name": "p3"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "SHOP": {
+		"0xE7F6AA5D": {
+			"name": "SHOP_REFRESH",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "SOCIALCLUB2": {
+		"0x04A3022E": {
+			"name": "UI_CHALLENGE_MAKE_CURRENT",
+			"comment": "",
+			"params": [
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "UI2": {
+		"0xBEE5CF6C": {
+			"name": "UI_POP",
+			"comment": "",
+			"params": [
+        {
+					"type": "char*",
+					"name": "layerName"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "WEAPON": {
+		"0xBAA5D41B": {
+			"name": "_GIVE_NAMED_ITEM",
+			"comment": "",
+			"params": [
+        {
+					"type": "Actor",
+					"name": "actor"
+				},
+        {
+					"type": "Any",
+					"name": "p0"
+				}
+      ],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "STUB": {
+		"0x8E387228": {
+			"name": "_0x8E387228",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "GRINGO": {
+		"0x86F2C24D": {
+			"name": "IS_GRINGO_ACTIVE",
+			"comment": "",
+			"params": [],
+			"return_type": "BOOL",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "RETICLE": {
+		"0x86BAAC6C": {
+			"name": "_0x86BAAC6C",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "MOVIE2": {
+		"0x1BED8493": {
+			"name": "_0x1BED8493",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "ALLOC": {
+		"0x724B4E9B": {
+			"name": "_0x724B4E9B",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "DLC": {
+		"0x0728B211": {
+			"name": "_0x0728B211",
+			"comment": "",
+			"params": [],
+			"return_type": "Any",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "DECAL": {
+		"0x43939FD8": {
+			"name": "CLEAR_DECALS",
+			"comment": "",
+			"params": [],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+  "DECAL": {
+		"0x43939FD8": {
+			"name": "CLEAR_DECALS",
+			"comment": "",
+			"params": [],
+			"return_type": "void",
+			"variadic": false,
+			"unused": false
+		},
+	},
+}
