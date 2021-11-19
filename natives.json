@@ -10,7 +10,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x01185F9B": {
@@ -23,7 +22,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x7C496803": {
@@ -36,7 +34,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x3F166D0E": {
@@ -53,7 +50,6 @@
         }
       ],
       "return_type": "int",
-      "variadic": false,
       "unused": false
     },
     "0x4A2100E4": {
@@ -78,7 +74,6 @@
         }
       ],
       "return_type": "int",
-      "variadic": false,
       "unused": true
     },
     "0x35785333": {
@@ -91,7 +86,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x50597EE2": {
@@ -99,7 +93,6 @@
       "comment": "",
       "params": [],
       "return_type": "float",
-      "variadic": false,
       "unused": false
     },
     "0xECF8EB5F": {
@@ -112,7 +105,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": true
     },
     "0xD48B90B6": {
@@ -125,7 +117,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x63651F03": {
@@ -138,7 +129,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x868997DA": {
@@ -146,7 +136,6 @@
       "comment": "",
       "params": [],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x085F31FB": {
@@ -167,7 +156,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x145C7701": {
@@ -180,7 +168,6 @@
         }
       ],
       "return_type": "float",
-      "variadic": false,
       "unused": false
     },
     "0x85D134F8": {
@@ -197,7 +184,6 @@
         }
       ],
       "return_type": "float",
-      "variadic": false,
       "unused": true
     },
     "0xE2313450": {
@@ -210,7 +196,6 @@
         }
       ],
       "return_type": "float",
-      "variadic": false,
       "unused": true
     },
     "0x1FCF1ECD": {
@@ -231,7 +216,6 @@
         }
       ],
       "return_type": "float",
-      "variadic": false,
       "unused": false
     },
     "0x3C08ECB7": {
@@ -264,7 +248,6 @@
         }
       ],
       "return_type": "float",
-      "variadic": false,
       "unused": false
     },
     "0xC85DEF1F": {
@@ -297,7 +280,6 @@
         }
       ],
       "return_type": "float",
-      "variadic": false,
       "unused": false
     },
     "0x314CC6CD": {
@@ -314,7 +296,6 @@
         }
       ],
       "return_type": "int",
-      "variadic": false,
       "unused": false
     },
     "0x352633CA": {
@@ -331,7 +312,6 @@
         }
       ],
       "return_type": "int",
-      "variadic": false,
       "unused": false
     },
     "0x32E9BE04": {
@@ -344,7 +324,6 @@
         }
       ],
       "return_type": "int",
-      "variadic": false,
       "unused": false
     },
     "0xD536A1DF": {
@@ -357,7 +336,6 @@
         }
       ],
       "return_type": "int",
-      "variadic": false,
       "unused": false
     },
     "0x323B0E24": {
@@ -370,7 +348,6 @@
         }
       ],
       "return_type": "int",
-      "variadic": false,
       "unused": false
     },
     "0x67116627": {
@@ -383,7 +360,6 @@
         }
       ],
       "return_type": "float",
-      "variadic": false,
       "unused": false
     },
     "0x5A25520E": {
@@ -391,7 +367,6 @@
       "comment": "",
       "params": [],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x2B547FE6": {
@@ -404,7 +379,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     },
     "0xAA3EC981": {
@@ -417,7 +391,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     },
     "0x9DE3DE24": {
@@ -430,7 +403,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     },
     "0x608F5BC6": {
@@ -443,7 +415,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -470,7 +441,6 @@
         }
       ],
       "return_type": "Object",
-      "variadic": false,
       "unused": false
     },
     "0x30503E81": {
@@ -491,7 +461,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0xCF89BC95": {
@@ -508,7 +477,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -527,7 +495,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     },
     "0x16C0A6CB": {
@@ -540,7 +507,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     },
     "0xC0961D18": {
@@ -553,7 +519,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x8B9659EF": {
@@ -566,7 +531,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x342FDCD6": {
@@ -579,7 +543,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -630,7 +593,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     },
     "0x9544570A": {
@@ -638,7 +600,6 @@
       "comment": "",
       "params": [],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x9E1AE585": {
@@ -651,7 +612,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x3F67DEDB": {
@@ -664,7 +624,6 @@
         }
       ],
       "return_type": "int",
-      "variadic": false,
       "unused": false
     }
   },
@@ -687,7 +646,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     },
     "0x7DF72579": {
@@ -700,7 +658,6 @@
         }
       ],
       "return_type": "BOOL",
-      "variadic": false,
       "unused": false
     }
   },
@@ -715,7 +672,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -730,7 +686,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -761,7 +716,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -780,7 +734,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -790,7 +743,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -829,7 +781,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -876,7 +827,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -899,7 +849,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -926,7 +875,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -949,7 +897,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -964,7 +911,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -987,7 +933,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1002,7 +947,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1037,7 +981,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1052,7 +995,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1062,7 +1004,6 @@
       "comment": "",
       "params": [],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1081,7 +1022,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1100,7 +1040,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1115,7 +1054,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1138,7 +1076,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1153,7 +1090,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1180,7 +1116,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1215,7 +1150,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1225,7 +1159,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1235,7 +1168,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1250,7 +1182,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1260,7 +1191,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1283,7 +1213,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1298,7 +1227,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1313,7 +1241,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1336,7 +1263,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1346,7 +1272,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1361,7 +1286,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1376,7 +1300,6 @@
         }
       ],
       "return_type": "int",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1395,7 +1318,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1405,7 +1327,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1420,7 +1341,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1430,7 +1350,6 @@
       "comment": "",
       "params": [],
       "return_type": "BOOL",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1449,7 +1368,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1459,7 +1377,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1474,7 +1391,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1493,7 +1409,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1516,7 +1431,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1535,7 +1449,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1554,7 +1467,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1569,7 +1481,6 @@
         }
       ],
       "return_type": "BOOL",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1584,7 +1495,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1599,7 +1509,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1609,7 +1518,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1652,7 +1560,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1667,7 +1574,6 @@
         }
       ],
       "return_type": "Vehicle",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1682,7 +1588,6 @@
         }
       ],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1692,7 +1597,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1702,7 +1606,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1712,7 +1615,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1722,7 +1624,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1737,7 +1638,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1764,7 +1664,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1779,7 +1678,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1794,7 +1692,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1809,7 +1706,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1828,7 +1724,6 @@
         }
       ],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1838,7 +1733,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1848,7 +1742,6 @@
       "comment": "",
       "params": [],
       "return_type": "BOOL",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1858,7 +1751,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1868,7 +1760,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1878,7 +1769,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1888,7 +1778,6 @@
       "comment": "",
       "params": [],
       "return_type": "Any",
-      "variadic": false,
       "unused": false
     }
   },
@@ -1898,7 +1787,6 @@
       "comment": "",
       "params": [],
       "return_type": "void",
-      "variadic": false,
       "unused": false
     }
   }
