@@ -93,7 +93,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "value"
         }
       ],
@@ -410,7 +410,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "actorName"
         }
       ],
@@ -533,7 +533,7 @@
       "name": "_0xDAD46FAB",
       "comment": "",
       "params": [],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xA2DEC153": {
       "name": "_ACTOR_IN_WORLD",
@@ -756,7 +756,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -1852,7 +1852,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -1867,7 +1867,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -2720,7 +2720,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         },
         {
@@ -2757,7 +2757,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xF07F5E41": {
       "name": "_0xF07F5E41",
@@ -3283,7 +3283,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -3302,7 +3302,7 @@
           "name": "p1"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p2"
         }
       ],
@@ -4485,7 +4485,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -4598,7 +4598,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -4624,7 +4624,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -4961,7 +4961,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -6151,7 +6151,7 @@
           "name": "p1"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xBCD4979C": {
       "name": "_0xBCD4979C",
@@ -8289,7 +8289,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
@@ -8402,7 +8402,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "audioName"
         }
       ],
@@ -8443,7 +8443,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "audioName"
         },
         {
@@ -8559,7 +8559,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         },
         {
@@ -9345,7 +9345,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "name"
         }
       ],
@@ -9844,11 +9844,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         },
         {
@@ -9883,7 +9883,7 @@
           "name": "hash"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         },
         {
@@ -9918,7 +9918,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         },
         {
@@ -9953,7 +9953,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         },
         {
@@ -9984,7 +9984,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         },
         {
@@ -10244,11 +10244,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -10259,11 +10259,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -10385,7 +10385,7 @@
           "name": "p8"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p9"
         }
       ],
@@ -12145,7 +12145,7 @@
           "name": "p7"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p8"
         }
       ],
@@ -14438,7 +14438,7 @@
       "name": "_0x0FE90DCB",
       "comment": "",
       "params": [],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x7716B12B": {
       "name": "_0x7716B12B",
@@ -14600,11 +14600,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x7653788C": {
       "name": "_0x7653788C",
@@ -14954,7 +14954,7 @@
       "name": "_0xDE79FA4E",
       "comment": "",
       "params": [],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x2B45FADE": {
       "name": "_0x2B45FADE",
@@ -15756,7 +15756,7 @@
           "name": "actor"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "propertyName"
         },
         {
@@ -15878,11 +15878,11 @@
           "name": "actor"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "propertyName"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "eventName"
         }
       ],
@@ -15991,7 +15991,7 @@
           "name": "actor"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "propertyName"
         }
       ],
@@ -16006,7 +16006,7 @@
           "name": "actor"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "propertyName"
         }
       ],
@@ -16029,7 +16029,7 @@
       "name": "_DLC_PREINIT",
       "comment": "",
       "params": [],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xEC86DB0E": {
       "name": "_DLC_INIT",
@@ -16042,7 +16042,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
@@ -16378,7 +16378,7 @@
           "name": "p3"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x7E0CDD87": {
       "name": "_0x7E0CDD87",
@@ -16868,7 +16868,7 @@
           "name": "position"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "explosionName"
         },
         {
@@ -16891,11 +16891,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     }
   },
   "FACTION": {
@@ -18000,13 +18000,13 @@
       "name": "GET_SCRIPT_NAME",
       "comment": "",
       "params": [],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x960DB7A5": {
       "name": "GET_SHORT_SCRIPT_NAME",
       "comment": "",
       "params": [],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x245B6AB6": {
       "name": "TERMINATE_THIS_SCRIPT",
@@ -18724,7 +18724,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "message"
         }
       ],
@@ -18735,7 +18735,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "warning_message"
         }
       ],
@@ -18746,7 +18746,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "error_message"
         }
       ],
@@ -19127,7 +19127,7 @@
           "name": "y"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "text"
         },
         {
@@ -19334,7 +19334,7 @@
       "name": "_0x0B2D5E4B",
       "comment": "",
       "params": [],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x7C5901EF": {
       "name": "LOAD_GAME",
@@ -19613,7 +19613,7 @@
       ],
       "return_type": "int"
     },
-    "}": {
+    "0x836F42DA": {
       "name": "_0x836F42DA",
       "comment": "",
       "params": [
@@ -19756,7 +19756,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         },
         {
@@ -22629,11 +22629,11 @@
           "name": "p1"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "windowName"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p3"
         }
       ],
@@ -22660,11 +22660,11 @@
           "name": "z"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "menuTitle"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "gxtText"
         },
         {
@@ -22714,7 +22714,7 @@
           "name": "guiHandle"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "windowName"
         }
       ],
@@ -22750,7 +22750,7 @@
       ],
       "return_type": "int"
     },
-    "}": {
+    "0xA2E6FECB": {
       "name": "GUI_WINDOW_VALID",
       "comment": "",
       "params": [
@@ -22770,7 +22770,7 @@
           "name": "textHandle"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "menuName"
         }
       ],
@@ -22906,11 +22906,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x52C10147": {
       "name": "_0x52C10147",
@@ -22951,7 +22951,7 @@
           "name": "precision"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xA883AFCC": {
       "name": "INT_TO_STRING",
@@ -22962,7 +22962,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x6B8E4CDD": {
       "name": "VECTOR_TO_STRING",
@@ -22973,7 +22973,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     }
   },
   "HOLSTER": {
@@ -23307,7 +23307,7 @@
           "name": "p1"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p2"
         }
       ],
@@ -23318,11 +23318,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "scaleformName"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "scaleformVarName"
         },
         {
@@ -23379,11 +23379,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "scaleformName"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "scaleformVarName"
         },
         {
@@ -23444,11 +23444,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "ScaleName"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "ScaleVarName"
         }
       ],
@@ -23579,7 +23579,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "txt"
         },
         {
@@ -23603,11 +23603,11 @@
           "name": "p5"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "unk"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "audioName"
         }
       ],
@@ -23618,7 +23618,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "txt"
         },
         {
@@ -23954,11 +23954,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xEFB9362F": {
       "name": "ADD_BLIP_FOR_ACTOR",
@@ -25059,7 +25059,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -26980,7 +26980,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "layoutName"
         }
       ],
@@ -26995,7 +26995,7 @@
           "name": "actor"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xDF40614F": {
       "name": "GET_OBJECT_NAME",
@@ -27006,7 +27006,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xBADE22A2": {
       "name": "GET_LAYOUT_NAME",
@@ -27017,7 +27017,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x5C4262F9": {
       "name": "GET_OBJECT_MODEL_NAME",
@@ -27028,7 +27028,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xF662EAE1": {
       "name": "GET_POPULATION_SET_NAME",
@@ -27039,7 +27039,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x2CF0010F": {
       "name": "_0x2CF0010F",
@@ -27290,7 +27290,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "layoutName"
         }
       ],
@@ -27854,11 +27854,11 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p2"
         },
         {
@@ -29693,7 +29693,7 @@
           "name": "p2"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p3"
         },
         {
@@ -30555,7 +30555,7 @@
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -30570,7 +30570,7 @@
           "name": "layout"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "actorName"
         }
       ],
@@ -31810,7 +31810,7 @@
           "name": "layout"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "actorName"
         },
         {
@@ -31946,7 +31946,7 @@
           "name": "actor"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "actorInLayout"
         },
         {
@@ -32135,7 +32135,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "assetDir"
         },
         {
@@ -33728,7 +33728,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
@@ -34213,11 +34213,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -34463,11 +34463,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "result"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         },
         {
@@ -34475,7 +34475,7 @@
           "name": "p2"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xCDAC0F0E": {
       "name": "NET_IS_SESSION_HOST",
@@ -36356,7 +36356,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "text"
         },
         {
@@ -36438,7 +36438,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "gxtName"
         }
       ],
@@ -36464,7 +36464,7 @@
           "name": "columnIndex"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "entry"
         }
       ],
@@ -36475,7 +36475,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "str"
         }
       ],
@@ -36529,7 +36529,7 @@
           "name": "columnIndex"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "text"
         }
       ],
@@ -36588,15 +36588,15 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "text1"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "text2"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "text3"
         },
         {
@@ -38565,7 +38565,7 @@
           "name": "slot"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x3241158C": {
       "name": "GET_SLOT_POSITION",
@@ -41928,7 +41928,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
@@ -41999,7 +41999,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
@@ -42165,7 +42165,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
@@ -42370,7 +42370,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "gxtName"
         },
         {
@@ -45257,7 +45257,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "text"
         }
       ],
@@ -45268,11 +45268,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "string1"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "string2"
         }
       ],
@@ -45333,7 +45333,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
@@ -45487,7 +45487,7 @@
           "name": "p1"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xA2D27A1F": {
       "name": "SS_GET_STRING_ID",
@@ -45575,7 +45575,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
@@ -45586,7 +45586,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
@@ -48343,7 +48343,7 @@
       "params": [],
       "return_type": "Any"
     },
-    "}": {
+    "0xC09EAB6E": {
       "name": "MAKE_TIME_OF_DAY",
       "comment": "",
       "params": [
@@ -48483,7 +48483,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uilayer"
         }
       ],
@@ -48494,7 +48494,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48505,7 +48505,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48527,7 +48527,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48538,7 +48538,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48549,7 +48549,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         }
       ],
@@ -48560,7 +48560,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48571,7 +48571,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48582,7 +48582,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48593,7 +48593,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "UiLayer"
         }
       ],
@@ -48604,7 +48604,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "UiLayer"
         }
       ],
@@ -48615,7 +48615,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "UiLayer"
         }
       ],
@@ -48626,7 +48626,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48637,7 +48637,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48648,7 +48648,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48659,7 +48659,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48670,7 +48670,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48681,7 +48681,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48692,7 +48692,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -48709,7 +48709,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         },
         {
@@ -48852,11 +48852,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "gxtName"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "string"
         }
       ],
@@ -48867,23 +48867,23 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "gxtName"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "formatString"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "string1"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "string2"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "string3"
         }
       ],
@@ -48913,11 +48913,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "gxtEntry"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xBA89F5EA": {
       "name": "_0xBA89F5EA",
@@ -48939,11 +48939,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p1"
         }
       ],
@@ -49032,11 +49032,11 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "entry"
         },
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "text"
         }
       ],
@@ -49122,7 +49122,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "uiLayer"
         }
       ],
@@ -51337,7 +51337,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "ItemName"
         },
         {
@@ -51416,7 +51416,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "p0"
         },
         {
@@ -51480,7 +51480,7 @@
       "comment": "",
       "params": [
         {
-          "type": "std::string",
+          "type": "const char*",
           "name": "ItemName"
         },
         {
@@ -52151,7 +52151,7 @@
       ],
       "return_type": "Any"
     },
-    "}": {
+    "0x195A4286": {
       "name": "FIRE_PROJECTILE",
       "comment": "",
       "params": [
@@ -52724,7 +52724,7 @@
           "name": "weaponId"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x87C5471F": {
       "name": "_0x87C5471F",
@@ -52735,7 +52735,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0xBE06C265": {
       "name": "_0xBE06C265",
@@ -52838,7 +52838,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "std::string"
+      "return_type": "const char*"
     },
     "0x2AF84928": {
       "name": "_0x2AF84928",
