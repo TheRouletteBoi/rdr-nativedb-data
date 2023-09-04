@@ -19422,6 +19422,10 @@
         },
         {
           "type": "int",
+          "name": "p2"
+        },
+        {
+          "type": "int",
           "name": "p3"
         },
         {
@@ -28818,13 +28822,27 @@
     "0x44C07DA5": {
       "name": "_0x44C07DA5",
       "comment": "",
-      "params": [],
+      "params": [
+        {
+          "type": "int",
+          "name": "p0"
+        }
+      ],
       "return_type": "BOOL"
     },
     "0x5F66B23E": {
       "name": "_0x5F66B23E",
       "comment": "",
-      "params": [],
+      "params": [
+        {
+          "type": "int",
+          "name": "p0"
+        },
+        {
+          "type": "int",
+          "name": "p1"
+        }
+      ],
       "return_type": "int"
     },
     "0x2ECF04F3": {
@@ -28961,6 +28979,10 @@
           "name": "p4"
         },
         {
+          "type": "int",
+          "name": "p5"
+        },
+        {
           "type": "float",
           "name": "p6"
         },
@@ -28983,6 +29005,14 @@
       "name": "_LOCATE_OBJECTS_IN_VOLUME",
       "comment": "",
       "params": [
+        {
+          "type": "int",
+          "name": "p0"
+        },
+        {
+          "type": "int",
+          "name": "p1"
+        },
         {
           "type": "int",
           "name": "p2"
@@ -29010,6 +29040,14 @@
       "name": "_LOCATE_OBJECTS_IN_VOLUME_2",
       "comment": "",
       "params": [
+        {
+          "type": "int",
+          "name": "p0"
+        },
+        {
+          "type": "int",
+          "name": "p1"
+        },
         {
           "type": "int",
           "name": "p2"
@@ -29997,7 +30035,7 @@
           "name": "p0"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p1"
         }
       ],
@@ -30028,13 +30066,23 @@
     "0x72A048B7": {
       "name": "_0x72A048B7",
       "comment": "",
-      "params": [],
+      "params": [
+        {
+          "type": "int",
+          "name": "p0"
+        }
+      ],
       "return_type": "BOOL"
     },
     "0x85C58BE1": {
       "name": "IS_CRIME_IN_PROGRESS",
       "comment": "",
-      "params": [],
+      "params": [
+        {
+          "type": "int",
+          "name": "p0"
+        }
+      ],
       "return_type": "BOOL"
     },
     "0x72C52B55": {
@@ -30113,6 +30161,10 @@
       "comment": "",
       "params": [
         {
+          "type": "int",
+          "name": "p0"
+        },
+        {
           "type": "float",
           "name": "p1"
         }
@@ -30123,6 +30175,10 @@
       "name": "_0x6761D53A",
       "comment": "",
       "params": [
+        {
+          "type": "int",
+          "name": "p0"
+        },
         {
           "type": "int",
           "name": "p1"
@@ -30166,6 +30222,10 @@
       "params": [
         {
           "type": "int",
+          "name": "p0"
+        },
+        {
+          "type": "int",
           "name": "p1"
         }
       ],
@@ -30206,6 +30266,10 @@
       "comment": "",
       "params": [
         {
+          "type": "int",
+          "name": "p0"
+        },
+        {
           "type": "char",
           "name": "p1"
         }
@@ -30216,6 +30280,10 @@
       "name": "_0x2D6CD106",
       "comment": "",
       "params": [
+        {
+          "type": "int",
+          "name": "p0"
+        },
         {
           "type": "char",
           "name": "p1"
@@ -34475,7 +34543,7 @@
           "name": "p1"
         },
         {
-          "type": "void*",
+          "type": "Any*",
           "name": "p2"
         }
       ],
