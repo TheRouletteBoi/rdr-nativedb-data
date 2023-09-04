@@ -39583,7 +39583,18 @@
       ],
       "return_type": "Any"
     },
-    "ModelOffset)": {
+    "0x135EA21D": {
+      "name": "_0x135EA21D",
+      "comment": "",
+      "params": [
+        {
+          "type": "float",
+          "name": "p0"
+        }
+      ],
+      "return_type": "float*"
+    },
+    "0xA393AC4E": {
       "name": "_0xA393AC4E",
       "comment": "",
       "params": [
