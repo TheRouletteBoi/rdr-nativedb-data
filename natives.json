@@ -2090,7 +2090,7 @@
       "return_type": "int"
     },
     "0x09D78931": {
-      "name": "GET_ACTOR_MIN_SPEED",
+      "name": "_0x09D78931",
       "comment": "",
       "params": [
         {
