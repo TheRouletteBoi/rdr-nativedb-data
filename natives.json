@@ -46490,7 +46490,7 @@
       ],
       "return_type": "void"
     },
-    "//0xCC8B2ECC": {
+    "0xCC8B2ECC": {
       "name": "TASK_FOLLOW_PATH_FROM_POINT",
       "comment": "",
       "params": [],
@@ -51332,7 +51332,7 @@
     }
   },
   "WEAPON": {
-    "//0xBAA5D41B": {
+    "0xBAA5D41B": {
       "name": "ADD_ITEM",
       "comment": "",
       "params": [
