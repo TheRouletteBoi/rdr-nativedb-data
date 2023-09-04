@@ -41227,7 +41227,7 @@
       "return_type": "int"
     },
     "0x8AE7281E": {
-      "name": "_0x8AE7281E",
+      "name": "GET_RETICLE_TARGET_POINT",
       "comment": "",
       "params": [
         {
@@ -41235,8 +41235,8 @@
           "name": "p0"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "Vector3*",
+          "name": "coords"
         }
       ],
       "return_type": "int"
@@ -41650,7 +41650,7 @@
       "return_type": "void"
     },
     "0xD19EFFC1": {
-      "name": "_0xD19EFFC1",
+      "name": "CALCULATE_NORMALIZED_SCREEN_DISTANCE_FROM_RETICLE",
       "comment": "",
       "params": [
         {
