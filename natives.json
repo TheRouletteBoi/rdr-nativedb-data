@@ -5085,11 +5085,11 @@
       "params": [
         {
           "type": "Any",
-          "name": "p1"
+          "name": "p0"
         },
         {
           "type": "Any",
-          "name": "p0"
+          "name": "p1"
         }
       ],
       "return_type": "int"
@@ -6009,7 +6009,7 @@
           "name": "p1"
         }
       ],
-      "return_type": "void*"
+      "return_type": "Any*"
     },
     "0x762192EB": {
       "name": "_0x762192EB",
@@ -29995,6 +29995,10 @@
         {
           "type": "Any*",
           "name": "p0"
+        },
+        {
+          "type": "Any",
+          "name": "p1"
         }
       ],
       "return_type": "int"
