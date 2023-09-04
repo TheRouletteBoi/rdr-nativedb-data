@@ -39584,7 +39584,7 @@
       "return_type": "Any"
     },
     "ModelOffset)": {
-      "name": "_0x4B90D22A",
+      "name": "_0xA393AC4E",
       "comment": "",
       "params": [
         {
@@ -39914,6 +39914,17 @@
         }
       ],
       "return_type": "void"
+    },
+    "0x4B90D22A": {
+      "name": "_0x4B90D22A",
+      "comment": "",
+      "params": [
+        {
+          "type": "float",
+          "name": "p0"
+        }
+      ],
+      "return_type": "float*"
     },
     "0xF1779E65": {
       "name": "_0xF1779E65",
