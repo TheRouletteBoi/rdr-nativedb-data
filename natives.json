@@ -17927,7 +17927,7 @@
       ],
       "return_type": "int"
     },
-    "}": {
+    "0x3F67DEDB": {
       "name": "_CHEAT_BLAZING_GUNS",
       "comment": "",
       "params": [
@@ -19160,7 +19160,40 @@
       ],
       "return_type": "void"
     },
-    "Debug": {
+    "0xD1D88EB8": {
+      "name": "_0xD1D88EB8",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "int"
+    },
+    "0x21E19CD5": {
+      "name": "_0x21E19CD5",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "int"
+    },
+    "0x1B6FE39B": {
+      "name": "_0x1B6FE39B",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "int"
+    },
+    "0xAAEBAC28": {
       "name": "_0xAAEBAC28",
       "comment": "",
       "params": [
