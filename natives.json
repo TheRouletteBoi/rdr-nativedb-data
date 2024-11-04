@@ -598,7 +598,7 @@
       "return_type": "BOOL"
     },
     "0x0733E811": {
-      "name": "_0x0733E811",
+      "name": "IS_AREA_OBSTRUCTED2",
       "comment": "",
       "params": [
         {
@@ -21656,7 +21656,7 @@
       "return_type": "int"
     },
     "0x4DB7C61C": {
-      "name": "_0x4DB7C61C",
+      "name": "GRINGO_ATTACH_PROP_TO_ANIM",
       "comment": "",
       "params": [
         {
@@ -22928,7 +22928,7 @@
       "return_type": "int"
     },
     "0x5E339E16": {
-      "name": "_0x5E339E16",
+      "name": "FLOAT_TO_STRING_VERBOSE",
       "comment": "",
       "params": [
         {
@@ -48457,7 +48457,7 @@
       "return_type": "float"
     },
     "0x0E453CF0": {
-      "name": "_0x0E453CF0",
+      "name": "MAKE_TIME_OF_DAY_EX",
       "comment": "",
       "params": [
         {
@@ -48468,7 +48468,7 @@
       "return_type": "Any"
     },
     "0x2DB3AC0F": {
-      "name": "_0x2DB3AC0F",
+      "name": "IS_LATER_THAN",
       "comment": "",
       "params": [
         {
@@ -48479,7 +48479,7 @@
       "return_type": "Any"
     },
     "0x9C9529D8": {
-      "name": "_0x9C9529D8",
+      "name": "IS_EARLIER_THAN",
       "comment": "",
       "params": [
         {
@@ -48494,7 +48494,7 @@
       "return_type": "Any"
     },
     "0x243AF970": {
-      "name": "_0x243AF970",
+      "name": "TIME_IS_IN_RANGE",
       "comment": "",
       "params": [
         {
@@ -48509,7 +48509,7 @@
       "return_type": "Any"
     },
     "0xD4FECCBC": {
-      "name": "_0xD4FECCBC",
+      "name": "ADVANCE_TIME_HOURS",
       "comment": "",
       "params": [],
       "return_type": "Any"
