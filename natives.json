@@ -393,7 +393,7 @@
       "return_type": "Any"
     }
   },
-  "ACTOR": {
+  "ACTOR2": {
     "0xBA6C3E92": {
       "name": "IS_ACTOR_VALID",
       "comment": "",
@@ -2671,7 +2671,7 @@
       "return_type": "void"
     }
   },
-  "ACTORDRAW": {
+  "ENTITY": {
     "0xE6644CE5": {
       "name": "SET_DRAW_ACTOR",
       "comment": "",
@@ -2695,7 +2695,7 @@
       "return_type": "Any"
     }
   },
-  "ACTORENUM": {
+  "PED": {
     "0xD02757C1": {
       "name": "CAN_ACTOR_ENUM_PLAY_SPEECH_CONTEXT",
       "comment": "",
@@ -2766,7 +2766,7 @@
       "return_type": "int"
     }
   },
-  "ACTORINFO": {
+  "HEALTH": {
     "0x2C0F211D": {
       "name": "GET_LAST_ATTACKER",
       "comment": "",
@@ -3254,7 +3254,7 @@
       "return_type": "Any"
     }
   },
-  "AI": {
+  "AI_MISC": {
     "0x4A69F264": {
       "name": "AI_BEHAVIOR_SET_ALLOW",
       "comment": "",
@@ -4708,7 +4708,7 @@
       "return_type": "int"
     }
   },
-  "AI2": {
+  "AI_NAV": {
     "0x6ADF2927": {
       "name": "AI_CLEAR_NAV_MATERIAL_USAGE",
       "comment": "",
@@ -4994,7 +4994,7 @@
       "return_type": "int"
     }
   },
-  "AI3": {
+  "AI_PERCEPTION": {
     "0x5C580036": {
       "name": "DISABLE_VERIFY_SS",
       "comment": "",
@@ -5059,7 +5059,7 @@
       "return_type": "void"
     }
   },
-  "AI4": {
+  "AI_RIDE": {
     "0x9DDFA9CA": {
       "name": "AI_RIDING_SET_ATTRIBUTE",
       "comment": "",
@@ -5095,7 +5095,7 @@
       "return_type": "int"
     }
   },
-  "AI5": {
+  "AI_SPEECH": {
     "0xD269F20B": {
       "name": "AI_SPEECH_ADD_PHRASE",
       "comment": "",
@@ -5312,7 +5312,7 @@
       "return_type": "int"
     }
   },
-  "AMBIENT": {
+  "AI_WORLD": {
     "0xA8ADCAEB": {
       "name": "ENABLE_AMBIENT_SPAWNING",
       "comment": "",
@@ -5778,7 +5778,7 @@
       "return_type": "float*"
     }
   },
-  "AMBIENT2": {
+  "AMBIENT": {
     "0xA8226DFF": {
       "name": "AMBIENT_SET_UPDATES_ENABLED",
       "comment": "",
@@ -6817,7 +6817,7 @@
       "return_type": "int"
     }
   },
-  "ANIMAL": {
+  "AI_ANIMAL": {
     "0x5EFB415E": {
       "name": "ANIMAL_SPECIES_FLOCK_AND_TUNING_CLEAR_ALL",
       "comment": "",
@@ -13303,7 +13303,7 @@
       "return_type": "void"
     }
   },
-  "CHALLENGE": {
+  "SOCIALCLUB": {
     "0x1EB9AF29": {
       "name": "UI_CHALLENGE_CREATE",
       "comment": "",
@@ -13580,7 +13580,7 @@
       "return_type": "void"
     }
   },
-  "COMBAT": {
+  "AI_COMBAT": {
     "0x13FA7128": {
       "name": "COMBAT_CLASS_AI_CLEAR_ALL_ATTRIBS",
       "comment": "",
@@ -13985,7 +13985,7 @@
       "return_type": "int"
     }
   },
-  "CURVE": {
+  "CURVES": {
     "0x0C46DAB3": {
       "name": "ENABLE_CURVE",
       "comment": "",
@@ -14985,7 +14985,7 @@
       "return_type": "void"
     }
   },
-  "DECAL": {
+  "FX": {
     "0xA5A6A3E3": {
       "name": "ENABLE_PIP",
       "comment": "",
@@ -16084,6 +16084,17 @@
         }
       ],
       "return_type": "BOOL"
+    },
+    "0x2F78AEFA": {
+      "name": "_0x2F78AEFA",
+      "comment": "PS4/Switch/PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
     }
   },
   "DOOR": {
@@ -16356,7 +16367,7 @@
       "return_type": "BOOL"
     }
   },
-  "ELEMENT": {
+  "PPPELEMENTS": {
     "0x598815BD": {
       "name": "_0x598815BD",
       "comment": "",
@@ -17127,7 +17138,7 @@
       "return_type": "void"
     }
   },
-  "FACTION2": {
+  "AI_VISION": {
     "0x656D3D26": {
       "name": "CAN_ANYONE_OF_FACTION_SEE_OBJECT",
       "comment": "",
@@ -17144,7 +17155,7 @@
       "return_type": "BOOL"
     }
   },
-  "FIRE": {
+  "WORLD": {
     "0x9A93E7CA": {
       "name": "CLEAR_AREA_OF_TREE_TYPE",
       "comment": "",
@@ -17307,6 +17318,12 @@
     "0xDCAE6935": {
       "name": "RELOAD_SMICTIONARY_LIST",
       "comment": "",
+      "params": [],
+      "return_type": "void"
+    },
+    "0x28246500": {
+      "name": "_0x28246500",
+      "comment": "PS4/Switch/PC only",
       "params": [],
       "return_type": "void"
     },
@@ -17578,6 +17595,12 @@
           "name": "p0"
         }
       ],
+      "return_type": "int"
+    },
+    "0xE437932A": {
+      "name": "_0xE437932A",
+      "comment": "PS4/Switch/PC only",
+      "params": [],
       "return_type": "int"
     },
     "0xBBAE9CBD": {
@@ -17950,7 +17973,7 @@
       "return_type": "int"
     }
   },
-  "GAME": {
+  "CORE": {
     "0x505A8057": {
       "name": "SET_DEBUG_DRAW",
       "comment": "",
@@ -19025,7 +19048,7 @@
       "return_type": "int"
     },
     "0xBEC2871A": {
-      "name": "_0xBEC2871A",
+      "name": "GET_TIME_SINCE_LAST_MOVESTICK_INPUT",
       "comment": "",
       "params": [
         {
@@ -19574,6 +19597,18 @@
       "params": [],
       "return_type": "BOOL"
     },
+	"0x99989FCD": {
+      "name": "IS_PS4",
+      "comment": "PS4/Switch/PC only",
+      "params": [],
+      "return_type": "BOOL"
+    },
+	"0x92E03425": {
+      "name": "IS_SWITCH",
+      "comment": "PS4/Switch/PC only",
+      "params": [],
+      "return_type": "BOOL"
+    },
     "0xB427CB25": {
       "name": "_0xB427CB25",
       "comment": "",
@@ -19684,6 +19719,39 @@
         }
       ],
       "return_type": "int"
+    },
+    "0x81A7CDB6": {
+      "name": "_0x81A7CDB6",
+      "comment": "PS4/Switch/PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x2A04518E": {
+      "name": "_0x2A04518E",
+      "comment": "PS4/Switch/PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x4FC61E5F": {
+      "name": "_0x4FC61E5F",
+      "comment": "PS4/Switch/PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
     },
     "0x3B417D4E": {
       "name": "SET_MISSION_INFO",
@@ -19826,6 +19894,12 @@
       "params": [],
       "return_type": "BOOL"
     },
+    "0xD90DB78D": {
+      "name": "IS_D11_CUTSCENE_HACK",
+      "comment": "",
+      "params": [],
+      "return_type": "BOOL"
+    },
     "0x554FC5E0": {
       "name": "IS_DISPLAY_WIDESCREEN",
       "comment": "",
@@ -19856,7 +19930,7 @@
       "return_type": "int"
     }
   },
-  "GAMERTAG": {
+  "GRAVESTONE": {
     "0xF62EE158": {
       "name": "_0xF62EE158",
       "comment": "",
@@ -20075,7 +20149,7 @@
       "return_type": "Any"
     }
   },
-  "GOHEVENT": {
+  "AI_ATTENTION": {
     "0x945F518F": {
       "name": "_AIATTENTIONATTRACTOR",
       "comment": "",
@@ -25482,7 +25556,7 @@
       "return_type": "void"
     }
   },
-  "INTERSECTION": {
+  "WORLD2": {
     "0x9CD3AD70": {
       "name": "FIND_INTERSECTION",
       "comment": "",
@@ -26785,7 +26859,7 @@
       "return_type": "Any"
     }
   },
-  "LAYOUT": {
+  "OBJECT": {
     "0x0B396DFF": {
       "name": "VERIFY_TYPE_COUNT",
       "comment": "",
@@ -33190,7 +33264,7 @@
       "return_type": "int"
     }
   },
-  "MEMORY": {
+  "AI_MEMORY": {
     "0x8CD37E9E": {
       "name": "MEMORY_CLEAR_EVENTS",
       "comment": "",
@@ -33874,7 +33948,7 @@
       "return_type": "int"
     }
   },
-  "MOUNT": {
+  "RIDING": {
     "0x00AF2CB0": {
       "name": "SET_MOST_RECENT_MOUNT",
       "comment": "",
@@ -34187,7 +34261,7 @@
       "return_type": "void"
     }
   },
-  "MOVABLE": {
+  "NAVMESH": {
     "0x8A0D3339": {
       "name": "STREAMING_IS_MOVABLE_NAV_MESH_RESIDENT",
       "comment": "",
@@ -34236,13 +34310,19 @@
   "MOVIE": {
     "0x92028B49": {
       "name": "WORLD_MOVIE_PLAYER",
-      "comment": "",
+      "comment": "Not in PS4/Switch/PC",
       "params": [
         {
           "type": "Any",
           "name": "p0"
         }
       ],
+      "return_type": "int"
+    },
+	"0x7614AEBA": {
+      "name": "_0x7614AEBA",
+      "comment": "PS4/Switch/PC only",
+      "params": [],
       "return_type": "int"
     },
     "0x69FC319E": {
@@ -34258,7 +34338,7 @@
       "return_type": "int"
     }
   },
-  "MOVIE2": {
+  "MOTIVE": {
     "0x1BED8493": {
       "name": "SET_MOTIVE_BY_ENUM",
       "comment": "",
@@ -34279,7 +34359,7 @@
       "return_type": "int"
     }
   },
-  "MUSIC": {
+  "AMBIENCE": {
     "0x2A3B1045": {
       "name": "AMBIENCE_AUDIO_ENTITY_UPDATE_TERRITORY",
       "comment": "",
@@ -34322,7 +34402,7 @@
       "return_type": "int"
     }
   },
-  "NAV": {
+  "NAVQUERY": {
     "0xE2F41226": {
       "name": "CREATE_NAV_QUERY",
       "comment": "",
@@ -35835,6 +35915,12 @@
       "comment": "",
       "params": [],
       "return_type": "int*"
+    },
+    "0x489A2B93": {
+      "name": "_0x489A2B93",
+      "comment": "PS4/Switch/PC only",
+      "params": [],
+      "return_type": "int*"
     }
   },
   "NET2": {
@@ -35947,7 +36033,7 @@
       "return_type": "int"
     }
   },
-  "NET3": {
+  "NET_STATS": {
     "0x12304873": {
       "name": "NET_UPDATE_LEADERBOARD",
       "comment": "",
@@ -36202,7 +36288,7 @@
       "return_type": "int"
     }
   },
-  "NET4": {
+  "NET_UI": {
     "0x8808546E": {
       "name": "NET_GET_AND_CLEAR_GAME_MODE_REQUEST",
       "comment": "",
@@ -36823,7 +36909,7 @@
       "return_type": "int"
     }
   },
-  "NETCONNECTION": {
+  "PLAYSTATS": {
     "0x2547029C": {
       "name": "_0x2547029C",
       "comment": "",
@@ -37718,7 +37804,7 @@
       "return_type": "int"
     }
   },
-  "PHYSINST2": {
+  "MISC": {
     "0x11069324": {
       "name": "CREATE_OBJECT_LOCATOR",
       "comment": "",
@@ -37890,7 +37976,7 @@
       "return_type": "int"
     }
   },
-  "PLAYER": {
+  "ACTOR": {
     "0x2D54B916": {
       "name": "TELEPORT_ACTOR",
       "comment": "",
@@ -40733,7 +40819,7 @@
       "return_type": "int"
     }
   },
-  "PROBE": {
+  "OBJECT2": {
     "0x7080E24A": {
       "name": "_0x7080E24A",
       "comment": "",
@@ -41215,9 +41301,20 @@
         }
       ],
       "return_type": "void"
+    },
+    "0x09D4CDEF": {
+      "name": "_0x09D4CDEF",
+      "comment": "PS4/Switch/PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
     }
   },
-  "RETICLE": {
+  "TARGETING": {
     "0x86BAAC6C": {
       "name": "GET_ACTOR_UNDER_RETICLE",
       "comment": "",
@@ -42122,7 +42219,7 @@
       "return_type": "int"
     }
   },
-  "SIMULATOR": {
+  "PHYSICS": {
     "0x17B69196": {
       "name": "GET_PHYSINST_VELOCITY",
       "comment": "",
@@ -42305,7 +42402,7 @@
       "return_type": "int"
     }
   },
-  "SOCIALCLUB": {
+  "GAME": {
     "0x6FCF6BC8": {
       "name": "DISABLE_PLAYER_GRINGO_USE",
       "comment": "",
@@ -42863,7 +42960,7 @@
       "return_type": "Any"
     }
   },
-  "SQUAD": {
+  "SQUADS": {
     "0xB3732081": {
       "name": "SQUAD_GET",
       "comment": "",
@@ -44776,7 +44873,7 @@
       "return_type": "int"
     }
   },
-  "STREAMING": {
+  "STREAM": {
     "0xB0A79FEE": {
       "name": "STREAMING_REQUEST_ACTOR",
       "comment": "",
@@ -45709,7 +45806,7 @@
       "return_type": "int"
     }
   },
-  "TASK": {
+  "TASKS": {
     "0xE32F09B3": {
       "name": "TASK_ACTION_PERFORM",
       "comment": "",
@@ -49260,7 +49357,7 @@
       "return_type": "int"
     }
   },
-  "UNK": {
+  "AI_SPEECH": {
     "0xD85BAFA8": {
       "name": "SPEECH_CONTEXT_INIT_DATA",
       "comment": "",
@@ -49460,7 +49557,7 @@
       "return_type": "void"
     }
   },
-  "UNK2": {
+  "GREETING": {
     "0x9953D4FC": {
       "name": "SET_GREETING_CONTEXT",
       "comment": "",
@@ -49613,7 +49710,7 @@
       "return_type": "void"
     }
   },
-  "UNK3": {
+  "AI_CONVERSE": {
     "0x30402375": {
       "name": "AI_CONVERSE_SET_GREETING_CONTEXT",
       "comment": "",
@@ -49882,7 +49979,7 @@
       "return_type": "Any"
     }
   },
-  "UNK4": {
+  "PLAYERNAMES": {
     "0x77D6ABF5": {
       "name": "NET_GAMER_SET_ACTOR_OVERRIDE",
       "comment": "",
@@ -50243,7 +50340,7 @@
       "return_type": "int"
     }
   },
-  "VEHICLE": {
+  "VEHICLES": {
     "0x58745E4B": {
       "name": "GET_ACTOR_MOST_RECENT_VEHICLE",
       "comment": "",
@@ -51248,7 +51345,7 @@
       "return_type": "Any"
     }
   },
-  "VEHICLEWEAPON": {
+  "TURRET": {
     "0x2C5983E0": {
       "name": "IS_USING_TURRET",
       "comment": "",
@@ -51436,7 +51533,7 @@
       "return_type": "int"
     }
   },
-  "WEAPON": {
+  "INVENTORY": {
     "0xBAA5D41B": {
       "name": "ADD_ITEM",
       "comment": "",
@@ -52565,7 +52662,7 @@
       "return_type": "Any"
     }
   },
-  "WEAPONENUM": {
+  "WEAPON": {
     "0xBAC27559": {
       "name": "_WEAPON_ENUM_PISTOL",
       "comment": "",
