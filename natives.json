@@ -428,7 +428,7 @@
       "return_type": "BOOL"
     },
     "0xB7CE8FCC": {
-      "name": "_0xB7CE8FCC",
+      "name": "GET_ACTOR_OFFSET_WORLD_COORDS",
       "comment": "",
       "params": [
         {
@@ -519,7 +519,7 @@
       "return_type": "float"
     },
     "0xAB8A1C15": {
-      "name": "_0xAB8A1C15",
+      "name": "SET_GLOBAL_ACTOR_WEAPON_BIAS",
       "comment": "",
       "params": [
         {
@@ -530,7 +530,7 @@
       "return_type": "int*"
     },
     "0xDAD46FAB": {
-      "name": "_0xDAD46FAB",
+      "name": "RESET_GLOBAL_ACTOR_WEAPON_BIAS",
       "comment": "",
       "params": [],
       "return_type": "const char*"
@@ -663,7 +663,7 @@
       "return_type": "int"
     },
     "0x6AFF3122": {
-      "name": "_GET_ACTOR_ENUM_AVATAR_GROUP",
+      "name": "GET_ACTORENUM_AVATAR_GROUP",
       "comment": "",
       "params": [
         {
@@ -748,7 +748,7 @@
       "return_type": "void"
     },
     "0xDCC91F8C": {
-      "name": "_0xDCC91F8C",
+      "name": "RESET_ACTOR_GAITS",
       "comment": "",
       "params": [
         {
@@ -845,7 +845,7 @@
       "return_type": "void"
     },
     "0x2CB5D7AF": {
-      "name": "_0x2CB5D7AF",
+      "name": "DESTROY_IMPAIRED_ACTORS",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -983,7 +983,7 @@
       "return_type": "BOOL"
     },
     "0xE27EBCBD": {
-      "name": "_0xE27EBCBD",
+      "name": "IS_ACTOR_OUTDOORS",
       "comment": "",
       "params": [
         {
@@ -1042,7 +1042,7 @@
       "return_type": "BOOL"
     },
     "0x63925367": {
-      "name": "_SET_USE_COARSE_BOUNDS",
+      "name": "SET_ACTOR_USE_COARSE_BOUNDS",
       "comment": "",
       "params": [
         {
@@ -1202,7 +1202,7 @@
       "return_type": "int"
     },
     "0xE39E89BD": {
-      "name": "_0xE39E89BD",
+      "name": "IS_ACTOR_IN_FIRE_VOLUME",
       "comment": "",
       "params": [
         {
@@ -1320,7 +1320,7 @@
       "return_type": "int"
     },
     "0x0B5E1904": {
-      "name": "_0x0B5E1904",
+      "name": "SET_ACTOR_CAN_PLAY_BORED_IDLES",
       "comment": "",
       "params": [
         {
@@ -1335,7 +1335,7 @@
       "return_type": "int"
     },
     "0x50ED77F1": {
-      "name": "_0x50ED77F1",
+      "name": "SET_ACTOR_CAN_PLAY_GESTURES",
       "comment": "",
       "params": [
         {
@@ -1519,7 +1519,7 @@
       "return_type": "int"
     },
     "0x5C8DD257": {
-      "name": "GET_ACTOR_VISION_MAX_RANGE_2",
+      "name": "SET_UNIVERSAL_VISION_RANGE_MULTIPLIER",
       "comment": "",
       "params": [
         {
@@ -1556,7 +1556,7 @@
       "return_type": "int"
     },
     "0xAAC96EFF": {
-      "name": "_0xAAC96EFF",
+      "name": "GET_ACTOR_CURRENT_WEAPON_AI_PARAMETERS",
       "comment": "",
       "params": [
         {
@@ -1571,7 +1571,7 @@
       "return_type": "int"
     },
     "0x9CD3385E": {
-      "name": "_0x9CD3385E",
+      "name": "GET_ACTOR_ALLOW_BUMP_REACTIONS",
       "comment": "",
       "params": [
         {
@@ -1582,7 +1582,7 @@
       "return_type": "BOOL"
     },
     "0xC52B5F18": {
-      "name": "_ACTOR_ALLOW_BUMP_REACTIONS",
+      "name": "SET_ACTOR_ALLOW_BUMP_REACTIONS",
       "comment": "",
       "params": [
         {
@@ -1674,7 +1674,7 @@
       "return_type": "void"
     },
     "0xD15B53F8": {
-      "name": "_0xD15B53F8",
+      "name": "SET_RCM_ACTOR_CALL_OVER_SUPPRESS",
       "comment": "",
       "params": [
         {
@@ -1900,7 +1900,7 @@
       "return_type": "Any"
     },
     "0x527CB774": {
-      "name": "_SET_GRINGO_RESTRICTION",
+      "name": "SET_ACTOR_GRINGO_RESTRICTION",
       "comment": "",
       "params": [
         {
@@ -1911,7 +1911,7 @@
       "return_type": "int"
     },
     "0x660DBDDD": {
-      "name": "_SET_GRINGO_RESTRICTION_2",
+      "name": "CLEAR_ACTOR_GRINGO_RESTRICTION",
       "comment": "",
       "params": [
         {
@@ -1922,7 +1922,7 @@
       "return_type": "int"
     },
     "0xF04335A6": {
-      "name": "_0xF04335A6",
+      "name": "MAKE_ACTOR_READY_FOR_ACTION",
       "comment": "",
       "params": [
         {
@@ -1937,7 +1937,7 @@
       "return_type": "int"
     },
     "0xFB2B0CCF": {
-      "name": "_0xFB2B0CCF",
+      "name": "IS_ACTOR_READY_FOR_ACTION",
       "comment": "",
       "params": [
         {
@@ -2090,7 +2090,7 @@
       "return_type": "int"
     },
     "0x09D78931": {
-      "name": "_0x09D78931",
+      "name": "SET_ACTOR_SPEED",
       "comment": "",
       "params": [
         {
@@ -2116,7 +2116,7 @@
       "return_type": "void"
     },
     "0xEB40C2FC": {
-      "name": "_0xEB40C2FC",
+      "name": "GET_LAST_ATTACK_TARGET",
       "comment": "",
       "params": [
         {
@@ -2131,7 +2131,7 @@
       "return_type": "int"
     },
     "0x69FA5315": {
-      "name": "_0x69FA5315",
+      "name": "GET_LAST_ATTACK_TIME",
       "comment": "",
       "params": [
         {
@@ -2318,7 +2318,7 @@
       "return_type": "int"
     },
     "0x8007587C": {
-      "name": "_0x8007587C",
+      "name": "GET_ACTOR_EXEMPT_FROM_AMBIENT_RESTRICTIONS",
       "comment": "",
       "params": [
         {
@@ -2344,7 +2344,7 @@
       "return_type": "void"
     },
     "0x6695E185": {
-      "name": "_0x6695E185",
+      "name": "ADD_CAPABILITY",
       "comment": "",
       "params": [
         {
@@ -2355,7 +2355,7 @@
       "return_type": "int"
     },
     "0x29AEB2DB": {
-      "name": "_0x29AEB2DB",
+      "name": "REMOVE_CAPABILITY",
       "comment": "",
       "params": [
         {
@@ -2366,7 +2366,7 @@
       "return_type": "int"
     },
     "0xD3D8E8ED": {
-      "name": "_0xD3D8E8ED",
+      "name": "HAS_CAPABILITY",
       "comment": "",
       "params": [
         {
@@ -2377,7 +2377,7 @@
       "return_type": "int"
     },
     "0x2B8C3258": {
-      "name": "_0x2B8C3258",
+      "name": "GET_LAST_ON_SCREEN_TIME_FOR_ACTOR",
       "comment": "",
       "params": [
         {
@@ -2456,7 +2456,7 @@
       "return_type": "void"
     },
     "0x02365961": {
-      "name": "_0x02365961",
+      "name": "GET_ACTOR_MELEE_TARGETED_BY",
       "comment": "",
       "params": [
         {
@@ -2471,7 +2471,7 @@
       "return_type": "int"
     },
     "0xD079EB62": {
-      "name": "_0xD079EB62",
+      "name": "SET_ACTOR_CAN_DEADEYE_TAG_ANYTHING",
       "comment": "",
       "params": [
         {
@@ -2697,7 +2697,7 @@
   },
   "ACTORENUM": {
     "0xD02757C1": {
-      "name": "_0xD02757C1",
+      "name": "CAN_ACTOR_ENUM_PLAY_SPEECH_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -2712,7 +2712,7 @@
       "return_type": "int"
     },
     "0x886E06C2": {
-      "name": "_0x886E06C2",
+      "name": "REGISTER_ACTOR_SPEECH_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -2743,13 +2743,13 @@
       "return_type": "int*"
     },
     "0xB6839756": {
-      "name": "_0xB6839756",
+      "name": "FINISH_REGISTERING_ACTOR_SPEECH_CONTEXTS",
       "comment": "",
       "params": [],
       "return_type": "int*"
     },
     "0xCB139D15": {
-      "name": "_0xCB139D15",
+      "name": "REGISTER_NUM_SPEECH_CONTEXTS",
       "comment": "",
       "params": [
         {
@@ -2760,7 +2760,7 @@
       "return_type": "const char*"
     },
     "0xF07F5E41": {
-      "name": "_0xF07F5E41",
+      "name": "REGISTER_NUM_CONTEXT_TYPES",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -2838,13 +2838,13 @@
       "return_type": "Any"
     },
     "0x4747F219": {
-      "name": "_0x4747F219",
+      "name": "GET_CORPSE_LAST_HIT_WEAPON",
       "comment": "",
       "params": [],
       "return_type": "Any"
     },
     "0xF75FE17F": {
-      "name": "_0xF75FE17F",
+      "name": "GET_CORPSE_LAST_HIT_ZONE",
       "comment": "",
       "params": [],
       "return_type": "Any"
@@ -2867,7 +2867,7 @@
       "return_type": "void"
     },
     "0x6085F7AC": {
-      "name": "_0x6085F7AC",
+      "name": "KILL_ACTOR_WITH_KILLER",
       "comment": "",
       "params": [
         {
@@ -2978,7 +2978,7 @@
       "return_type": "Any"
     },
     "0x3A2D7759": {
-      "name": "_SET_ACTOR_HEALTH_2",
+      "name": "SET_ACTOR_KO_POINTS",
       "comment": "",
       "params": [
         {
@@ -2993,7 +2993,7 @@
       "return_type": "void"
     },
     "0x44787A58": {
-      "name": "_GET_ACTOR_HEALTH_2",
+      "name": "GET_ACTOR_KO_POINTS",
       "comment": "",
       "params": [
         {
@@ -3120,7 +3120,7 @@
   },
   "ACTORSET": {
     "0x009DFC82": {
-      "name": "_CREATE_SET_ACTORSET",
+      "name": "CREATE_ACTORSET_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -3405,7 +3405,7 @@
       "return_type": "void"
     },
     "0x15B7044B": {
-      "name": "_0x15B7044B",
+      "name": "AI_GOAL_LOOK_AT_ACTOR_NEW",
       "comment": "",
       "params": [
         {
@@ -3424,7 +3424,7 @@
       "return_type": "int"
     },
     "0x245D0CFD": {
-      "name": "_0x245D0CFD",
+      "name": "AI_GOAL_LOOK_AT_COORD_NEW",
       "comment": "",
       "params": [
         {
@@ -3536,7 +3536,7 @@
       "return_type": "int"
     },
     "0x31D76951": {
-      "name": "_AI_GOAL_FAILED_TO_LOOK_UP_PREDICATE",
+      "name": "AI_PREDICATE_FIND_NAMED",
       "comment": "",
       "params": [
         {
@@ -3563,7 +3563,7 @@
       "return_type": "int"
     },
     "0x1FEECD4C": {
-      "name": "_0x1FEECD4C",
+      "name": "AI_PREDICATE_IS_VALID",
       "comment": "",
       "params": [
         {
@@ -3634,7 +3634,7 @@
       "return_type": "Any"
     },
     "0x98790639": {
-      "name": "_0x98790639",
+      "name": "AI_STOP_IGNORING_ACTOR",
       "comment": "",
       "params": [
         {
@@ -3645,13 +3645,13 @@
       "return_type": "int"
     },
     "0x4DF3C5D1": {
-      "name": "_0x4DF3C5D1",
+      "name": "AI_STOP_IGNORING_ACTORS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xB421AFCA": {
-      "name": "_0xB421AFCA",
+      "name": "AI_DONT_HARM_ACTOR",
       "comment": "",
       "params": [
         {
@@ -3662,7 +3662,7 @@
       "return_type": "int"
     },
     "0xA737CCAC": {
-      "name": "_0xA737CCAC",
+      "name": "AI_CLEAR_DONT_HARM_ACTOR",
       "comment": "",
       "params": [
         {
@@ -3673,7 +3673,7 @@
       "return_type": "int"
     },
     "0xBE17EB88": {
-      "name": "_0xBE17EB88",
+      "name": "AI_SET_ALLOW_HOSTILE_ATTACK_AI",
       "comment": "",
       "params": [
         {
@@ -3684,7 +3684,7 @@
       "return_type": "Any"
     },
     "0xABC78721": {
-      "name": "_0xABC78721",
+      "name": "AI_SET_ALLOW_HOSTILE_ATTACK_PLAYER",
       "comment": "",
       "params": [
         {
@@ -3782,7 +3782,7 @@
       "return_type": "int"
     },
     "0xA90A13A5": {
-      "name": "_0xA90A13A5",
+      "name": "SET_FORCED_LOOK_ENABLE",
       "comment": "",
       "params": [
         {
@@ -3797,7 +3797,7 @@
       "return_type": "BOOL"
     },
     "0xF0511878": {
-      "name": "_0xF0511878",
+      "name": "GET_FORCED_LOOK_ENABLE",
       "comment": "",
       "params": [
         {
@@ -3808,7 +3808,7 @@
       "return_type": "BOOL"
     },
     "0xE56D3FCE": {
-      "name": "_0xE56D3FCE",
+      "name": "FORCE_LOOK_AT_COORD",
       "comment": "",
       "params": [
         {
@@ -3827,7 +3827,7 @@
       "return_type": "int"
     },
     "0x6C194C1F": {
-      "name": "_AI_GOAL_LOOK_AT_ACTOR_TO_STOP_LOOKING_AT_COORDINATE",
+      "name": "STOP_FORCE_LOOK_AT_COORD",
       "comment": "",
       "params": [
         {
@@ -3850,7 +3850,7 @@
       "return_type": "int"
     },
     "0xFE5715A1": {
-      "name": "_AI_GOAL_LOOK_AT_ACTOR_ANOTHER_ACTOR",
+      "name": "FORCE_LOOK_AT_ACTOR",
       "comment": "",
       "params": [
         {
@@ -4014,7 +4014,7 @@
       "return_type": "void"
     },
     "0xAFB1CC55": {
-      "name": "_0xAFB1CC55",
+      "name": "AI_IMPAIRMENT_MASK_GET_CURRENT_FOR_ACTOR",
       "comment": "",
       "params": [
         {
@@ -4256,7 +4256,7 @@
       "return_type": "void"
     },
     "0xEA2A40BC": {
-      "name": "_0xEA2A40BC",
+      "name": "AI_SET_GATLING_MAX_HORIZONTAL_DEGREES",
       "comment": "",
       "params": [
         {
@@ -4387,7 +4387,7 @@
       "return_type": "int"
     },
     "0x2EBE540D": {
-      "name": "_0x2EBE540D",
+      "name": "AI_SET_ALLOW_ATTACK_HOGTIED_ACTORS",
       "comment": "",
       "params": [
         {
@@ -4642,13 +4642,13 @@
       "return_type": "int"
     },
     "0x2E5F186B": {
-      "name": "_0x2E5F186B",
+      "name": "PREVENT_DESPAWN_CLEAR",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0x5C94F6EC": {
-      "name": "_0x5C94F6EC",
+      "name": "PREVENT_DESPAWN_SET_SPHERE",
       "comment": "",
       "params": [
         {
@@ -4682,7 +4682,7 @@
       "return_type": "int"
     },
     "0x06B4A139": {
-      "name": "_0x06B4A139",
+      "name": "AI_REPLACE_ALL_TR",
       "comment": "",
       "params": [
         {
@@ -4979,7 +4979,7 @@
       "return_type": "int"
     },
     "0xF435CCDE": {
-      "name": "_0xF435CCDE",
+      "name": "AI_SWAP_NAV_DATA",
       "comment": "",
       "params": [
         {
@@ -5080,7 +5080,7 @@
       "return_type": "int"
     },
     "0xF8AFEFA1": {
-      "name": "_0xF8AFEFA1",
+      "name": "AI_RIDING_SET_ENABLED",
       "comment": "",
       "params": [
         {
@@ -5277,7 +5277,7 @@
       "return_type": "void"
     },
     "0xD8C8BEA1": {
-      "name": "_0xD8C8BEA1",
+      "name": "AI_GET_ACTOR_CONVERSATION_TARGET",
       "comment": "",
       "params": [
         {
@@ -5288,7 +5288,7 @@
       "return_type": "int"
     },
     "0x679C5955": {
-      "name": "_0x679C5955",
+      "name": "AI_IS_ACTOR_SOCIALIZING",
       "comment": "",
       "params": [
         {
@@ -5314,7 +5314,7 @@
   },
   "AMBIENT": {
     "0xA8ADCAEB": {
-      "name": "_0xA8ADCAEB",
+      "name": "ENABLE_AMBIENT_SPAWNING",
       "comment": "",
       "params": [
         {
@@ -5325,7 +5325,7 @@
       "return_type": "void"
     },
     "0xB35C0660": {
-      "name": "_0xB35C0660",
+      "name": "SET_AMBIENT_FORCE_WAIT_STATE",
       "comment": "",
       "params": [
         {
@@ -5336,7 +5336,7 @@
       "return_type": "void"
     },
     "0xE9C41DFE": {
-      "name": "_0xE9C41DFE",
+      "name": "SET_POP_DENSITY_MULTIPLIER",
       "comment": "",
       "params": [
         {
@@ -5347,19 +5347,19 @@
       "return_type": "int"
     },
     "0xB09D5B43": {
-      "name": "_0xB09D5B43",
+      "name": "DESTROY_AMBIENT_ACTORS_IF_POSSIBLE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x5831679F": {
-      "name": "_0x5831679F",
+      "name": "FORCE_AMBIENT_NUM_ACTORS_REQUESTED_FOR_MISSIONS",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
     },
     "0x2CCEA76C": {
-      "name": "_0x2CCEA76C",
+      "name": "SET_AMBIENT_NUM_ACTORS_REQUESTED_FOR_MISSIONS",
       "comment": "",
       "params": [
         {
@@ -5370,19 +5370,19 @@
       "return_type": "int"
     },
     "0xA607D290": {
-      "name": "_0xA607D290",
+      "name": "GET_AMBIENT_NUM_ACTORS_GRANTED_FOR_MISSIONS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xC1A30BB5": {
-      "name": "_0xC1A30BB5",
+      "name": "GET_AMBIENT_MAX_NUM_TOTAL_ACTORS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x2C4CBC25": {
-      "name": "_0x2C4CBC25",
+      "name": "SET_AMBIENT_MAX_NUM_TOTAL_ACTORS",
       "comment": "",
       "params": [
         {
@@ -5393,7 +5393,7 @@
       "return_type": "int"
     },
     "0x1C8CA53C": {
-      "name": "_0x1C8CA53C",
+      "name": "SET_AMBIENT_ACTOR_SPEED_SCALE_RANGE",
       "comment": "",
       "params": [
         {
@@ -5408,7 +5408,7 @@
       "return_type": "int"
     },
     "0xE8960298": {
-      "name": "_0xE8960298",
+      "name": "SET_AMBIENT_TUNING_MAX_VISIBLE_RANGE",
       "comment": "",
       "params": [
         {
@@ -5419,25 +5419,25 @@
       "return_type": "int"
     },
     "0xC78B7436": {
-      "name": "_0xC78B7436",
+      "name": "CLEAR_AMBIENT_ALL_RESTRICTIONS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x94DBC0C5": {
-      "name": "_0x94DBC0C5",
+      "name": "CLEAR_AMBIENT_MOVE_RESTRICTIONS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xC738ED3E": {
-      "name": "_0xC738ED3E",
+      "name": "CLEAR_AMBIENT_SPAWN_RESTRICTIONS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xD1CF9793": {
-      "name": "_0xD1CF9793",
+      "name": "ADD_AMBIENT_SPAWN_TYPE_RESTRICTION",
       "comment": "",
       "params": [
         {
@@ -5448,7 +5448,7 @@
       "return_type": "int"
     },
     "0xA8BD64D1": {
-      "name": "_0xA8BD64D1",
+      "name": "CLEAR_AMBIENT_SPAWN_TYPE_RESTRICTION",
       "comment": "",
       "params": [
         {
@@ -5459,13 +5459,13 @@
       "return_type": "int"
     },
     "0x6C7A3CE6": {
-      "name": "_0x6C7A3CE6",
+      "name": "CLEAR_ALL_AMBIENT_SPAWN_TYPE_RESTRICTIONS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x95D0FC79": {
-      "name": "_0x95D0FC79",
+      "name": "SET_AMBIENT_STREAMING_REQUIRED_POP_ACTOR_SCALE",
       "comment": "",
       "params": [
         {
@@ -5476,7 +5476,7 @@
       "return_type": "int"
     },
     "0xC519E3F3": {
-      "name": "_0xC519E3F3",
+      "name": "SET_AMBIENT_ANIMALS_AGRESSIVENESS",
       "comment": "",
       "params": [
         {
@@ -5561,7 +5561,7 @@
       "return_type": "void"
     },
     "0x21C59F4C": {
-      "name": "_0x21C59F4C",
+      "name": "DOES_AMBIENT_MOVE_RESTRICTION_VOLUME_EXIST",
       "comment": "",
       "params": [
         {
@@ -5624,7 +5624,7 @@
       "return_type": "int"
     },
     "0x8ED2B0BC": {
-      "name": "_0x8ED2B0BC",
+      "name": "ACTIVATE_EMERGENCY_TELEPORT_FOR_ACTOR",
       "comment": "",
       "params": [
         {
@@ -5651,7 +5651,7 @@
       "return_type": "int"
     },
     "0x08FD1D81": {
-      "name": "_0x08FD1D81",
+      "name": "DEACTIVATE_EMERGENCY_TELEPORT_FOR_ACTOR",
       "comment": "",
       "params": [
         {
@@ -5662,7 +5662,7 @@
       "return_type": "int"
     },
     "0x257C73C5": {
-      "name": "_0x257C73C5",
+      "name": "IS_POINT_IN_AMBIENT_MOVE_RESTRICTION_VOLUME",
       "comment": "",
       "params": [
         {
@@ -5688,7 +5688,7 @@
       "return_type": "void"
     },
     "0xFF642652": {
-      "name": "_SET_ACTOR_OBEY_AMBIENT_MOVE_RESTRICTIONS_2",
+      "name": "DOES_ACTOR_OBEY_AMBIENT_MOVE_RESTRICTIONS",
       "comment": "",
       "params": [
         {
@@ -5767,7 +5767,7 @@
       "return_type": "int"
     },
     "0x851F88F6": {
-      "name": "_0x851F88F6",
+      "name": "SET_AMBIENT_DEAD_COUNT_DECAY_RATE",
       "comment": "",
       "params": [
         {
@@ -5780,19 +5780,19 @@
   },
   "AMBIENT2": {
     "0xA8226DFF": {
-      "name": "_0xA8226DFF",
+      "name": "AMBIENT_SET_UPDATES_ENABLED",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0x831FC466": {
-      "name": "_0x831FC466",
+      "name": "AMBIENT_SET_POINT_SPACING",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0xCC9E6F4C": {
-      "name": "_0xCC9E6F4C",
+      "name": "AMBIENT_SET_SLOPE_VALUES",
       "comment": "",
       "params": [
         {
@@ -5811,13 +5811,13 @@
       "return_type": "int"
     },
     "0x7B07D449": {
-      "name": "_0x7B07D449",
+      "name": "AMBIENT_RESET_USED_CELLS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x205E891C": {
-      "name": "_0x205E891C",
+      "name": "AMBIENT_SET_SCAN_CENTER",
       "comment": "",
       "params": [
         {
@@ -5836,13 +5836,13 @@
       "return_type": "int"
     },
     "0x8B011F5D": {
-      "name": "_0x8B011F5D",
+      "name": "AMBIENT_SET_SCAN_CENTER_PLAYER",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0x19B26C78": {
-      "name": "_0x19B26C78",
+      "name": "AMBIENT_RESET_FILTER",
       "comment": "",
       "params": [
         {
@@ -5857,7 +5857,7 @@
       "return_type": "int"
     },
     "0xA337135A": {
-      "name": "_0xA337135A",
+      "name": "AMBIENT_SET_RANDOM_SEARCH_ORDER",
       "comment": "",
       "params": [
         {
@@ -5868,7 +5868,7 @@
       "return_type": "Any"
     },
     "0x9A35520B": {
-      "name": "_0x9A35520B",
+      "name": "AMBIENT_SET_ONESHOT_QUERIES",
       "comment": "",
       "params": [
         {
@@ -5879,7 +5879,7 @@
       "return_type": "Any"
     },
     "0x272D756C": {
-      "name": "_0x272D756C",
+      "name": "AMBIENT_SET_SEARCH_CENTER",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -5907,7 +5907,7 @@
       "return_type": "Any"
     },
     "0x391F3607": {
-      "name": "_0x391F3607",
+      "name": "AMBIENT_SET_SLOPE_FILTER",
       "comment": "",
       "params": [
         {
@@ -5926,7 +5926,7 @@
       "return_type": "void"
     },
     "0x2CCE1115": {
-      "name": "_0x2CCE1115",
+      "name": "AMBIENT_ENABLE_SLOPE_FILTER",
       "comment": "",
       "params": [
         {
@@ -5937,7 +5937,7 @@
       "return_type": "Any"
     },
     "0x45190938": {
-      "name": "_0x45190938",
+      "name": "AMBIENT_SET_SLOPE_FILTER_PRECISE",
       "comment": "",
       "params": [
         {
@@ -5956,7 +5956,7 @@
       "return_type": "int"
     },
     "0x561C9A6D": {
-      "name": "_0x561C9A6D",
+      "name": "AMBIENT_ENABLE_SLOPE_FILTER_PRECISE",
       "comment": "",
       "params": [
         {
@@ -5967,7 +5967,7 @@
       "return_type": "int"
     },
     "0x912EEC43": {
-      "name": "_0x912EEC43",
+      "name": "AMBIENT_SET_BUMP_FILTER",
       "comment": "",
       "params": [
         {
@@ -5986,7 +5986,7 @@
       "return_type": "int"
     },
     "0x528C7F3D": {
-      "name": "_0x528C7F3D",
+      "name": "AMBIENT_ENABLE_BUMP_FILTER",
       "comment": "",
       "params": [
         {
@@ -5997,7 +5997,7 @@
       "return_type": "Any"
     },
     "0xA89B77A7": {
-      "name": "_0xA89B77A7",
+      "name": "AMBIENT_SET_DISTANCE_FILTER",
       "comment": "",
       "params": [
         {
@@ -6012,7 +6012,7 @@
       "return_type": "Any*"
     },
     "0x762192EB": {
-      "name": "_0x762192EB",
+      "name": "AMBIENT_ENABLE_DISTANCE_FILTER",
       "comment": "",
       "params": [
         {
@@ -6023,7 +6023,7 @@
       "return_type": "void"
     },
     "0x1900A97E": {
-      "name": "_0x1900A97E",
+      "name": "AMBIENT_SET_ELEVATION_FILTER",
       "comment": "",
       "params": [
         {
@@ -6038,7 +6038,7 @@
       "return_type": "void"
     },
     "0x609514AE": {
-      "name": "_0x609514AE",
+      "name": "AMBIENT_SET_QUADRANT_FILTER",
       "comment": "",
       "params": [
         {
@@ -6061,7 +6061,7 @@
       "return_type": "void"
     },
     "0xAA99E18E": {
-      "name": "_0xAA99E18E",
+      "name": "AMBIENT_ENABLE_QUADRANT_FILTER",
       "comment": "",
       "params": [
         {
@@ -6072,7 +6072,7 @@
       "return_type": "void"
     },
     "0x76341F1A": {
-      "name": "_0x76341F1A",
+      "name": "AMBIENT_ENABLE_OFFSCREEN_FILTER",
       "comment": "",
       "params": [
         {
@@ -6083,7 +6083,7 @@
       "return_type": "void"
     },
     "0x309D058C": {
-      "name": "_0x309D058C",
+      "name": "AMBIENT_ENABLE_MATERIAL_AT_POINT_FILTER",
       "comment": "",
       "params": [
         {
@@ -6094,7 +6094,7 @@
       "return_type": "void"
     },
     "0xB1609063": {
-      "name": "_0xB1609063",
+      "name": "AMBIENT_SET_MATERIAL_AT_POINT_FILTER",
       "comment": "",
       "params": [
         {
@@ -6105,7 +6105,7 @@
       "return_type": "void"
     },
     "0x5A6418A2": {
-      "name": "_0x5A6418A2",
+      "name": "AMBIENT_ENABLE_MATERIAL_IN_AREA_INCLUDES_FILTER",
       "comment": "",
       "params": [
         {
@@ -6120,7 +6120,7 @@
       "return_type": "void"
     },
     "0x9CD2B55F": {
-      "name": "_0x9CD2B55F",
+      "name": "AMBIENT_SET_MATERIAL_IN_AREA_INCLUDES_FILTER",
       "comment": "",
       "params": [
         {
@@ -6139,7 +6139,7 @@
       "return_type": "void"
     },
     "0x1F7F1B79": {
-      "name": "_0x1F7F1B79",
+      "name": "AMBIENT_ENABLE_MATERIAL_IN_AREA_EXCLUDES_FILTER",
       "comment": "",
       "params": [
         {
@@ -6154,7 +6154,7 @@
       "return_type": "const char*"
     },
     "0xBCD4979C": {
-      "name": "_0xBCD4979C",
+      "name": "AMBIENT_SET_MATERIAL_IN_AREA_EXCLUDES_FILTER",
       "comment": "",
       "params": [
         {
@@ -6225,7 +6225,7 @@
       "return_type": "void"
     },
     "0x90008899": {
-      "name": "_0x90008899",
+      "name": "AMBIENT_SET_EXCLUSION_VOLUME",
       "comment": "",
       "params": [
         {
@@ -6236,7 +6236,7 @@
       "return_type": "void"
     },
     "0x0C6EF9E1": {
-      "name": "_0x0C6EF9E1",
+      "name": "AMBIENT_GET_POINT",
       "comment": "",
       "params": [
         {
@@ -6682,7 +6682,7 @@
       "return_type": "BOOL"
     },
     "0x994F2BD1": {
-      "name": "_0x994F2BD1",
+      "name": "IS_ACTION_NODE_PLAYING_PARTIAL",
       "comment": "",
       "params": [
         {
@@ -6712,7 +6712,7 @@
       "return_type": "Any"
     },
     "0x5E84F53E": {
-      "name": "_0x5E84F53E",
+      "name": "GET_CURR_ACTION_NODE_PLAY_TIME",
       "comment": "",
       "params": [
         {
@@ -6783,7 +6783,7 @@
       "return_type": "void"
     },
     "0xBEF6031B": {
-      "name": "_0xBEF6031B",
+      "name": "SET_ACTOR_CHARACTER_CLOTH_SCALED_PINNING",
       "comment": "",
       "params": [
         {
@@ -7320,7 +7320,7 @@
       "return_type": "void"
     },
     "0xBFB65BE8": {
-      "name": "_ANIMAL_SPECIES_GRINGO_CLEAR_ALL",
+      "name": "ANIMAL_SPECIES_GRINGO_LOAD_ALL",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -7688,7 +7688,7 @@
       "return_type": "BOOL"
     },
     "0x57DF8CD0": {
-      "name": "_0x57DF8CD0",
+      "name": "ANIMAL_ACTOR_GET_GRABBED_BY",
       "comment": "",
       "params": [
         {
@@ -8256,7 +8256,7 @@
       "return_type": "int"
     },
     "0x1CFC44F9": {
-      "name": "_0x1CFC44F9",
+      "name": "SET_MAX_SCRIPTED_CONVERSATION_DISTANCE",
       "comment": "",
       "params": [
         {
@@ -8267,13 +8267,13 @@
       "return_type": "void"
     },
     "0xC1C29ABC": {
-      "name": "_0xC1C29ABC",
+      "name": "RESET_MAX_SCRIPTED_CONVERSATION_DISTANCE",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0x713519AB": {
-      "name": "_0x713519AB",
+      "name": "HAS_SCRIPTED_CONVERSATION_PLAYED_RECENTLY",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -8364,7 +8364,7 @@
       "return_type": "void"
     },
     "0x09DA2503": {
-      "name": "_0x09DA2503",
+      "name": "PLAY_SOUND_INIT_PARAMS",
       "comment": "",
       "params": [
         {
@@ -8379,7 +8379,7 @@
       "return_type": "int"
     },
     "0x66763C4A": {
-      "name": "_0x66763C4A",
+      "name": "PLAY_SOUND_INIT_PARAMS_PERSISTENT",
       "comment": "",
       "params": [
         {
@@ -8409,7 +8409,7 @@
       "return_type": "void"
     },
     "0x49053A94": {
-      "name": "_0x49053A94",
+      "name": "PLAY_SOUND_FRONTEND_INITPARAMS",
       "comment": "",
       "params": [
         {
@@ -8424,7 +8424,7 @@
       "return_type": "void"
     },
     "0xB157BBB4": {
-      "name": "_0xB157BBB4",
+      "name": "PLAY_SOUND_FRONTEND_PERSISTENT",
       "comment": "",
       "params": [
         {
@@ -8462,7 +8462,7 @@
       "return_type": "void"
     },
     "0x19E5CF85": {
-      "name": "_0x19E5CF85",
+      "name": "PLAY_SOUND_FROM_POSITION_INITPARAMS",
       "comment": "",
       "params": [
         {
@@ -8497,7 +8497,7 @@
       "return_type": "int"
     },
     "0x5B05E3E0": {
-      "name": "_0x5B05E3E0",
+      "name": "PLAY_SOUND_FROM_POSITION_PERSISTENT",
       "comment": "",
       "params": [
         {
@@ -8524,7 +8524,7 @@
       "return_type": "void"
     },
     "0x3375FB38": {
-      "name": "_0x3375FB38",
+      "name": "PLAY_WALLA_SOUND_FROM_POSITION_PERSISTENT",
       "comment": "",
       "params": [
         {
@@ -8570,7 +8570,7 @@
       "return_type": "void"
     },
     "0x4634B6BE": {
-      "name": "_0x4634B6BE",
+      "name": "PLAY_WALLA_SOUND_FROM_ACTOR",
       "comment": "",
       "params": [
         {
@@ -8612,7 +8612,7 @@
       "return_type": "void"
     },
     "0xBD0E8EBA": {
-      "name": "_0xBD0E8EBA",
+      "name": "AUDIO_SET_VEHICLE_DAMAGED",
       "comment": "",
       "params": [
         {
@@ -8645,7 +8645,7 @@
       "return_type": "BOOL"
     },
     "0x74CA8E22": {
-      "name": "_0x74CA8E22",
+      "name": "AUDIO_ATTACH_MICROPHONE_TO_ACTOR",
       "comment": "",
       "params": [
         {
@@ -8656,7 +8656,7 @@
       "return_type": "void"
     },
     "0x66FCA3F7": {
-      "name": "_0x66FCA3F7",
+      "name": "AUDIO_SET_MISSION_NAME_FOR_JOURNAL",
       "comment": "",
       "params": [
         {
@@ -8667,19 +8667,19 @@
       "return_type": "void"
     },
     "0x14ED45FB": {
-      "name": "_0x14ED45FB",
+      "name": "AUDIO_CLEAR_MISSION_NAME_FOR_JOURNAL",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0x7D95325E": {
-      "name": "_0x7D95325E",
+      "name": "AUDIO_RESET_SPEECH_HISTORY",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0x1BB84187": {
-      "name": "_0x1BB84187",
+      "name": "AUDIO_RESET_SCRIPTED_SPEECH_HISTORY",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -8741,7 +8741,7 @@
       "return_type": "int"
     },
     "0xBA734A15": {
-      "name": "_0xBA734A15",
+      "name": "SAY_SINGLE_LINE_STRING",
       "comment": "",
       "params": [
         {
@@ -8764,7 +8764,7 @@
       "return_type": "int"
     },
     "0x031E983D": {
-      "name": "_0x031E983D",
+      "name": "SAY_SINGLE_LINE_STRING_WITH_REPLY",
       "comment": "",
       "params": [
         {
@@ -8857,7 +8857,7 @@
       "return_type": "int"
     },
     "0x91DE3A31": {
-      "name": "_0x91DE3A31",
+      "name": "SAY_SINGLE_LINE_STRING_WITH_REPLY_OVER_PAIN",
       "comment": "",
       "params": [
         {
@@ -8911,7 +8911,7 @@
       "return_type": "int"
     },
     "0x955E5EEB": {
-      "name": "_0x955E5EEB",
+      "name": "SAY_SINGLE_LINE_STRING_WITH_BACKUPS",
       "comment": "",
       "params": [
         {
@@ -8942,7 +8942,7 @@
       "return_type": "int"
     },
     "0x755382BC": {
-      "name": "_0x755382BC",
+      "name": "SAY_SINGLE_LINE_SCRIPTED",
       "comment": "",
       "params": [
         {
@@ -9078,7 +9078,7 @@
       "return_type": "void"
     },
     "0xE5F39107": {
-      "name": "_0xE5F39107",
+      "name": "AUDIO_PLAY_VOCAL_EFFECT_EVEN_IF_DEAD",
       "comment": "",
       "params": [
         {
@@ -9108,7 +9108,7 @@
       "return_type": "void"
     },
     "0xA7D08EE9": {
-      "name": "_0xA7D08EE9",
+      "name": "AUDIO_TRIGGER_PLAYER_KILLED_EVERYONE_SPEECH",
       "comment": "",
       "params": [
         {
@@ -9127,7 +9127,7 @@
       "return_type": "int"
     },
     "0xC0E28BF0": {
-      "name": "_0xC0E28BF0",
+      "name": "TREAT_AMBIENT_SPEECH_AS_SCRIPTED",
       "comment": "",
       "params": [
         {
@@ -9157,7 +9157,7 @@
       "return_type": "void"
     },
     "0x77402033": {
-      "name": "_0x77402033",
+      "name": "CLEAR_ALTERNATE_SPEECH_CONTEXT_FOR_PAIN",
       "comment": "",
       "params": [
         {
@@ -9223,7 +9223,7 @@
       "return_type": "void"
     },
     "0x96161235": {
-      "name": "_0x96161235",
+      "name": "AUDIO_PLAY_PLAYER_HOGTIE_LINE",
       "comment": "",
       "params": [
         {
@@ -9242,7 +9242,7 @@
       "return_type": "int"
     },
     "0x3184B507": {
-      "name": "_0x3184B507",
+      "name": "AUDIO_TRIGGER_PLAYER_LOOTING_MALE_SPEECH",
       "comment": "",
       "params": [
         {
@@ -9261,7 +9261,7 @@
       "return_type": "int"
     },
     "0x489B3078": {
-      "name": "_0x489B3078",
+      "name": "AUDIO_TRIGGER_PLAYER_LOOTING_FEMALE_SPEECH",
       "comment": "",
       "params": [
         {
@@ -9280,7 +9280,7 @@
       "return_type": "int"
     },
     "0xAA565B11": {
-      "name": "_0xAA565B11",
+      "name": "AUDIO_TRIGGER_PLAYER_LOOTING_FEMALE_ZOMBIE_SPEECH",
       "comment": "",
       "params": [
         {
@@ -9299,7 +9299,7 @@
       "return_type": "int"
     },
     "0x2CA089EC": {
-      "name": "_0x2CA089EC",
+      "name": "AUDIO_TRIGGER_PLAYER_LOOTING_MALE_ZOMBIE_SPEECH",
       "comment": "",
       "params": [
         {
@@ -9318,13 +9318,13 @@
       "return_type": "int"
     },
     "0x43C5F320": {
-      "name": "_0x43C5F320",
+      "name": "AUDIO_SHUT_OFF_WALLA",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xF7B747CA": {
-      "name": "_0xF7B747CA",
+      "name": "AUDIO_TURN_ON_WALLA",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -9352,7 +9352,7 @@
       "return_type": "void"
     },
     "0x1F7F405C": {
-      "name": "_0x1F7F405C",
+      "name": "AUDIO_TURN_OFF_PAIN_VOCALS",
       "comment": "",
       "params": [
         {
@@ -9385,7 +9385,7 @@
       "return_type": "int"
     },
     "0xAF6A3160": {
-      "name": "_0xAF6A3160",
+      "name": "AUDIO_SET_PLAYER_MOOD",
       "comment": "",
       "params": [
         {
@@ -9400,7 +9400,7 @@
       "return_type": "int"
     },
     "0x94A24A5C": {
-      "name": "_0x94A24A5C",
+      "name": "AUDIO_ALLOW_PREDUEL_SPEECH",
       "comment": "",
       "params": [
         {
@@ -9411,7 +9411,7 @@
       "return_type": "int"
     },
     "0xD021B37F": {
-      "name": "_0xD021B37F",
+      "name": "AUDIO_DISALLOW_PREDUEL_SPEECH",
       "comment": "",
       "params": [
         {
@@ -9422,13 +9422,13 @@
       "return_type": "int"
     },
     "0xA343FDBB": {
-      "name": "_0xA343FDBB",
+      "name": "AUDIO_CLEAR_PLAYER_DISABLED_CONTEXT_LIST",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xA4F209D5": {
-      "name": "_0xA4F209D5",
+      "name": "AUDIO_ADD_TO_PLAYER_DISABLED_CONTEXT_LIST",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -9440,13 +9440,13 @@
       "return_type": "void"
     },
     "0x15547025": {
-      "name": "_0x15547025",
+      "name": "AUDIO_ENABLE_PLAYER_TAUNTS",
       "comment": "",
       "params": [],
       "return_type": "int*"
     },
     "0xE0553D6B": {
-      "name": "_0xE0553D6B",
+      "name": "AUDIO_INIT_CAUCASIAN_ARMY_AE_RANGE",
       "comment": "",
       "params": [
         {
@@ -9461,7 +9461,7 @@
       "return_type": "int"
     },
     "0xD68E04BB": {
-      "name": "_0xD68E04BB",
+      "name": "AUDIO_INIT_MEXICAN_ARMY_AE_RANGE",
       "comment": "",
       "params": [
         {
@@ -9476,7 +9476,7 @@
       "return_type": "int"
     },
     "0x638EAF70": {
-      "name": "_0x638EAF70",
+      "name": "AUDIO_INIT_MISSION_CHARACTER_AE_RANGE",
       "comment": "",
       "params": [
         {
@@ -9491,7 +9491,7 @@
       "return_type": "int"
     },
     "0xEA975A79": {
-      "name": "_0xEA975A79",
+      "name": "AUDIO_INIT_RCM_CHARACTER_AE_RANGE",
       "comment": "",
       "params": [
         {
@@ -9506,7 +9506,7 @@
       "return_type": "int"
     },
     "0x6BB42C21": {
-      "name": "_0x6BB42C21",
+      "name": "AUDIO_INIT_FAC_INVALID_VALUE",
       "comment": "",
       "params": [
         {
@@ -9517,7 +9517,7 @@
       "return_type": "int"
     },
     "0x0E634931": {
-      "name": "_0x0E634931",
+      "name": "AUDIO_INIT_FAC_CATTLE_RUSTLER_VALUE",
       "comment": "",
       "params": [
         {
@@ -9528,7 +9528,7 @@
       "return_type": "int"
     },
     "0x567712E5": {
-      "name": "_0x567712E5",
+      "name": "AUDIO_INIT_FAC_DRUNKNDIRTY_VALUE",
       "comment": "",
       "params": [
         {
@@ -9539,7 +9539,7 @@
       "return_type": "int"
     },
     "0xB888B369": {
-      "name": "_0xB888B369",
+      "name": "AUDIO_INIT_FAC_GENERIC_CRIMINAL_VALUE",
       "comment": "",
       "params": [
         {
@@ -9550,7 +9550,7 @@
       "return_type": "int"
     },
     "0x306D9FEE": {
-      "name": "_0x306D9FEE",
+      "name": "AUDIO_INIT_FAC_INDIAN_LAW_ENFORCEMENT_VALUE",
       "comment": "",
       "params": [
         {
@@ -9561,7 +9561,7 @@
       "return_type": "int"
     },
     "0xC3614E0A": {
-      "name": "_0xC3614E0A",
+      "name": "AUDIO_INIT_FAC_INDIAN_RAIDER_VALUE",
       "comment": "",
       "params": [
         {
@@ -9572,7 +9572,7 @@
       "return_type": "int"
     },
     "0xF962F2B8": {
-      "name": "_0xF962F2B8",
+      "name": "AUDIO_INIT_FAC_LAW_ENFORCEMENT_VALUE",
       "comment": "",
       "params": [
         {
@@ -9583,7 +9583,7 @@
       "return_type": "int"
     },
     "0x22D0DF9B": {
-      "name": "_0x22D0DF9B",
+      "name": "AUDIO_INIT_FAC_MEXICAN_BANDITO_VALUE",
       "comment": "",
       "params": [
         {
@@ -9594,7 +9594,7 @@
       "return_type": "int"
     },
     "0xA234C5D0": {
-      "name": "_0xA234C5D0",
+      "name": "AUDIO_INIT_FAC_MEXICAN_LAW_ENFORCEMENT_VALUE",
       "comment": "",
       "params": [
         {
@@ -9605,7 +9605,7 @@
       "return_type": "int"
     },
     "0x733BA9F5": {
-      "name": "_0x733BA9F5",
+      "name": "AUDIO_INIT_FAC_MEXICAN_REBEL_VALUE",
       "comment": "",
       "params": [
         {
@@ -9616,7 +9616,7 @@
       "return_type": "int"
     },
     "0x79351E54": {
-      "name": "_0x79351E54",
+      "name": "AUDIO_INIT_FAC_MEXICAN_SOLDIER_VALUE",
       "comment": "",
       "params": [
         {
@@ -9627,7 +9627,7 @@
       "return_type": "int"
     },
     "0xCCBE7F0F": {
-      "name": "_0xCCBE7F0F",
+      "name": "AUDIO_INIT_FAC_SMUGGLERS_VALUE",
       "comment": "",
       "params": [
         {
@@ -9649,7 +9649,7 @@
       "return_type": "int"
     },
     "0x9D886C2F": {
-      "name": "_0x9D886C2F",
+      "name": "AUDIO_INIT_ZOMBIE_BRUISER_AE_RANGE",
       "comment": "",
       "params": [
         {
@@ -9664,7 +9664,7 @@
       "return_type": "int"
     },
     "0x39F5EF0F": {
-      "name": "_0x39F5EF0F",
+      "name": "AUDIO_INIT_ZOMBIE_FAST_AE_RANGE",
       "comment": "",
       "params": [
         {
@@ -9679,7 +9679,7 @@
       "return_type": "int"
     },
     "0xD6CC6907": {
-      "name": "_0xD6CC6907",
+      "name": "AUDIO_INIT_ZOMBIE_TOXIC_AE_RANGE",
       "comment": "",
       "params": [
         {
@@ -9694,7 +9694,7 @@
       "return_type": "int"
     },
     "0x714D5D09": {
-      "name": "_0x714D5D09",
+      "name": "AUDIO_INIT_ZOMBIE_MP_PLAYER_AE_RANGE",
       "comment": "",
       "params": [
         {
@@ -9709,7 +9709,7 @@
       "return_type": "int"
     },
     "0xBF959948": {
-      "name": "_0xBF959948",
+      "name": "AUDIO_INIT_ZOMBIE_MP_FEMALE_VALUE",
       "comment": "",
       "params": [
         {
@@ -9720,7 +9720,7 @@
       "return_type": "int"
     },
     "0x3C163FDD": {
-      "name": "_0x3C163FDD",
+      "name": "AUDIO_INIT_FAC_ZOMBIE_VALUE",
       "comment": "",
       "params": [
         {
@@ -9731,7 +9731,7 @@
       "return_type": "int"
     },
     "0xDC330FB9": {
-      "name": "_0xDC330FB9",
+      "name": "AUDIO_SET_CURRENT_AREA_IS_UNDER_ZOMBIE_ATTACK",
       "comment": "",
       "params": [
         {
@@ -9742,19 +9742,19 @@
       "return_type": "Any"
     },
     "0x39EF8DA7": {
-      "name": "_0x39EF8DA7",
+      "name": "AUDIO_INIT_ZOMBIE_ZONE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x0079FD0F": {
-      "name": "_0x0079FD0F",
+      "name": "AUDIO_INIT_ZOMBIE_PACK_INFO",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x67770F4B": {
-      "name": "_0x67770F4B",
+      "name": "AUDIO_INIT_NUN_AE_RANGE",
       "comment": "",
       "params": [
         {
@@ -9834,7 +9834,7 @@
       "return_type": "void"
     },
     "0xEB866555": {
-      "name": "_0xEB866555",
+      "name": "AUDIO_PLAY_DISTANT_THUNDER",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -10130,7 +10130,7 @@
       "return_type": "void"
     },
     "0x72168160": {
-      "name": "_0x72168160",
+      "name": "AUDIO_PLAY_ALL_LINES_FOR_ACTOR",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -10191,7 +10191,7 @@
       "return_type": "int"
     },
     "0x2D40E85C": {
-      "name": "_0x2D40E85C",
+      "name": "AUDIO_ADD_ALTERNATE_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -10216,31 +10216,31 @@
       "return_type": "int"
     },
     "0xE8FFE727": {
-      "name": "_0xE8FFE727",
+      "name": "LOAD_AUDIO_METADATA",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xB73AC04A": {
-      "name": "_0xB73AC04A",
+      "name": "UNLOAD_AUDIO_METADATA",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xBFCF32D9": {
-      "name": "_0xBFCF32D9",
+      "name": "LOAD_AUDIO_SPEECH_DATA",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x37FD00EA": {
-      "name": "_0x37FD00EA",
+      "name": "SET_AUDIO_SEARCH_PATH",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x98CD7340": {
-      "name": "_IS_AUDIO_BANK_LOADING",
+      "name": "GET_AUDIO_BANK_LOADING_STATUS",
       "comment": "",
       "params": [
         {
@@ -10270,7 +10270,7 @@
       "return_type": "void"
     },
     "0x176E921C": {
-      "name": "_0x176E921C",
+      "name": "MAKE_AUDIO_SLOT_STATIC",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -10306,7 +10306,18 @@
       "return_type": "void"
     },
     "0x39E59CD8": {
-      "name": "_0x39E59CD8",
+      "name": "SET_GAME_CAMERA_DRIFTZ",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+	  ],
+      "return_type": "void"
+    },
+    "0x5E07BF3F": {
+      "name": "_0x5E07BF3F",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -10339,7 +10350,7 @@
       "return_type": "BOOL"
     },
     "0xC783B9B9": {
-      "name": "_0xC783B9B9",
+      "name": "END_GAME_CAMERA_ARC_TRANSITIONS",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -10403,7 +10414,7 @@
       "return_type": "int"
     },
     "0x457A0510": {
-      "name": "_0x457A0510",
+      "name": "SET_CAMERA_FOLLOW_ACTOR_EX",
       "comment": "",
       "params": [
         {
@@ -10435,7 +10446,7 @@
       "return_type": "int"
     },
     "0x507BBD3A": {
-      "name": "_0x507BBD3A",
+      "name": "SET_GAME_CAMERA_CURVE_OVERRIDE",
       "comment": "",
       "params": [
         {
@@ -10450,7 +10461,7 @@
       "return_type": "int"
     },
     "0xC93116B1": {
-      "name": "_0xC93116B1",
+      "name": "RESET_GAME_CAMERA_CURVE_OVERRIDES",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -10467,7 +10478,7 @@
       "return_type": "void"
     },
     "0x72960AE2": {
-      "name": "_0x72960AE2",
+      "name": "IS_VEHICLE_CINEMATIC_CAMERA_FORCED_ON",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -10484,7 +10495,7 @@
       "return_type": "int"
     },
     "0x6E303287": {
-      "name": "_0x6E303287",
+      "name": "ALLOW_GAME_CAMERA_AUTO_CENTERING",
       "comment": "",
       "params": [
         {
@@ -10510,7 +10521,7 @@
       "return_type": "int"
     },
     "0x9603D3B2": {
-      "name": "_0x9603D3B2",
+      "name": "ALLOW_GAME_CAMERA_AUTO_TILTING",
       "comment": "",
       "params": [
         {
@@ -10536,7 +10547,7 @@
       "return_type": "int"
     },
     "0x3AE77125": {
-      "name": "_0x3AE77125",
+      "name": "SET_GAME_CAMERA_FOCUS",
       "comment": "",
       "params": [
         {
@@ -10624,13 +10635,13 @@
       "return_type": "int"
     },
     "0x5BD2295E": {
-      "name": "_0x5BD2295E",
+      "name": "IS_GAME_CAMERA_FOCUS_ENABLED",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xF3623B64": {
-      "name": "_0xF3623B64",
+      "name": "SET_DEBUG_CAMERA_MODE",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -10655,7 +10666,7 @@
   },
   "CAMERA": {
     "0x0B1569C5": {
-      "name": "_0x0B1569C5",
+      "name": "CREATE_CAMERA_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -11389,7 +11400,7 @@
       "return_type": "Camera"
     },
     "0x54A417F3": {
-      "name": "_0x54A417F3",
+      "name": "CREATE_CAMERASHOT_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -11562,7 +11573,7 @@
       "return_type": "int"
     },
     "0x3DEB0933": {
-      "name": "_SET_CAMERA_SHOT_ASPECT_RATIO",
+      "name": "SET_CAMERASHOT_ASPECT_RATIO",
       "comment": "",
       "params": [
         {
@@ -12431,7 +12442,7 @@
       "return_type": "void"
     },
     "0xDA50B18B": {
-      "name": "_0xDA50B18B",
+      "name": "CREATE_AIMRAMP_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -12473,7 +12484,7 @@
       "return_type": "void"
     },
     "0xA923A22D": {
-      "name": "_0xA923A22D",
+      "name": "CREATE_CUTSCENEOBJECT_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -13014,7 +13025,7 @@
       "return_type": "int"
     },
     "0xE7A1C191": {
-      "name": "_0xE7A1C191",
+      "name": "CANCEL_CUTSCENE_TUNER_PLAYBACK",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -13032,7 +13043,7 @@
       "return_type": "int"
     },
     "0x74EE96B8": {
-      "name": "_0x74EE96B8",
+      "name": "GET_CUTSCENE_TUNER_SCRIPT_NAME",
       "comment": "",
       "params": [],
       "return_type": "int*"
@@ -13793,7 +13804,7 @@
       "return_type": "void"
     },
     "0x629E2E88": {
-      "name": "_0x629E2E88",
+      "name": "COMBAT_CLASS_REQUEST_EXISTS",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -13805,7 +13816,7 @@
       "return_type": "int"
     },
     "0x76478D6E": {
-      "name": "_0x76478D6E",
+      "name": "COMBAT_CLASS_REQUEST_GET_ENUM_INT",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -13817,7 +13828,7 @@
       "return_type": "void"
     },
     "0xAD3877AF": {
-      "name": "_0xAD3877AF",
+      "name": "COMBAT_CLASS_SERVER_SET_SCRIPT",
       "comment": "",
       "params": [
         {
@@ -13911,7 +13922,7 @@
       "return_type": "int"
     },
     "0x8DFF31DF": {
-      "name": "_0x8DFF31DF",
+      "name": "GET_COVER_LOCATION_BASE_POSITION",
       "comment": "",
       "params": [
         {
@@ -13952,7 +13963,7 @@
       "return_type": "int"
     },
     "0x90AD2C2D": {
-      "name": "_0x90AD2C2D",
+      "name": "IS_COVER_LOCATION_VALID",
       "comment": "",
       "params": [
         {
@@ -13991,7 +14002,7 @@
       "return_type": "int"
     },
     "0xA5FF6076": {
-      "name": "_0xA5FF6076",
+      "name": "ARE_CURVES_IN_RANGE",
       "comment": "",
       "params": [
         {
@@ -14018,7 +14029,7 @@
       "return_type": "int"
     },
     "0x0E018669": {
-      "name": "_0x0E018669",
+      "name": "START_CURVE_QUERY",
       "comment": "",
       "params": [
         {
@@ -14061,7 +14072,7 @@
       "return_type": "int"
     },
     "0x8C37CA1A": {
-      "name": "_0x8C37CA1A",
+      "name": "GET_CURVE_BY_NAME",
       "comment": "",
       "params": [
         {
@@ -14076,7 +14087,7 @@
       "return_type": "int"
     },
     "0x9398BE8F": {
-      "name": "_0x9398BE8F",
+      "name": "IS_CURVE_QUERY_VALID",
       "comment": "",
       "params": [
         {
@@ -14087,7 +14098,7 @@
       "return_type": "int"
     },
     "0x8E551A7C": {
-      "name": "_0x8E551A7C",
+      "name": "GET_NUM_POINTS_IN_CURVE_QUERY",
       "comment": "",
       "params": [
         {
@@ -14098,7 +14109,7 @@
       "return_type": "int"
     },
     "0xBADCF1E9": {
-      "name": "_0xBADCF1E9",
+      "name": "GET_NUM_CURVES_IN_CURVE_QUERY",
       "comment": "",
       "params": [
         {
@@ -14109,7 +14120,7 @@
       "return_type": "int"
     },
     "0xE531DCAE": {
-      "name": "_0xE531DCAE",
+      "name": "GET_POINT_FROM_CURVE_QUERY",
       "comment": "",
       "params": [
         {
@@ -14177,7 +14188,7 @@
       "return_type": "int"
     },
     "0x4F8FAF8F": {
-      "name": "_0x4F8FAF8F",
+      "name": "REMOVE_CURVE_FROM_CURVE_QUERY_USING_CURVE",
       "comment": "",
       "params": [
         {
@@ -14374,7 +14385,7 @@
       "return_type": "void"
     },
     "0xF0441E47": {
-      "name": "_0xF0441E47",
+      "name": "CURVE_NETWORK_POINT_GET_DISTANT_POINT",
       "comment": "",
       "params": [
         {
@@ -14395,7 +14406,7 @@
   },
   "CUTSCENE": {
     "0xD89902F1": {
-      "name": "_CUTSCENE_MANAGER_SCRIPT_DOES_NOT_EXIST",
+      "name": "CUTSCENE_MANAGER_DOES_CUTSCENE_EXIST",
       "comment": "",
       "params": [
         {
@@ -14429,19 +14440,19 @@
       "return_type": "int"
     },
     "0xA6CFA220": {
-      "name": "_0xA6CFA220",
+      "name": "CUTSCENE_MANAGER_IS_CUTFILE_LOADED",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x0FE90DCB": {
-      "name": "_0x0FE90DCB",
+      "name": "CUTSCENE_MANAGER_GET_LOADED_CUTFILE",
       "comment": "",
       "params": [],
       "return_type": "const char*"
     },
     "0x7716B12B": {
-      "name": "_0x7716B12B",
+      "name": "CUTSCENE_MANAGER_RESUME_LOADING",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -14474,7 +14485,7 @@
       "return_type": "int"
     },
     "0xEDF1D0B4": {
-      "name": "_0xEDF1D0B4",
+      "name": "CUTSCENE_MANAGER_IS_CUTSCENE_LOADED",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -14507,13 +14518,13 @@
       "return_type": "int"
     },
     "0xA61FA36B": {
-      "name": "_0xA61FA36B",
+      "name": "CUTSCENE_MANAGER_IS_CUTSCENE_PLAYING",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xDE339CE1": {
-      "name": "_0xDE339CE1",
+      "name": "CUTSCENE_MANAGER_IS_CUTSCENE_FINISHED",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -14585,7 +14596,7 @@
       "return_type": "int"
     },
     "0xE808BFFB": {
-      "name": "_0xE808BFFB",
+      "name": "CUTSCENE_MANAGER_SET_SKIP_UI_STACK_POP",
       "comment": "",
       "params": [
         {
@@ -14607,61 +14618,61 @@
       "return_type": "const char*"
     },
     "0x7653788C": {
-      "name": "_0x7653788C",
+      "name": "CUTSCENE_MANAGER_CAN_SET_POST_CUTSCENE_POSES",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
     },
     "0x98D0F458": {
-      "name": "_0x98D0F458",
+      "name": "CUTSCENE_MANAGER_CLEAR_CAN_SET_POST_CUTSCENE_POSES",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0xAC5043C5": {
-      "name": "_0xAC5043C5",
+      "name": "CUTSCENE_MANAGER_GET_CURRENT_TIME",
       "comment": "",
       "params": [],
       "return_type": "float"
     },
     "0x7263860F": {
-      "name": "_0x7263860F",
+      "name": "CUTSCENE_MANAGER_GET_CURRENT_FRAME",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x2DB208A1": {
-      "name": "_0x2DB208A1",
+      "name": "CUTSCENE_MANAGER_GET_TOTAL_FRAMES",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x1501F924": {
-      "name": "_0x1501F924",
+      "name": "CUTSCENE_MANAGER_ENUMERATE_CUTXML_NAMES",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xC677BF51": {
-      "name": "_0xC677BF51",
+      "name": "CUTSCENE_MANAGER_GET_NUM_CUTXML_NAMES",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xC2B5BDDF": {
-      "name": "_0xC2B5BDDF",
+      "name": "CUTSCENE_MANAGER_GET_CUTXML_NAME",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xA5691922": {
-      "name": "_0xA5691922",
+      "name": "CUTSCENE_MANAGER_GET_NUM_CUTSCENE_ACTORS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xC6557710": {
-      "name": "_0xC6557710",
+      "name": "CUTSCENE_MANAGER_GET_CUTSCENE_ACTOR_NAME",
       "comment": "",
       "params": [
         {
@@ -14672,7 +14683,7 @@
       "return_type": "int"
     },
     "0xED0BA189": {
-      "name": "_0xED0BA189",
+      "name": "CUTSCENE_MANAGER_GET_CUTSCENE_ACTOR",
       "comment": "",
       "params": [
         {
@@ -14698,7 +14709,7 @@
       "return_type": "int"
     },
     "0xB2F2A7F2": {
-      "name": "_0xB2F2A7F2",
+      "name": "CUTSCENE_MANAGER_GET_CUTSCENE_ACTOR_BY_INDEX_START_ORIENT",
       "comment": "",
       "params": [
         {
@@ -14717,7 +14728,7 @@
       "return_type": "int"
     },
     "0x9410D992": {
-      "name": "_0x9410D992",
+      "name": "CUTSCENE_MANAGER_GET_CUTSCENE_ACTOR_BY_INDEX_END_ORIENT",
       "comment": "",
       "params": [
         {
@@ -14736,13 +14747,13 @@
       "return_type": "int"
     },
     "0xD9E4A8DA": {
-      "name": "_0xD9E4A8DA",
+      "name": "CUTSCENE_MANAGER_GET_NUM_CUTSCENE_PROPS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xEBAB5F62": {
-      "name": "_0xEBAB5F62",
+      "name": "CUTSCENE_MANAGER_GET_CUTSCENE_PROP_NAME",
       "comment": "",
       "params": [
         {
@@ -14753,7 +14764,7 @@
       "return_type": "int"
     },
     "0x5DB05BBC": {
-      "name": "_0x5DB05BBC",
+      "name": "CUTSCENE_MANAGER_GET_CUTSCENE_PROP",
       "comment": "",
       "params": [
         {
@@ -14764,7 +14775,7 @@
       "return_type": "int"
     },
     "0x3BDB2ADF": {
-      "name": "_0x3BDB2ADF",
+      "name": "CUTSCENE_MANAGER_GET_CUTSCENE_PROP_BY_NAME",
       "comment": "",
       "params": [
         {
@@ -14779,7 +14790,7 @@
       "return_type": "int"
     },
     "0x79C748BE": {
-      "name": "_0x79C748BE",
+      "name": "CUTSCENE_MANAGER_GET_CUTSCENE_PROP_BY_INDEX_START_ORIENT",
       "comment": "",
       "params": [
         {
@@ -14798,7 +14809,7 @@
       "return_type": "int"
     },
     "0xA56DCCF2": {
-      "name": "_0xA56DCCF2",
+      "name": "CUTSCENE_MANAGER_GET_CUTSCENE_PROP_BY_INDEX_END_ORIENT",
       "comment": "",
       "params": [
         {
@@ -14854,7 +14865,7 @@
       "return_type": "int"
     },
     "0x5C553565": {
-      "name": "_0x5C553565",
+      "name": "CUTSCENE_MANAGER_GET_FINAL_STREAMING_LOAD_SCENE_EXT",
       "comment": "",
       "params": [
         {
@@ -14869,7 +14880,7 @@
       "return_type": "int"
     },
     "0xB0479CB8": {
-      "name": "_0xB0479CB8",
+      "name": "CUTSCENE_MANAGER_SET_FINAL_STREAMING_LOAD_SCENE_EXT",
       "comment": "",
       "params": [
         {
@@ -14900,7 +14911,7 @@
       "return_type": "void"
     },
     "0x35DBDD67": {
-      "name": "_0x35DBDD67",
+      "name": "CUTSCENE_MANAGER_SET_ASSET_OVERRIDE",
       "comment": "",
       "params": [
         {
@@ -14915,7 +14926,7 @@
       "return_type": "int"
     },
     "0x250232CF": {
-      "name": "_0x250232CF",
+      "name": "CUTSCENE_MANAGER_SET_ASSET_OVERRIDE_ACTORENUM",
       "comment": "",
       "params": [
         {
@@ -14930,7 +14941,7 @@
       "return_type": "int"
     },
     "0x7007019D": {
-      "name": "_0x7007019D",
+      "name": "CUTSCENE_MANAGER_SET_ASSET_OVERRIDE_ACTOR",
       "comment": "",
       "params": [
         {
@@ -14945,25 +14956,25 @@
       "return_type": "void"
     },
     "0x24F97294": {
-      "name": "_0x24F97294",
+      "name": "CUTSCENE_MANAGER_GET_SCRIPT_EVENT_DATA",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xDE79FA4E": {
-      "name": "_0xDE79FA4E",
+      "name": "CUTSCENE_MANAGER_GET_SCRIPT_EVENT_DESCRIPTION",
       "comment": "",
       "params": [],
       "return_type": "const char*"
     },
     "0x2B45FADE": {
-      "name": "_0x2B45FADE",
+      "name": "CUTSCENE_MANAGER_CLEAR_SCRIPT_EVENT",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0x50A2051C": {
-      "name": "_0x50A2051C",
+      "name": "CUTSCENE_MANAGER_SET_WAS_JOHN_NOW_JACK_IN_RCM_CUTSCENE",
       "comment": "",
       "params": [
         {
@@ -14976,7 +14987,7 @@
   },
   "DECAL": {
     "0xA5A6A3E3": {
-      "name": "_0xA5A6A3E3",
+      "name": "ENABLE_PIP",
       "comment": "",
       "params": [
         {
@@ -14995,13 +15006,13 @@
       "return_type": "void"
     },
     "0x3736FF43": {
-      "name": "_0x3736FF43",
+      "name": "IS_PIP_ENABLED",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x065B4197": {
-      "name": "_0x065B4197",
+      "name": "IS_PIP_RENDERING",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -15091,7 +15102,7 @@
       "return_type": "void"
     },
     "0x7BCE4845": {
-      "name": "_0x7BCE4845",
+      "name": "CREATE_DECAL_WITH_NORMAL",
       "comment": "",
       "params": [
         {
@@ -15142,7 +15153,7 @@
       "return_type": "void"
     },
     "0x9E54C297": {
-      "name": "_0x9E54C297",
+      "name": "CREATE_FOOTPRINT",
       "comment": "",
       "params": [
         {
@@ -15260,7 +15271,7 @@
       "return_type": "void"
     },
     "0x6E946AF8": {
-      "name": "_0x6E946AF8",
+      "name": "PPP_LOAD_PRESET",
       "comment": "",
       "params": [
         {
@@ -15271,7 +15282,7 @@
       "return_type": "void"
     },
     "0xB6CA7EBF": {
-      "name": "_0xB6CA7EBF",
+      "name": "PPP_UNLOAD_PRESET",
       "comment": "",
       "params": [
         {
@@ -15297,7 +15308,7 @@
       "return_type": "void"
     },
     "0x6A0A241A": {
-      "name": "_0x6A0A241A",
+      "name": "PPP_GET_ELEMENT_MAGNITUDE",
       "comment": "",
       "params": [
         {
@@ -15314,7 +15325,7 @@
       "return_type": "void"
     },
     "0xFA43DCC5": {
-      "name": "_0xFA43DCC5",
+      "name": "FIRE_SHOCK",
       "comment": "",
       "params": [
         {
@@ -15325,7 +15336,7 @@
       "return_type": "void"
     },
     "0xEC906A7A": {
-      "name": "_0xEC906A7A",
+      "name": "SET_SHOCK_SPEED",
       "comment": "",
       "params": [
         {
@@ -15336,7 +15347,7 @@
       "return_type": "int"
     },
     "0xC9FCD3EC": {
-      "name": "_0xC9FCD3EC",
+      "name": "SET_SHOCK_AMPLITUDE",
       "comment": "",
       "params": [
         {
@@ -15382,7 +15393,7 @@
       "return_type": "void"
     },
     "0x47A8DDED": {
-      "name": "_0x47A8DDED",
+      "name": "DOF_SET_KERNEL",
       "comment": "",
       "params": [
         {
@@ -15486,7 +15497,7 @@
       "return_type": "void"
     },
     "0x1EE7153B": {
-      "name": "_0x1EE7153B",
+      "name": "ADD_ZOMBIE_TO_ACTOR",
       "comment": "",
       "params": [
         {
@@ -15509,7 +15520,7 @@
       "return_type": "int"
     },
     "0x5685A440": {
-      "name": "_0x5685A440",
+      "name": "ADD_BLOOD_TO_ACTOR",
       "comment": "",
       "params": [
         {
@@ -15552,7 +15563,7 @@
       "return_type": "int"
     },
     "0x50904C66": {
-      "name": "_0x50904C66",
+      "name": "ADD_BLOOD_TO_CORPSE",
       "comment": "",
       "params": [
         {
@@ -15607,7 +15618,7 @@
       "return_type": "void"
     },
     "0x9D9E093E": {
-      "name": "_0x9D9E093E",
+      "name": "SET_PLAYER_BLOOD_FADE_RATE",
       "comment": "",
       "params": [
         {
@@ -15618,7 +15629,7 @@
       "return_type": "void"
     },
     "0x32F2D6F1": {
-      "name": "_0x32F2D6F1",
+      "name": "PRICK_PLAYER_FINGER",
       "comment": "",
       "params": [
         {
@@ -15648,7 +15659,7 @@
       "return_type": "void"
     },
     "0x3627F773": {
-      "name": "_0x3627F773",
+      "name": "LIMIT_BLOOD_ON_ACTOR",
       "comment": "",
       "params": [
         {
@@ -15663,7 +15674,7 @@
       "return_type": "int"
     },
     "0x48123591": {
-      "name": "_0x48123591",
+      "name": "LOAD_PTFX_DLC_ASSETS",
       "comment": "",
       "params": [
         {
@@ -15674,7 +15685,7 @@
       "return_type": "int"
     },
     "0xA0AE0C98": {
-      "name": "_0xA0AE0C98",
+      "name": "ADDSHADER",
       "comment": "",
       "params": [
         {
@@ -16026,13 +16037,13 @@
   },
   "DLC": {
     "0x0728B211": {
-      "name": "_DLC_PREINIT",
+      "name": "DLC_PRE_INIT_CONTENT",
       "comment": "",
       "params": [],
       "return_type": "const char*"
     },
     "0xEC86DB0E": {
-      "name": "_DLC_INIT",
+      "name": "DLC_INIT_CONTENT",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -16064,7 +16075,7 @@
       "return_type": "int"
     },
     "0x853F71F6": {
-      "name": "_0x853F71F6",
+      "name": "DLC_IS_CONTENT_PURCHASED_FLAGS",
       "comment": "",
       "params": [
         {
@@ -16308,7 +16319,7 @@
       "return_type": "void"
     },
     "0x3B25299D": {
-      "name": "_0x3B25299D",
+      "name": "SET_ALL_DOOR_LOCKS_VISIBLE",
       "comment": "",
       "params": [
         {
@@ -16545,7 +16556,7 @@
       "return_type": "int"
     },
     "0xE2ED95CC": {
-      "name": "_0xE2ED95CC",
+      "name": "GET_EVENT_TARGET_AS_OBJECT",
       "comment": "",
       "params": [
         {
@@ -16556,7 +16567,7 @@
       "return_type": "int"
     },
     "0xBDD4D4D5": {
-      "name": "_0xBDD4D4D5",
+      "name": "GET_EVENT_TARGET_AS_PHYSINST",
       "comment": "",
       "params": [
         {
@@ -16647,13 +16658,13 @@
       "return_type": "int"
     },
     "0x85D62384": {
-      "name": "_0x85D62384",
+      "name": "RANGED_EVENT_RESPONSE_INIT_COMPLETE",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0xFB227D11": {
-      "name": "_0xFB227D11",
+      "name": "REGISTER_FOR_CREATION_EVENT",
       "comment": "",
       "params": [
         {
@@ -16705,7 +16716,7 @@
       "return_type": "int"
     },
     "0x88943B5B": {
-      "name": "_0x88943B5B",
+      "name": "EVENT_TRAP_ON_VOLUME",
       "comment": "",
       "params": [
         {
@@ -16720,7 +16731,7 @@
       "return_type": "void"
     },
     "0x3D2786E5": {
-      "name": "_0x3D2786E5",
+      "name": "EVENT_TRAP_ON_SPHERE",
       "comment": "",
       "params": [
         {
@@ -16747,7 +16758,7 @@
       "return_type": "int"
     },
     "0x6B5DF46D": {
-      "name": "_0x6B5DF46D",
+      "name": "EVENT_TRAP_ON_PERPETRATOR",
       "comment": "",
       "params": [
         {
@@ -16762,7 +16773,7 @@
       "return_type": "void"
     },
     "0x0AA5D947": {
-      "name": "_0x0AA5D947",
+      "name": "EVENT_TRAP_ON_TARGET",
       "comment": "",
       "params": [
         {
@@ -16777,7 +16788,7 @@
       "return_type": "void"
     },
     "0x1105FB64": {
-      "name": "_0x1105FB64",
+      "name": "EVENT_TRAP_ON_OWNER",
       "comment": "",
       "params": [
         {
@@ -16792,7 +16803,7 @@
       "return_type": "void"
     },
     "0x08765C6B": {
-      "name": "_0x08765C6B",
+      "name": "EVENT_TRAP_STORE_EVENTS",
       "comment": "",
       "params": [
         {
@@ -16807,7 +16818,7 @@
       "return_type": "void"
     },
     "0xDE9AA6E5": {
-      "name": "_0xDE9AA6E5",
+      "name": "EVENT_TRAP_CLEAR_EVENTS",
       "comment": "",
       "params": [
         {
@@ -16818,7 +16829,7 @@
       "return_type": "void"
     },
     "0x54F8EAA4": {
-      "name": "_0x54F8EAA4",
+      "name": "EVENT_TRAP_SUCCESSFUL_TRAP",
       "comment": "",
       "params": [
         {
@@ -16829,7 +16840,7 @@
       "return_type": "int"
     },
     "0xAA24E0CC": {
-      "name": "_0xAA24E0CC",
+      "name": "EVENT_TRAP_CLEAR_TRAP_FLAG",
       "comment": "",
       "params": [
         {
@@ -16840,19 +16851,19 @@
       "return_type": "void"
     },
     "0x19F62133": {
-      "name": "_0x19F62133",
+      "name": "GET_NUM_EVENT_RESPONSES",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xB573FF63": {
-      "name": "_0xB573FF63",
+      "name": "GET_EVENT_RESPONSE_ID",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x586714AE": {
-      "name": "_0x586714AE",
+      "name": "GET_EVENT_FOR_RESPONSE",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -16887,7 +16898,7 @@
       "return_type": "void"
     },
     "0x651F6299": {
-      "name": "_SET_EXPLOSION",
+      "name": "ENABLE_REPLICATION_SET_EXPLOSION",
       "comment": "",
       "params": [
         {
@@ -16967,7 +16978,7 @@
       "return_type": "BOOL"
     },
     "0x22424394": {
-      "name": "_0x22424394",
+      "name": "VERIFY_FACTION_ENUM",
       "comment": "",
       "params": [],
       "return_type": "Any"
@@ -17135,7 +17146,7 @@
   },
   "FIRE": {
     "0x9A93E7CA": {
-      "name": "_0x9A93E7CA",
+      "name": "CLEAR_AREA_OF_TREE_TYPE",
       "comment": "",
       "params": [
         {
@@ -17158,13 +17169,13 @@
       "return_type": "int"
     },
     "0x59A7835E": {
-      "name": "_0x59A7835E",
+      "name": "RESET_TREE_TYPE_CLEARING",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x25690082": {
-      "name": "_0x25690082",
+      "name": "RESET_THIS_TREE_TYPE_CLEARING",
       "comment": "",
       "params": [
         {
@@ -17175,7 +17186,7 @@
       "return_type": "int"
     },
     "0xE92C3435": {
-      "name": "_0xE92C3435",
+      "name": "SET_DUST_LEVEL",
       "comment": "",
       "params": [
         {
@@ -17186,7 +17197,7 @@
       "return_type": "int"
     },
     "0xDB86F53B": {
-      "name": "_0xDB86F53B",
+      "name": "SET_DUST_LEVEL_MODIFIER",
       "comment": "",
       "params": [
         {
@@ -17197,7 +17208,7 @@
       "return_type": "int"
     },
     "0x8BA565F7": {
-      "name": "_0x8BA565F7",
+      "name": "SET_DUST_LEVEL_MID",
       "comment": "",
       "params": [
         {
@@ -17208,7 +17219,7 @@
       "return_type": "int"
     },
     "0xB8E09389": {
-      "name": "_0xB8E09389",
+      "name": "SET_DUST_LEVEL_FAR",
       "comment": "",
       "params": [
         {
@@ -17219,7 +17230,7 @@
       "return_type": "int"
     },
     "0x9AA8A1B1": {
-      "name": "_0x9AA8A1B1",
+      "name": "CLEAR_AREA_OF_GRASS",
       "comment": "",
       "params": [
         {
@@ -17242,7 +17253,7 @@
       "return_type": "int"
     },
     "0x002B0698": {
-      "name": "_0x002B0698",
+      "name": "CLEAR_AREA_OF_BREAKABLE_TREES",
       "comment": "",
       "params": [
         {
@@ -17277,7 +17288,7 @@
       "return_type": "int"
     },
     "0x57478561": {
-      "name": "_0x57478561",
+      "name": "RESET_THIS_BREAKABLE_TREE_CLEARING",
       "comment": "",
       "params": [
         {
@@ -17288,13 +17299,13 @@
       "return_type": "int"
     },
     "0x39B0CFE5": {
-      "name": "_0x39B0CFE5",
+      "name": "RESET_ALL_BREAKABLE_TREE_CLEARINGS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xDCAE6935": {
-      "name": "SET_VEHICLE_APPOINTMENT_TARGET",
+      "name": "RELOAD_SMICTIONARY_LIST",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -17434,7 +17445,7 @@
       "return_type": "Any"
     },
     "0x2AC74780": {
-      "name": "_0x2AC74780",
+      "name": "GET_FIRE_PROPERTY",
       "comment": "",
       "params": [
         {
@@ -17445,7 +17456,7 @@
       "return_type": "Any*"
     },
     "0x466C02BA": {
-      "name": "_0x466C02BA",
+      "name": "STOP_ALL_FIRE_IN_SPHERE",
       "comment": "",
       "params": [
         {
@@ -17468,13 +17479,13 @@
       "return_type": "void"
     },
     "0xEC3A9EBB": {
-      "name": "_0xEC3A9EBB",
+      "name": "STOP_ALL_FIRE_IN_VOLUME",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0xADB3E8D9": {
-      "name": "_0xADB3E8D9",
+      "name": "REPLACE_WORLD_SECTOR",
       "comment": "",
       "params": [
         {
@@ -17493,7 +17504,7 @@
       "return_type": "int"
     },
     "0x08D06543": {
-      "name": "_BOUNDING_BOX",
+      "name": "REPLACE_WORLD_SECTOR_LOAD_BOUNDING_BOX",
       "comment": "",
       "params": [
         {
@@ -17576,7 +17587,7 @@
       "return_type": "int"
     },
     "0xA488E930": {
-      "name": "_EXPLOSION_FIRE_FX",
+      "name": "FIRE_IS_HANDLE_VALID",
       "comment": "",
       "params": [
         {
@@ -17767,7 +17778,7 @@
       "return_type": "void"
     },
     "0x3D5D3B26": {
-      "name": "_SET_FIRE_ATTACHED_DAMAGE_ALLOWED",
+      "name": "FIRE_SET_DAMAGE_ALLOWED",
       "comment": "",
       "params": [
         {
@@ -17812,7 +17823,7 @@
       "return_type": "void"
     },
     "0x9C471E7D": {
-      "name": "_SET_FIRE_TARGET_SIZE",
+      "name": "FIRE_SET_TARGET_FILL_PERCENT",
       "comment": "",
       "params": [
         {
@@ -17883,7 +17894,7 @@
       "return_type": "void"
     },
     "0xDEE6523D": {
-      "name": "_0xDEE6523D",
+      "name": "COUNT_FLAMES_IN_SPHERE",
       "comment": "",
       "params": [
         {
@@ -17928,7 +17939,7 @@
       "return_type": "int"
     },
     "0x3F67DEDB": {
-      "name": "_CHEAT_BLAZING_GUNS",
+      "name": "FIRE_SET_GUNS_BLAZING_ACTIVE",
       "comment": "",
       "params": [
         {
@@ -17952,7 +17963,7 @@
       "return_type": "void"
     },
     "0xFF0B53EF": {
-      "name": "_0xFF0B53EF",
+      "name": "GET_DEBUG_DRAW_STATE",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -17975,7 +17986,7 @@
       "return_type": "void"
     },
     "0x5AC72FCC": {
-      "name": "_0x5AC72FCC",
+      "name": "GRINGO_DEBUG_CHECK_SOUND",
       "comment": "",
       "params": [
         {
@@ -18204,7 +18215,7 @@
       "return_type": "void"
     },
     "0x63CDBB01": {
-      "name": "_0x63CDBB01",
+      "name": "FILE_ADD_TO_PATH",
       "comment": "",
       "params": [
         {
@@ -18260,7 +18271,7 @@
       "return_type": "float"
     },
     "0x836466F8": {
-      "name": "_0x836466F8",
+      "name": "VNORMALIZE",
       "comment": "",
       "params": [
         {
@@ -18271,7 +18282,7 @@
       "return_type": "void"
     },
     "0x4D629653": {
-      "name": "_0x4D629653",
+      "name": "VCROSS",
       "comment": "",
       "params": [
         {
@@ -18290,7 +18301,7 @@
       "return_type": "void"
     },
     "0x30A9FA0A": {
-      "name": "_0x30A9FA0A",
+      "name": "VDOT",
       "comment": "",
       "params": [
         {
@@ -18393,7 +18404,7 @@
       "return_type": "void"
     },
     "0x1BD78730": {
-      "name": "_0x1BD78730",
+      "name": "ROTATE_VECTOR_XZ",
       "comment": "",
       "params": [
         {
@@ -18598,7 +18609,7 @@
       "return_type": "float"
     },
     "0x3DD1DC3F": {
-      "name": "_0x3DD1DC3F",
+      "name": "GET_ANGLE_BETWEEN_VECTORS_DEGS",
       "comment": "",
       "params": [
         {
@@ -18653,7 +18664,7 @@
       "return_type": "float"
     },
     "0xF83666A6": {
-      "name": "_0xF83666A6",
+      "name": "GET_CURRENT_UNWARPED_TIME",
       "comment": "",
       "params": [],
       "return_type": "float"
@@ -18702,7 +18713,7 @@
       "return_type": "void"
     },
     "0x49F96787": {
-      "name": "_0x49F96787",
+      "name": "GET_UNWARPED_REALTIME_SECONDS",
       "comment": "",
       "params": [],
       "return_type": "float"
@@ -18806,13 +18817,13 @@
       "return_type": "Any"
     },
     "0xFD0AA999": {
-      "name": "_0xFD0AA999",
+      "name": "DISABLE_GRINGO_STREAMING_CHECKS",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0x71BE51F4": {
-      "name": "_0x71BE51F4",
+      "name": "ENABLE_GRINGO_STREAMING_CHECKS",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -18992,7 +19003,7 @@
       "return_type": "float"
     },
     "0x52B2F3F0": {
-      "name": "_0x52B2F3F0",
+      "name": "RESET_TIME_SINCE_LAST_INPUT",
       "comment": "",
       "params": [
         {
@@ -19003,7 +19014,7 @@
       "return_type": "void"
     },
     "0xD4DEBC08": {
-      "name": "_0xD4DEBC08",
+      "name": "GET_TIME_SINCE_LAST_INPUT",
       "comment": "",
       "params": [
         {
@@ -19025,7 +19036,7 @@
       "return_type": "int"
     },
     "0xEF4F4F20": {
-      "name": "_0xEF4F4F20",
+      "name": "GET_TIME_SINCE_LAST_BUTTON_INPUT",
       "comment": "",
       "params": [
         {
@@ -19150,7 +19161,7 @@
       "return_type": "void"
     },
     "0x73BE57AF": {
-      "name": "_0x73BE57AF",
+      "name": "SET_DEBUG_FADE_STATE",
       "comment": "",
       "params": [
         {
@@ -19229,7 +19240,7 @@
       "return_type": "int"
     },
     "0xEB8325B3": {
-      "name": "_0xEB8325B3",
+      "name": "DECOR_SET_COLD_BREATH",
       "comment": "",
       "params": [
         {
@@ -19302,7 +19313,7 @@
       "return_type": "void"
     },
     "0x3B1B6407": {
-      "name": "_0x3B1B6407",
+      "name": "IS_GAME_RESETTING",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -19331,7 +19342,7 @@
       "return_type": "int"
     },
     "0x0B2D5E4B": {
-      "name": "_0x0B2D5E4B",
+      "name": "GET_DISTRICTS_NAME",
       "comment": "",
       "params": [],
       "return_type": "const char*"
@@ -19546,7 +19557,7 @@
       "return_type": "BOOL"
     },
     "0xD44F7102": {
-      "name": "_0xD44F7102",
+      "name": "WRITE_TO_FILE",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -19570,7 +19581,7 @@
       "return_type": "BOOL"
     },
     "0x4BA92498": {
-      "name": "_IS_CACHE_PRIMED",
+      "name": "IS_DISK_CACHE_PRIMED",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -19593,13 +19604,13 @@
       "return_type": "int"
     },
     "0x8BD88B43": {
-      "name": "_0x8BD88B43",
+      "name": "GET_NUM_WORLD_CAMERAS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x1C7C0F86": {
-      "name": "_0x1C7C0F86",
+      "name": "GET_WORLD_CAMERA_AT_INDEX",
       "comment": "",
       "params": [
         {
@@ -19618,7 +19629,7 @@
       "return_type": "int"
     },
     "0x836F42DA": {
-      "name": "_0x836F42DA",
+      "name": "GET_CLOSEST_WORLD_CAMERA",
       "comment": "",
       "params": [
         {
@@ -19664,7 +19675,7 @@
       "return_type": "BOOL"
     },
     "0xF0DDF83D": {
-      "name": "_0xF0DDF83D",
+      "name": "SET_SCRIPT_CUTSCENE_ACTIVE",
       "comment": "",
       "params": [
         {
@@ -19771,7 +19782,7 @@
       "return_type": "int"
     },
     "0xA602F586": {
-      "name": "_0xA602F586",
+      "name": "LAUNCH_NEW_SCRIPT_WITH_ARGS",
       "comment": "",
       "params": [
         {
@@ -19798,19 +19809,19 @@
       "return_type": "int"
     },
     "0x7CE2C2E1": {
-      "name": "_0x7CE2C2E1",
+      "name": "IS_LAUNCH_RETAIL",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
     },
     "0xD8E31D42": {
-      "name": "_0xD8E31D42",
+      "name": "IS_SIMULATE_START_PRESS",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
     },
     "0x9A73C2CD": {
-      "name": "_0x9A73C2CD",
+      "name": "IS_SIMULATE_START_MULTIPLAYER",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
@@ -19822,13 +19833,13 @@
       "return_type": "BOOL"
     },
     "0x6226328F": {
-      "name": "_0x6226328F",
+      "name": "GET_EXP_MODE_PROMPT_STATE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x59F98CA9": {
-      "name": "_0x59F98CA9",
+      "name": "SET_EXP_MODE_PROMPT_STATE",
       "comment": "",
       "params": [
         {
@@ -19864,7 +19875,7 @@
       "return_type": "void"
     },
     "0xAEC955F8": {
-      "name": "_0xAEC955F8",
+      "name": "CREATE_GRAVESTONE_TEXT_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -20047,7 +20058,7 @@
       "return_type": "Any"
     },
     "0x3AE1062C": {
-      "name": "_0x3AE1062C",
+      "name": "GATEWAYS_ARE_DISABLED",
       "comment": "",
       "params": [],
       "return_type": "Any"
@@ -20208,7 +20219,7 @@
       "return_type": "int"
     },
     "0xA9F5CDCB": {
-      "name": "_DEACTIVATE_GRINGO",
+      "name": "GRINGO_DEACTIVATE_AND_RESET_ACTORS",
       "comment": "",
       "params": [
         {
@@ -20256,7 +20267,7 @@
       "return_type": "int"
     },
     "0xB1FCFFDC": {
-      "name": "_0xB1FCFFDC",
+      "name": "LOCATE_GRINGO_OF_TYPE",
       "comment": "",
       "params": [
         {
@@ -20279,7 +20290,7 @@
       "return_type": "int"
     },
     "0x99356925": {
-      "name": "_0x99356925",
+      "name": "LOCATE_GRINGO_OF_TYPE_BY_ID",
       "comment": "",
       "params": [
         {
@@ -20298,7 +20309,7 @@
       "return_type": "int"
     },
     "0xBD269877": {
-      "name": "_0xBD269877",
+      "name": "LOCATE_GRINGOS_OF_TYPE",
       "comment": "",
       "params": [
         {
@@ -20325,7 +20336,7 @@
       "return_type": "int"
     },
     "0x08D76BB0": {
-      "name": "_0x08D76BB0",
+      "name": "LOCATE_GRINGO_OF_NAME",
       "comment": "",
       "params": [
         {
@@ -20348,7 +20359,7 @@
       "return_type": "int"
     },
     "0xE9612679": {
-      "name": "_0xE9612679",
+      "name": "LOCATE_GRINGOS_OF_NAME",
       "comment": "",
       "params": [
         {
@@ -20394,7 +20405,7 @@
       "return_type": "int"
     },
     "0x38771B89": {
-      "name": "_0x38771B89",
+      "name": "GRINGO_SETUP_PROP_ASSOCIATION",
       "comment": "",
       "params": [
         {
@@ -20500,7 +20511,7 @@
       "return_type": "int"
     },
     "0xF8F80679": {
-      "name": "_0xF8F80679",
+      "name": "GRINGO_CLEAR_PROP_ASSOCIATION",
       "comment": "",
       "params": [
         {
@@ -20541,7 +20552,7 @@
       "return_type": "void"
     },
     "0x7D600F2F": {
-      "name": "_0x7D600F2F",
+      "name": "GRINGO_LOAD_ANIMATION_FOR_USER",
       "comment": "",
       "params": [
         {
@@ -20560,7 +20571,7 @@
       "return_type": "int"
     },
     "0xBEF32D17": {
-      "name": "_0xBEF32D17",
+      "name": "GRINGO_UNLOAD_ANIMATION_FOR_USER",
       "comment": "",
       "params": [
         {
@@ -20579,7 +20590,7 @@
       "return_type": "int"
     },
     "0x2C57A529": {
-      "name": "_0x2C57A529",
+      "name": "GRINGO_HAS_ANIMSET_LOADED",
       "comment": "",
       "params": [
         {
@@ -20598,7 +20609,7 @@
       "return_type": "int"
     },
     "0x8EB5CE58": {
-      "name": "_0x8EB5CE58",
+      "name": "GRINGO_LOAD_ANIMATION_FOR_ACTOR_ENUM_EXT",
       "comment": "",
       "params": [
         {
@@ -20621,7 +20632,7 @@
       "return_type": "int"
     },
     "0x7A759A53": {
-      "name": "_0x7A759A53",
+      "name": "GRINGO_UNLOAD_ANIMATION_FOR_ACTOR_ENUM_EXT",
       "comment": "",
       "params": [
         {
@@ -20644,7 +20655,7 @@
       "return_type": "int"
     },
     "0x0DC149BD": {
-      "name": "_0x0DC149BD",
+      "name": "GRINGO_HAS_ANIMSET_LOADED_FOR_ACTOR_ENUM_EXT",
       "comment": "",
       "params": [
         {
@@ -20682,7 +20693,7 @@
       "return_type": "void"
     },
     "0xF8D9688A": {
-      "name": "_GET_USE_COMPONENT",
+      "name": "GRINGO_IS_USABLE_BY_PLAYER",
       "comment": "",
       "params": [
         {
@@ -20759,7 +20770,7 @@
       "return_type": "int"
     },
     "0xF4015EFC": {
-      "name": "_0xF4015EFC",
+      "name": "GRINGO_DEBUG_IS_SELECTED",
       "comment": "",
       "params": [
         {
@@ -20782,7 +20793,7 @@
       "return_type": "int"
     },
     "0xAE7B3880": {
-      "name": "_0xAE7B3880",
+      "name": "GRINGO_GET_MY_GRINGO_ID",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -20906,7 +20917,7 @@
       "return_type": "int"
     },
     "0x284DD17C": {
-      "name": "_IS_COMPONENT_OF_TYPE",
+      "name": "GRINGO_IS_COMPONENT_OF_TYPE",
       "comment": "",
       "params": [
         {
@@ -20921,7 +20932,7 @@
       "return_type": "int"
     },
     "0xE4C686BA": {
-      "name": "_0xE4C686BA",
+      "name": "GRINGO_GET_FIRST_NAMED_CHILD",
       "comment": "",
       "params": [
         {
@@ -20940,7 +20951,7 @@
       "return_type": "int"
     },
     "0x3E8F94BE": {
-      "name": "_0x3E8F94BE",
+      "name": "GRINGO_GET_FIRST_CHILD",
       "comment": "",
       "params": [
         {
@@ -20997,7 +21008,7 @@
       "return_type": "int"
     },
     "0x3FA5FC03": {
-      "name": "_GET_CHILD_COMPONENT_COUNT",
+      "name": "GRINGO_GET_CHILD_COMPONENT_COUNT",
       "comment": "",
       "params": [
         {
@@ -21008,7 +21019,7 @@
       "return_type": "int"
     },
     "0xAD313D88": {
-      "name": "_0xAD313D88",
+      "name": "GRINGO_GET_INDEXED_CHILD_COMPONENT",
       "comment": "",
       "params": [
         {
@@ -21023,7 +21034,7 @@
       "return_type": "int"
     },
     "0xA20141C0": {
-      "name": "_0xA20141C0",
+      "name": "GRINGO_GET_PROP_FROM_COMPONENT",
       "comment": "",
       "params": [
         {
@@ -21034,7 +21045,7 @@
       "return_type": "int"
     },
     "0x9AD6D5B1": {
-      "name": "_0x9AD6D5B1",
+      "name": "GRINGO_GET_PROP_FROM_COMPONENT_EXT",
       "comment": "",
       "params": [
         {
@@ -21049,7 +21060,7 @@
       "return_type": "int"
     },
     "0xD282013F": {
-      "name": "_GET_PARENT_COMPONENT",
+      "name": "GRINGO_GET_PARENT_COMPONENT",
       "comment": "",
       "params": [
         {
@@ -21064,7 +21075,7 @@
       "return_type": "int"
     },
     "0xBC32DA9A": {
-      "name": "_GET_USE_COMPONENT_POSITION",
+      "name": "GRINGO_GET_USER_POS_WITH_OFFSET",
       "comment": "",
       "params": [
         {
@@ -21094,25 +21105,25 @@
       "return_type": "void"
     },
     "0xCA589BAB": {
-      "name": "_0xCA589BAB",
+      "name": "GRINGO_GET_MSG_COMPONENT_CONTEXT",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xF550F8E7": {
-      "name": "_0xF550F8E7",
+      "name": "GRINGO_HAS_PENDING_MESSAGE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x54745DB0": {
-      "name": "_0x54745DB0",
+      "name": "GRINGO_GET_MESSAGE_TYPE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x2F096285": {
-      "name": "_0x2F096285",
+      "name": "GRINGO_GET_REQUESTING_ACTOR",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -21140,13 +21151,13 @@
       "return_type": "void"
     },
     "0x926FD361": {
-      "name": "_0x926FD361",
+      "name": "GRINGO_IS_FORCE_QUITTING",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x3DEA631B": {
-      "name": "_0x3DEA631B",
+      "name": "GRINGO_IS_CAPABLE_OF_USE",
       "comment": "",
       "params": [
         {
@@ -21161,7 +21172,7 @@
       "return_type": "int"
     },
     "0x5CFBF505": {
-      "name": "_0x5CFBF505",
+      "name": "GRINGO_SHOULD_SUSPEND_MOVER",
       "comment": "",
       "params": [
         {
@@ -21172,7 +21183,7 @@
       "return_type": "int"
     },
     "0x3A31175A": {
-      "name": "_0x3A31175A",
+      "name": "GRINGO_SHOULD_FIX_MOVER",
       "comment": "",
       "params": [
         {
@@ -21183,7 +21194,7 @@
       "return_type": "int"
     },
     "0x405E3903": {
-      "name": "_0x405E3903",
+      "name": "GRINGO_GET_USE_COMPONENT_POSITION",
       "comment": "",
       "params": [
         {
@@ -21202,7 +21213,7 @@
       "return_type": "int"
     },
     "0xCE210220": {
-      "name": "_0xCE210220",
+      "name": "GRINGO_GET_USE_COMPONENT_POSITION_EXT",
       "comment": "",
       "params": [
         {
@@ -21221,7 +21232,7 @@
       "return_type": "int"
     },
     "0xA9E00433": {
-      "name": "_0xA9E00433",
+      "name": "GRINGO_GET_USE_COMPONENT_OFFSET_POSITION_EXT",
       "comment": "",
       "params": [
         {
@@ -21252,7 +21263,7 @@
       "return_type": "int"
     },
     "0xECD4F604": {
-      "name": "_0xECD4F604",
+      "name": "GRINGO_GET_USE_COMPONENT_EXT",
       "comment": "",
       "params": [
         {
@@ -21267,7 +21278,7 @@
       "return_type": "int"
     },
     "0x5AF74E19": {
-      "name": "_0x5AF74E19",
+      "name": "GRINGO_GET_USE_COMPONENT_POSITION_LOCAL",
       "comment": "",
       "params": [
         {
@@ -21304,7 +21315,7 @@
       "return_type": "int"
     },
     "0x92FE8D74": {
-      "name": "_0x92FE8D74",
+      "name": "GRINGO_GET_TASKED_USER_EXTERNAL",
       "comment": "",
       "params": [
         {
@@ -21334,7 +21345,7 @@
       "return_type": "int"
     },
     "0x5B46757F": {
-      "name": "_0x5B46757F",
+      "name": "GRINGO_GET_USE_COMPONENT_HEADING",
       "comment": "",
       "params": [
         {
@@ -21345,7 +21356,7 @@
       "return_type": "int"
     },
     "0xD14515A3": {
-      "name": "_0xD14515A3",
+      "name": "GRINGO_GET_USE_COMPONENT_HEADING_EXT",
       "comment": "",
       "params": [
         {
@@ -21360,7 +21371,7 @@
       "return_type": "int"
     },
     "0xF95DDBF2": {
-      "name": "_0xF95DDBF2",
+      "name": "GRINGO_SET_AVAILABILITY",
       "comment": "",
       "params": [
         {
@@ -21375,7 +21386,7 @@
       "return_type": "int"
     },
     "0x6ADC74CE": {
-      "name": "_0x6ADC74CE",
+      "name": "GRINGO_GET_AVAILABILITY",
       "comment": "",
       "params": [
         {
@@ -21390,7 +21401,7 @@
       "return_type": "int"
     },
     "0xB78BC233": {
-      "name": "_0xB78BC233",
+      "name": "GRINGO_SET_AVAILABILITY_EXT",
       "comment": "",
       "params": [
         {
@@ -21409,7 +21420,7 @@
       "return_type": "int"
     },
     "0x5388F37D": {
-      "name": "_0x5388F37D",
+      "name": "GRINGO_GET_REQUEST_MID_ACTION",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -21430,7 +21441,7 @@
       "return_type": "void"
     },
     "0x15A0E28B": {
-      "name": "_0x15A0E28B",
+      "name": "GRINGO_GET_COMPONENT_USER",
       "comment": "",
       "params": [
         {
@@ -21441,7 +21452,7 @@
       "return_type": "int"
     },
     "0x90FBBB8B": {
-      "name": "_0x90FBBB8B",
+      "name": "GRINGO_CLEAR_COMPONENT_USER",
       "comment": "",
       "params": [
         {
@@ -21452,7 +21463,7 @@
       "return_type": "void"
     },
     "0x0208A8E0": {
-      "name": "_0x0208A8E0",
+      "name": "GRINGO_QUERY_NAMED_COMPONENT_USER",
       "comment": "",
       "params": [
         {
@@ -21467,7 +21478,7 @@
       "return_type": "int"
     },
     "0x217B4264": {
-      "name": "_0x217B4264",
+      "name": "GRINGO_REWARD_ACTOR",
       "comment": "",
       "params": [
         {
@@ -21486,7 +21497,7 @@
       "return_type": "int"
     },
     "0x5C11B011": {
-      "name": "_0x5C11B011",
+      "name": "GRINGO_REPORT_USE_FINISHED",
       "comment": "",
       "params": [
         {
@@ -21501,7 +21512,7 @@
       "return_type": "int"
     },
     "0x5F516FC3": {
-      "name": "_0x5F516FC3",
+      "name": "GRINGO_WAS_USE_SUCCESSFUL",
       "comment": "",
       "params": [
         {
@@ -21512,7 +21523,7 @@
       "return_type": "int"
     },
     "0xB62FE25C": {
-      "name": "_0xB62FE25C",
+      "name": "GRINGO_SATISFY_MOTIVES_OF_ACTOR",
       "comment": "",
       "params": [
         {
@@ -21546,7 +21557,7 @@
       "return_type": "int"
     },
     "0x35279C3F": {
-      "name": "_0x35279C3F",
+      "name": "GRINGO_IS_ACTOR_PLAYING_ANIM",
       "comment": "",
       "params": [
         {
@@ -21572,7 +21583,7 @@
       "return_type": "int"
     },
     "0xE9C74577": {
-      "name": "_0xE9C74577",
+      "name": "GRINGO_OWNS_ACTOR_ANIMS",
       "comment": "",
       "params": [
         {
@@ -21683,7 +21694,7 @@
       "return_type": "int"
     },
     "0xB96874B4": {
-      "name": "_0xB96874B4",
+      "name": "GRINGO_GET_PROP_ATTACH_SLOT",
       "comment": "",
       "params": [
         {
@@ -21975,7 +21986,7 @@
       "return_type": "int"
     },
     "0x22D573D2": {
-      "name": "_PROP_RESET_GRACE_FULLY",
+      "name": "GRINGO_PROP_RESET_GRACEFULLY",
       "comment": "",
       "params": [
         {
@@ -21986,7 +21997,7 @@
       "return_type": "void"
     },
     "0xFF1FC1EF": {
-      "name": "_0xFF1FC1EF",
+      "name": "GRINGO_IS_TARGET_OBJECT_READY",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -22308,7 +22319,7 @@
       "return_type": "int"
     },
     "0x15D6F3C7": {
-      "name": "_0x15D6F3C7",
+      "name": "GRINGO_QUERY_OBJECT_REF",
       "comment": "",
       "params": [
         {
@@ -22465,7 +22476,7 @@
       "return_type": "Any"
     },
     "0x4685D538": {
-      "name": "_0x4685D538",
+      "name": "GRINGO_UPDATE_OBJECT_REF",
       "comment": "",
       "params": [
         {
@@ -22541,7 +22552,7 @@
       "return_type": "int"
     },
     "0xBED45A9A": {
-      "name": "_0xBED45A9A",
+      "name": "GRINGO_IS_ATTRIBUTE_VALID",
       "comment": "",
       "params": [
         {
@@ -22997,7 +23008,7 @@
       "return_type": "Any"
     },
     "0x7957CA4F": {
-      "name": "_0x7957CA4F",
+      "name": "ACTOR_START_FORCE_HOLSTER",
       "comment": "",
       "params": [
         {
@@ -23016,7 +23027,7 @@
       "return_type": "int"
     },
     "0x231E7034": {
-      "name": "_END_FORCE_HOLSTER",
+      "name": "ACTOR_END_FORCE_HOLSTER",
       "comment": "",
       "params": [
         {
@@ -23043,7 +23054,7 @@
       "return_type": "int"
     },
     "0x8FFDCE5C": {
-      "name": "_DRAW_LAST_WEAPON",
+      "name": "ACTOR_DRAW_LAST_WEAPON",
       "comment": "",
       "params": [
         {
@@ -23116,7 +23127,7 @@
       "return_type": "void"
     },
     "0x6426CCD6": {
-      "name": "_IS_HOLSTERED",
+      "name": "ACTOR_IS_HOLSTERED",
       "comment": "",
       "params": [
         {
@@ -23356,7 +23367,7 @@
       "return_type": "int"
     },
     "0x8A2A1A51": {
-      "name": "_0x8A2A1A51",
+      "name": "FLASH_SET_ARRAY_INT",
       "comment": "",
       "params": [
         {
@@ -23402,7 +23413,7 @@
       "return_type": "int"
     },
     "0x35CDFDC5": {
-      "name": "_0x35CDFDC5",
+      "name": "FLASH_SET_ARRAY_STRING",
       "comment": "",
       "params": [
         {
@@ -23544,7 +23555,7 @@
       "return_type": "void"
     },
     "0x04A38C60": {
-      "name": "_0x04A38C60",
+      "name": "PRINT_SMALL_B",
       "comment": "",
       "params": [
         {
@@ -23618,7 +23629,7 @@
       "return_type": "void"
     },
     "0x32394BB6": {
-      "name": "_PRINT_SUBTITLE",
+      "name": "PRINT_OBJECTIVE_B",
       "comment": "",
       "params": [
         {
@@ -23864,31 +23875,31 @@
       "return_type": "void"
     },
     "0x14708CB1": {
-      "name": "_0x14708CB1",
+      "name": "GET_LAST_PRINTED_OBJECTIVE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xB9D95B4C": {
-      "name": "_0xB9D95B4C",
+      "name": "CLEAR_PRINTED_OBJECTIVE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x710B3A83": {
-      "name": "_0x710B3A83",
+      "name": "HUD_IS_SHOWING_SMALL_TEXT",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x60135878": {
-      "name": "_0x60135878",
+      "name": "HUD_IS_SHOWING_BIG_TEXT",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x2F0E7DE7": {
-      "name": "_0x2F0E7DE7",
+      "name": "HUD_IS_SHOWING_OBJECTIVE",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
@@ -23930,13 +23941,13 @@
       "return_type": "void"
     },
     "0x02E1E708": {
-      "name": "_0x02E1E708",
+      "name": "HUD_CLEAR_SMALL_TEXT_QUEUE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x777A1CA2": {
-      "name": "_0x777A1CA2",
+      "name": "HUD_CLEAR_BIG_TEXT_QUEUE",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -24243,7 +24254,7 @@
       "return_type": "void"
     },
     "0x1449EE9E": {
-      "name": "_0x1449EE9E",
+      "name": "GET_BLIP_ON_ACTOR",
       "comment": "",
       "params": [
         {
@@ -24309,7 +24320,7 @@
       "return_type": "void"
     },
     "0x7FF20D84": {
-      "name": "_0x7FF20D84",
+      "name": "SET_HUD_MAP_SCALE_WALK",
       "comment": "",
       "params": [
         {
@@ -24320,7 +24331,7 @@
       "return_type": "void"
     },
     "0x364450B1": {
-      "name": "_0x364450B1",
+      "name": "SET_HUD_MAP_SCALE_DRIVE",
       "comment": "",
       "params": [
         {
@@ -24331,7 +24342,7 @@
       "return_type": "void"
     },
     "0xB4614D11": {
-      "name": "_0xB4614D11",
+      "name": "SET_HUD_MAP_SCALE_OVERRIDE",
       "comment": "",
       "params": [
         {
@@ -24352,13 +24363,13 @@
       "return_type": "Any"
     },
     "0x33CE49C9": {
-      "name": "_0x33CE49C9",
+      "name": "ABORT_HUD_MAP_SCALE_OVERRIDE",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0x1D85FB58": {
-      "name": "_0x1D85FB58",
+      "name": "IS_HUD_MAP_SCALE_OVERRIDE_SET",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -24428,7 +24439,7 @@
       "return_type": "void"
     },
     "0xD76F1E9A": {
-      "name": "_0xD76F1E9A",
+      "name": "GET_BLIP_IMPAIRMENT_MASK",
       "comment": "",
       "params": [
         {
@@ -24454,7 +24465,7 @@
       "return_type": "void"
     },
     "0xCE79F8E2": {
-      "name": "_0xCE79F8E2",
+      "name": "SET_BLIP_MAX_DISTANCE",
       "comment": "",
       "params": [
         {
@@ -24469,7 +24480,7 @@
       "return_type": "void"
     },
     "0xFBA76D7E": {
-      "name": "_0xFBA76D7E",
+      "name": "SET_BLIP_MIN_DISTANCE",
       "comment": "",
       "params": [
         {
@@ -24555,7 +24566,7 @@
       "return_type": "int"
     },
     "0x970AC1F7": {
-      "name": "_0x970AC1F7",
+      "name": "SET_REGION_VISITED",
       "comment": "",
       "params": [
         {
@@ -24570,13 +24581,13 @@
       "return_type": "void"
     },
     "0xF5B7B208": {
-      "name": "_0xF5B7B208",
+      "name": "IS_HUD_MAP_DRAW_ENABLED",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xA094152A": {
-      "name": "_0xA094152A",
+      "name": "SET_HUD_MAP_DRAW_ENABLED",
       "comment": "",
       "params": [
         {
@@ -24587,7 +24598,7 @@
       "return_type": "void"
     },
     "0x0DFF578A": {
-      "name": "_0x0DFF578A",
+      "name": "SET_HUD_MAP_DRAW_ENABLED_TIMED",
       "comment": "",
       "params": [
         {
@@ -24612,7 +24623,7 @@
       "return_type": "int"
     },
     "0x48DB367D": {
-      "name": "_0x48DB367D",
+      "name": "SET_RADAR_TILES_VISIBLE",
       "comment": "",
       "params": [
         {
@@ -24623,7 +24634,7 @@
       "return_type": "void"
     },
     "0x4FCE7B9D": {
-      "name": "_0x4FCE7B9D",
+      "name": "HUD_SET_SHOOT_BLIP_MAX_DISTANCE",
       "comment": "",
       "params": [
         {
@@ -24634,7 +24645,7 @@
       "return_type": "void"
     },
     "0x14585073": {
-      "name": "_0x14585073",
+      "name": "HUD_SET_SHOOT_BLIP_ENABLED_FOR_ACTOR",
       "comment": "",
       "params": [
         {
@@ -24649,7 +24660,7 @@
       "return_type": "void"
     },
     "0x5EA2E02D": {
-      "name": "_0x5EA2E02D",
+      "name": "HUD_CLEAR_SHOOT_BLIP_ICON_FOR_ACTOR",
       "comment": "",
       "params": [
         {
@@ -24660,7 +24671,7 @@
       "return_type": "void"
     },
     "0xE78A0469": {
-      "name": "_0xE78A0469",
+      "name": "HUD_GET_SHOOT_BLIP_ICON_FOR_ACTOR",
       "comment": "",
       "params": [
         {
@@ -24671,7 +24682,7 @@
       "return_type": "int"
     },
     "0x02755628": {
-      "name": "_0x02755628",
+      "name": "HUD_SET_SHOOT_BLIP_ICON_FOR_ACTOR",
       "comment": "",
       "params": [
         {
@@ -24911,7 +24922,7 @@
       "return_type": "void"
     },
     "0xB0B4296A": {
-      "name": "_0xB0B4296A",
+      "name": "HUD_FADE_TO_LOADING_SCREEN",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -24932,7 +24943,7 @@
       "return_type": "void"
     },
     "0x7E4A92CF": {
-      "name": "_HUD_FADE_IN_EXECUTED",
+      "name": "HUD_FADE_IN_NOW",
       "comment": "",
       "params": [
         {
@@ -24980,13 +24991,13 @@
       "return_type": "int"
     },
     "0x18346D88": {
-      "name": "_0x18346D88",
+      "name": "FLASH_INTRO_SHUTDOWN",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0xBB2EABF9": {
-      "name": "_0xBB2EABF9",
+      "name": "FLASH_INTRO_FADE_LOGO",
       "comment": "",
       "params": [
         {
@@ -24997,7 +25008,7 @@
       "return_type": "void"
     },
     "0x9E6D7105": {
-      "name": "_0x9E6D7105",
+      "name": "FLASH_INTRO_FADE_PRESS_START",
       "comment": "",
       "params": [
         {
@@ -25008,19 +25019,19 @@
       "return_type": "void"
     },
     "0x82A290D4": {
-      "name": "_0x82A290D4",
+      "name": "FLASH_INTRO_ARE_LEGALS_COMPLETED",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x0C197810": {
-      "name": "_0x0C197810",
+      "name": "MOVIE_PLAYER_STOP_MOVIE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xC64DF45D": {
-      "name": "_0xC64DF45D",
+      "name": "UI_IS_SHOWING_DIALOG",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -25037,7 +25048,7 @@
       "return_type": "void"
     },
     "0x111554E2": {
-      "name": "_0x111554E2",
+      "name": "UI_GET_REBOOT_REASON",
       "comment": "",
       "params": [
         {
@@ -25070,13 +25081,13 @@
       "return_type": "void"
     },
     "0x4486E8C7": {
-      "name": "_0x4486E8C7",
+      "name": "CLEAR_NEWSPAPER",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0x175CD937": {
-      "name": "_0x175CD937",
+      "name": "SHOW_NEWSPAPER",
       "comment": "",
       "params": [
         {
@@ -25099,7 +25110,7 @@
       "return_type": "void"
     },
     "0x47D2DE08": {
-      "name": "_0x47D2DE08",
+      "name": "SET_NEWSPAPER_INFO",
       "comment": "",
       "params": [
         {
@@ -25157,7 +25168,7 @@
       "return_type": "void"
     },
     "0xAA322DFC": {
-      "name": "_0xAA322DFC",
+      "name": "IS_GPS_RECOMPUTE",
       "comment": "",
       "params": [
         {
@@ -25179,7 +25190,7 @@
       "return_type": "void"
     },
     "0x82F63365": {
-      "name": "_0x82F63365",
+      "name": "GET_USER_DEFINED_WAYPOINT",
       "comment": "",
       "params": [
         {
@@ -25190,7 +25201,7 @@
       "return_type": "int"
     },
     "0x34711B59": {
-      "name": "_0x34711B59",
+      "name": "IS_USER_DEFINED_WAYPOINT_CLEARED",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -25227,7 +25238,7 @@
       "return_type": "int"
     },
     "0x3E758743": {
-      "name": "_0x3E758743",
+      "name": "IS_TELEPORTATION",
       "comment": "",
       "params": [
         {
@@ -25238,7 +25249,7 @@
       "return_type": "int"
     },
     "0xB6E791F6": {
-      "name": "_0xB6E791F6",
+      "name": "GET_LAST_NEAREST_POINT",
       "comment": "",
       "params": [
         {
@@ -25389,7 +25400,7 @@
       "return_type": "void"
     },
     "0x941FC468": {
-      "name": "_IS_MESSAGE_QUEUE_EMPTY",
+      "name": "UI_IS_MESSAGE_QUEUE_EMPTY",
       "comment": "",
       "params": [
         {
@@ -25419,7 +25430,7 @@
       "return_type": "void"
     },
     "0xEB214384": {
-      "name": "_0xEB214384",
+      "name": "HUD_SET_CENTER_BLIP_SHOWN",
       "comment": "",
       "params": [
         {
@@ -25535,7 +25546,7 @@
       "return_type": "Any"
     },
     "0x77964B0C": {
-      "name": "_0x77964B0C",
+      "name": "FIND_GROUND_INTERSECTION_WITH_MATERIAL",
       "comment": "",
       "params": [
         {
@@ -25585,7 +25596,7 @@
       "return_type": "Any"
     },
     "0x5219B7D0": {
-      "name": "_0x5219B7D0",
+      "name": "GET_MATERIAL_AT_VECTOR",
       "comment": "",
       "params": [
         {
@@ -25607,7 +25618,7 @@
       "return_type": "Any"
     },
     "0x1E81DB60": {
-      "name": "_0x1E81DB60",
+      "name": "IS_POSITION_INDOORS",
       "comment": "",
       "params": [
         {
@@ -26123,7 +26134,7 @@
       "return_type": "int"
     },
     "0x5209C0C0": {
-      "name": "_SET_JOURNAL_ENTRY_DETAIL_STYLE2",
+      "name": "SET_JOURNAL_ENTRY_DETAIL_STYLE_BY_HASH",
       "comment": "",
       "params": [
         {
@@ -26557,7 +26568,7 @@
       "return_type": "Any"
     },
     "0xF68C926F": {
-      "name": "_0xF68C926F",
+      "name": "GET_ATTACHED_HOGTIE_VICTIM",
       "comment": "",
       "params": [
         {
@@ -26601,7 +26612,7 @@
       "return_type": "Any"
     },
     "0xFF5F7D2C": {
-      "name": "_0xFF5F7D2C",
+      "name": "SET_INTENDED_HOGTIE_MASTER",
       "comment": "",
       "params": [
         {
@@ -26667,7 +26678,7 @@
       "return_type": "void"
     },
     "0xCC04895F": {
-      "name": "_0xCC04895F",
+      "name": "ATTACH_HOGTIE_ACTOR_TO_ACTOR",
       "comment": "",
       "params": [
         {
@@ -26719,7 +26730,7 @@
       "return_type": "Any"
     },
     "0xBCED635B": {
-      "name": "_0xBCED635B",
+      "name": "IS_HOGTIE_PUTDOWN_OBSTRUCTED",
       "comment": "",
       "params": [
         {
@@ -26730,7 +26741,7 @@
       "return_type": "Any"
     },
     "0x60D10483": {
-      "name": "_0x60D10483",
+      "name": "IS_HOGTIE_PICKUP_OBSTRUCTED",
       "comment": "",
       "params": [
         {
@@ -26763,7 +26774,7 @@
       "return_type": "Any"
     },
     "0x8F8EDCCF": {
-      "name": "_0x8F8EDCCF",
+      "name": "IMMEDIATELY_LASSO_TARGET",
       "comment": "",
       "params": [
         {
@@ -26776,7 +26787,7 @@
   },
   "LAYOUT": {
     "0x0B396DFF": {
-      "name": "_GET_NUM_SCRIPTS_ACTIVE",
+      "name": "VERIFY_TYPE_COUNT",
       "comment": "",
       "params": [
         {
@@ -26787,7 +26798,7 @@
       "return_type": "Any"
     },
     "0x24F3A0DB": {
-      "name": "_0x24F3A0DB",
+      "name": "VERIFY_EVENT_COUNT",
       "comment": "",
       "params": [
         {
@@ -26809,7 +26820,7 @@
       "return_type": "int"
     },
     "0xC8C0C708": {
-      "name": "_0xC8C0C708",
+      "name": "LOG_OBJECT2",
       "comment": "",
       "params": [
         {
@@ -26840,7 +26851,7 @@
       "return_type": "int"
     },
     "0x9A756A72": {
-      "name": "_0x9A756A72",
+      "name": "LOG_OBJECT3",
       "comment": "",
       "params": [
         {
@@ -26958,7 +26969,7 @@
       "return_type": "Any"
     },
     "0xADB08F12": {
-      "name": "_0xADB08F12",
+      "name": "GET_NUM_OBJECTS_OF_TYPE",
       "comment": "",
       "params": [
         {
@@ -26969,7 +26980,7 @@
       "return_type": "int"
     },
     "0xA2866F3B": {
-      "name": "_0xA2866F3B",
+      "name": "GET_MAX_NUM_OBJECTS_OF_TYPE",
       "comment": "",
       "params": [
         {
@@ -27046,7 +27057,7 @@
       "return_type": "const char*"
     },
     "0x2CF0010F": {
-      "name": "_0x2CF0010F",
+      "name": "GET_COVER_LOCATION_FROM_OBJECT",
       "comment": "",
       "params": [
         {
@@ -27068,7 +27079,7 @@
       "return_type": "Any"
     },
     "0xA7E9DA22": {
-      "name": "_0xA7E9DA22",
+      "name": "GET_PROP_FROM_OBJECT",
       "comment": "",
       "params": [
         {
@@ -27079,7 +27090,7 @@
       "return_type": "int"
     },
     "0x111501F7": {
-      "name": "_0x111501F7",
+      "name": "GET_OBJECT_FROM_GRINGO",
       "comment": "",
       "params": [
         {
@@ -27191,7 +27202,7 @@
       "return_type": "int"
     },
     "0x502DAC62": {
-      "name": "_0x502DAC62",
+      "name": "GET_VOLUME_FROM_OBJECT",
       "comment": "",
       "params": [
         {
@@ -27202,7 +27213,7 @@
       "return_type": "int"
     },
     "0x024B2FFC": {
-      "name": "_0x024B2FFC",
+      "name": "GET_PERS_CHAR_FROM_OBJECT",
       "comment": "",
       "params": [
         {
@@ -27213,7 +27224,7 @@
       "return_type": "int"
     },
     "0xF5EE5874": {
-      "name": "_0xF5EE5874",
+      "name": "GET_ITERATOR_FROM_OBJECT",
       "comment": "",
       "params": [
         {
@@ -27224,7 +27235,7 @@
       "return_type": "int"
     },
     "0xD0C471FB": {
-      "name": "_0xD0C471FB",
+      "name": "GET_SQUAD_FROM_OBJECT",
       "comment": "",
       "params": [
         {
@@ -27257,7 +27268,7 @@
       "return_type": "int"
     },
     "0xB578DB52": {
-      "name": "_0xB578DB52",
+      "name": "GET_CRIME_FROM_OBJECT",
       "comment": "",
       "params": [
         {
@@ -27301,7 +27312,7 @@
       "return_type": "Layout"
     },
     "0x426828CB": {
-      "name": "_0x426828CB",
+      "name": "CREATE_MOBILE_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -27483,7 +27494,7 @@
       "return_type": "int"
     },
     "0x44A34042": {
-      "name": "_0x44A34042",
+      "name": "CREATE_POINT_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -27522,7 +27533,7 @@
       "return_type": "int"
     },
     "0xF9CC7F63": {
-      "name": "_0xF9CC7F63",
+      "name": "CREATE_POINT_LIGHT_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -27565,7 +27576,7 @@
       "return_type": "int"
     },
     "0xA17311E4": {
-      "name": "_0xA17311E4",
+      "name": "CREATE_VOLUME_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -27635,7 +27646,7 @@
       "return_type": "int"
     },
     "0x025C9845": {
-      "name": "_0x025C9845",
+      "name": "CREATE_GRINGO_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -27721,7 +27732,7 @@
       "return_type": "int"
     },
     "0x66A8AF91": {
-      "name": "_0x66A8AF91",
+      "name": "CREATE_GRINGO_IN_LAYOUT_BY_ID",
       "comment": "",
       "params": [
         {
@@ -27764,7 +27775,7 @@
       "return_type": "int"
     },
     "0x80FB8BDE": {
-      "name": "_0x80FB8BDE",
+      "name": "CREATE_GRINGO_ON_OBJECT_BY_ID",
       "comment": "",
       "params": [
         {
@@ -27807,7 +27818,7 @@
       "return_type": "int"
     },
     "0x779267C3": {
-      "name": "_0x779267C3",
+      "name": "CREATE_PROPSET_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -27881,7 +27892,7 @@
       "return_type": "Object"
     },
     "0xD92BA5B6": {
-      "name": "_0xD92BA5B6",
+      "name": "CREATE_PROP_IN_LAYOUT_BY_ID",
       "comment": "",
       "params": [
         {
@@ -27928,7 +27939,7 @@
       "return_type": "int"
     },
     "0xAF4F1910": {
-      "name": "_0xAF4F1910",
+      "name": "CREATE_COVER_PROP_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -27943,7 +27954,7 @@
       "return_type": "Any"
     },
     "0xB20CA4DF": {
-      "name": "_0xB20CA4DF",
+      "name": "CREATE_SPAWN_POINT_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -27994,7 +28005,7 @@
       "return_type": "int"
     },
     "0x80B8A1BE": {
-      "name": "_0x80B8A1BE",
+      "name": "CREATE_PATH_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -28013,7 +28024,7 @@
       "return_type": "int"
     },
     "0xB6709FF4": {
-      "name": "_0xB6709FF4",
+      "name": "CREATE_PATH_IN_LAYOUT_FROM_TABLE",
       "comment": "",
       "params": [
         {
@@ -28134,7 +28145,7 @@
       "return_type": "int"
     },
     "0xF7277A0F": {
-      "name": "_0xF7277A0F",
+      "name": "CREATE_SQUAD_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -28149,7 +28160,7 @@
       "return_type": "int"
     },
     "0x91C6AC0E": {
-      "name": "_0x91C6AC0E",
+      "name": "CREATE_FORMATION_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -28168,7 +28179,7 @@
       "return_type": "int"
     },
     "0xD60032F6": {
-      "name": "_0xD60032F6",
+      "name": "CREATE_CRIME_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -28179,7 +28190,7 @@
       "return_type": "int"
     },
     "0xE77F61B2": {
-      "name": "_0xE77F61B2",
+      "name": "CREATE_AI_SPEECH_PACKAGE_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -28283,7 +28294,7 @@
       "return_type": "int"
     },
     "0xC15C3361": {
-      "name": "_0xC15C3361",
+      "name": "TRANSFORM_OBJECT_RELATIVE",
       "comment": "",
       "params": [
         {
@@ -28551,7 +28562,7 @@
       "return_type": "void"
     },
     "0xCBB2267A": {
-      "name": "_0xCBB2267A",
+      "name": "GIVE_OBJECT_TO_ACTOR",
       "comment": "",
       "params": [
         {
@@ -28619,7 +28630,7 @@
       "return_type": "Layout"
     },
     "0x76FBF412": {
-      "name": "_0x76FBF412",
+      "name": "GET_ART_GRINGO_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -28630,7 +28641,7 @@
       "return_type": "Any"
     },
     "0xADE13224": {
-      "name": "_0xADE13224",
+      "name": "GET_GC_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -28641,7 +28652,7 @@
       "return_type": "Layout"
     },
     "0x921B5F2B": {
-      "name": "_0x921B5F2B",
+      "name": "CREATE_OBJECTSET_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -28675,7 +28686,7 @@
       "return_type": "BOOL"
     },
     "0x43FBBDE1": {
-      "name": "_0x43FBBDE1",
+      "name": "ADD_OBJECT_TO_OBJECTSET",
       "comment": "",
       "params": [
         {
@@ -28716,7 +28727,7 @@
       "return_type": "int*"
     },
     "0x2CB3B980": {
-      "name": "_0x2CB3B980",
+      "name": "GET_OBJECTSET_FROM_OBJECT",
       "comment": "",
       "params": [
         {
@@ -28757,7 +28768,7 @@
       "return_type": "BOOL"
     },
     "0xA3E05BAE": {
-      "name": "_0xA3E05BAE",
+      "name": "REMOVE_OBJECT_FROM_OBJECTSET",
       "comment": "",
       "params": [
         {
@@ -28820,7 +28831,7 @@
       "return_type": "int"
     },
     "0x44C07DA5": {
-      "name": "_0x44C07DA5",
+      "name": "IS_POINT_LIGHT_VALID",
       "comment": "",
       "params": [
         {
@@ -28831,7 +28842,7 @@
       "return_type": "BOOL"
     },
     "0x5F66B23E": {
-      "name": "_0x5F66B23E",
+      "name": "SET_ENABLE_POINT_LIGHT",
       "comment": "",
       "params": [
         {
@@ -28861,7 +28872,7 @@
       "return_type": "BOOL"
     },
     "0xCB3F7DA5": {
-      "name": "_0xCB3F7DA5",
+      "name": "LOCATE_NAMED_POINT",
       "comment": "",
       "params": [
         {
@@ -28908,7 +28919,7 @@
       "return_type": "int"
     },
     "0xA36ED4A6": {
-      "name": "_0xA36ED4A6",
+      "name": "LOCATE_NAMED_ACTOR",
       "comment": "",
       "params": [
         {
@@ -28955,7 +28966,7 @@
       "return_type": "int"
     },
     "0x6F513950": {
-      "name": "_0x6F513950",
+      "name": "LOCATE_NAMED_VOLUME",
       "comment": "",
       "params": [
         {
@@ -29248,7 +29259,7 @@
       "return_type": "void"
     },
     "0xED6D63FE": {
-      "name": "_0xED6D63FE",
+      "name": "CLEAR_ACTOR_STAY_WITHIN_VOLUME",
       "comment": "",
       "params": [
         {
@@ -29308,7 +29319,7 @@
       "return_type": "void"
     },
     "0x0E41A6AC": {
-      "name": "_0x0E41A6AC",
+      "name": "ADD_CORPSE_RETAINMENT_VOLUME_OBJ",
       "comment": "",
       "params": [
         {
@@ -29319,7 +29330,7 @@
       "return_type": "int"
     },
     "0x983ED842": {
-      "name": "_0x983ED842",
+      "name": "REMOVE_CORPSE_RETAINMENT_VOLUME_OBJ",
       "comment": "",
       "params": [
         {
@@ -29330,7 +29341,7 @@
       "return_type": "int"
     },
     "0x43E2808B": {
-      "name": "_0x43E2808B",
+      "name": "ADD_CORPSE_REMOVAL_VOLUME_OBJ",
       "comment": "",
       "params": [
         {
@@ -29341,7 +29352,7 @@
       "return_type": "int"
     },
     "0xE9E8C31A": {
-      "name": "_0xE9E8C31A",
+      "name": "REMOVE_CORPSE_REMOVAL_VOLUME_OBJ",
       "comment": "",
       "params": [
         {
@@ -29352,7 +29363,7 @@
       "return_type": "int"
     },
     "0x0ACF7E75": {
-      "name": "_0x0ACF7E75",
+      "name": "ADD_CORPSE_PREVENT_INTERFERENCE_VOLUME_OBJ",
       "comment": "",
       "params": [
         {
@@ -29363,7 +29374,7 @@
       "return_type": "int"
     },
     "0x80FF115A": {
-      "name": "_0x80FF115A",
+      "name": "REMOVE_CORPSE_PREVENT_INTERFERENCE_VOLUME_OBJ",
       "comment": "",
       "params": [
         {
@@ -29385,7 +29396,7 @@
       "return_type": "void"
     },
     "0x35E78298": {
-      "name": "_0x35E78298",
+      "name": "TOGGLE_COVER_PROP",
       "comment": "",
       "params": [
         {
@@ -29437,7 +29448,7 @@
       "return_type": "int"
     },
     "0x0B40BBE3": {
-      "name": "_0x0B40BBE3",
+      "name": "CREATE_POPULATION_SET_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -29467,7 +29478,7 @@
       "return_type": "int"
     },
     "0x4251BF6C": {
-      "name": "_0x4251BF6C",
+      "name": "CREATE_GATEWAY_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -29839,7 +29850,7 @@
       "return_type": "int"
     },
     "0xD3A523FD": {
-      "name": "_0xD3A523FD",
+      "name": "IS_RMPTFX_FINISHED",
       "comment": "",
       "params": [
         {
@@ -29883,7 +29894,7 @@
       "return_type": "int"
     },
     "0x1E56BAFD": {
-      "name": "_0x1E56BAFD",
+      "name": "START_RECORDING_SHOOT_EVENTS_FOR_ACTOR",
       "comment": "",
       "params": [
         {
@@ -29894,7 +29905,7 @@
       "return_type": "int"
     },
     "0xCFE22435": {
-      "name": "_0xCFE22435",
+      "name": "STOP_RECORDING_SHOOT_EVENTS_FOR_ACTOR",
       "comment": "",
       "params": [
         {
@@ -29939,7 +29950,7 @@
       "return_type": "void"
     },
     "0xBE5D84BF": {
-      "name": "_0xBE5D84BF",
+      "name": "GET_NUM_FORMATION_LOCATIONS",
       "comment": "",
       "params": [
         {
@@ -29972,7 +29983,7 @@
       "return_type": "Any"
     },
     "0xA2DA4D24": {
-      "name": "_0xA2DA4D24",
+      "name": "GET_CRIME_BEGIN_TIMESTAMP",
       "comment": "",
       "params": [
         {
@@ -29983,7 +29994,7 @@
       "return_type": "float"
     },
     "0xD96DBABD": {
-      "name": "_0xD96DBABD",
+      "name": "GET_CRIME_END_TIMESTAMP",
       "comment": "",
       "params": [
         {
@@ -29994,7 +30005,7 @@
       "return_type": "float"
     },
     "0xE07C2D99": {
-      "name": "_0xE07C2D99",
+      "name": "GET_CRIME_WITNESSED",
       "comment": "",
       "params": [
         {
@@ -30027,7 +30038,7 @@
       "return_type": "int"
     },
     "0x67F224B4": {
-      "name": "_0x67F224B4",
+      "name": "GET_CRIME_WORLD_REGION",
       "comment": "",
       "params": [
         {
@@ -30064,7 +30075,7 @@
       "return_type": "Any"
     },
     "0x72A048B7": {
-      "name": "_0x72A048B7",
+      "name": "IS_CRIME_TALLIED",
       "comment": "",
       "params": [
         {
@@ -30142,7 +30153,7 @@
       "return_type": "Any"
     },
     "0x2AE7D51F": {
-      "name": "_0x2AE7D51F",
+      "name": "SET_CRIME_BEGIN_TIMESTAMP",
       "comment": "",
       "params": [
         {
@@ -30157,7 +30168,7 @@
       "return_type": "int"
     },
     "0x898B00F4": {
-      "name": "_0x898B00F4",
+      "name": "SET_CRIME_END_TIMESTAMP",
       "comment": "",
       "params": [
         {
@@ -30172,7 +30183,7 @@
       "return_type": "int"
     },
     "0x6761D53A": {
-      "name": "_0x6761D53A",
+      "name": "SET_CRIME_WITNESSED",
       "comment": "",
       "params": [
         {
@@ -30217,7 +30228,7 @@
       "return_type": "void"
     },
     "0x8521A685": {
-      "name": "_0x8521A685",
+      "name": "SET_CRIME_WORLD_REGION",
       "comment": "",
       "params": [
         {
@@ -30262,7 +30273,7 @@
       "return_type": "Any"
     },
     "0x54E7F26B": {
-      "name": "_0x54E7F26B",
+      "name": "SET_CRIME_TALLIED",
       "comment": "",
       "params": [
         {
@@ -30277,7 +30288,7 @@
       "return_type": "int"
     },
     "0x2D6CD106": {
-      "name": "_0x2D6CD106",
+      "name": "SET_CRIME_IN_PROGRESS",
       "comment": "",
       "params": [
         {
@@ -30567,7 +30578,7 @@
       "return_type": "void"
     },
     "0x8BCB6B86": {
-      "name": "_0x8BCB6B86",
+      "name": "ITERATE_IN_VOLUME_SET",
       "comment": "",
       "params": [
         {
@@ -30649,7 +30660,7 @@
       "return_type": "Actor"
     },
     "0xAC830865": {
-      "name": "_0xAC830865",
+      "name": "FIND_VOLUME_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -30749,7 +30760,7 @@
       "return_type": "Any"
     },
     "0x3C45D66A": {
-      "name": "_0x3C45D66A",
+      "name": "ROTATE_OBJECT_AROUND_AXIS",
       "comment": "",
       "params": [
         {
@@ -30868,7 +30879,7 @@
       "return_type": "int"
     },
     "0x6689F85C": {
-      "name": "_0x6689F85C",
+      "name": "GET_OBJECT_RELATIVE_ORIENTATION_IN_OBJECT_SPACE",
       "comment": "",
       "params": [
         {
@@ -30903,7 +30914,7 @@
       "return_type": "int"
     },
     "0xFC718FC5": {
-      "name": "_0xFC718FC5",
+      "name": "PREPARE_CORPSE_FOR_ANIMAL_CONSUMPTION",
       "comment": "",
       "params": [
         {
@@ -31048,7 +31059,7 @@
       "return_type": "int"
     },
     "0xF437B3D9": {
-      "name": "_0xF437B3D9",
+      "name": "SNAP_OBJECT_TO_GROUND",
       "comment": "",
       "params": [
         {
@@ -31101,7 +31112,7 @@
       "return_type": "Any"
     },
     "0x8C0E3E29": {
-      "name": "_0x8C0E3E29",
+      "name": "TELEPORT_OBJECT_TO_OBJECT",
       "comment": "",
       "params": [
         {
@@ -31244,7 +31255,7 @@
       "return_type": "int"
     },
     "0xCC277C0A": {
-      "name": "_0xCC277C0A",
+      "name": "ATTACH_OBJECTS_NO_DRV",
       "comment": "",
       "params": [
         {
@@ -31337,7 +31348,7 @@
       "return_type": "int"
     },
     "0x1D711058": {
-      "name": "_0x1D711058",
+      "name": "ATTACH_OBJECTS_PHYSICAL",
       "comment": "",
       "params": [
         {
@@ -31437,7 +31448,7 @@
       "return_type": "void"
     },
     "0x67FC68DB": {
-      "name": "_0x67FC68DB",
+      "name": "REMOVE_OBJECT_FROM_ATTACHMENT",
       "comment": "",
       "params": [
         {
@@ -31448,7 +31459,7 @@
       "return_type": "int"
     },
     "0x8FB32562": {
-      "name": "_0x8FB32562",
+      "name": "REMOVE_ALL_OBJECT_ATTACHMENTS",
       "comment": "",
       "params": [
         {
@@ -31459,7 +31470,7 @@
       "return_type": "int"
     },
     "0x2F7B457B": {
-      "name": "_0x2F7B457B",
+      "name": "SET_ATTACHMENT_LOCAL_ROTATION",
       "comment": "",
       "params": [
         {
@@ -31482,7 +31493,7 @@
       "return_type": "int"
     },
     "0xD4A54348": {
-      "name": "_0xD4A54348",
+      "name": "SET_ATTACHMENT_LOCAL_OFFSET",
       "comment": "",
       "params": [
         {
@@ -31505,7 +31516,7 @@
       "return_type": "int"
     },
     "0xA870B28E": {
-      "name": "_0xA870B28E",
+      "name": "SET_ATTACHMENT_IGNORE_ROTATION",
       "comment": "",
       "params": [
         {
@@ -31830,7 +31841,7 @@
       "return_type": "int"
     },
     "0xF2140DEE": {
-      "name": "_0xF2140DEE",
+      "name": "IS_ACTORENUM_DLC",
       "comment": "",
       "params": [
         {
@@ -31917,7 +31928,7 @@
       "return_type": "Actor"
     },
     "0x6A307D5F": {
-      "name": "_0x6A307D5F",
+      "name": "CREATE_PLAYER_ACTOR_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -32006,7 +32017,7 @@
       "return_type": "Any"
     },
     "0x637E446B": {
-      "name": "_CREATE_ENUMERATED_PLAYER_ACTOR_IN_LAYOUT",
+      "name": "RESPAWN_PLAYER_ACTOR_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -32090,7 +32101,7 @@
       "return_type": "int"
     },
     "0xC739D1D2": {
-      "name": "_0xC739D1D2",
+      "name": "GET_ACTOR_ENUM_FROM_STRING",
       "comment": "",
       "params": [
         {
@@ -32101,7 +32112,7 @@
       "return_type": "int"
     },
     "0x990614C1": {
-      "name": "_0x990614C1",
+      "name": "GET_ACTOR_ENUM_STRING_FROM_ENUM",
       "comment": "",
       "params": [
         {
@@ -32192,7 +32203,7 @@
       "return_type": "void"
     },
     "0xB54567B9": {
-      "name": "_0xB54567B9",
+      "name": "GET_CURRENT_ACTOR_ENUM_VARIATION",
       "comment": "",
       "params": [
         {
@@ -32304,7 +32315,7 @@
       "return_type": "BOOL"
     },
     "0x1FCC8FEF": {
-      "name": "_0x1FCC8FEF",
+      "name": "GET_CORPSE_ACTOR_ENUM",
       "comment": "",
       "params": [
         {
@@ -32315,7 +32326,7 @@
       "return_type": "int"
     },
     "0xAF2597E8": {
-      "name": "_0xAF2597E8",
+      "name": "GET_PREVIOUS_ACTOR_FROM_CORPSE",
       "comment": "",
       "params": [
         {
@@ -32330,7 +32341,7 @@
       "return_type": "int"
     },
     "0x97951004": {
-      "name": "_0x97951004",
+      "name": "REQUEST_ARTICULATED_CORPSE",
       "comment": "",
       "params": [
         {
@@ -32405,7 +32416,7 @@
       "return_type": "int"
     },
     "0x601FC9F4": {
-      "name": "_0x601FC9F4",
+      "name": "SET_OBJECT_COLLIDE_WITH_WORLD",
       "comment": "",
       "params": [
         {
@@ -32420,7 +32431,7 @@
       "return_type": "int"
     },
     "0x05D69EA6": {
-      "name": "_0x05D69EA6",
+      "name": "SET_OBJECT_COLLIDE_WITH_MOVABLES",
       "comment": "",
       "params": [
         {
@@ -32435,7 +32446,7 @@
       "return_type": "int"
     },
     "0x9AC1CA75": {
-      "name": "_0x9AC1CA75",
+      "name": "SET_OBJECT_COLLIDE_WITH_OBJECT",
       "comment": "",
       "params": [
         {
@@ -32469,7 +32480,7 @@
       "return_type": "int"
     },
     "0x49D0DF2E": {
-      "name": "_0x49D0DF2E",
+      "name": "GET_CURVE_FROM_OBJECT",
       "comment": "",
       "params": [
         {
@@ -32569,7 +32580,7 @@
       "return_type": "int"
     },
     "0x0F146D2C": {
-      "name": "_0x0F146D2C",
+      "name": "DEBUG_SELECT_OBJECT",
       "comment": "",
       "params": [
         {
@@ -32580,7 +32591,7 @@
       "return_type": "int"
     },
     "0xF46FC138": {
-      "name": "_0xF46FC138",
+      "name": "DEBUG_ASSERT_ON_SELECTED_DESTRUCTION",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -32597,7 +32608,7 @@
       "return_type": "int"
     },
     "0x6C526E7B": {
-      "name": "_0x6C526E7B",
+      "name": "SET_TOWN_VOLUME_FOR_AMBIENT_PEDS",
       "comment": "",
       "params": [
         {
@@ -32641,7 +32652,7 @@
       "return_type": "int"
     },
     "0xCE081203": {
-      "name": "_0xCE081203",
+      "name": "SET_AGRESSIVE_EVENT_TOWN_BBX",
       "comment": "",
       "params": [
         {
@@ -32652,19 +32663,19 @@
       "return_type": "int"
     },
     "0xBF6E9855": {
-      "name": "_0xBF6E9855",
+      "name": "SET_AGRESSIVE_EVENT_TIME_RANGE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x4193D42F": {
-      "name": "_0x4193D42F",
+      "name": "SET_AGRESSIVE_EVENT_LOOP",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xF037DCA2": {
-      "name": "_0xF037DCA2",
+      "name": "SET_AGRESSIVE_EVENT_ON",
       "comment": "",
       "params": [
         {
@@ -32686,7 +32697,7 @@
       "return_type": "void"
     },
     "0x03CD9C87": {
-      "name": "_0x03CD9C87",
+      "name": "SET_WEATHER_POP_DENSITY",
       "comment": "",
       "params": [
         {
@@ -32701,7 +32712,7 @@
       "return_type": "void"
     },
     "0x43FF4632": {
-      "name": "_0x43FF4632",
+      "name": "SET_SPAWN_PEDS_ON_SIDEWALK",
       "comment": "",
       "params": [
         {
@@ -32767,7 +32778,7 @@
       "return_type": "Any"
     },
     "0x7F190CA3": {
-      "name": "_0x7F190CA3",
+      "name": "LEASH_SET_CONSTRAINT_LENGTH",
       "comment": "",
       "params": [
         {
@@ -32778,7 +32789,7 @@
       "return_type": "int"
     },
     "0x14BEC6F5": {
-      "name": "_0x14BEC6F5",
+      "name": "LEASH_SET_LEASH_LENGTH",
       "comment": "",
       "params": [
         {
@@ -32886,7 +32897,7 @@
       "return_type": "int"
     },
     "0xE782EB20": {
-      "name": "_0xE782EB20",
+      "name": "LEASH_ATTACH_TO_FRAGMENT_LOCATOR",
       "comment": "",
       "params": [
         {
@@ -32937,7 +32948,7 @@
       "return_type": "int"
     },
     "0x82A73B3D": {
-      "name": "_0x82A73B3D",
+      "name": "LEASH_ATTACH_TO_OBJECT_BONE",
       "comment": "",
       "params": [
         {
@@ -32992,7 +33003,7 @@
       "return_type": "int"
     },
     "0x4B67B8BB": {
-      "name": "_0x4B67B8BB",
+      "name": "LEASH_ATTACH_TO_OBJECT_BONE_VISUAL",
       "comment": "",
       "params": [
         {
@@ -33111,7 +33122,7 @@
       "return_type": "Any"
     },
     "0xC039BBF1": {
-      "name": "_0xC039BBF1",
+      "name": "CREATE_ROPE_FOR_BRIDGE_LEFT",
       "comment": "",
       "params": [
         {
@@ -33130,7 +33141,7 @@
       "return_type": "int"
     },
     "0x51CF9A54": {
-      "name": "_0x51CF9A54",
+      "name": "CREATE_ROPE_FOR_BRIDGE_RIGHT",
       "comment": "",
       "params": [
         {
@@ -33149,7 +33160,7 @@
       "return_type": "int"
     },
     "0x5A72DD49": {
-      "name": "_0x5A72DD49",
+      "name": "LEASH_STAY_CONSTRAINED",
       "comment": "",
       "params": [
         {
@@ -33164,7 +33175,7 @@
       "return_type": "int"
     },
     "0x1A8494E6": {
-      "name": "_0x1A8494E6",
+      "name": "SET_LEASH_COLLIDES",
       "comment": "",
       "params": [
         {
@@ -33444,7 +33455,7 @@
       "return_type": "void"
     },
     "0xC175F2B5": {
-      "name": "_MEMORY_PREFER_MELEE_2",
+      "name": "MEMORY_FORCE_MELEE",
       "comment": "",
       "params": [
         {
@@ -33587,7 +33598,7 @@
       "return_type": "int"
     },
     "0x7EDD316C": {
-      "name": "_AI_GLOBAL_CLEAR_DANGER_2",
+      "name": "MEMORY_EVERYBODY_FORGET_ABOUT",
       "comment": "",
       "params": [
         {
@@ -33598,7 +33609,7 @@
       "return_type": "void"
     },
     "0xD1628C57": {
-      "name": "_0xD1628C57",
+      "name": "MEMORY_EVERYBODY_FORGET_ABOUT_EVERYTHING",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -33619,7 +33630,7 @@
       "return_type": "void"
     },
     "0xAF94B7D9": {
-      "name": "_0xAF94B7D9",
+      "name": "AI_GLOBAL_CLEAR_ALL_DANGER",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -33781,7 +33792,7 @@
       "return_type": "Any"
     },
     "0x0627DDEC": {
-      "name": "_0x0627DDEC",
+      "name": "SET_CURRENT_MINIGAME_INT",
       "comment": "",
       "params": [
         {
@@ -33831,7 +33842,7 @@
       "return_type": "void"
     },
     "0xA82D893C": {
-      "name": "_DYNAMICMIXER_1",
+      "name": "DYNAMICMIXER_TRIGGERSTATE_PERSISTENT",
       "comment": "",
       "params": [
         {
@@ -33930,7 +33941,7 @@
       "return_type": "Any"
     },
     "0xF270EAC1": {
-      "name": "_0xF270EAC1",
+      "name": "IS_ACTOR_RIDING_AND_IN_SADDLE",
       "comment": "",
       "params": [
         {
@@ -33974,7 +33985,7 @@
       "return_type": "Actor"
     },
     "0xDC6DEE92": {
-      "name": "_ANIM_ANIMATOR_COMPONENT",
+      "name": "SET_MOUNTS_AS_PASSENGER",
       "comment": "",
       "params": [
         {
@@ -34035,7 +34046,7 @@
       "return_type": "Any"
     },
     "0x75D4E33F": {
-      "name": "_UNKNOWN_HORSE_ACCESSORY",
+      "name": "DOES_HORSE_HAVE_ACCESSORY",
       "comment": "",
       "params": [
         {
@@ -34050,7 +34061,7 @@
       "return_type": "Any"
     },
     "0x6C939AA7": {
-      "name": "_0x6C939AA7",
+      "name": "ACCESSORIZE_HORSE",
       "comment": "",
       "params": [
         {
@@ -34095,7 +34106,7 @@
       "return_type": "Any"
     },
     "0x28FCBDF2": {
-      "name": "_0x28FCBDF2",
+      "name": "HORSE_ADD_REPULSION_EXCLUSION_VOLUME",
       "comment": "",
       "params": [
         {
@@ -34106,7 +34117,7 @@
       "return_type": "Any"
     },
     "0x5DE07F18": {
-      "name": "_0x5DE07F18",
+      "name": "HORSE_REMOVE_REPULSION_EXCLUSION_VOLUME",
       "comment": "",
       "params": [
         {
@@ -34165,7 +34176,7 @@
       "return_type": "Any"
     },
     "0xB731EB45": {
-      "name": "_CHEAT_INFINITE_HORSE_STAMINA",
+      "name": "HORSE_SET_INFINITE_FRESHNESS_CHEAT",
       "comment": "",
       "params": [
         {
@@ -34224,7 +34235,7 @@
   },
   "MOVIE": {
     "0x92028B49": {
-      "name": "_WORLD_MOVIE_PLAYER",
+      "name": "WORLD_MOVIE_PLAYER",
       "comment": "",
       "params": [
         {
@@ -34249,7 +34260,7 @@
   },
   "MOVIE2": {
     "0x1BED8493": {
-      "name": "_SET_MOTIVE",
+      "name": "SET_MOTIVE_BY_ENUM",
       "comment": "",
       "params": [
         {
@@ -34270,7 +34281,7 @@
   },
   "MUSIC": {
     "0x2A3B1045": {
-      "name": "_0x2A3B1045",
+      "name": "AMBIENCE_AUDIO_ENTITY_UPDATE_TERRITORY",
       "comment": "",
       "params": [
         {
@@ -34281,7 +34292,7 @@
       "return_type": "int"
     },
     "0x27A96719": {
-      "name": "_0x27A96719",
+      "name": "AMBIENCE_AUDIO_ENTITY_UPDATE_LOCATION",
       "comment": "",
       "params": [
         {
@@ -34296,7 +34307,7 @@
       "return_type": "int"
     },
     "0xC0556FB8": {
-      "name": "_0xC0556FB8",
+      "name": "AMBIENCE_AUDIO_VALIDATE_REGION",
       "comment": "",
       "params": [
         {
@@ -34417,7 +34428,7 @@
   },
   "NET": {
     "0x6BCFE549": {
-      "name": "_0x6BCFE549",
+      "name": "NET_SET_TUNING_PARAM",
       "comment": "",
       "params": [
         {
@@ -34473,7 +34484,7 @@
       "return_type": "void"
     },
     "0xD164026F": {
-      "name": "_0xD164026F",
+      "name": "NET_DUMP_STATE",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -34490,7 +34501,7 @@
       "return_type": "int"
     },
     "0x84B0B5D6": {
-      "name": "_0x84B0B5D6",
+      "name": "NET_IS_MANAGER_INITIALIZED",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -34508,7 +34519,7 @@
       "return_type": "BOOL"
     },
     "0x7AB722D8": {
-      "name": "_0x7AB722D8",
+      "name": "NET_IS_CONNECTED_FOR_PLAY",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -34520,7 +34531,7 @@
       "return_type": "int"
     },
     "0x18EC9CF0": {
-      "name": "_0x18EC9CF0",
+      "name": "NET_APPLY_PROTOCOL_MASK",
       "comment": "",
       "params": [
         {
@@ -34531,7 +34542,7 @@
       "return_type": "int"
     },
     "0x17D14553": {
-      "name": "_NET_IS_PLAYER_ONLINE_GAMESPY",
+      "name": "NET_SET_SOCIAL_CLUB_URLS",
       "comment": "",
       "params": [
         {
@@ -34567,7 +34578,7 @@
       "return_type": "BOOL"
     },
     "0x75DD203B": {
-      "name": "_0x75DD203B",
+      "name": "NET_GET_MAC_ADDRESS32",
       "comment": "",
       "params": [
         {
@@ -34613,7 +34624,7 @@
       "return_type": "void"
     },
     "0xB829A92D": {
-      "name": "_0xB829A92D",
+      "name": "NET_ENABLE_KICKING",
       "comment": "",
       "params": [
         {
@@ -34624,25 +34635,25 @@
       "return_type": "Any"
     },
     "0x71D989BD": {
-      "name": "_0x71D989BD",
+      "name": "NET_IS_LOCAL_GAMER_ONLINE",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
     },
     "0x95CDCE7A": {
-      "name": "_SCLUBSTAT_EMPTYGAMER",
+      "name": "NET_GET_LOCAL_GAMER_NAME",
       "comment": "",
       "params": [],
       "return_type": "Any"
     },
     "0xAD85A378": {
-      "name": "_0xAD85A378",
+      "name": "NET_APPLY_RELEVANCY_OVERRIDE",
       "comment": "",
       "params": [],
       "return_type": "int*"
     },
     "0x72B03551": {
-      "name": "_0x72B03551",
+      "name": "NET_CLEAR_RELEVANCY_OVERRIDE",
       "comment": "",
       "params": [],
       "return_type": "int*"
@@ -34675,7 +34686,7 @@
       "return_type": "int"
     },
     "0x5E985228": {
-      "name": "_NET_SCRIPT_MSG_SEND",
+      "name": "NET_SCRIPTMSG_SEND",
       "comment": "",
       "params": [
         {
@@ -34702,7 +34713,7 @@
       "return_type": "Any"
     },
     "0xE2163ECC": {
-      "name": "_0xE2163ECC",
+      "name": "NET_SCRIPTMSG_ISPENDING",
       "comment": "",
       "params": [
         {
@@ -34721,7 +34732,7 @@
       "return_type": "int"
     },
     "0xB13DD691": {
-      "name": "_0xB13DD691",
+      "name": "NET_SCRIPTMSG_GETNEXT",
       "comment": "",
       "params": [
         {
@@ -34744,7 +34755,7 @@
       "return_type": "int"
     },
     "0x9253CC79": {
-      "name": "_0x9253CC79",
+      "name": "NET_SCRIPTMSG_REGISTER_HANDLER",
       "comment": "",
       "params": [
         {
@@ -34763,7 +34774,7 @@
       "return_type": "int"
     },
     "0x4957E482": {
-      "name": "_0x4957E482",
+      "name": "NET_SCRIPTMSG_QUERY_HANDLER",
       "comment": "",
       "params": [
         {
@@ -34913,7 +34924,7 @@
       "return_type": "int"
     },
     "0x138F38AC": {
-      "name": "_0x138F38AC",
+      "name": "NET_OBJECT_GET_REPLICATION_MODE",
       "comment": "",
       "params": [
         {
@@ -34924,7 +34935,7 @@
       "return_type": "int"
     },
     "0x3E509DF1": {
-      "name": "_0x3E509DF1",
+      "name": "NET_OBJECT_SET_REPLICATION_MODE",
       "comment": "",
       "params": [
         {
@@ -34939,7 +34950,7 @@
       "return_type": "int"
     },
     "0x8C7E41E2": {
-      "name": "_0x8C7E41E2",
+      "name": "NET_OBJECT_LOCK_OWNERSHIP",
       "comment": "",
       "params": [
         {
@@ -35073,7 +35084,7 @@
       "return_type": "int"
     },
     "0x7AB65B0C": {
-      "name": "_0x7AB65B0C",
+      "name": "NET_GET_SESSION_GAMER_COUNT",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -35101,7 +35112,7 @@
       "return_type": "Any"
     },
     "0xC792A9E0": {
-      "name": "_0xC792A9E0",
+      "name": "ARE_ACHIEVEMENTS_READY",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -35136,7 +35147,7 @@
       "return_type": "int"
     },
     "0xFC52BD15": {
-      "name": "_0xFC52BD15",
+      "name": "NET_GET_GAMER_POSSE_LEADER",
       "comment": "",
       "params": [
         {
@@ -35158,7 +35169,7 @@
       "return_type": "Any"
     },
     "0x98A5CDC5": {
-      "name": "_0x98A5CDC5",
+      "name": "NET_POSSE_REMOVE_GAMER",
       "comment": "",
       "params": [
         {
@@ -35191,7 +35202,7 @@
       "return_type": "int"
     },
     "0x2037A74F": {
-      "name": "_0x2037A74F",
+      "name": "NET_RUN_SEARCH_BOT",
       "comment": "",
       "params": [
         {
@@ -35202,13 +35213,13 @@
       "return_type": "int"
     },
     "0x89D8FC30": {
-      "name": "_0x89D8FC30",
+      "name": "NET_GET_NUMBER_OF_SESSIONS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x2010ABE6": {
-      "name": "_0x2010ABE6",
+      "name": "NET_IS_SEARCHBOT_BUSY",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
@@ -35375,7 +35386,7 @@
       "return_type": "void"
     },
     "0x4238C471": {
-      "name": "_0x4238C471",
+      "name": "NET_UNREGISTER_AS_NET_SCRIPT",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -35410,7 +35421,7 @@
       "return_type": "Any"
     },
     "0x408E28E2": {
-      "name": "_0x408E28E2",
+      "name": "NET_ALLOW_PLAYERS_TO_JOIN",
       "comment": "",
       "params": [
         {
@@ -35421,13 +35432,13 @@
       "return_type": "int"
     },
     "0xC0FC4B57": {
-      "name": "_0xC0FC4B57",
+      "name": "NET_IS_SCRIPT_REGISTERED_AS_NET_SCRIPT",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xD9965A9A": {
-      "name": "_0xD9965A9A",
+      "name": "NET_SCRIPT_GET_NUM_PARTICIPANTS",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -35614,7 +35625,7 @@
       "return_type": "int"
     },
     "0xBDF22FCA": {
-      "name": "_0xBDF22FCA",
+      "name": "IS_SESSION_CURRENTLY_JOINED_SESSION",
       "comment": "",
       "params": [
         {
@@ -35659,7 +35670,7 @@
       "return_type": "int"
     },
     "0xEF6BF96E": {
-      "name": "_0xEF6BF96E",
+      "name": "NET_ARE_UNLOCKS_READY",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -35704,7 +35715,7 @@
       "return_type": "int"
     },
     "0xB7856424": {
-      "name": "_0xB7856424",
+      "name": "NET_SET_SYNC_PRIORITY_LIMITS",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -35729,7 +35740,7 @@
       "return_type": "void"
     },
     "0xCF674E31": {
-      "name": "_0xCF674E31",
+      "name": "UPDATE_STRING_PROFILE_STAT",
       "comment": "",
       "params": [
         {
@@ -35790,7 +35801,7 @@
       "return_type": "int"
     },
     "0x49BC0219": {
-      "name": "_REMOTE_EXPLODE_TARGET",
+      "name": "NET_BROADCAST_EXPLODE_TARGET_EVENT",
       "comment": "",
       "params": [
         {
@@ -35801,7 +35812,7 @@
       "return_type": "int"
     },
     "0xD6780B56": {
-      "name": "_0xD6780B56",
+      "name": "DO_FILE_CRC",
       "comment": "",
       "params": [
         {
@@ -35820,7 +35831,7 @@
       "return_type": "int"
     },
     "0x9A5841E5": {
-      "name": "_0x9A5841E5",
+      "name": "FLAG_FILE_CRC_MISMATCH",
       "comment": "",
       "params": [],
       "return_type": "int*"
@@ -35854,7 +35865,7 @@
       "return_type": "int"
     },
     "0x4A721118": {
-      "name": "_0x4A721118",
+      "name": "GAME_INSTANCE_ITERATOR_START",
       "comment": "",
       "params": [
         {
@@ -35865,7 +35876,7 @@
       "return_type": "BOOL"
     },
     "0x4500B98A": {
-      "name": "_0x4500B98A",
+      "name": "GAME_INSTANCE_ITERATOR_NEXT",
       "comment": "",
       "params": [
         {
@@ -35891,7 +35902,7 @@
       "return_type": "int"
     },
     "0x5C51D43C": {
-      "name": "_0x5C51D43C",
+      "name": "ADD_PLAYLIST_TO_DB",
       "comment": "",
       "params": [
         {
@@ -35906,7 +35917,7 @@
       "return_type": "int"
     },
     "0x0E2C4B68": {
-      "name": "_0x0E2C4B68",
+      "name": "GET_PLAYLIST_FROM_DB",
       "comment": "",
       "params": [
         {
@@ -35921,7 +35932,7 @@
       "return_type": "int"
     },
     "0xB514ECA7": {
-      "name": "_0xB514ECA7",
+      "name": "GET_PLAYLIST_FROM_DB_BY_NAME",
       "comment": "",
       "params": [
         {
@@ -35978,7 +35989,7 @@
       "return_type": "int"
     },
     "0x2B8F86ED": {
-      "name": "_0x2B8F86ED",
+      "name": "NET_CREATE_FRIEND_SCORE_READER",
       "comment": "",
       "params": [
         {
@@ -35989,7 +36000,7 @@
       "return_type": "int"
     },
     "0x88249424": {
-      "name": "_0x88249424",
+      "name": "NET_REPORT_FRIEND_SCORES",
       "comment": "",
       "params": [
         {
@@ -36193,19 +36204,19 @@
   },
   "NET4": {
     "0x8808546E": {
-      "name": "_0x8808546E",
+      "name": "NET_GET_AND_CLEAR_GAME_MODE_REQUEST",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x1A47001B": {
-      "name": "_0x1A47001B",
+      "name": "NET_GET_AND_CLEAR_PLAYLIST_REQUEST",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x0FF6B8F4": {
-      "name": "_0x0FF6B8F4",
+      "name": "NET_GET_AND_CLEAR_QUIT_GAME_REQUEST",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -36243,7 +36254,7 @@
       "return_type": "void"
     },
     "0xA9459BB6": {
-      "name": "_0xA9459BB6",
+      "name": "NET_REGISTER_PLAYLIST_TYPE",
       "comment": "",
       "params": [
         {
@@ -36262,7 +36273,7 @@
       "return_type": "void"
     },
     "0x9D9784B8": {
-      "name": "_0x9D9784B8",
+      "name": "NET_SET_PLAYLIST_LOCKED",
       "comment": "",
       "params": [
         {
@@ -36283,7 +36294,7 @@
       "return_type": "int"
     },
     "0x8E0D7219": {
-      "name": "_0x8E0D7219",
+      "name": "NET_AUTHENTICATE_GAMER",
       "comment": "",
       "params": [
         {
@@ -36369,7 +36380,7 @@
       "return_type": "int"
     },
     "0xBECB3EEC": {
-      "name": "_0xBECB3EEC",
+      "name": "NET_PLAYER_BARKER_RESET",
       "comment": "",
       "params": [
         {
@@ -36392,7 +36403,7 @@
       "return_type": "int"
     },
     "0x75F27D60": {
-      "name": "_0x75F27D60",
+      "name": "NET_GET_USING_SPHERE_CURVES",
       "comment": "",
       "params": [
         {
@@ -36439,7 +36450,7 @@
       "return_type": "BOOL"
     },
     "0x805AC16A": {
-      "name": "_0x805AC16A",
+      "name": "NET_PLAYER_LIST_ADD_GAMER_SLOT",
       "comment": "",
       "params": [
         {
@@ -36554,7 +36565,7 @@
       "return_type": "int"
     },
     "0xBE7965C8": {
-      "name": "_0xBE7965C8",
+      "name": "NET_PLAYER_LIST_TIMER_SET",
       "comment": "",
       "params": [
         {
@@ -36582,7 +36593,7 @@
       "return_type": "int"
     },
     "0x95A543E2": {
-      "name": "_0x95A543E2",
+      "name": "NET_PLAYER_LIST_SET_CURRENT_ITEM_BY_SLOT",
       "comment": "",
       "params": [
         {
@@ -36593,7 +36604,7 @@
       "return_type": "int"
     },
     "0xC673362C": {
-      "name": "_NET_PLAYER_LIST_SET_RIGHT_TEXT",
+      "name": "NET_PLAYER_LIST_SET_CURRENT_ITEM_MSCORE_STRING",
       "comment": "",
       "params": [
         {
@@ -36608,7 +36619,7 @@
       "return_type": "int"
     },
     "0xEC6F465F": {
-      "name": "_0xEC6F465F",
+      "name": "NET_PLAYER_LIST_SET_CURRENT_ITEM_MSCORE_INT",
       "comment": "",
       "params": [
         {
@@ -36623,7 +36634,7 @@
       "return_type": "int"
     },
     "0x794F5C21": {
-      "name": "_NET_PLAYER_LIST_SET_ITEM_COLOR",
+      "name": "NET_PLAYER_LIST_SET_CURRENT_ITEM_TEAM",
       "comment": "",
       "params": [
         {
@@ -36645,7 +36656,7 @@
       "return_type": "int"
     },
     "0xC09ACD5C": {
-      "name": "_0xC09ACD5C",
+      "name": "NET_PLAYER_LIST_SET_CURRENT_ITEM_DEAD",
       "comment": "",
       "params": [
         {
@@ -36656,7 +36667,7 @@
       "return_type": "int"
     },
     "0xC73DAD2B": {
-      "name": "_PRINT_CHAT",
+      "name": "NET_TICKER_REPORTF",
       "comment": "",
       "params": [
         {
@@ -36691,7 +36702,7 @@
       "return_type": "int"
     },
     "0x8A1D83F2": {
-      "name": "_0x8A1D83F2",
+      "name": "NET_TICKER_CLEAR",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -36712,7 +36723,7 @@
       "return_type": "int"
     },
     "0x27D40FD1": {
-      "name": "_0x27D40FD1",
+      "name": "NET_SCOREGRAPH_SETUP",
       "comment": "",
       "params": [
         {
@@ -36731,13 +36742,13 @@
       "return_type": "int"
     },
     "0xA3AE09EF": {
-      "name": "_0xA3AE09EF",
+      "name": "NET_SCOREGRAPH_CLEAR_MARKERS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x746897AB": {
-      "name": "_0x746897AB",
+      "name": "NET_SCOREGRAPH_ADD_PLAYER_SCORE",
       "comment": "",
       "params": [
         {
@@ -36760,13 +36771,13 @@
       "return_type": "int"
     },
     "0xB4C867BD": {
-      "name": "_0xB4C867BD",
+      "name": "NET_SCOREGRAPH_ADD_PLAYER_LABEL",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x12558DBD": {
-      "name": "_0x12558DBD",
+      "name": "NET_SCOREGRAPH_ADD_TEAM_SCORE",
       "comment": "",
       "params": [
         {
@@ -36789,7 +36800,7 @@
       "return_type": "int"
     },
     "0x134AAF17": {
-      "name": "_0x134AAF17",
+      "name": "NET_SCOREGRAPH_ADD_TEAM_LABEL",
       "comment": "",
       "params": [
         {
@@ -36984,7 +36995,7 @@
   },
   "PATH": {
     "0x44930268": {
-      "name": "_0x44930268",
+      "name": "SET_PATH_LOOPING",
       "comment": "",
       "params": [
         {
@@ -36999,7 +37010,7 @@
       "return_type": "int"
     },
     "0xECC40138": {
-      "name": "_0xECC40138",
+      "name": "ADD_POINT_TO_PATH",
       "comment": "",
       "params": [
         {
@@ -37022,7 +37033,7 @@
       "return_type": "int"
     },
     "0xCD89FB70": {
-      "name": "_0xCD89FB70",
+      "name": "SET_POINT_IN_PATH",
       "comment": "",
       "params": [
         {
@@ -37049,7 +37060,7 @@
       "return_type": "int"
     },
     "0xBD374C00": {
-      "name": "_0xBD374C00",
+      "name": "GET_NUM_PATH_POINTS",
       "comment": "",
       "params": [
         {
@@ -37060,7 +37071,7 @@
       "return_type": "int"
     },
     "0x42A4CCD5": {
-      "name": "_0x42A4CCD5",
+      "name": "GET_PATH_NUM_POINTS",
       "comment": "",
       "params": [
         {
@@ -37464,7 +37475,7 @@
       "return_type": "void"
     },
     "0x65CA3037": {
-      "name": "_0x65CA3037",
+      "name": "HAS_PHYSINST_BROKEN_APART",
       "comment": "",
       "params": [
         {
@@ -38053,7 +38064,7 @@
       "return_type": "void"
     },
     "0x0912622D": {
-      "name": "_SET_ACTOR_ONE_SHOT_DEATH",
+      "name": "GET_ACTOR_ONE_SHOT_DEATH_STATUS",
       "comment": "",
       "params": [
         {
@@ -38092,7 +38103,7 @@
       "return_type": "int"
     },
     "0x758F993A": {
-      "name": "_0x758F993A",
+      "name": "GET_PHYSINST_FROM_ACTOR",
       "comment": "",
       "params": [
         {
@@ -38107,7 +38118,7 @@
       "return_type": "int"
     },
     "0x1AA3A0C0": {
-      "name": "_0x1AA3A0C0",
+      "name": "CAN_ACTOR_HOGTIE_TARGET",
       "comment": "",
       "params": [
         {
@@ -38182,7 +38193,7 @@
       "return_type": "int"
     },
     "0xC733BC9A": {
-      "name": "_0xC733BC9A",
+      "name": "SET_ENABLE_NAV_STICK_INPUT",
       "comment": "",
       "params": [
         {
@@ -38293,7 +38304,7 @@
       "return_type": "BOOL"
     },
     "0x48B7C279": {
-      "name": "_0x48B7C279",
+      "name": "IS_PLAYER_IN_COMBAT_WITHIN",
       "comment": "",
       "params": [
         {
@@ -38304,7 +38315,7 @@
       "return_type": "BOOL"
     },
     "0xCE7CE46D": {
-      "name": "_0xCE7CE46D",
+      "name": "SET_RETICLE_DRAW_DISABLED_BY_SCRIPT",
       "comment": "",
       "params": [
         {
@@ -38385,7 +38396,7 @@
       "return_type": "void"
     },
     "0x4B0D6152": {
-      "name": "_0x4B0D6152",
+      "name": "SET_PLAYER_CURRENT_NOTORIETY",
       "comment": "",
       "params": [
         {
@@ -38396,7 +38407,7 @@
       "return_type": "int"
     },
     "0x4D918005": {
-      "name": "_0x4D918005",
+      "name": "SET_PLAYER_CURRENT_HONOR",
       "comment": "",
       "params": [
         {
@@ -38443,7 +38454,7 @@
       "return_type": "void"
     },
     "0x1184EC7B": {
-      "name": "_SET_COMBAT_MODE_OVERRIDE",
+      "name": "SET_PLAYER_COMBATMODE_EXCLUSION",
       "comment": "",
       "params": [
         {
@@ -38477,7 +38488,7 @@
       "return_type": "void"
     },
     "0x900165CE": {
-      "name": "_0x900165CE",
+      "name": "ADD_PLAYER_CONTROL_HORSE_FOLLOW",
       "comment": "",
       "params": [
         {
@@ -38512,7 +38523,7 @@
       "return_type": "int"
     },
     "0xBFC8EF7C": {
-      "name": "_0xBFC8EF7C",
+      "name": "REM_PLAYER_CONTROL_HORSE_FOLLOW",
       "comment": "",
       "params": [
         {
@@ -39248,7 +39259,7 @@
       "return_type": "int"
     },
     "0x731F2C21": {
-      "name": "_SET_ACTOR_PERMANENT_2",
+      "name": "SET_ACTOR_PERMANENT_DEAD",
       "comment": "",
       "params": [
         {
@@ -39338,7 +39349,7 @@
       "return_type": "void"
     },
     "0xF2F77F44": {
-      "name": "_SET_ACTOR_OVER_HEALTH_MODE",
+      "name": "SET_ACTOR_OVERHEALTH_MODE",
       "comment": "",
       "params": [
         {
@@ -39567,7 +39578,7 @@
       "return_type": "void"
     },
     "0xBFD6AE3D": {
-      "name": "_0xBFD6AE3D",
+      "name": "IS_ACTOR_REACTING",
       "comment": "",
       "params": [
         {
@@ -39619,7 +39630,7 @@
       "return_type": "int"
     },
     "0x5C7F63E3": {
-      "name": "_0x5C7F63E3",
+      "name": "ACTOR_FORCE_NEXT_UPDATE",
       "comment": "",
       "params": [
         {
@@ -39630,7 +39641,7 @@
       "return_type": "int"
     },
     "0x87C49DBD": {
-      "name": "_ACTOR_IN_WORLD_ITERATOR",
+      "name": "IS_ANY_ACTOR_IN_SPHERE",
       "comment": "",
       "params": [
         {
@@ -39645,7 +39656,7 @@
       "return_type": "int"
     },
     "0xB42EBC65": {
-      "name": "_0xB42EBC65",
+      "name": "SET_NPC_TO_NPC_CRIPPLE_DISABLE",
       "comment": "",
       "params": [
         {
@@ -39656,7 +39667,7 @@
       "return_type": "Any"
     },
     "0x135EA21D": {
-      "name": "_0x135EA21D",
+      "name": "SET_NPC_TO_NPC_DAMAGE_SCALE_FACTOR",
       "comment": "",
       "params": [
         {
@@ -39667,7 +39678,7 @@
       "return_type": "float*"
     },
     "0xA393AC4E": {
-      "name": "_0xA393AC4E",
+      "name": "SET_PLAYER_TO_PLAYER_DAMAGE_SCALE_FACTOR",
       "comment": "",
       "params": [
         {
@@ -39869,7 +39880,7 @@
       "return_type": "BOOL"
     },
     "0xA5A24484": {
-      "name": "_0xA5A24484",
+      "name": "IS_ACTOR_HANDSUP",
       "comment": "",
       "params": [
         {
@@ -39895,7 +39906,7 @@
       "return_type": "void"
     },
     "0x1F0CD262": {
-      "name": "_0x1F0CD262",
+      "name": "SET_DLC_FALLBACK_AVATAR",
       "comment": "",
       "params": [
         {
@@ -39999,7 +40010,7 @@
       "return_type": "void"
     },
     "0x4B90D22A": {
-      "name": "_0x4B90D22A",
+      "name": "SET_PLAYER_TARGET_WEIGHT",
       "comment": "",
       "params": [
         {
@@ -40010,13 +40021,13 @@
       "return_type": "float*"
     },
     "0xF1779E65": {
-      "name": "_0xF1779E65",
+      "name": "RESET_PLAYER_TARGET_WEIGHT",
       "comment": "",
       "params": [],
       "return_type": "float*"
     },
     "0xA819497B": {
-      "name": "_0xA819497B",
+      "name": "SET_HARDLOCK_TARGET_ANGLE_WEIGHTING",
       "comment": "",
       "params": [
         {
@@ -40031,7 +40042,7 @@
       "return_type": "int*"
     },
     "0x8BE2D8B0": {
-      "name": "_0x8BE2D8B0",
+      "name": "SET_ZOMBIE_TARGET_MODE",
       "comment": "",
       "params": [
         {
@@ -40042,7 +40053,7 @@
       "return_type": "Any"
     },
     "0x91BB8548": {
-      "name": "_0x91BB8548",
+      "name": "SET_ACTOR_SKIP_VISIBILITY_CHECK",
       "comment": "",
       "params": [
         {
@@ -40057,7 +40068,7 @@
       "return_type": "int"
     },
     "0x8AE58EE1": {
-      "name": "_0x8AE58EE1",
+      "name": "GET_ACTOR_SKIP_VISIBILITY_CHECK",
       "comment": "",
       "params": [
         {
@@ -40079,7 +40090,7 @@
       "return_type": "void"
     },
     "0x0911BA31": {
-      "name": "_0x0911BA31",
+      "name": "SET_ACTOR_STREAMING_HIGH_PRIORITY",
       "comment": "",
       "params": [
         {
@@ -40096,19 +40107,19 @@
   },
   "POPULATION": {
     "0x1344515B": {
-      "name": "_0x1344515B",
+      "name": "BEGIN_POPULATION_DEFINITION",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x364F41D6": {
-      "name": "_0x364F41D6",
+      "name": "END_POPULATION_DEFINITION",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x0C1B8DEA": {
-      "name": "LINK_ACTOR_ENUM_TO_POPULATION",
+      "name": "_LINK_ACTOR_ENUM_TO_POPULATION",
       "comment": "",
       "params": [
         {
@@ -40147,7 +40158,7 @@
       "return_type": "int"
     },
     "0x93B6135B": {
-      "name": "LINK_ACTOR_ENUM_TO_POPULATION_TIMED",
+      "name": "_LINK_ACTOR_ENUM_TO_POPULATION_TIMED",
       "comment": "",
       "params": [
         {
@@ -40224,7 +40235,7 @@
       "return_type": "void"
     },
     "0x5996941F": {
-      "name": "_0x5996941F",
+      "name": "SET_ZONE_POPULATION_ANIMAL_DOMESTICATION",
       "comment": "",
       "params": [
         {
@@ -40333,7 +40344,7 @@
       "return_type": "int"
     },
     "0x0B24CE10": {
-      "name": "_0x0B24CE10",
+      "name": "SET_ZONE_POPULATION_IS_FLOCK",
       "comment": "",
       "params": [
         {
@@ -40348,7 +40359,7 @@
       "return_type": "int"
     },
     "0x07FD0A76": {
-      "name": "_0x07FD0A76",
+      "name": "SET_ZONE_POPULATION_MAX_FLOCK_SIZE",
       "comment": "",
       "params": [
         {
@@ -40363,7 +40374,7 @@
       "return_type": "int"
     },
     "0xE4A789D8": {
-      "name": "_0xE4A789D8",
+      "name": "SET_ZONE_POPULATION_MIN_FLOCK_SIZE",
       "comment": "",
       "params": [
         {
@@ -40510,7 +40521,7 @@
       "return_type": "int"
     },
     "0x04EFC113": {
-      "name": "_0x04EFC113",
+      "name": "SET_DEFAULT_POPULATION_DENSITY",
       "comment": "",
       "params": [
         {
@@ -40521,7 +40532,7 @@
       "return_type": "int"
     },
     "0xD28A3706": {
-      "name": "_0xD28A3706",
+      "name": "SET_DEFAULT_POPULATION_TYPE",
       "comment": "",
       "params": [
         {
@@ -40532,7 +40543,7 @@
       "return_type": "int"
     },
     "0xD3503922": {
-      "name": "_GET_RAND_ACTOR_ENUM_FROM_POPULATION_NATIVE",
+      "name": "GET_RAND_ACTORENUM_FROM_POPULATION_NATIVE",
       "comment": "",
       "params": [
         {
@@ -40623,7 +40634,7 @@
       "return_type": "Any"
     },
     "0x8FD12F97": {
-      "name": "_GET_NUM_ACTOR_ENUMS_IN_POPULATION",
+      "name": "GET_NUM_ACTORENUMS_IN_POPULATION",
       "comment": "",
       "params": [
         {
@@ -40664,7 +40675,7 @@
       "return_type": "Any"
     },
     "0x72F6EED0": {
-      "name": "_0x72F6EED0",
+      "name": "MARKETING_GET_AMBIENT_DENSITY_LEVEL",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -40716,7 +40727,7 @@
       "return_type": "void"
     },
     "0x2B75F13E": {
-      "name": "_0x2B75F13E",
+      "name": "AMBIENT_SPAWN_PRESTREAM_CLEAR",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -40752,7 +40763,7 @@
   },
   "PROP": {
     "0xDB70DF0C": {
-      "name": "_0xDB70DF0C",
+      "name": "GET_PHYSINST_FROM_OBJECT",
       "comment": "",
       "params": [
         {
@@ -40815,7 +40826,7 @@
       "return_type": "int"
     },
     "0x31940E4C": {
-      "name": "_0x31940E4C",
+      "name": "GET_CENTER_OF_GRAVITY",
       "comment": "",
       "params": [
         {
@@ -41111,7 +41122,7 @@
       "return_type": "void"
     },
     "0xCED86AF7": {
-      "name": "_0xCED86AF7",
+      "name": "GET_DRAW_OBJECT",
       "comment": "",
       "params": [
         {
@@ -41208,7 +41219,7 @@
   },
   "RETICLE": {
     "0x86BAAC6C": {
-      "name": "_ACTOR_RETICLE",
+      "name": "GET_ACTOR_UNDER_RETICLE",
       "comment": "",
       "params": [
         {
@@ -41242,7 +41253,7 @@
       "return_type": "int"
     },
     "0x5F566576": {
-      "name": "_0x5F566576",
+      "name": "SET_PLAYER_PERFECT_ACCURACY",
       "comment": "",
       "params": [
         {
@@ -41257,7 +41268,7 @@
       "return_type": "int"
     },
     "0xD95C01D2": {
-      "name": "_0xD95C01D2",
+      "name": "OVERRIDE_PLAYER_TARGETING_WEIGHTS",
       "comment": "",
       "params": [
         {
@@ -41327,7 +41338,7 @@
       "return_type": "int"
     },
     "0x856C3A8A": {
-      "name": "_0x856C3A8A",
+      "name": "SET_ACTOR_HARDLOCK_BIAS",
       "comment": "",
       "params": [
         {
@@ -41350,7 +41361,7 @@
       "return_type": "int"
     },
     "0x6400E005": {
-      "name": "_0x6400E005",
+      "name": "SET_ACTOR_USE_FULLSCREEN_ACQUISITION",
       "comment": "",
       "params": [
         {
@@ -41389,7 +41400,7 @@
       "return_type": "int"
     },
     "0xF1607937": {
-      "name": "_0xF1607937",
+      "name": "SET_ACTOR_CAN_BE_TARGETED",
       "comment": "",
       "params": [
         {
@@ -41428,7 +41439,7 @@
       "return_type": "int"
     },
     "0x0753A098": {
-      "name": "_0x0753A098",
+      "name": "SET_ACTOR_CAN_BE_TARGETED_CASUAL_ONLY",
       "comment": "",
       "params": [
         {
@@ -41545,7 +41556,7 @@
       "return_type": "BOOL"
     },
     "0x327E4426": {
-      "name": "_0x327E4426",
+      "name": "SET_ACTOR_CAN_BE_SOFTLOCKED",
       "comment": "",
       "params": [
         {
@@ -41584,7 +41595,7 @@
       "return_type": "int"
     },
     "0xAC8D3A0C": {
-      "name": "_0xAC8D3A0C",
+      "name": "SET_ACTOR_CAN_BE_AIMASSISTED",
       "comment": "",
       "params": [
         {
@@ -41599,7 +41610,7 @@
       "return_type": "void"
     },
     "0x57055A7D": {
-      "name": "_0x57055A7D",
+      "name": "SET_ACTOR_CAN_BE_BUMPTARGETED",
       "comment": "",
       "params": [
         {
@@ -42139,7 +42150,7 @@
       "return_type": "BOOL"
     },
     "0x38636EBF": {
-      "name": "_0x38636EBF",
+      "name": "SET_PHYSINST_COLLIDES_AGAINST_INACTIVE",
       "comment": "",
       "params": [
         {
@@ -42255,7 +42266,7 @@
       "return_type": "int"
     },
     "0x87A2C1D5": {
-      "name": "_0x87A2C1D5",
+      "name": "SET_GLOBAL_DISABLE_SPU_COLLIDER_UPDATE",
       "comment": "",
       "params": [
         {
@@ -42266,7 +42277,7 @@
       "return_type": "int"
     },
     "0x374DE883": {
-      "name": "_0x374DE883",
+      "name": "SET_GLOBAL_AGGRESSIVE_CORPSE_RECYCLING",
       "comment": "",
       "params": [
         {
@@ -42277,7 +42288,7 @@
       "return_type": "int"
     },
     "0x89B45C7D": {
-      "name": "_0x89B45C7D",
+      "name": "LIQUID_TEST_SET_VELOCITY_SCALE",
       "comment": "",
       "params": [
         {
@@ -42288,7 +42299,7 @@
       "return_type": "int"
     },
     "0x4C02E1E5": {
-      "name": "_0x4C02E1E5",
+      "name": "CLEAN_CACHE_ENTRIES",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -42311,7 +42322,7 @@
       "return_type": "Any"
     },
     "0x5A9D0738": {
-      "name": "_0x5A9D0738",
+      "name": "IS_MISSION_SCRIPT",
       "comment": "",
       "params": [
         {
@@ -42322,7 +42333,7 @@
       "return_type": "Any"
     },
     "0x15040CD2": {
-      "name": "_0x15040CD2",
+      "name": "SET_IS_MISSION_SCRIPT",
       "comment": "",
       "params": [
         {
@@ -42372,7 +42383,7 @@
       "return_type": "Any"
     },
     "0x2ADA3DD4": {
-      "name": "_0x2ADA3DD4",
+      "name": "ARE_USE_CONTEXTS_ENABLED",
       "comment": "",
       "params": [],
       "return_type": "Any"
@@ -42536,7 +42547,7 @@
       "return_type": "Any"
     },
     "0x3ECD8FEE": {
-      "name": "_SETTING_USE_CONTEXT_STRING",
+      "name": "SET_USE_CONTEXT_TEXT",
       "comment": "",
       "params": [
         {
@@ -42736,7 +42747,7 @@
       "return_type": "Any"
     },
     "0xFD6197EB": {
-      "name": "_0xFD6197EB",
+      "name": "SC_CHALLENGE_IS_VAR_VALID",
       "comment": "",
       "params": [
         {
@@ -42830,7 +42841,7 @@
       "return_type": "Any"
     },
     "0x5725C84F": {
-      "name": "_0x5725C84F",
+      "name": "SC_CHALLENGE_GET_MIN_LB_REFRESH_DELAY_SECS",
       "comment": "",
       "params": [
         {
@@ -42841,7 +42852,7 @@
       "return_type": "Any"
     },
     "0x2374C1E0": {
-      "name": "_0x2374C1E0",
+      "name": "SC_CHALLENGE_GET_MIN_SUBMIT_DELAY_SECS",
       "comment": "",
       "params": [
         {
@@ -42954,7 +42965,7 @@
       "return_type": "Any"
     },
     "0x142D9F3A": {
-      "name": "_0x142D9F3A",
+      "name": "SQUAD_COMPUTE_CENTROID",
       "comment": "",
       "params": [
         {
@@ -43030,7 +43041,7 @@
       "return_type": "int"
     },
     "0x4DD06256": {
-      "name": "_0x4DD06256",
+      "name": "SQUAD_GOAL_ADD_COMBAT",
       "comment": "",
       "params": [
         {
@@ -43053,7 +43064,7 @@
       "return_type": "int"
     },
     "0xA4BC2A1B": {
-      "name": "_0xA4BC2A1B",
+      "name": "SQUAD_GOAL_ADD_FACTION_STATUS_WITHIN_GOAL",
       "comment": "",
       "params": [
         {
@@ -43219,7 +43230,7 @@
       "return_type": "int"
     },
     "0x8BA55E8D": {
-      "name": "_0x8BA55E8D",
+      "name": "SQUAD_GOAL_ADD_GUARD_POSITION",
       "comment": "",
       "params": [
         {
@@ -43242,7 +43253,7 @@
       "return_type": "int"
     },
     "0x96DB0BA1": {
-      "name": "_0x96DB0BA1",
+      "name": "SQUAD_GOAL_ADD_HUNT_ENEMIES",
       "comment": "",
       "params": [
         {
@@ -43300,7 +43311,7 @@
       "return_type": "int"
     },
     "0x35051831": {
-      "name": "_0x35051831",
+      "name": "SQUAD_GOAL_ADD_RESTRICT_INVESTIGATION_DISTANCE_FROM_SQUAD",
       "comment": "",
       "params": [
         {
@@ -43319,7 +43330,7 @@
       "return_type": "int"
     },
     "0x435A982F": {
-      "name": "_0x435A982F",
+      "name": "SQUAD_GOAL_ADD_SHARE_PERCEPTION",
       "comment": "",
       "params": [
         {
@@ -43411,7 +43422,7 @@
       "return_type": "int"
     },
     "0xC6AF3662": {
-      "name": "_0xC6AF3662",
+      "name": "SQUAD_GOAL_GET_STATUS",
       "comment": "",
       "params": [
         {
@@ -43426,7 +43437,7 @@
       "return_type": "int"
     },
     "0xFAD7A113": {
-      "name": "_0xFAD7A113",
+      "name": "SQUAD_GOAL_IS_VALID",
       "comment": "",
       "params": [
         {
@@ -43452,7 +43463,7 @@
       "return_type": "int"
     },
     "0xCA950EF0": {
-      "name": "_0xCA950EF0",
+      "name": "SQUAD_GOALS_CLEAR",
       "comment": "",
       "params": [
         {
@@ -43952,7 +43963,7 @@
       "return_type": "int"
     },
     "0xE7A0A109": {
-      "name": "_0xE7A0A109",
+      "name": "SQUAD_HUNT_ENEMIES_SET_DEFAULT_BLIP_ALERTED",
       "comment": "",
       "params": [
         {
@@ -43963,7 +43974,7 @@
       "return_type": "int"
     },
     "0x0073024E": {
-      "name": "_0x0073024E",
+      "name": "SQUAD_HUNT_ENEMIES_SET_DEFAULT_BLIP_INVESTIGATING",
       "comment": "",
       "params": [
         {
@@ -43974,7 +43985,7 @@
       "return_type": "int"
     },
     "0x82C54B8A": {
-      "name": "_0x82C54B8A",
+      "name": "SQUAD_HUNT_ENEMIES_SET_DEFAULT_BLIP_UNALERTED",
       "comment": "",
       "params": [
         {
@@ -43989,7 +44000,7 @@
       "return_type": "int"
     },
     "0x57C67E91": {
-      "name": "_0x57C67E91",
+      "name": "SQUAD_GET_NUM_ELIMINATED_ACTORS",
       "comment": "",
       "params": [
         {
@@ -44000,7 +44011,7 @@
       "return_type": "int"
     },
     "0x55DAC120": {
-      "name": "_0x55DAC120",
+      "name": "SQUAD_GET_NUM_NOT_ELIMINATED_ACTORS",
       "comment": "",
       "params": [
         {
@@ -44026,7 +44037,7 @@
       "return_type": "void"
     },
     "0xAEDD7512": {
-      "name": "_0xAEDD7512",
+      "name": "SQUAD_GET_NOT_ELIMINATED_IMPAIRMENT_MASK",
       "comment": "",
       "params": [
         {
@@ -44288,7 +44299,7 @@
       "return_type": "int"
     },
     "0x430993FC": {
-      "name": "_SQUAD_FOLLOW_TRAFFIC_CURVE_ALLOW_PLAYER_JOIN",
+      "name": "SQUAD_FOLLOW_TRAFFIC_CURVE_SET_ALLOW_PLAYER_JOIN",
       "comment": "",
       "params": [
         {
@@ -44299,7 +44310,7 @@
       "return_type": "int"
     },
     "0x27F7C1E4": {
-      "name": "_0x27F7C1E4",
+      "name": "SQUAD_FOLLOW_TRAFFIC_CURVE_SET_DESIRED_LEADER",
       "comment": "",
       "params": [
         {
@@ -44534,7 +44545,7 @@
       "return_type": "int"
     },
     "0x3966E20B": {
-      "name": "_SQUAD_FOLLOW_PATH_IN_FORMATION_ALLOW_PLAYER_JOIN",
+      "name": "SQUAD_FOLLOW_PATH_IN_FORMATION_SET_ALLOW_PLAYER_JOIN",
       "comment": "",
       "params": [
         {
@@ -44759,7 +44770,7 @@
       "return_type": "int"
     },
     "0xBBF4F7E4": {
-      "name": "_0xBBF4F7E4",
+      "name": "GET_NUM_KILLS_LAST_DEADEYE",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -44818,7 +44829,7 @@
       "return_type": "BOOL"
     },
     "0x943BE053": {
-      "name": "_STREAMING_IS_WORLD_LOADED_2",
+      "name": "STREAMING_IS_WORLD_LOADED_PRIORITY",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
@@ -44942,7 +44953,7 @@
       "return_type": "void"
     },
     "0x620649B4": {
-      "name": "_STREAMING_GRINGO_DICT_ID",
+      "name": "STREAMING_REQUEST_GRINGO_DICTIONARY",
       "comment": "",
       "params": [
         {
@@ -44953,7 +44964,7 @@
       "return_type": "void"
     },
     "0x67994764": {
-      "name": "_STREAMING_GRINGO_DICT_ID_2",
+      "name": "STREAMING_IS_GRINGO_DICTIONARY_LOADED",
       "comment": "",
       "params": [
         {
@@ -44964,7 +44975,7 @@
       "return_type": "int"
     },
     "0x32FCA813": {
-      "name": "_STREAMING_GRINGO_DICT_ID_3",
+      "name": "STREAMING_EVICT_GRINGO_DICTIONARY",
       "comment": "",
       "params": [
         {
@@ -45056,7 +45067,7 @@
       "return_type": "void"
     },
     "0x055EF7A3": {
-      "name": "_0x055EF7A3",
+      "name": "STREAMING_GET_POI_POS",
       "comment": "",
       "params": [
         {
@@ -45071,7 +45082,7 @@
       "return_type": "void"
     },
     "0x338F85D9": {
-      "name": "_0x338F85D9",
+      "name": "STREAMING_OVERRIDE_MAIN_POI",
       "comment": "",
       "params": [
         {
@@ -45102,19 +45113,19 @@
       "return_type": "void"
     },
     "0x7D5C0C4D": {
-      "name": "_0x7D5C0C4D",
+      "name": "STREAMING_RELEASE_MAIN_POI",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0x5B404EDA": {
-      "name": "_0x5B404EDA",
+      "name": "STREAMING_HAS_OVERRIDE_MAIN_POI",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xDF3DF05A": {
-      "name": "_0xDF3DF05A",
+      "name": "STREAMING_GET_OVERRIDE_MAIN_POI_POS",
       "comment": "",
       "params": [
         {
@@ -45125,7 +45136,7 @@
       "return_type": "void"
     },
     "0x49E4EB10": {
-      "name": "_0x49E4EB10",
+      "name": "STREAMING_ENABLE_POI_STREAMING",
       "comment": "",
       "params": [
         {
@@ -45136,7 +45147,7 @@
       "return_type": "int"
     },
     "0x5F4C08A2": {
-      "name": "_0x5F4C08A2",
+      "name": "STREAMING_PREVENT_SNIPER_MODE",
       "comment": "",
       "params": [
         {
@@ -45229,7 +45240,7 @@
       "return_type": "void"
     },
     "0xF7BABE84": {
-      "name": "_0xF7BABE84",
+      "name": "STREAMING_DISPLAY_DEBUG_INFO",
       "comment": "",
       "params": [
         {
@@ -45257,19 +45268,19 @@
       "return_type": "BOOL"
     },
     "0xCA99D3B4": {
-      "name": "_0xCA99D3B4",
+      "name": "DUMP_MEMORY_STATS",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0xE74C4851": {
-      "name": "_0xE74C4851",
+      "name": "REPORT_METRICS_PERFORMANCE",
       "comment": "",
       "params": [],
       "return_type": "void"
     },
     "0x6F9C399B": {
-      "name": "_0x6F9C399B",
+      "name": "STREAMING_SET_POI_LIMIT",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -45317,7 +45328,7 @@
       "return_type": "void"
     },
     "0xE981992C": {
-      "name": "_STREAMING_FORCE_HIGH_LOD",
+      "name": "STREAMING_ENABLE_FORCE_CHILD_SECTOR_HIGH_LOD",
       "comment": "",
       "params": [
         {
@@ -45328,7 +45339,7 @@
       "return_type": "int"
     },
     "0x8CC6066C": {
-      "name": "_STREAMING_UNFORCE_HIGH_LOD",
+      "name": "STREAMING_DISABLE_FORCE_CHILD_SECTOR_HIGH_LOD",
       "comment": "",
       "params": [
         {
@@ -45339,7 +45350,7 @@
       "return_type": "int"
     },
     "0x83E043A6": {
-      "name": "_STREAMING_CREATE_PERSISTENT_CHARACTER",
+      "name": "RESIZE_ACTOR_SET",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -45528,7 +45539,7 @@
       "return_type": "Any"
     },
     "0x10873616": {
-      "name": "_TOKENIZE_STRING",
+      "name": "STRING_CLEAR_TOKENIZER",
       "comment": "",
       "params": [
         {
@@ -45599,7 +45610,7 @@
       "return_type": "Any"
     },
     "0xEC1E8210": {
-      "name": "_0xEC1E8210",
+      "name": "SS_FINALIZE",
       "comment": "",
       "params": [
         {
@@ -45610,7 +45621,7 @@
       "return_type": "Any"
     },
     "0xBEDF7AA8": {
-      "name": "_0xBEDF7AA8",
+      "name": "SS_UNFINALIZE",
       "comment": "",
       "params": [
         {
@@ -45687,7 +45698,7 @@
       "return_type": "BOOL"
     },
     "0x6857E514": {
-      "name": "_0x6857E514",
+      "name": "REMOVE_STRING_TABLE",
       "comment": "",
       "params": [
         {
@@ -48029,7 +48040,7 @@
       "return_type": "int"
     },
     "0x600A0EE4": {
-      "name": "_0x600A0EE4",
+      "name": "IS_TASKED_TO_USE_GRINGO_FOREVER",
       "comment": "",
       "params": [
         {
@@ -48044,7 +48055,7 @@
       "return_type": "int"
     },
     "0x016C6801": {
-      "name": "_0x016C6801",
+      "name": "GET_NTH_TASK_STATUS",
       "comment": "",
       "params": [
         {
@@ -48059,7 +48070,7 @@
       "return_type": "int"
     },
     "0xD062CBF6": {
-      "name": "_0xD062CBF6",
+      "name": "GET_TASK_SEQUENCE_CURRENT_TASK_INDEX",
       "comment": "",
       "params": [
         {
@@ -48334,7 +48345,7 @@
       "return_type": "Any"
     },
     "0x57FC0E16": {
-      "name": "_0x57FC0E16",
+      "name": "CONVERT_TIME_OF_DAY_TO_INT",
       "comment": "",
       "params": [],
       "return_type": "Any"
@@ -48421,7 +48432,7 @@
       "return_type": "void"
     },
     "0x2F7CB0E3": {
-      "name": "_0x2F7CB0E3",
+      "name": "ADD_TIME_USING_TIME_OF_DAY",
       "comment": "",
       "params": [
         {
@@ -48549,7 +48560,7 @@
       "return_type": "Any"
     },
     "0xAF50E8A1": {
-      "name": "_0xAF50E8A1",
+      "name": "CANCEL_TIME_WARP",
       "comment": "",
       "params": [
         {
@@ -48793,7 +48804,7 @@
       "return_type": "void"
     },
     "0xF10A56C5": {
-      "name": "_0xF10A56C5",
+      "name": "UI_SENDEVENT",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -48919,7 +48930,7 @@
       "return_type": "float"
     },
     "0x1F9EE9E1": {
-      "name": "_0x1F9EE9E1",
+      "name": "UI_REGISTER_STREAMING_TEXTURE",
       "comment": "",
       "params": [
         {
@@ -49014,7 +49025,7 @@
       "return_type": "const char*"
     },
     "0xBA89F5EA": {
-      "name": "_0xBA89F5EA",
+      "name": "UI_GET_STRING_BY_HASH",
       "comment": "",
       "params": [
         {
@@ -49029,7 +49040,7 @@
       "return_type": "int"
     },
     "0x591339B9": {
-      "name": "_0x591339B9",
+      "name": "UI_MESSAGEBOX_SET_DESCRIPTION",
       "comment": "",
       "params": [
         {
@@ -49100,7 +49111,7 @@
       "return_type": "void"
     },
     "0x9A56C3F3": {
-      "name": "_0x9A56C3F3",
+      "name": "UI_TEXTURE_SET_NAME",
       "comment": "",
       "params": [
         {
@@ -49167,7 +49178,7 @@
       "return_type": "int"
     },
     "0xDF4627D1": {
-      "name": "_0xDF4627D1",
+      "name": "UI_SET_PROGRESS_BAR_CHANGE",
       "comment": "",
       "params": [
         {
@@ -49251,7 +49262,7 @@
   },
   "UNK": {
     "0xD85BAFA8": {
-      "name": "_0xD85BAFA8",
+      "name": "SPEECH_CONTEXT_INIT_DATA",
       "comment": "",
       "params": [
         {
@@ -49262,7 +49273,7 @@
       "return_type": "void"
     },
     "0xEB99D1A9": {
-      "name": "_0xEB99D1A9",
+      "name": "SPEECH_CONTEXT_ADD_CHILD",
       "comment": "",
       "params": [
         {
@@ -49281,7 +49292,7 @@
       "return_type": "void"
     },
     "0x0386C556": {
-      "name": "_0x0386C556",
+      "name": "SPEECH_CONTEXT_SET_TIME_RESTRICTION",
       "comment": "",
       "params": [
         {
@@ -49300,7 +49311,7 @@
       "return_type": "void"
     },
     "0xF63FA0A1": {
-      "name": "_0xF63FA0A1",
+      "name": "SPEECH_CONTEXT_SET_OPPOSITE_GENDER_RESTRICTION",
       "comment": "",
       "params": [
         {
@@ -49337,7 +49348,7 @@
       "return_type": "void"
     },
     "0xBAD8B9A8": {
-      "name": "_0xBAD8B9A8",
+      "name": "SPEECH_CONTEXT_SET_WEATHER_RESTRICTION_GOOD",
       "comment": "",
       "params": [
         {
@@ -49348,7 +49359,7 @@
       "return_type": "void"
     },
     "0x6CBF76AB": {
-      "name": "_0x6CBF76AB",
+      "name": "SPEECH_CONTEXT_SET_WEATHER_RESTRICTION_RAINY",
       "comment": "",
       "params": [
         {
@@ -49359,7 +49370,7 @@
       "return_type": "void"
     },
     "0xE0DD373F": {
-      "name": "_0xE0DD373F",
+      "name": "SPEECH_CONTEXT_SET_TARGET_PLAYER",
       "comment": "",
       "params": [
         {
@@ -49385,7 +49396,7 @@
       "return_type": "void"
     },
     "0x74E7F898": {
-      "name": "_0x74E7F898",
+      "name": "SPEECH_CONTEXT_SET_PLAYER_IDENTITY_RESTRICTION",
       "comment": "",
       "params": [
         {
@@ -49400,7 +49411,7 @@
       "return_type": "void"
     },
     "0xA13D379B": {
-      "name": "_0xA13D379B",
+      "name": "SPEECH_CONTEXT_SET_ALLOW_PHRASE_REUSE",
       "comment": "",
       "params": [
         {
@@ -49451,7 +49462,7 @@
   },
   "UNK2": {
     "0x9953D4FC": {
-      "name": "_0x9953D4FC",
+      "name": "SET_GREETING_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49462,7 +49473,7 @@
       "return_type": "int"
     },
     "0x751809BB": {
-      "name": "_0x751809BB",
+      "name": "SET_NON_VERBAL_GREETING_PROBABILITY",
       "comment": "",
       "params": [
         {
@@ -49604,7 +49615,7 @@
   },
   "UNK3": {
     "0x30402375": {
-      "name": "_0x30402375",
+      "name": "AI_CONVERSE_SET_GREETING_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49615,7 +49626,7 @@
       "return_type": "Any"
     },
     "0x7922F870": {
-      "name": "_0x7922F870",
+      "name": "AI_CONVERSE_SET_GOSSIP_AMBIENT_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49626,7 +49637,7 @@
       "return_type": "Any"
     },
     "0x663723A0": {
-      "name": "_0x663723A0",
+      "name": "AI_CONVERSE_SET_GOSSIP_REPLY_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49637,7 +49648,7 @@
       "return_type": "Any"
     },
     "0x93CFB180": {
-      "name": "_0x93CFB180",
+      "name": "AI_CONVERSE_SET_GOODBYE_START_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49648,7 +49659,7 @@
       "return_type": "Any"
     },
     "0xA1FCBA24": {
-      "name": "_0xA1FCBA24",
+      "name": "AI_CONVERSE_SET_GOODBYE_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49659,13 +49670,13 @@
       "return_type": "Any"
     },
     "0x7ED8B78C": {
-      "name": "_0x7ED8B78C",
+      "name": "AI_CONVERSE_INIT_CAMPFIRE_CONTEXT_STORAGE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xD4871BDB": {
-      "name": "_0xD4871BDB",
+      "name": "AI_CONVERSE_SET_CAMPFIRE_INVITE_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49676,7 +49687,7 @@
       "return_type": "Any"
     },
     "0xA88359B9": {
-      "name": "_0xA88359B9",
+      "name": "AI_CONVERSE_SET_CAMPFIRE_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49691,7 +49702,7 @@
       "return_type": "int"
     },
     "0xAD42EABC": {
-      "name": "_0xAD42EABC",
+      "name": "AI_CONVERSE_SET_CAMPFIRE_STORY_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49706,7 +49717,7 @@
       "return_type": "int"
     },
     "0xC65F6751": {
-      "name": "_0xC65F6751",
+      "name": "AI_CONVERSE_SET_CAMPFIRE_STORY_DONE_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49717,7 +49728,7 @@
       "return_type": "Any"
     },
     "0x83CBD612": {
-      "name": "_0x83CBD612",
+      "name": "AI_CONVERSE_SET_CAMPFIRE_STORY_LEAVE_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49728,7 +49739,7 @@
       "return_type": "Any"
     },
     "0x4AD2BC30": {
-      "name": "_0x4AD2BC30",
+      "name": "AI_CONVERSE_SET_CAMPFIRE_RESPONSE_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49739,7 +49750,7 @@
       "return_type": "Any"
     },
     "0xC1F9A360": {
-      "name": "_0xC1F9A360",
+      "name": "AI_SET_CAMPFIRE_STORY_ENABLED",
       "comment": "",
       "params": [
         {
@@ -49750,7 +49761,7 @@
       "return_type": "Any"
     },
     "0xFCD2DE48": {
-      "name": "_0xFCD2DE48",
+      "name": "AI_CONVERSE_SET_GIDDYUP_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49761,7 +49772,7 @@
       "return_type": "Any"
     },
     "0xB8F1D736": {
-      "name": "_0xB8F1D736",
+      "name": "AI_CONVERSE_SET_WOAH_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49772,7 +49783,7 @@
       "return_type": "Any"
     },
     "0xEA86A817": {
-      "name": "_0xEA86A817",
+      "name": "AI_CONVERSE_DISABLE",
       "comment": "",
       "params": [
         {
@@ -49783,7 +49794,7 @@
       "return_type": "int"
     },
     "0x43F59172": {
-      "name": "_0x43F59172",
+      "name": "AI_CONVERSE_ENABLE",
       "comment": "",
       "params": [
         {
@@ -49794,7 +49805,7 @@
       "return_type": "int"
     },
     "0x52D984AF": {
-      "name": "_0x52D984AF",
+      "name": "AI_CONVERSE_ADD_CAMPFIRE_CONVERSER",
       "comment": "",
       "params": [
         {
@@ -49805,7 +49816,7 @@
       "return_type": "int"
     },
     "0x1D4786CF": {
-      "name": "_0x1D4786CF",
+      "name": "AI_CONVERSE_REMOVE_CAMPFIRE_CONVERSER",
       "comment": "",
       "params": [
         {
@@ -49816,7 +49827,7 @@
       "return_type": "int"
     },
     "0x375BBD85": {
-      "name": "_0x375BBD85",
+      "name": "AI_CONVERSE_SET_GREET_SAUCY_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49827,7 +49838,7 @@
       "return_type": "Any"
     },
     "0x4819FB7C": {
-      "name": "_0x4819FB7C",
+      "name": "AI_CONVERSE_SET_SOLICIT_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49838,7 +49849,7 @@
       "return_type": "Any"
     },
     "0xC4F468AA": {
-      "name": "_0xC4F468AA",
+      "name": "AI_CONVERSE_SET_REJECTION_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49860,7 +49871,7 @@
       "return_type": "void"
     },
     "0xD6BBC8AA": {
-      "name": "_0xD6BBC8AA",
+      "name": "AI_CONVERSE_SET_GREET_PLAYER_CONTEXT",
       "comment": "",
       "params": [
         {
@@ -49873,7 +49884,7 @@
   },
   "UNK4": {
     "0x77D6ABF5": {
-      "name": "_0x77D6ABF5",
+      "name": "NET_GAMER_SET_ACTOR_OVERRIDE",
       "comment": "",
       "params": [
         {
@@ -49888,7 +49899,7 @@
       "return_type": "void"
     },
     "0xE79F6CD4": {
-      "name": "_0xE79F6CD4",
+      "name": "NET_GAMER_SET_TEAM",
       "comment": "",
       "params": [
         {
@@ -50100,7 +50111,7 @@
       "return_type": "int"
     },
     "0xA0A5FF80": {
-      "name": "_0xA0A5FF80",
+      "name": "NET_GAMER_SET_ICON_STEALTH_OVERRIDE",
       "comment": "",
       "params": [
         {
@@ -50115,7 +50126,7 @@
       "return_type": "int"
     },
     "0x2634F265": {
-      "name": "_0x2634F265",
+      "name": "NET_GAMER_SET_BLIP_STEALTH_OVERRIDE",
       "comment": "",
       "params": [
         {
@@ -50215,7 +50226,7 @@
       "return_type": "Any"
     },
     "0x9DDB29B1": {
-      "name": "_0x9DDB29B1",
+      "name": "NET_POSSE_GET_LEADER_WAYPOINT",
       "comment": "",
       "params": [
         {
@@ -50226,7 +50237,7 @@
       "return_type": "int"
     },
     "0x24A1B923": {
-      "name": "_0x24A1B923",
+      "name": "NET_POSSE_IS_LEADER_WAYPOINT_VALID",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -50304,13 +50315,13 @@
       "return_type": "Any"
     },
     "0x1BA90C92": {
-      "name": "_0x1BA90C92",
+      "name": "IS_ACTOR_JACKING_VEHICLE",
       "comment": "",
       "params": [],
       "return_type": "Any"
     },
     "0x12325AE7": {
-      "name": "_0x12325AE7",
+      "name": "IS_ACTOR_INSIDE_VEHICLE",
       "comment": "",
       "params": [
         {
@@ -50358,7 +50369,7 @@
       "return_type": "Any"
     },
     "0xDAB0D820": {
-      "name": "_0xDAB0D820",
+      "name": "GET_NUM_DRAFTED_ACTORS",
       "comment": "",
       "params": [
         {
@@ -50510,7 +50521,7 @@
       "return_type": "Any"
     },
     "0xF0354E46": {
-      "name": "_0xF0354E46",
+      "name": "GET_NUM_OCCUPIED_SEATS",
       "comment": "",
       "params": [
         {
@@ -50867,7 +50878,7 @@
       "return_type": "void"
     },
     "0x268D546D": {
-      "name": "_0x268D546D",
+      "name": "TRAIN_SET_POSITION_DIRECTION_PRECISELY",
       "comment": "",
       "params": [
         {
@@ -50959,7 +50970,7 @@
       "return_type": "Any"
     },
     "0x7CFD539A": {
-      "name": "_0x7CFD539A",
+      "name": "TRAIN_SET_PARTICLE_EFFECTS_ENABLED",
       "comment": "",
       "params": [
         {
@@ -51000,7 +51011,7 @@
       "return_type": "Any"
     },
     "0x1F9F8C04": {
-      "name": "_0x1F9F8C04",
+      "name": "TRAIN_SET_JUNCTION_STATE",
       "comment": "",
       "params": [
         {
@@ -51011,7 +51022,7 @@
       "return_type": "Any"
     },
     "0xC5A04EC7": {
-      "name": "_0xC5A04EC7",
+      "name": "TRAIN_GET_CURVE_NETWORK_POINT",
       "comment": "",
       "params": [
         {
@@ -51188,7 +51199,7 @@
       "return_type": "void"
     },
     "0xF801CBD7": {
-      "name": "_0xF801CBD7",
+      "name": "IS_ANY_VEHICLE_WHEEL_DETACHED",
       "comment": "",
       "params": [
         {
@@ -51207,7 +51218,7 @@
       "return_type": "Any"
     },
     "0x71A3F193": {
-      "name": "_0x71A3F193",
+      "name": "GET_VEHICLE_WHEEL_COUNT_INITIAL",
       "comment": "",
       "params": [
         {
@@ -51218,7 +51229,7 @@
       "return_type": "Any"
     },
     "0xFB252BA9": {
-      "name": "_0xFB252BA9",
+      "name": "GET_VEHICLE_WHEEL_COUNT_CURRENT",
       "comment": "",
       "params": [
         {
@@ -51301,7 +51312,7 @@
       "return_type": "BOOL"
     },
     "0x0F474297": {
-      "name": "_0x0F474297",
+      "name": "DELETE_PROJECTILES_IN_VOLUME",
       "comment": "",
       "params": [
         {
@@ -51387,7 +51398,7 @@
       "return_type": "void"
     },
     "0x9FC69F27": {
-      "name": "_0x9FC69F27",
+      "name": "GENERATE_RANDOM_POINT_IN_VOLUME",
       "comment": "",
       "params": [
         {
@@ -51402,7 +51413,7 @@
       "return_type": "int"
     },
     "0x026F7060": {
-      "name": "_0x026F7060",
+      "name": "FIND_VOL_SURFACE_POINTS_FOR_POINT",
       "comment": "",
       "params": [
         {
@@ -51446,7 +51457,7 @@
       "return_type": "int"
     },
     "0xAB2D8A68": {
-      "name": "_GIVE_ITEM_BY_CRC",
+      "name": "ADD_ITEM_BY_CRC",
       "comment": "",
       "params": [
         {
@@ -51461,7 +51472,7 @@
       "return_type": "void"
     },
     "0x7609A328": {
-      "name": "_0x7609A328",
+      "name": "HAS_INVENTORY_COMPONENT",
       "comment": "",
       "params": [],
       "return_type": "Any"
@@ -51478,7 +51489,7 @@
       "return_type": "Any"
     },
     "0x4BB2BC20": {
-      "name": "_0x4BB2BC20",
+      "name": "GET_ITEM_COUNT_BY_CRC",
       "comment": "",
       "params": [
         {
@@ -51489,13 +51500,13 @@
       "return_type": "Any"
     },
     "0xF52BA99F": {
-      "name": "_0xF52BA99F",
+      "name": "GET_MAX_ITEM_COUNT",
       "comment": "",
       "params": [],
       "return_type": "Any"
     },
     "0xE712FCB": {
-      "name": "_0xE712FCB",
+      "name": "SET_MAX_ITEM_COUNT",
       "comment": "",
       "params": [
         {
@@ -51525,7 +51536,7 @@
       "return_type": "Any"
     },
     "0xF750D150": {
-      "name": "_GIVE_ITEM_BY_CRC_2",
+      "name": "ADD_ACCESSORY_BY_CRC",
       "comment": "",
       "params": [
         {
@@ -51600,7 +51611,7 @@
       "return_type": "Any"
     },
     "0xC38F697": {
-      "name": "_0xC38F697",
+      "name": "HAS_ACCESSORY",
       "comment": "",
       "params": [
         {
@@ -51678,7 +51689,7 @@
       "return_type": "Any"
     },
     "0x50C0E83F": {
-      "name": "_0x50C0E83F",
+      "name": "IS_ITEM_WEAPON_BY_CRC",
       "comment": "",
       "params": [],
       "return_type": "Any"
@@ -51801,13 +51812,13 @@
       "return_type": "void"
     },
     "0x8F4B473D": {
-      "name": "_0x8F4B473D",
+      "name": "ACTOR_PUT_WEAPON_IN_HAND",
       "comment": "",
       "params": [],
       "return_type": "Any"
     },
     "0x09950C1B": {
-      "name": "_0x09950C1B",
+      "name": "ACTOR_HAS_WEAPON_IN_HAND",
       "comment": "",
       "params": [
         {
@@ -51822,7 +51833,7 @@
       "return_type": "Any"
     },
     "0x13A63AA7": {
-      "name": "_0x13A63AA7",
+      "name": "ACTOR_PUT_ITEM_AWAY",
       "comment": "",
       "params": [],
       "return_type": "Any"
@@ -51867,7 +51878,7 @@
       "return_type": "Any"
     },
     "0x659532FB": {
-      "name": "_0x659532FB",
+      "name": "ACTOR_GET_BEST_WEAPON_OF_TYPE",
       "comment": "",
       "params": [
         {
@@ -51908,7 +51919,7 @@
       "return_type": "Any"
     },
     "0x6262DC5E": {
-      "name": "_0x6262DC5E",
+      "name": "GET_WEAPON_IS_EXTERNALLY_CREATED",
       "comment": "",
       "params": [
         {
@@ -51930,7 +51941,7 @@
       "return_type": "Any"
     },
     "0xCDD6F94": {
-      "name": "_0xCDD6F94",
+      "name": "GET_WEAPON_IN_HAND_CRC",
       "comment": "",
       "params": [
         {
@@ -51952,7 +51963,7 @@
       "return_type": "Any"
     },
     "0x2776B0F5": {
-      "name": "_0x2776B0F5",
+      "name": "GET_WEAPON_ENUM_FROM_CRC",
       "comment": "",
       "params": [
         {
@@ -51963,7 +51974,7 @@
       "return_type": "Any"
     },
     "0xFD46B231": {
-      "name": "_0xFD46B231",
+      "name": "ACTOR_USE_ITEM_NOW",
       "comment": "",
       "params": [
         {
@@ -52023,7 +52034,7 @@
       "return_type": "void"
     },
     "0xF7696B8B": {
-      "name": "_0xF7696B8B",
+      "name": "DEEQUIP_ACCESSORY",
       "comment": "",
       "params": [
         {
@@ -52055,7 +52066,7 @@
       "return_type": "Any"
     },
     "0x7FDDF876": {
-      "name": "_0x7FDDF876",
+      "name": "DROP_ACCESSORY_ENUM",
       "comment": "",
       "params": [
         {
@@ -52093,7 +52104,7 @@
       "return_type": "void"
     },
     "0xB008EF49": {
-      "name": "_0xB008EF49",
+      "name": "ACTOR_SET_WEAPON_AMMO_BY_CRC",
       "comment": "",
       "params": [
         {
@@ -52164,7 +52175,7 @@
       "return_type": "Any"
     },
     "0xA091179F": {
-      "name": "_HAS_MESH_BIT",
+      "name": "ACTOR_HAS_VARIABLE_MESH",
       "comment": "",
       "params": [
         {
@@ -52175,7 +52186,7 @@
       "return_type": "Any"
     },
     "0x17883570": {
-      "name": "_0x17883570",
+      "name": "GET_AMMOENUM_FOR_WEAPONENUM",
       "comment": "",
       "params": [
         {
@@ -52186,7 +52197,7 @@
       "return_type": "Any"
     },
     "0xA8F64D32": {
-      "name": "GET_WEAPON_ENUM_FOR_AMMO_ENUM",
+      "name": "GET_WEAPONENUM_FOR_AMMOENUM",
       "comment": "",
       "params": [
         {
@@ -52235,7 +52246,7 @@
       "return_type": "int"
     },
     "0x80B30545": {
-      "name": "_0x80B30545",
+      "name": "IS_GOLDEN_GUNS_ON",
       "comment": "",
       "params": [
         {
@@ -52382,7 +52393,7 @@
       "return_type": "BOOL"
     },
     "0xBE39208A": {
-      "name": "_0xBE39208A",
+      "name": "ACTOR_SHOULD_DROP_ITEMS_ON_DEATH",
       "comment": "",
       "params": [
         {
@@ -52393,7 +52404,7 @@
       "return_type": "Any"
     },
     "0xBC46E3E1": {
-      "name": "_0xBC46E3E1",
+      "name": "ACTOR_SET_DROP_ITEM_ON_DEATH_ENUMERATED",
       "comment": "",
       "params": [
         {
@@ -52504,7 +52515,7 @@
       "return_type": "Any"
     },
     "0x3E8E7D7B": {
-      "name": "_ADD_HAT",
+      "name": "SETUP_ASSOCIATED_FRAGMENTS",
       "comment": "",
       "params": [
         {
@@ -52821,7 +52832,7 @@
       "return_type": "const char*"
     },
     "0x87C5471F": {
-      "name": "_0x87C5471F",
+      "name": "GET_WEAPON_INTERNAL_NAME",
       "comment": "",
       "params": [
         {
@@ -52861,7 +52872,7 @@
       "return_type": "int"
     },
     "0x0E4B7A33": {
-      "name": "_SET_WEAPON_ENUM_LOCKED",
+      "name": "SET_WEAPONENUM_LOCKED",
       "comment": "",
       "params": [
         {
@@ -52876,7 +52887,7 @@
       "return_type": "int"
     },
     "0xCCE4A339": {
-      "name": "_0xCCE4A339",
+      "name": "IS_WEAPONENUM_LOCKED",
       "comment": "",
       "params": [
         {
@@ -52909,7 +52920,7 @@
       "return_type": "Any"
     },
     "0x08A655C5": {
-      "name": "_0x08A655C5",
+      "name": "SET_AMMO_DROP_BIAS",
       "comment": "",
       "params": [
         {
@@ -52935,7 +52946,7 @@
       "return_type": "const char*"
     },
     "0x2AF84928": {
-      "name": "_0x2AF84928",
+      "name": "GET_AMMO_ENUM_ICON_NAME",
       "comment": "",
       "params": [
         {
@@ -52952,7 +52963,7 @@
       "return_type": "float"
     },
     "0xD291A820": {
-      "name": "_0xD291A820",
+      "name": "RESOLVE_DLC_WEAPONENUM",
       "comment": "",
       "params": [
         {
@@ -53121,13 +53132,13 @@
       "return_type": "void"
     },
     "0xF0C9645A": {
-      "name": "_0xF0C9645A",
+      "name": "SET_LIGHTNING_AMOUNT",
       "comment": "",
       "params": [],
       "return_type": "Any"
     },
     "0xC4C59CA4": {
-      "name": "_0xC4C59CA4",
+      "name": "SET_WEATHER_TYPE_GOOD",
       "comment": "",
       "params": [
         {
@@ -53138,7 +53149,7 @@
       "return_type": "Any"
     },
     "0xA915DC46": {
-      "name": "_0xA915DC46",
+      "name": "SET_WEATHER_TYPE_RAINY",
       "comment": "",
       "params": [
         {
@@ -53149,7 +53160,7 @@
       "return_type": "Any"
     },
     "0x9B390724": {
-      "name": "_0x9B390724",
+      "name": "TRIGGER_LIGHTNING_SEQUENCE",
       "comment": "",
       "params": [
         {
@@ -53160,7 +53171,7 @@
       "return_type": "Any"
     },
     "0x858FD48D": {
-      "name": "_0x858FD48D",
+      "name": "TRIGGER_CLOUD_LIGHTNING_SEQUENCE",
       "comment": "",
       "params": [
         {
@@ -53194,7 +53205,7 @@
       "return_type": "void"
     },
     "0xFEEC4EE2": {
-      "name": "_0xFEEC4EE2",
+      "name": "IS_WEATHER_SPHERE_ENABLED",
       "comment": "",
       "params": [],
       "return_type": "Any"
