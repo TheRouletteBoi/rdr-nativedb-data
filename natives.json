@@ -10210,7 +10210,7 @@
       "return_type": "int"
     },
     "0x900C489A": {
-      "name": "_0x900C489A",
+      "name": "AUDIO_CLEAR_ALL_ALTERNATE_CONTEXTS",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -10313,7 +10313,7 @@
           "type": "Any",
           "name": "p0"
         }
-	  ],
+      ],
       "return_type": "void"
     },
     "0x5E07BF3F": {
@@ -16060,7 +16060,7 @@
       "return_type": "int"
     },
     "0xF4D0807E": {
-      "name": "_DLC_CLIST",
+      "name": "DLC_INIT_STRINGTABLE_STREAMABLES",
       "comment": "",
       "params": [
         {
@@ -16086,7 +16086,7 @@
       "return_type": "BOOL"
     },
     "0x2F78AEFA": {
-      "name": "_0x2F78AEFA",
+      "name": "DLC_UNMOUNT_PACK",
       "comment": "PS4/Switch/PC only",
       "params": [
         {
@@ -17322,49 +17322,49 @@
       "return_type": "void"
     },
     "0x28246500": {
-      "name": "_0x28246500",
+      "name": "_SET_IS_ZOMBIE_DLC_ACTIVE",
       "comment": "PS4/Switch/PC only",
       "params": [],
       "return_type": "void"
     },
     "0x8CF15FCB": {
-      "name": "_0x8CF15FCB",
+      "name": "_IS_ZOMBIE_DLC_ACTIVE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x4A8066FB": {
-      "name": "_0x4A8066FB",
+      "name": "_LOAD_ZOMBIE_DLC_ASSETS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x1DDB57A6": {
-      "name": "_0x1DDB57A6",
+      "name": "_LOAD_ZOMBIE_DLC_ASSETS_MP",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x88863344": {
-      "name": "_0x88863344",
+      "name": "_UNLOAD_ZOMBIE_DLC_ASSETS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xE7371670": {
-      "name": "_0xE7371670",
+      "name": "_IS_ZOMBIE_DLC_LOAD_COMPLETE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x03E2B631": {
-      "name": "_0x03E2B631",
+      "name": "_IS_ZOMBIE_DLC_UNLOAD_COMPLETE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xCA840DBB": {
-      "name": "_0xCA840DBB",
+      "name": "_SET_ZOMBIE_DLC_PHOSPHORUS_AMMO_ACTIVE",
       "comment": "",
       "params": [
         {
@@ -17375,7 +17375,7 @@
       "return_type": "Any"
     },
     "0x4F3F3CA5": {
-      "name": "_0x4F3F3CA5",
+      "name": "_IS_ZOMBIE_DLC_PHOSPHORUS_AMMO_ACTIVE",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -17598,7 +17598,7 @@
       "return_type": "int"
     },
     "0xE437932A": {
-      "name": "_0xE437932A",
+      "name": "SET_USE_ACTOR_STAGGER",
       "comment": "PS4/Switch/PC only",
       "params": [],
       "return_type": "int"
@@ -17974,6 +17974,28 @@
     }
   },
   "CORE": {
+    "0x14993D3B": {
+      "name": "_0x14993D3B",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xE8AB1D5B": {
+      "name": "_0xE8AB1D5B",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
     "0x505A8057": {
       "name": "SET_DEBUG_DRAW",
       "comment": "",
@@ -18987,6 +19009,72 @@
       ],
       "return_type": "float"
     },
+    "0x062C5047": {
+      "name": "_0x062C5047",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xDA674AE0": {
+      "name": "_0xDA674AE0",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x973F30EE": {
+      "name": "_0x973F30EE",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xC1F9AC6B": {
+      "name": "_0xC1F9AC6B",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x4586516D": {
+      "name": "_0x4586516D",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x7E452200": {
+      "name": "_0x7E452200",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
     "0x9AAF7E28": {
       "name": "GET_STICK_X",
       "comment": "",
@@ -19068,6 +19156,116 @@
         }
       ],
       "return_type": "int"
+    },
+    "0x5598C970": {
+      "name": "_0x5598C970",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xDC4B85A8": {
+      "name": "_0xDC4B85A8",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xB59B352A": {
+      "name": "_0xB59B352A",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x5AC5CE22": {
+      "name": "_0x5AC5CE22",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x07D4535A1": {
+      "name": "_0x07D4535A1",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x55ADBA8B": {
+      "name": "GET_MOUSE_AXIS_X",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x455A19E4": {
+      "name": "GET_MOUSE_AXIS_Y",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x88F07597": {
+      "name": "_0x88F07597",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x3A62D87D": {
+      "name": "_0x3A62D87D",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x5FE80264": {
+      "name": "_0x5FE80264",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
     },
     "0xF7974EBA": {
       "name": "DEBUG_DRAW_VECTOR",
@@ -19568,6 +19766,17 @@
       "params": [],
       "return_type": "int"
     },
+    "0x580D21D9": {
+      "name": "_0x580D21D9",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
     "0xAABE1330": {
       "name": "DOES_FILE_EXIST",
       "comment": "",
@@ -19597,17 +19806,39 @@
       "params": [],
       "return_type": "BOOL"
     },
-	"0x99989FCD": {
+    "0x99989FCD": {
       "name": "IS_PS4",
       "comment": "PS4/Switch/PC only",
       "params": [],
       "return_type": "BOOL"
     },
-	"0x92E03425": {
+    "0x92E03425": {
       "name": "IS_SWITCH",
       "comment": "PS4/Switch/PC only",
       "params": [],
       "return_type": "BOOL"
+    },
+    "0xFC7766A0": {
+      "name": "_0xFC7766A0",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x16C54BC5": {
+      "name": "IS_PC",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
     },
     "0xB427CB25": {
       "name": "_0xB427CB25",
@@ -19620,6 +19851,28 @@
       "comment": "",
       "params": [],
       "return_type": "int"
+    },
+    "0xFB46B5D6": {
+      "name": "_0xFB46B5D6",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xFDDB1BFA": {
+      "name": "_0xFDDB1BFA",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
     },
     "0xC3C0F1F2": {
       "name": "IS_PLAYER_SIGNED_IN",
@@ -19721,7 +19974,7 @@
       "return_type": "int"
     },
     "0x81A7CDB6": {
-      "name": "_0x81A7CDB6",
+      "name": "SET_TREE_COST_MODIFIER",
       "comment": "PS4/Switch/PC only",
       "params": [
         {
@@ -19732,7 +19985,7 @@
       "return_type": "Any"
     },
     "0x2A04518E": {
-      "name": "_0x2A04518E",
+      "name": "SET_USES_QUAD_IK_FIX",
       "comment": "PS4/Switch/PC only",
       "params": [
         {
@@ -19743,7 +19996,7 @@
       "return_type": "Any"
     },
     "0x4FC61E5F": {
-      "name": "_0x4FC61E5F",
+      "name": "SET_VISIBILITY_FOV_CLAMP",
       "comment": "PS4/Switch/PC only",
       "params": [
         {
@@ -23372,6 +23625,17 @@
       ],
       "return_type": "void"
     },
+    "0x247348C5": {
+      "name": "_0x247348C5",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
     "0x545EC471": {
       "name": "UI_HIDE_PROMPT",
       "comment": "",
@@ -25153,6 +25417,17 @@
         }
       ],
       "return_type": "void"
+    },
+    "0x8A8BDCF9": {
+      "name": "_0x8A8BDCF9",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
     },
     "0x4486E8C7": {
       "name": "CLEAR_NEWSPAPER",
@@ -34319,7 +34594,7 @@
       ],
       "return_type": "int"
     },
-	"0x7614AEBA": {
+    "0x7614AEBA": {
       "name": "_0x7614AEBA",
       "comment": "PS4/Switch/PC only",
       "params": [],
@@ -35917,7 +36192,7 @@
       "return_type": "int*"
     },
     "0x489A2B93": {
-      "name": "_0x489A2B93",
+      "name": "NET_SET_UNLOCK",
       "comment": "PS4/Switch/PC only",
       "params": [],
       "return_type": "int*"
@@ -40175,6 +40450,17 @@
       ],
       "return_type": "void"
     },
+    "0x968F0317": {
+      "name": "_0x968F0317",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
     "0x0911BA31": {
       "name": "SET_ACTOR_STREAMING_HIGH_PRIORITY",
       "comment": "",
@@ -41303,7 +41589,7 @@
       "return_type": "void"
     },
     "0x09D4CDEF": {
-      "name": "_0x09D4CDEF",
+      "name": "_SET_MAXIMUM_SHADOW_SPOTLIGHT_CASCADE_COUNT",
       "comment": "PS4/Switch/PC only",
       "params": [
         {
@@ -45446,6 +45732,28 @@
       ],
       "return_type": "int"
     },
+    "0x5B4999C2": {
+      "name": "STREAMING_ENABLE_FORCE_CHILD_SECTOR_LOW_LOD",
+      "comment": "PC only, hash generated at runtime",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x3602DA93": {
+      "name": "STREAMING_DISABLE_FORCE_CHILD_SECTOR_LOW_LOD",
+      "comment": "PC only, hash generated at runtime",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
     "0x83E043A6": {
       "name": "RESIZE_ACTOR_SET",
       "comment": "",
@@ -49355,9 +49663,31 @@
         }
       ],
       "return_type": "int"
+    },
+    "0xD116B520": {
+      "name": "SET_RUNNING_BENCHMARK",
+      "comment": "PC only, hash generated at runtime",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "int"
+    },
+    "0x2DFDDDD9": {
+      "name": "GET_RUNNING_BENCHMARK",
+      "comment": "PC only, hash generated at runtime",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "int"
     }
   },
-  "AI_SPEECH": {
+  "AI_SPEECH2": {
     "0xD85BAFA8": {
       "name": "SPEECH_CONTEXT_INIT_DATA",
       "comment": "",
@@ -53310,6 +53640,239 @@
     "0x21A68D47": {
       "name": "_0x21A68D47",
       "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x8291ED47": {
+      "name": "_0x8291ED47",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xB288F455": {
+      "name": "_0xB288F455",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    }
+  },
+  "PC": {
+    "0x8CF09BD7": {
+      "name": "_0x8CF09BD7",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xBAE0A3F8": {
+      "name": "_0xBAE0A3F8",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x9F832205": {
+      "name": "_0x9F832205",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xF413FDB2": {
+      "name": "_0xF413FDB2",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x63D3AAFC": {
+      "name": "_0x63D3AAFC",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x3B93B981": {
+      "name": "_0x3B93B981",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x854ACCFE": {
+      "name": "SET_HORSE_BREAK_INTRO",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xEB0F9F0C": {
+      "name": "_0xEB0F9F0C",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xFD198D8B": {
+      "name": "SET_SAVING_GAME",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xA62D75BA": {
+      "name": "SET_SAVING_GAME_ZOMBIE",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x7C730896": {
+      "name": "_0x7C730896",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x02859CE6": {
+      "name": "_0x02859CE6",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x5B47E49A": {
+      "name": "_0x5B47E49A",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x97609434": {
+      "name": "_0x97609434",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x920DB21": {
+      "name": "_0x0920DB21",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x9CED1C7E": {
+      "name": "_0x9CED1C7E",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xD9DDA7E2": {
+      "name": "_0xD9DDA7E2",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x14664FF4": {
+      "name": "SET_USING_BINOCULARS",
+      "comment": "PC only",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xB0E60B63": {
+      "name": "_0xB0E60B63",
+      "comment": "PC only",
       "params": [
         {
           "type": "Any",
