@@ -17322,43 +17322,43 @@
       "return_type": "void"
     },
     "0x28246500": {
-      "name": "_SET_IS_ZOMBIE_DLC_ACTIVE",
+      "name": "SET_ZOMBIE_DLC_IS_ACTIVE",
       "comment": "PS4/Switch/PC only",
       "params": [],
       "return_type": "void"
     },
     "0x8CF15FCB": {
-      "name": "_IS_ZOMBIE_DLC_ACTIVE",
+      "name": "ZOMBIE_DLC_IS_ACTIVE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x4A8066FB": {
-      "name": "_LOAD_ZOMBIE_DLC_ASSETS",
+      "name": "ZOMBIE_DLC_LOAD_ASSETS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x1DDB57A6": {
-      "name": "_LOAD_ZOMBIE_DLC_ASSETS_MP",
+      "name": "ZOMBIE_DLC_LOAD_ASSETS_MP",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x88863344": {
-      "name": "_UNLOAD_ZOMBIE_DLC_ASSETS",
+      "name": "ZOMBIE_DLC_UNLOAD_ASSETS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xE7371670": {
-      "name": "_IS_ZOMBIE_DLC_LOAD_COMPLETE",
+      "name": "ZOMBIE_DLC_IS_LOAD_COMPLETE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x03E2B631": {
-      "name": "_IS_ZOMBIE_DLC_UNLOAD_COMPLETE",
+      "name": "ZOMBIE_DLC_IS_UNLOAD_COMPLETE",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -51024,7 +51024,7 @@
       "return_type": "void"
     },
     "0xB12584C8": {
-      "name": "_0xB12584C8",
+      "name": "ACCESSORIZE_VEHICLE_HORSES",
       "comment": "",
       "params": [
         {
@@ -53401,7 +53401,7 @@
       "return_type": "int"
     },
     "0xF4641CF4": {
-      "name": "_0xF4641CF4",
+      "name": "ADD_IDLEFX_TO_WEAPON",
       "comment": "",
       "params": [
         {
