@@ -17017,7 +17017,7 @@
       "return_type": "Any"
     },
     "0xD771AF0B": {
-      "name": "_SET_FACTION_STATUS_ONEWAY",
+      "name": "SET_FACTIONS_STATUS_ONE_WAY",
       "comment": "",
       "params": [
         {
@@ -17028,7 +17028,7 @@
       "return_type": "void"
     },
     "0x4C28B11E": {
-      "name": "_SET_FACTION_STATUS_TWOWAY",
+      "name": "SET_FACTIONS_STATUS_TWO_WAY",
       "comment": "",
       "params": [
         {
@@ -17039,7 +17039,7 @@
       "return_type": "void"
     },
     "0x6118212B": {
-      "name": "_SET_FACTIONB_STATUS_TWOWAY",
+      "name": "SET_AMBIENT_FACTIONS_STATUS_TWO_WAY",
       "comment": "",
       "params": [
         {
@@ -17050,7 +17050,7 @@
       "return_type": "void"
     },
     "0x902781BF": {
-      "name": "_0x902781BF",
+      "name": "RESET_FACTIONS_STATUS_TWO_WAY",
       "comment": "",
       "params": [
         {
@@ -17061,7 +17061,7 @@
       "return_type": "Any"
     },
     "0xF9C5DC76": {
-      "name": "_0xF9C5DC76",
+      "name": "RESET_AMBIENT_FACTIONS_STATUS_TWO_WAY",
       "comment": "",
       "params": [
         {
@@ -17747,7 +17747,7 @@
       "return_type": "int"
     },
     "0x15001332": {
-      "name": "_0x15001332",
+      "name": "FIRE_STOP_ALL_FIRES",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -17764,7 +17764,7 @@
       "return_type": "void"
     },
     "0x11A65FFB": {
-      "name": "_EXTINGUISH_FLAMES_IN_VOLUME",
+      "name": "FIRE_STOP_FLAMES_IN_VOLUME",
       "comment": "",
       "params": [
         {
