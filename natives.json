@@ -1,5 +1,5 @@
 {
-  "SYSTEM": {
+  "BUILTIN": {
     "0x7715C03B": {
       "name": "WAIT",
       "comment": "",
