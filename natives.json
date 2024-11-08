@@ -13934,7 +13934,7 @@
       "return_type": "int*"
     },
     "0xD8218A5B": {
-      "name": "_0xD8218A5B",
+      "name": "GET_CUTSCENE_TUNER_CUTSCENE_INDEX",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -19224,7 +19224,7 @@
       "return_type": "BOOL"
     },
     "0x0CC3D8F6": {
-      "name": "_IS_ACTOR_FULLY_FADED",
+      "name": "IS_ACTOR_FULLY_FADED_EXT",
       "comment": "",
       "params": [
         {
@@ -19400,7 +19400,7 @@
       "return_type": "int"
     },
     "0xEB7B0FAA": {
-      "name": "_0xEB7B0FAA",
+      "name": "SET_ACTOR_ALLOW_NM_BUMP_REACTIONS",
       "comment": "",
       "params": [
         {
@@ -19488,7 +19488,7 @@
       "return_type": "int*"
     },
     "0xC28A5950": {
-      "name": "_SET_ALLOW_PLAYER_GREET_RESPONSES",
+      "name": "SET_ACTOR_ALLOW_PLAYER_GREET_RESPONSES",
       "comment": "",
       "params": [
         {
@@ -22632,7 +22632,7 @@
       "return_type": "void"
     },
     "0x25A42C69": {
-      "name": "_0x25A42C69",
+      "name": "SET_GREETING_LOOK_AT_ANGLE_DEFAULT",
       "comment": "",
       "params": [
         {
@@ -22643,7 +22643,7 @@
       "return_type": "void"
     },
     "0x40121E4F": {
-      "name": "_0x40121E4F",
+      "name": "SET_GREETING_LOOK_AT_ANGLE_ACTOR_SPECIFIC",
       "comment": "",
       "params": [
         {
@@ -22658,7 +22658,7 @@
       "return_type": "void"
     },
     "0x86CB8CFB": {
-      "name": "_0x86CB8CFB",
+      "name": "SET_GREETING_PROBABILITY_NPC_DEFAULT",
       "comment": "",
       "params": [
         {
@@ -22669,7 +22669,7 @@
       "return_type": "void"
     },
     "0xD6AD0016": {
-      "name": "_0xD6AD0016",
+      "name": "SET_GREETING_PROBABILITY_PLAYER_DEFAULT",
       "comment": "",
       "params": [
         {
@@ -22680,7 +22680,7 @@
       "return_type": "void"
     },
     "0xDE84B637": {
-      "name": "_0xDE84B637",
+      "name": "SET_GREETING_PROBABILITY_ACTOR_SPECIFIC",
       "comment": "",
       "params": [
         {
@@ -22695,7 +22695,7 @@
       "return_type": "void"
     },
     "0x8C00C0BE": {
-      "name": "_0x8C00C0BE",
+      "name": "SET_GREETING_MIN_TIME_INTERVAL",
       "comment": "",
       "params": [
         {
@@ -22706,7 +22706,7 @@
       "return_type": "void"
     },
     "0x7CC67B30": {
-      "name": "_0x7CC67B30",
+      "name": "SET_GREETING_MIN_TIME_INTERVAL_SAME_TARGET",
       "comment": "",
       "params": [
         {
@@ -22717,7 +22717,7 @@
       "return_type": "void"
     },
     "0xD4ECD97D": {
-      "name": "_0xD4ECD97D",
+      "name": "SET_GREETING_MAX_DISTANCE",
       "comment": "",
       "params": [
         {
@@ -22728,7 +22728,7 @@
       "return_type": "void"
     },
     "0x826BB889": {
-      "name": "_0x826BB889",
+      "name": "SET_GREETING_MIN_MOVEMENT_SPEED",
       "comment": "",
       "params": [
         {
@@ -22739,7 +22739,7 @@
       "return_type": "void"
     },
     "0x5473B93A": {
-      "name": "_0x5473B93A",
+      "name": "SET_GREETING_MAX_MOVEMENT_ANGLE",
       "comment": "",
       "params": [
         {
@@ -22750,7 +22750,7 @@
       "return_type": "void"
     },
     "0x1B1EFCCB": {
-      "name": "_0x1B1EFCCB",
+      "name": "SET_GREETING_ANIM_SIGNAL_TIMEOUT_DURATION",
       "comment": "",
       "params": [
         {
@@ -23035,7 +23035,7 @@
       "return_type": "int"
     },
     "0xFA37C0FA": {
-      "name": "_0xFA37C0FA",
+      "name": "GRINGO_ACTOR_CAN_USE",
       "comment": "",
       "params": [
         {
@@ -23105,7 +23105,7 @@
       "return_type": "int"
     },
     "0xC426D16F": {
-      "name": "_0xC426D16F",
+      "name": "GRINGO_SETUP_ATTR_ASSOCIATION",
       "comment": "",
       "params": [
         {
@@ -23436,7 +23436,7 @@
       "return_type": "int"
     },
     "0x5F7176D6": {
-      "name": "_0x5F7176D6",
+      "name": "GRINGO_GET_MY_OBJECT_REF",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -33394,7 +33394,7 @@
       "return_type": "int"
     },
     "0x87A3A38D": {
-      "name": "_0x87A3A38D",
+      "name": "NET_GET_LOCAL_GAMER_SCORE_INFO",
       "comment": "",
       "params": [
         {
@@ -36426,7 +36426,7 @@
       "return_type": "int"
     },
     "0x35C8FD4A": {
-      "name": "_LOCATE_OBJECTS_IN_VOLUME",
+      "name": "LOCATE_ACTORS_IN_VOLUME",
       "comment": "",
       "params": [
         {
@@ -36461,7 +36461,7 @@
       "return_type": "int"
     },
     "0x0F701FF7": {
-      "name": "_LOCATE_OBJECTS_IN_VOLUME_2",
+      "name": "LOCATE_GRINGOS_IN_VOLUME",
       "comment": "",
       "params": [
         {
@@ -37285,7 +37285,7 @@
       "return_type": "int"
     },
     "0x21BCC0A9": {
-      "name": "_0x21BCC0A9",
+      "name": "HIDE_RMPTFX_EFFECT",
       "comment": "",
       "params": [
         {
@@ -37296,7 +37296,7 @@
       "return_type": "int"
     },
     "0x5B417C9C": {
-      "name": "_0x5B417C9C",
+      "name": "SHOW_RMPTFX_EFFECT",
       "comment": "",
       "params": [
         {
@@ -41585,7 +41585,7 @@
       "return_type": "int"
     },
     "0x4A2E7533": {
-      "name": "IS_HORSES_RELATIVE",
+      "name": "NET_GAMER_SET_BLIP_OVERRIDE",
       "comment": "",
       "params": [
         {
@@ -46953,7 +46953,7 @@
   },
   "STRINGTABLE": {
     "0xB3E44649": {
-      "name": "_0xB3E44649",
+      "name": "STRINGTABLE_APPEND_TABLE",
       "comment": "",
       "params": [
         {
@@ -47436,7 +47436,7 @@
       "return_type": "void"
     },
     "0x7E124E62": {
-      "name": "_0x7E124E62",
+      "name": "IS_ACTOR_IN_ACCURACY_RANGE",
       "comment": "",
       "params": [],
       "return_type": "void"
