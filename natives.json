@@ -4223,7 +4223,7 @@
       "return_type": "Any"
     },
     "0xBD3A0E6D": {
-      "name": "GAME_ESTIMATE_MOUNT",
+      "name": "AI_CONVERSE_SET_COY_REJECTION_CONTEXT",
       "comment": "",
       "params": [
         {
