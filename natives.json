@@ -16079,7 +16079,7 @@
       "return_type": "Any"
     },
     "0xFDDB1BFA": {
-      "name": "_0xFDDB1BFA",
+      "name": "GET_LAST_MOUSE_MOVEMENT",
       "comment": "PC only",
       "params": [
         {
@@ -18868,7 +18868,7 @@
       "return_type": "int"
     },
     "0x61664EC0": {
-      "name": "_SUPPRESS_MOVE_COLLISIONS",
+      "name": "SUPRESS_MOVER_COLLISIONS",
       "comment": "",
       "params": [
         {
