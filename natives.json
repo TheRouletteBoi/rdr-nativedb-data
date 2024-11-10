@@ -18339,7 +18339,7 @@
       "return_type": "const char*"
     },
     "0xA2DEC153": {
-      "name": "_ACTOR_IN_WORLD",
+      "name": "LOCATE_ACTOR_OF_TYPE",
       "comment": "",
       "params": [
         {
@@ -29551,7 +29551,7 @@
       "return_type": "Any"
     },
     "0xD695F857": {
-      "name": "_REMOVE_WEAPON",
+      "name": "DELETE_ALL_WEAPONS_FROM_ACTOR",
       "comment": "",
       "params": [
         {
@@ -29562,7 +29562,7 @@
       "return_type": "void"
     },
     "0x96AC812B": {
-      "name": "_0x96AC812B",
+      "name": "DELETE_ALL_ACCESSORIES_FROM_ACTOR",
       "comment": "",
       "params": [
         {
@@ -29573,7 +29573,7 @@
       "return_type": "Any"
     },
     "0x5AEB2E4F": {
-      "name": "_REMOVE_HAT",
+      "name": "DELETE_ALL_INVENTORY_FROM_ACTOR",
       "comment": "",
       "params": [
         {
@@ -32689,7 +32689,7 @@
       "return_type": "int"
     },
     "0xCC7D0431": {
-      "name": "_0xCC7D0431",
+      "name": "NET_SET_SESSION_CLOSED_FOR_JOIN",
       "comment": "",
       "params": [
         {
@@ -36938,7 +36938,7 @@
       "return_type": "int"
     },
     "0x64BEDDEA": {
-      "name": "_0x64BEDDEA",
+      "name": "CREATE_GATEWAY_FROM_PARAMS_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -42616,7 +42616,7 @@
   },
   "PROBE": {
     "0x7080E24A": {
-      "name": "_0x7080E24A",
+      "name": "ROTATE_OBJECT_UPRIGHT_TO_GROUND",
       "comment": "",
       "params": [
         {
@@ -52483,7 +52483,7 @@
       "return_type": "int"
     },
     "0x6A9CFA2A": {
-      "name": "_0x6A9CFA2A",
+      "name": "GET_WEAPON_ENUM_STRING_FROM_ENUM",
       "comment": "",
       "params": [
         {
