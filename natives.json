@@ -15664,7 +15664,7 @@
       "return_type": "int"
     },
     "0x191658C0": {
-      "name": "ACTOR_NOTE_USAGE_CHEAT",
+      "name": "_0x191658C0",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -39594,7 +39594,7 @@
       "return_type": "void"
     },
     "0x12A86E9D": {
-      "name": "_0x12A86E9D",
+      "name": "SET_ACTOR_HARD_LOCK_AQUIRE_BONE_CASUAL",
       "comment": "",
       "params": [
         {
@@ -41369,7 +41369,7 @@
       "return_type": "int"
     },
     "0xE2E6C722": {
-      "name": "IN_SELECTED_PEDPATH",
+      "name": "_0xE2E6C722",
       "comment": "",
       "params": [
         {
