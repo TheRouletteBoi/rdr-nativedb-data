@@ -23469,7 +23469,7 @@
       "return_type": "void"
     },
     "0x6E86FCB5": {
-      "name": "_SET_USE_CASE_OWNER",
+      "name": "GRINGO_SET_USE_OWNERSHIP",
       "comment": "",
       "params": [
         {
