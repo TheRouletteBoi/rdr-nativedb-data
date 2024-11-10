@@ -8099,7 +8099,7 @@
       "return_type": "int"
     },
     "0x3E30A514": {
-      "name": "_SET_ANIMATION_RATE_OVERRIDE_SCALE",
+      "name": "SET_ANIMATION_OVERRIDE_SCALE",
       "comment": "",
       "params": [
         {
@@ -9570,7 +9570,7 @@
       "return_type": "void"
     },
     "0x3DFD83DE": {
-      "name": "_0x3DFD83DE",
+      "name": "AUDIO_HAS_CONVERSATION_PLAYED_ALREADY",
       "comment": "",
       "params": [
         {
@@ -14492,7 +14492,7 @@
       "return_type": "void"
     },
     "0x6F323C5F": {
-      "name": "_0x6F323C5F",
+      "name": "FILE_GET_CURRENT_PATH",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -22040,7 +22040,7 @@
       "return_type": "int"
     },
     "0xF48F8F09": {
-      "name": "_0xF48F8F09",
+      "name": "ADD_SCRIPT_USE_CONTEXT_STICK",
       "comment": "",
       "params": [
         {
@@ -22482,7 +22482,7 @@
   },
   "GRAVESTONE": {
     "0xF62EE158": {
-      "name": "_0xF62EE158",
+      "name": "IS_GRAVESTONE_SECTOR_READY",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -28287,7 +28287,7 @@
       "return_type": "int"
     },
     "0xD12802AF": {
-      "name": "_0xD12802AF",
+      "name": "HUD_SET_MINIGAME_TYPE_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -51021,7 +51021,7 @@
       "return_type": "int"
     },
     "0x1E732914": {
-      "name": "_0x1E732914",
+      "name": "UI_DISABLE_USE_CONTEXT_PROMPT",
       "comment": "",
       "params": [
         {
@@ -51715,7 +51715,7 @@
       "return_type": "Any"
     },
     "0x1440C806": {
-      "name": "_TRAIN_PLAY_WHISTLE",
+      "name": "TRAIN_PLAY_WHISTLE_SEQUENCE",
       "comment": "",
       "params": [
         {
