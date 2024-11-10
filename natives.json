@@ -14018,7 +14018,7 @@
       "return_type": "int"
     },
     "0x7A6146DB": {
-      "name": "_0x7A6146DB",
+      "name": "CREATE_CAMERA_FOCUS_POINT_OBJECT_WITH_TUNING",
       "comment": "",
       "params": [
         {
@@ -15676,7 +15676,7 @@
       "return_type": "int"
     },
     "0xEB8325B3": {
-      "name": "DECOR_SET_COLD_BREATH",
+      "name": "_0xEB8325B3",
       "comment": "",
       "params": [
         {
@@ -18488,7 +18488,7 @@
       "return_type": "int"
     },
     "0x8DAC4359": {
-      "name": "DECOR_HANDLES_RELATIVE",
+      "name": "_0x8DAC4359",
       "comment": "",
       "params": [
         {
@@ -20578,7 +20578,7 @@
       "return_type": "int"
     },
     "0x17CF885F": {
-      "name": "_ADD_EVENT_RESPONSE",
+      "name": "ADD_NEW_EVENT_RESPONSE",
       "comment": "",
       "params": [
         {
@@ -20601,7 +20601,7 @@
       "return_type": "int"
     },
     "0x8DF144C2": {
-      "name": "_ADD_RANGED_EVENT_RESPONSE",
+      "name": "ADD_NEW_RANGED_EVENT_RESPONSE",
       "comment": "",
       "params": [
         {
@@ -23942,7 +23942,7 @@
       "return_type": "int"
     },
     "0x51581898": {
-      "name": "_0x51581898",
+      "name": "GRINGO_GET_USE_REQUIRES_OBSTACLE",
       "comment": "",
       "params": [
         {
@@ -26219,8 +26219,8 @@
       "return_type": "int"
     },
     "0xF71A883A": {
-      "name": "_0xF71A883A",
-      "comment": "",
+      "name": "ACTOR_MOUNTED_WEAPON_EVEN",
+      "comment": "Name could be false positive",
       "params": [
         {
           "type": "Any",
@@ -26497,7 +26497,7 @@
       "return_type": "float"
     },
     "0xE39B92B7": {
-      "name": "_0xE39B92B7",
+      "name": "FLASH_SET_ARRAY_STRING_FORMATTED",
       "comment": "",
       "params": [
         {
@@ -28929,13 +28929,13 @@
       "return_type": "Any"
     },
     "0x3417766E": {
-      "name": "_0x3417766E",
+      "name": "ACTOR_SET_NEXT_EQUIP_SLOT",
       "comment": "",
       "params": [],
       "return_type": "Any"
     },
     "0xCC02BBD3": {
-      "name": "_0xCC02BBD3",
+      "name": "ACTOR_GET_NEXT_EQUIP_SLOT",
       "comment": "",
       "params": [],
       "return_type": "Any"
@@ -41485,7 +41485,7 @@
       "return_type": "int"
     },
     "0xE783219A": {
-      "name": "_0xE783219A",
+      "name": "NET_GAMER_ICON_FORCE_TEXT_VISIBLE",
       "comment": "",
       "params": [
         {
