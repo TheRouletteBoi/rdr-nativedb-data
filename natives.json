@@ -50075,7 +50075,7 @@
   },
   "TIME": {
     "0x7C3D1193": {
-      "name": "_0x7C3D1193",
+      "name": "GET_MINUTES_FROM_TIME_OF_DAY",
       "comment": "",
       "params": [
         {
@@ -50086,7 +50086,7 @@
       "return_type": "Any"
     },
     "0x61A2A3C": {
-      "name": "_0x61A2A3C",
+      "name": "GET_TIME_OF_DAY_AS_INT",
       "comment": "",
       "params": [
         {
