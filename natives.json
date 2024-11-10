@@ -8825,7 +8825,7 @@
       "return_type": "float"
     },
     "0x188B6431": {
-      "name": "_SET_BONE_RANGE_ARRAY",
+      "name": "SET_OBJECT_ANIMATOR_BONE_RANGE",
       "comment": "",
       "params": [
         {
