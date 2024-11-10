@@ -13979,7 +13979,7 @@
       "return_type": "int"
     },
     "0x76876FEA": {
-      "name": "_0x76876FEA",
+      "name": "CREATE_CAMERA_FOCUS_POINT_OBJECT",
       "comment": "",
       "params": [
         {
@@ -16713,7 +16713,7 @@
       "return_type": "int"
     },
     "0x90B514B9": {
-      "name": "_0x90B514B9",
+      "name": "GET_CLOSEST_POINT_TO_CURVE_CURVE_QUERY",
       "comment": "",
       "params": [
         {
@@ -24274,7 +24274,7 @@
       "return_type": "int"
     },
     "0x0B9AE52F": {
-      "name": "_0x0B9AE52F",
+      "name": "GRINGO_ACTOR_DROP_ATTACHED_PROP",
       "comment": "",
       "params": [
         {
@@ -26917,7 +26917,7 @@
       "return_type": "BOOL"
     },
     "0x4B2FCAF6": {
-      "name": "_0x4B2FCAF6",
+      "name": "HUD_IS_SHOWING_HELP_TEXT",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
@@ -33347,7 +33347,7 @@
       "return_type": "void"
     },
     "0x4D0C8AA4": {
-      "name": "_0x4D0C8AA4",
+      "name": "NET_START_LB_UPDATE",
       "comment": "",
       "params": [
         {
@@ -33358,7 +33358,7 @@
       "return_type": "int"
     },
     "0x89277EA3": {
-      "name": "_0x89277EA3",
+      "name": "NET_END_LB_UPDATE",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -38358,7 +38358,7 @@
       "return_type": "int"
     },
     "0x663F1464": {
-      "name": "_0x663F1464",
+      "name": "GET_POSITION_OBJECT_SPACE",
       "comment": "",
       "params": [
         {
@@ -39605,7 +39605,7 @@
       "return_type": "void"
     },
     "0x5613615B": {
-      "name": "_0x5613615B",
+      "name": "SET_ACTOR_HARD_LOCK_AQUIRE_BONE",
       "comment": "",
       "params": [
         {
@@ -42141,7 +42141,7 @@
       "return_type": "int"
     },
     "0x354DDFED": {
-      "name": "_SET_ZONE_MAX_PER_CELL",
+      "name": "SET_ZONE_POPULATION_MAX_PER_CELL",
       "comment": "",
       "params": [
         {
