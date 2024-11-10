@@ -11570,7 +11570,7 @@
       "return_type": "int"
     },
     "0xBCC98808": {
-      "name": "_0xBCC98808",
+      "name": "GET_CURRENT_CAMERA_TYPE_FROM_CHANNEL",
       "comment": "",
       "params": [
         {
@@ -13940,7 +13940,7 @@
       "return_type": "int"
     },
     "0x6AD6A400": {
-      "name": "_0x6AD6A400",
+      "name": "CREATE_CAMERA_FOCUS_POINT",
       "comment": "",
       "params": [
         {
@@ -16797,7 +16797,7 @@
       "return_type": "void"
     },
     "0x39DA0B3A": {
-      "name": "_0x39DA0B3A",
+      "name": "CURVE_CALCULATE_DISTANCE_BY_STEP_SIZE",
       "comment": "",
       "params": [
         {
@@ -22488,7 +22488,7 @@
       "return_type": "int"
     },
     "0x449D4A89": {
-      "name": "_0x449D4A89",
+      "name": "SET_CURRENT_GRAVESTONE_SECTOR",
       "comment": "",
       "params": [
         {
@@ -24365,7 +24365,7 @@
       "return_type": "int"
     },
     "0xADBF3ADF": {
-      "name": "_0xADBF3ADF",
+      "name": "GRINGO_ANIM_GET_AST_FILENAME",
       "comment": "",
       "params": [
         {
@@ -24376,7 +24376,7 @@
       "return_type": "int"
     },
     "0x721FC9A4": {
-      "name": "_0x721FC9A4",
+      "name": "GRINGO_ANIM_GET_ACT_FILENAME",
       "comment": "",
       "params": [
         {
@@ -24402,7 +24402,7 @@
       "return_type": "int"
     },
     "0x6263F909": {
-      "name": "_GET_ANIM_ACT_ROOT_NODE",
+      "name": "GRINGO_ANIM_GET_ACT_ROOTNODE",
       "comment": "",
       "params": [
         {
@@ -27774,7 +27774,7 @@
       "return_type": "void"
     },
     "0x919142BE": {
-      "name": "_0x919142BE",
+      "name": "IS_STAT_MESSAGE_SHOWING",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -33452,7 +33452,7 @@
       "return_type": "int"
     },
     "0x86BC0A55": {
-      "name": "_0x86BC0A55",
+      "name": "NET_CHALLENGE_LB_CREATE_READER",
       "comment": "",
       "params": [
         {
@@ -33467,19 +33467,19 @@
       "return_type": "int"
     },
     "0xEB4A6D85": {
-      "name": "_0xEB4A6D85",
+      "name": "NET_CHALLENGE_LB_DESTROY_READER",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x5FD52711": {
-      "name": "_0x5FD52711",
+      "name": "NET_CHALLENGE_LB_DOES_READER_EXIST",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
     },
     "0xD0808C42": {
-      "name": "_0xD0808C42",
+      "name": "NET_CHALLENGE_LB_IS_READ_COMPLETE",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
@@ -35990,7 +35990,7 @@
       "return_type": "int"
     },
     "0x2D160228": {
-      "name": "_0x2D160228",
+      "name": "GIVE_OBJECT_TO_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -37122,13 +37122,13 @@
       "return_type": "int"
     },
     "0x0AFC0B99": {
-      "name": "_0x0AFC0B99",
+      "name": "RESET_RMPTFX_ALL",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x547166A7": {
-      "name": "_0x547166A7",
+      "name": "RESET_RMPTFX_IN_VOLUME",
       "comment": "",
       "params": [
         {
@@ -47313,7 +47313,7 @@
       "return_type": "int"
     },
     "0x1468DD56": {
-      "name": "_0x1468DD56",
+      "name": "ACTOR_CAN_BE_HARDLOCKED",
       "comment": "",
       "params": [
         {
