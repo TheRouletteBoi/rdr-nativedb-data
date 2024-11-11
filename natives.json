@@ -53126,7 +53126,7 @@
       "return_type": "int"
     },
     "0xCA840DBB": {
-      "name": "_SET_ZOMBIE_DLC_PHOSPHORUS_AMMO_ACTIVE",
+      "name": "SET_PHOSPHORUS_AMMO_ACTIVE",
       "comment": "",
       "params": [
         {
@@ -53137,7 +53137,7 @@
       "return_type": "Any"
     },
     "0x4F3F3CA5": {
-      "name": "_IS_ZOMBIE_DLC_PHOSPHORUS_AMMO_ACTIVE",
+      "name": "IS_PHOSPHORUS_AMMO_ACTIVE",
       "comment": "",
       "params": [],
       "return_type": "int"
