@@ -18455,7 +18455,7 @@
       "return_type": "int"
     },
     "0xEE0AB3DD": {
-      "name": "_GET_ACTOR_BASE_TYPE",
+      "name": "GET_ACTORENUM_ACTOR_BASE_TYPE",
       "comment": "",
       "params": [
         {
@@ -18477,7 +18477,7 @@
       "return_type": "int"
     },
     "0x7D397CAA": {
-      "name": "_GET_MP_ANIM_SET_NAME",
+      "name": "GET_ACTORENUM_MP_ANIM_SET_NAME",
       "comment": "",
       "params": [
         {
@@ -18488,7 +18488,7 @@
       "return_type": "int"
     },
     "0x8DAC4359": {
-      "name": "_0x8DAC4359",
+      "name": "GET_ACTORENUM_MP_VOICE_NAME",
       "comment": "",
       "params": [
         {
@@ -39419,7 +39419,7 @@
       "return_type": "Any"
     },
     "0xCCC0A3F3": {
-      "name": "_CREATE_ENUMERATED_ACTOR_IN_LAYOUT_USING_VARIABLE_INDEX",
+      "name": "CREATE_ACTOR_VARIATION_IN_LAYOUT",
       "comment": "",
       "params": [
         {
