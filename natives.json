@@ -11532,13 +11532,13 @@
       "return_type": "int"
     },
     "0xAE168124": {
-      "name": "_0xAE168124",
+      "name": "IS_SWITCH_CAMERA_BUTTON_ENABLED",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x9F1F8669": {
-      "name": "_0x9F1F8669",
+      "name": "SET_SWITCH_CAMERA_BUTTON_ENABLED",
       "comment": "",
       "params": [
         {
