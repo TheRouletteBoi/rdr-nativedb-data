@@ -16683,7 +16683,7 @@
       "return_type": "int"
     },
     "0xB4D1D8A3": {
-      "name": "_0xB4D1D8A3",
+      "name": "GET_CURVE_FROM_CURVE_INDEX_IN_CURVE_QUERY",
       "comment": "",
       "params": [
         {
@@ -16698,7 +16698,7 @@
       "return_type": "int"
     },
     "0xBD4E48A6": {
-      "name": "_0xBD4E48A6",
+      "name": "GET_CURVE_FROM_POINT_INDEX_IN_CURVE_QUERY",
       "comment": "",
       "params": [
         {
@@ -17134,7 +17134,7 @@
       "return_type": "int"
     },
     "0x93F356F4": {
-      "name": "_0x93F356F4",
+      "name": "CUTSCENE_MANAGER_SKIP_UI_STACK_POP",
       "comment": "",
       "params": [],
       "return_type": "int"
