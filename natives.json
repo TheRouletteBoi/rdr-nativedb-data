@@ -41611,7 +41611,7 @@
       "return_type": "Any"
     },
     "0x784F04DD": {
-      "name": "_0x784F04DD",
+      "name": "NET_GAMER_BLIPS_SHOW_POSSE_MEMBERS",
       "comment": "",
       "params": [
         {
@@ -41637,7 +41637,7 @@
       "return_type": "int"
     },
     "0xE5FE0A6A": {
-      "name": "_0xE5FE0A6A",
+      "name": "NET_GAMER_BLIPS_SHOW_ON_FULL_MAP",
       "comment": "",
       "params": [
         {
@@ -41659,7 +41659,7 @@
       "return_type": "int"
     },
     "0x3248D20E": {
-      "name": "_0x3248D20E",
+      "name": "NET_GAMER_BLIPS_TREAT_COVER_AS_ALIVE",
       "comment": "",
       "params": [
         {
