@@ -8883,7 +8883,7 @@
       "return_type": "int"
     },
     "0x46A69DAF": {
-      "name": "_IS_OBJECT_ANIMATOR_ANIM_PLAYING",
+      "name": "IS_OBJECT_ANIMATOR_ANIMATION_PLAYING",
       "comment": "",
       "params": [
         {
@@ -41529,7 +41529,7 @@
       "return_type": "int"
     },
     "0x796E66E7": {
-      "name": "_0x796E66E7",
+      "name": "NET_GAMER_BLIPS_SET_STEALTH",
       "comment": "",
       "params": [
         {
