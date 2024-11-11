@@ -23400,7 +23400,7 @@
       "return_type": "void"
     },
     "0xE2DCFF34": {
-      "name": "_0xE2DCFF34",
+      "name": "GRINGO_USABLE_BY_ACTOR_ENUM",
       "comment": "",
       "params": [
         {
@@ -23454,7 +23454,7 @@
       "return_type": "int"
     },
     "0x761BA4BD": {
-      "name": "_SET_OWNERSHIP",
+      "name": "GRINGO_SET_ALL_USES_OWNERSHIP",
       "comment": "",
       "params": [
         {
@@ -23488,7 +23488,7 @@
       "return_type": "void"
     },
     "0x89DE8A75": {
-      "name": "_SET_CHILD_ACTIVATIONS",
+      "name": "GRINGO_SET_CHILD_USE_ACTIVATIONS",
       "comment": "",
       "params": [
         {
@@ -23503,7 +23503,7 @@
       "return_type": "void"
     },
     "0x53B9569C": {
-      "name": "_SET_COMMON_LAYER_ACTIVATIONS",
+      "name": "GRINGO_SET_COMMON_LAYER_USE_ACTIVATIONS",
       "comment": "",
       "params": [
         {
@@ -23615,7 +23615,7 @@
       "return_type": "int"
     },
     "0xDD807723": {
-      "name": "_GET_INDEX_OF_NAMED_TYPED_CHILD_COMPONENT_FUNC",
+      "name": "GRINGO_GET_INDEX_OF_NEXT_NAMED_CHILD",
       "comment": "",
       "params": [
         {
@@ -23638,7 +23638,7 @@
       "return_type": "int"
     },
     "0xD6EE9534": {
-      "name": "_0xD6EE9534",
+      "name": "GRINGO_GET_INDEX_OF_NEXT_CHILD",
       "comment": "",
       "params": [
         {
@@ -23789,7 +23789,7 @@
       "return_type": "void"
     },
     "0x8CAF5C5C": {
-      "name": "_0x8CAF5C5C",
+      "name": "GRINGO_SET_REQUEST_FAILURE_REASON",
       "comment": "",
       "params": [
         {
@@ -23953,8 +23953,8 @@
       "return_type": "int"
     },
     "0xD62D413C": {
-      "name": "_0xD62D413C",
-      "comment": "",
+      "name": "GRINGO_IS_CHARACTER_BLEND_PAUSED",
+      "comment": "Name could be false positive",
       "params": [
         {
           "type": "Any",
@@ -24413,7 +24413,7 @@
       "return_type": "int"
     },
     "0xB555A648": {
-      "name": "_IS_SUBNODE_PLAYING_BY_HASH",
+      "name": "GRINGO_ANIM_IS_SUBNODE_PLAYING_BY_HASH",
       "comment": "",
       "params": [
         {
@@ -24432,7 +24432,7 @@
       "return_type": "int"
     },
     "0xAFD53217": {
-      "name": "_PLAY_NODE_BY_HASH",
+      "name": "GRINGO_ANIM_PLAY_NODE_BY_HASH",
       "comment": "",
       "params": [
         {
@@ -24690,7 +24690,7 @@
       "return_type": "int"
     },
     "0x869D5D92": {
-      "name": "_0x869D5D92",
+      "name": "GET_GRINGO_OBJECT_REF_ATTR",
       "comment": "",
       "params": [
         {
@@ -24770,7 +24770,7 @@
       "return_type": "int"
     },
     "0x1F74EE6C": {
-      "name": "_0x1F74EE6C",
+      "name": "GET_GRINGO_RELATIVE_POSITION_ATTR",
       "comment": "",
       "params": [
         {
@@ -24789,7 +24789,7 @@
       "return_type": "int"
     },
     "0x7E4681E8": {
-      "name": "_0x7E4681E8",
+      "name": "GET_GRINGO_RELATIVE_ORIENTATION_ATTR",
       "comment": "",
       "params": [
         {
@@ -24865,7 +24865,7 @@
       "return_type": "int"
     },
     "0xAFF7D382": {
-      "name": "_0xAFF7D382",
+      "name": "SET_GRINGO_OBJECT_REF_ATTR",
       "comment": "",
       "params": [
         {
@@ -25223,7 +25223,7 @@
       "return_type": "int"
     },
     "0xF0991C9F": {
-      "name": "_0xF0991C9F",
+      "name": "GRINGO_GET_VECTOR_ATTR_BY_HANDLE",
       "comment": "",
       "params": [
         {
@@ -25238,7 +25238,7 @@
       "return_type": "int"
     },
     "0xD7BB1792": {
-      "name": "_0xD7BB1792",
+      "name": "GRINGO_GET_STRING_ATTR_BY_HANDLE",
       "comment": "",
       "params": [
         {
@@ -25253,7 +25253,7 @@
       "return_type": "int"
     },
     "0xF573B7DE": {
-      "name": "_0xF573B7DE",
+      "name": "GRINGO_GET_FLOAT_ATTR_BY_HANDLE",
       "comment": "",
       "params": [
         {
@@ -25268,7 +25268,7 @@
       "return_type": "int"
     },
     "0xBF322F5C": {
-      "name": "_GET_ATTRIBUTE_TYPE_BY_HANDLE",
+      "name": "GRINGO_GET_ATTR_TYPE_BY_HANDLE",
       "comment": "",
       "params": [
         {
