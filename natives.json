@@ -19945,7 +19945,7 @@
       "return_type": "float"
     },
     "0x8C221B4D": {
-      "name": "_0x8C221B4D",
+      "name": "GET_DAMAGE_BY_LOCAL_PLAYER",
       "comment": "",
       "params": [
         {
@@ -21870,7 +21870,7 @@
       "return_type": "void"
     },
     "0x45589499": {
-      "name": "_0x45589499",
+      "name": "SET_SCRIPT_AVOIDS_STRINGTABLE",
       "comment": "",
       "params": [
         {
