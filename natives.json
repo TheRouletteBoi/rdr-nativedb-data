@@ -28908,7 +28908,7 @@
       "return_type": "Any"
     },
     "0x78145528": {
-      "name": "_0x78145528",
+      "name": "ACTOR_HAS_WEAPON_SET_AS_NEXT",
       "comment": "",
       "params": [
         {
@@ -29539,13 +29539,13 @@
       "return_type": "Any"
     },
     "0x78A3CD3D": {
-      "name": "_0x78A3CD3D",
+      "name": "GET_NUM_ACCESSORIES_IN_INVENTORY",
       "comment": "",
       "params": [],
       "return_type": "Any"
     },
     "0x2C23CBE7": {
-      "name": "_0x2C23CBE7",
+      "name": "GET_NUM_COLLECTABLES_IN_INVENTORY",
       "comment": "",
       "params": [],
       "return_type": "Any"
@@ -35677,7 +35677,7 @@
       "return_type": "int"
     },
     "0x3CD2C250": {
-      "name": "_0x3CD2C250",
+      "name": "STORE_MOBILE_LAYOUT_TRANSFORMS",
       "comment": "",
       "params": [
         {
@@ -35688,7 +35688,7 @@
       "return_type": "int"
     },
     "0x7EEC1F40": {
-      "name": "_0x7EEC1F40",
+      "name": "MAKE_LAYOUT_OBJECTS_RELATIVE",
       "comment": "",
       "params": [
         {
