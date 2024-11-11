@@ -6872,7 +6872,7 @@
       "return_type": "void"
     },
     "0xB59AD5B1": {
-      "name": "GET_LOCKON_MISSION",
+      "name": "SPEECH_CONTEXT_SET_ETHNICITY_RESTRICTION",
       "comment": "",
       "params": [
         {
@@ -6887,7 +6887,7 @@
       "return_type": "void"
     },
     "0x4F64116B": {
-      "name": "_0x4F64116B",
+      "name": "SPEECH_CONTEXT_SET_RESTRICTION_IS_LAW",
       "comment": "",
       "params": [
         {
@@ -6931,7 +6931,7 @@
       "return_type": "void"
     },
     "0x3C6FE75D": {
-      "name": "_0x3C6FE75D",
+      "name": "SPEECH_CONTEXT_SET_TARGET_INITIAL_FACTION",
       "comment": "",
       "params": [
         {
