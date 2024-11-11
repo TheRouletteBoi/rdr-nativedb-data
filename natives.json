@@ -17531,7 +17531,7 @@
   },
   "DECORATOR": {
     "0x9AC89564": {
-      "name": "_0x9AC89564",
+      "name": "DECOR_GET_BOOL_VERBOSE",
       "comment": "",
       "params": [
         {
@@ -17550,7 +17550,7 @@
       "return_type": "int"
     },
     "0xFAC315B7": {
-      "name": "_0xFAC315B7",
+      "name": "DECOR_GET_FLOAT_VERBOSE",
       "comment": "",
       "params": [
         {
@@ -17569,7 +17569,7 @@
       "return_type": "int"
     },
     "0x1F003E6C": {
-      "name": "_0x1F003E6C",
+      "name": "DECOR_GET_INT_VERBOSE",
       "comment": "",
       "params": [
         {
@@ -52240,7 +52240,7 @@
   },
   "WEAPON": {
     "0xBAC27559": {
-      "name": "_WEAPON_ENUM_PISTOL",
+      "name": "INIT_NATIVE_WEAPONENUM_PISTOL",
       "comment": "",
       "params": [
         {
@@ -52259,7 +52259,7 @@
       "return_type": "int"
     },
     "0xA534CD14": {
-      "name": "_WEAPON_ENUM_RIFLE",
+      "name": "INIT_NATIVE_WEAPONENUM_RIFLE",
       "comment": "",
       "params": [
         {
@@ -52278,7 +52278,7 @@
       "return_type": "int"
     },
     "0xA72B6620": {
-      "name": "_WEAPON_ENUM_REPEATER",
+      "name": "INIT_NATIVE_WEAPONENUM_REPEATER",
       "comment": "",
       "params": [
         {
@@ -52297,7 +52297,7 @@
       "return_type": "int"
     },
     "0x92FE3677": {
-      "name": "_WEAPON_ENUM_SNIPER_RIFLE",
+      "name": "INIT_NATIVE_WEAPONENUM_SNIPERRIFLE",
       "comment": "",
       "params": [
         {
@@ -52316,7 +52316,7 @@
       "return_type": "int"
     },
     "0xEA06907B": {
-      "name": "_WEAPON_ENUM_SHOTGUN",
+      "name": "INIT_NATIVE_WEAPONENUM_SHOTGUN",
       "comment": "",
       "params": [
         {
@@ -52335,7 +52335,7 @@
       "return_type": "int"
     },
     "0xE0DF7B3B": {
-      "name": "_WEAPON_ENUM_THROWN",
+      "name": "INIT_NATIVE_WEAPONENUM_THROWN",
       "comment": "",
       "params": [
         {
@@ -52354,7 +52354,7 @@
       "return_type": "int"
     },
     "0xA2597101": {
-      "name": "_WEAPON_ENUM_THROWN_EXPLODING",
+      "name": "INIT_NATIVE_WEAPONENUM_THROWN_EXPLODING",
       "comment": "",
       "params": [
         {
@@ -52373,7 +52373,7 @@
       "return_type": "int"
     },
     "0x2AD5D078": {
-      "name": "_WEAPON_ENUM_BOW",
+      "name": "INIT_NATIVE_WEAPONENUM_BOW",
       "comment": "",
       "params": [
         {
@@ -52392,7 +52392,7 @@
       "return_type": "int"
     },
     "0xA6C4E59F": {
-      "name": "_WEAPON_ENUM_MELEE",
+      "name": "INIT_NATIVE_WEAPONENUM_MELEE",
       "comment": "",
       "params": [
         {
@@ -52411,7 +52411,7 @@
       "return_type": "int"
     },
     "0xF82711CC": {
-      "name": "_WEAPON_ENUM_LASSO",
+      "name": "INIT_NATIVE_WEAPONENUM_LASSO",
       "comment": "",
       "params": [
         {
@@ -52430,7 +52430,7 @@
       "return_type": "int"
     },
     "0x82609DC7": {
-      "name": "_WEAPON_ENUM_TURRET",
+      "name": "INIT_NATIVE_WEAPONENUM_TURRET",
       "comment": "",
       "params": [
         {
@@ -52449,7 +52449,7 @@
       "return_type": "int"
     },
     "0x628E3173": {
-      "name": "_WEAPON_ENUM_CANNON",
+      "name": "INIT_NATIVE_WEAPONENUM_CANNON",
       "comment": "",
       "params": [
         {
@@ -52468,7 +52468,7 @@
       "return_type": "int"
     },
     "0xCE5CCF2E": {
-      "name": "_0xCE5CCF2E",
+      "name": "INIT_NATIVE_WEAPONENUM_AMMO",
       "comment": "",
       "params": [
         {
