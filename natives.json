@@ -15104,7 +15104,7 @@
       "return_type": "void"
     },
     "0x52261CE0": {
-      "name": "_0x52261CE0",
+      "name": "GRINGO_IS_ACTIVATION_ALLOWED",
       "comment": "",
       "params": [
         {
@@ -15373,7 +15373,7 @@
       "return_type": "int"
     },
     "0x5598C970": {
-      "name": "_0x5598C970",
+      "name": "IS_RIGHT_MOUSE_DOWN",
       "comment": "PC only",
       "params": [
         {
@@ -15384,7 +15384,7 @@
       "return_type": "Any"
     },
     "0xDC4B85A8": {
-      "name": "_0xDC4B85A8",
+      "name": "IS_RIGHT_MOUSE_PRESSED",
       "comment": "PC only",
       "params": [
         {
@@ -15395,7 +15395,7 @@
       "return_type": "Any"
     },
     "0xB59B352A": {
-      "name": "_0xB59B352A",
+      "name": "IS_RIGHT_MOUSE_RELEASED",
       "comment": "PC only",
       "params": [
         {
@@ -15406,7 +15406,7 @@
       "return_type": "Any"
     },
     "0x5AC5CE22": {
-      "name": "_0x5AC5CE22",
+      "name": "IS_LEFT_MOUSE_DOWN",
       "comment": "PC only",
       "params": [
         {
@@ -15417,7 +15417,7 @@
       "return_type": "Any"
     },
     "0x7D4535A1": {
-      "name": "_0x7D4535A1",
+      "name": "IS_LEFT_MOUSE_PRESSED",
       "comment": "PC only",
       "params": [
         {
@@ -27808,7 +27808,7 @@
       "return_type": "int"
     },
     "0x2395C147": {
-      "name": "_0x2395C147",
+      "name": "HUD_TIMER_COUNTUP",
       "comment": "",
       "params": [],
       "return_type": "int"
