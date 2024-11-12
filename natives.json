@@ -39265,7 +39265,7 @@
       "return_type": "int"
     },
     "0x9B903F45": {
-      "name": "_0x9B903F45",
+      "name": "IS_ACTORENUM_INSTALLED",
       "comment": "",
       "params": [
         {
@@ -39276,7 +39276,7 @@
       "return_type": "BOOL"
     },
     "0x16D1E1B4": {
-      "name": "_0x16D1E1B4",
+      "name": "IS_ACTORENUM_PLACEHOLDER",
       "comment": "",
       "params": [
         {
