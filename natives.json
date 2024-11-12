@@ -14257,7 +14257,7 @@
       "return_type": "void"
     },
     "0x9FEFA743": {
-      "name": "_0x9FEFA743",
+      "name": "DISABLE_ACTOR_REFCOUNTING",
       "comment": "",
       "params": [
         {
@@ -38788,7 +38788,7 @@
       "return_type": "int"
     },
     "0x325F7E50": {
-      "name": "_0x325F7E50",
+      "name": "ATTACH_SET_ROTATIONAL_CONSTRAINT",
       "comment": "",
       "params": [
         {
