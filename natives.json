@@ -32414,7 +32414,7 @@
       "return_type": "Any"
     },
     "0x47C5E353": {
-      "name": "_0x47C5E353",
+      "name": "NET_OBJECT_REPLICATION_MODE_START",
       "comment": "",
       "params": [
         {
@@ -32429,7 +32429,7 @@
       "return_type": "int"
     },
     "0x3932B786": {
-      "name": "_0x3932B786",
+      "name": "NET_OBJECT_REPLICATION_MODE_END",
       "comment": "",
       "params": [
         {
