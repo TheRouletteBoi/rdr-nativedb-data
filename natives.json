@@ -33701,8 +33701,8 @@
       "return_type": "int"
     },
     "0x293C3288": {
-      "name": "GET_RELATION_ONLY",
-      "comment": "Name might be false positive",
+      "name": "NET_CHALLENGE_LB_IS_SCORER_ABOVE_PLAYER_INFO_VALID",
+      "comment": "",
       "params": [],
       "return_type": "int"
     },
