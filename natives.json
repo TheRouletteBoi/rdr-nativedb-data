@@ -23540,7 +23540,7 @@
       "return_type": "BOOL"
     },
     "0xA766EA5C": {
-      "name": "_COMPONENT_OF_NAME",
+      "name": "GRINGO_COMPONENT_CHECK_NAME",
       "comment": "",
       "params": [
         {
@@ -41540,7 +41540,7 @@
       "return_type": "int"
     },
     "0x650A7440": {
-      "name": "_GROUP_COLOR",
+      "name": "NET_HUD_TUNE_VALUE",
       "comment": "",
       "params": [
         {
