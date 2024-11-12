@@ -13763,7 +13763,7 @@
       "return_type": "int"
     },
     "0xDCD3A7DE": {
-      "name": "_CUTSCENE_SET_RECENTER_GAMECAM",
+      "name": "CUTSCENEOBJECT_SET_RECENTER_GAMECAM",
       "comment": "",
       "params": [
         {
@@ -30768,7 +30768,7 @@
       "return_type": "Any"
     },
     "0x9634D42E": {
-      "name": "_0x9634D42E",
+      "name": "IS_HOGTIE_HORSE_PICKUP_OBSTRUCTED",
       "comment": "",
       "params": [
         {
@@ -40878,7 +40878,7 @@
       "return_type": "int"
     },
     "0xFD759593": {
-      "name": "_0xFD759593",
+      "name": "SET_INFINITE_MASS_VS_MOVERS",
       "comment": "",
       "params": [
         {
@@ -43076,7 +43076,7 @@
   },
   "RENDER": {
     "0x6AF07F86": {
-      "name": "_0x6AF07F86",
+      "name": "RENDERING_ENABLE_CHARACTER_CLIPPING",
       "comment": "",
       "params": [
         {
@@ -47442,7 +47442,7 @@
       "return_type": "void"
     },
     "0x1EEE7494": {
-      "name": "_0x1EEE7494",
+      "name": "SET_CAN_ACTOR_HARDLOCK_NEUTRALS",
       "comment": "",
       "params": [
         {
