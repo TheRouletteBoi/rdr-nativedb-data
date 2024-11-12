@@ -1,398 +1,4 @@
 {
-  "BUILTIN": {
-    "0x7715C03B": {
-      "name": "WAIT",
-      "comment": "",
-      "params": [
-        {
-          "type": "int",
-          "name": "ms"
-        }
-      ],
-      "return_type": "void"
-    },
-    "0x01185F9B": {
-      "name": "WAITUNWARPED",
-      "comment": "",
-      "params": [
-        {
-          "type": "int",
-          "name": "ms"
-        }
-      ],
-      "return_type": "void"
-    },
-    "0x7C496803": {
-      "name": "WAITUNPAUSED",
-      "comment": "",
-      "params": [
-        {
-          "type": "int",
-          "name": "ms"
-        }
-      ],
-      "return_type": "void"
-    },
-    "0x3F166D0E": {
-      "name": "START_NEW_SCRIPT",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        }
-      ],
-      "return_type": "Any"
-    },
-    "0x4A2100E4": {
-      "name": "START_NEW_SCRIPT_WITH_ARGS",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        }
-      ],
-      "return_type": "Any"
-    },
-    "0x35785333": {
-      "name": "SETTIMERA",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "void"
-    },
-    "0x50597EE2": {
-      "name": "TIMESTEP",
-      "comment": "",
-      "params": [],
-      "return_type": "Any"
-    },
-    "0xECF8EB5F": {
-      "name": "PRINTSTRING",
-      "comment": "",
-      "params": [
-        {
-          "type": "const char*",
-          "name": "value"
-        }
-      ],
-      "return_type": "void"
-    },
-    "0xD48B90B6": {
-      "name": "PRINTFLOAT",
-      "comment": "",
-      "params": [
-        {
-          "type": "float",
-          "name": "value"
-        }
-      ],
-      "return_type": "void"
-    },
-    "0x63651F03": {
-      "name": "PRINTINT",
-      "comment": "",
-      "params": [
-        {
-          "type": "int",
-          "name": "value"
-        }
-      ],
-      "return_type": "void"
-    },
-    "0x868997DA": {
-      "name": "PRINTNL",
-      "comment": "",
-      "params": [],
-      "return_type": "void"
-    },
-    "0x85F31FB": {
-      "name": "PRINTVECTOR",
-      "comment": "",
-      "params": [
-        {
-          "type": "float",
-          "name": "p0"
-        },
-        {
-          "type": "float",
-          "name": "p1"
-        },
-        {
-          "type": "float",
-          "name": "p2"
-        }
-      ],
-      "return_type": "void"
-    },
-    "0x145C7701": {
-      "name": "SQRT",
-      "comment": "",
-      "params": [
-        {
-          "type": "float",
-          "name": "value"
-        }
-      ],
-      "return_type": "float"
-    },
-    "0x85D134F8": {
-      "name": "POW",
-      "comment": "",
-      "params": [
-        {
-          "type": "float",
-          "name": "base"
-        },
-        {
-          "type": "float",
-          "name": "exponent"
-        }
-      ],
-      "return_type": "float"
-    },
-    "0xE2313450": {
-      "name": "EXP",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        }
-      ],
-      "return_type": "Any"
-    },
-    "0x1FCF1ECD": {
-      "name": "VMAG",
-      "comment": "",
-      "params": [
-        {
-          "type": "float",
-          "name": "p0"
-        },
-        {
-          "type": "float",
-          "name": "p1"
-        },
-        {
-          "type": "float",
-          "name": "p2"
-        }
-      ],
-      "return_type": "float"
-    },
-    "0x3C08ECB7": {
-      "name": "VDIST",
-      "comment": "",
-      "params": [
-        {
-          "type": "float",
-          "name": "x1"
-        },
-        {
-          "type": "float",
-          "name": "y1"
-        },
-        {
-          "type": "float",
-          "name": "z1"
-        },
-        {
-          "type": "float",
-          "name": "x2"
-        },
-        {
-          "type": "float",
-          "name": "y2"
-        },
-        {
-          "type": "float",
-          "name": "z2"
-        }
-      ],
-      "return_type": "float"
-    },
-    "0xC85DEF1F": {
-      "name": "VDIST2",
-      "comment": "",
-      "params": [
-        {
-          "type": "float",
-          "name": "x1"
-        },
-        {
-          "type": "float",
-          "name": "y1"
-        },
-        {
-          "type": "float",
-          "name": "z1"
-        },
-        {
-          "type": "float",
-          "name": "x2"
-        },
-        {
-          "type": "float",
-          "name": "y2"
-        },
-        {
-          "type": "float",
-          "name": "z2"
-        }
-      ],
-      "return_type": "float"
-    },
-    "0x314CC6CD": {
-      "name": "SHIFT_LEFT",
-      "comment": "",
-      "params": [
-        {
-          "type": "int",
-          "name": "value"
-        },
-        {
-          "type": "int",
-          "name": "bitShift"
-        }
-      ],
-      "return_type": "int"
-    },
-    "0x352633CA": {
-      "name": "SHIFT_RIGHT",
-      "comment": "",
-      "params": [
-        {
-          "type": "int",
-          "name": "value"
-        },
-        {
-          "type": "int",
-          "name": "bitShift"
-        }
-      ],
-      "return_type": "int"
-    },
-    "0x32E9BE04": {
-      "name": "FLOOR",
-      "comment": "",
-      "params": [
-        {
-          "type": "float",
-          "name": "value"
-        }
-      ],
-      "return_type": "int"
-    },
-    "0xD536A1DF": {
-      "name": "CEIL",
-      "comment": "",
-      "params": [
-        {
-          "type": "float",
-          "name": "value"
-        }
-      ],
-      "return_type": "int"
-    },
-    "0x323B0E24": {
-      "name": "ROUND",
-      "comment": "",
-      "params": [
-        {
-          "type": "float",
-          "name": "value"
-        }
-      ],
-      "return_type": "int"
-    },
-    "0x67116627": {
-      "name": "TO_FLOAT",
-      "comment": "",
-      "params": [
-        {
-          "type": "int",
-          "name": "value"
-        }
-      ],
-      "return_type": "float"
-    },
-    "0x5A25520E": {
-      "name": "SNAPSHOT_GLOBALS",
-      "comment": "",
-      "params": [],
-      "return_type": "void"
-    },
-    "0x2B547FE6": {
-      "name": "GET_LATEST_CONSOLE_COMMAND",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
-    },
-    "0xAA3EC981": {
-      "name": "RESET_LATEST_CONSOLE_COMMAND",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
-    },
-    "0x9DE3DE24": {
-      "name": "GET_CONSOLE_COMMAND_TOKEN",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
-    },
-    "0x608F5BC6": {
-      "name": "GET_NUM_CONSOLE_COMMAND_TOKENS",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
-    }
-  },
   "ACTOR": {
     "0x2D54B916": {
       "name": "TELEPORT_ACTOR",
@@ -11170,6 +10776,400 @@
         }
       ],
       "return_type": "int"
+    }
+  },
+  "BUILTIN": {
+    "0x7715C03B": {
+      "name": "WAIT",
+      "comment": "",
+      "params": [
+        {
+          "type": "int",
+          "name": "ms"
+        }
+      ],
+      "return_type": "void"
+    },
+    "0x01185F9B": {
+      "name": "WAITUNWARPED",
+      "comment": "",
+      "params": [
+        {
+          "type": "int",
+          "name": "ms"
+        }
+      ],
+      "return_type": "void"
+    },
+    "0x7C496803": {
+      "name": "WAITUNPAUSED",
+      "comment": "",
+      "params": [
+        {
+          "type": "int",
+          "name": "ms"
+        }
+      ],
+      "return_type": "void"
+    },
+    "0x3F166D0E": {
+      "name": "START_NEW_SCRIPT",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        },
+        {
+          "type": "Any",
+          "name": "p1"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x4A2100E4": {
+      "name": "START_NEW_SCRIPT_WITH_ARGS",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        },
+        {
+          "type": "Any",
+          "name": "p1"
+        },
+        {
+          "type": "Any",
+          "name": "p2"
+        },
+        {
+          "type": "Any",
+          "name": "p3"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x35785333": {
+      "name": "SETTIMERA",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "void"
+    },
+    "0x50597EE2": {
+      "name": "TIMESTEP",
+      "comment": "",
+      "params": [],
+      "return_type": "Any"
+    },
+    "0xECF8EB5F": {
+      "name": "PRINTSTRING",
+      "comment": "",
+      "params": [
+        {
+          "type": "const char*",
+          "name": "value"
+        }
+      ],
+      "return_type": "void"
+    },
+    "0xD48B90B6": {
+      "name": "PRINTFLOAT",
+      "comment": "",
+      "params": [
+        {
+          "type": "float",
+          "name": "value"
+        }
+      ],
+      "return_type": "void"
+    },
+    "0x63651F03": {
+      "name": "PRINTINT",
+      "comment": "",
+      "params": [
+        {
+          "type": "int",
+          "name": "value"
+        }
+      ],
+      "return_type": "void"
+    },
+    "0x868997DA": {
+      "name": "PRINTNL",
+      "comment": "",
+      "params": [],
+      "return_type": "void"
+    },
+    "0x85F31FB": {
+      "name": "PRINTVECTOR",
+      "comment": "",
+      "params": [
+        {
+          "type": "float",
+          "name": "p0"
+        },
+        {
+          "type": "float",
+          "name": "p1"
+        },
+        {
+          "type": "float",
+          "name": "p2"
+        }
+      ],
+      "return_type": "void"
+    },
+    "0x145C7701": {
+      "name": "SQRT",
+      "comment": "",
+      "params": [
+        {
+          "type": "float",
+          "name": "value"
+        }
+      ],
+      "return_type": "float"
+    },
+    "0x85D134F8": {
+      "name": "POW",
+      "comment": "",
+      "params": [
+        {
+          "type": "float",
+          "name": "base"
+        },
+        {
+          "type": "float",
+          "name": "exponent"
+        }
+      ],
+      "return_type": "float"
+    },
+    "0xE2313450": {
+      "name": "EXP",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        },
+        {
+          "type": "Any",
+          "name": "p1"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x1FCF1ECD": {
+      "name": "VMAG",
+      "comment": "",
+      "params": [
+        {
+          "type": "float",
+          "name": "p0"
+        },
+        {
+          "type": "float",
+          "name": "p1"
+        },
+        {
+          "type": "float",
+          "name": "p2"
+        }
+      ],
+      "return_type": "float"
+    },
+    "0x3C08ECB7": {
+      "name": "VDIST",
+      "comment": "",
+      "params": [
+        {
+          "type": "float",
+          "name": "x1"
+        },
+        {
+          "type": "float",
+          "name": "y1"
+        },
+        {
+          "type": "float",
+          "name": "z1"
+        },
+        {
+          "type": "float",
+          "name": "x2"
+        },
+        {
+          "type": "float",
+          "name": "y2"
+        },
+        {
+          "type": "float",
+          "name": "z2"
+        }
+      ],
+      "return_type": "float"
+    },
+    "0xC85DEF1F": {
+      "name": "VDIST2",
+      "comment": "",
+      "params": [
+        {
+          "type": "float",
+          "name": "x1"
+        },
+        {
+          "type": "float",
+          "name": "y1"
+        },
+        {
+          "type": "float",
+          "name": "z1"
+        },
+        {
+          "type": "float",
+          "name": "x2"
+        },
+        {
+          "type": "float",
+          "name": "y2"
+        },
+        {
+          "type": "float",
+          "name": "z2"
+        }
+      ],
+      "return_type": "float"
+    },
+    "0x314CC6CD": {
+      "name": "SHIFT_LEFT",
+      "comment": "",
+      "params": [
+        {
+          "type": "int",
+          "name": "value"
+        },
+        {
+          "type": "int",
+          "name": "bitShift"
+        }
+      ],
+      "return_type": "int"
+    },
+    "0x352633CA": {
+      "name": "SHIFT_RIGHT",
+      "comment": "",
+      "params": [
+        {
+          "type": "int",
+          "name": "value"
+        },
+        {
+          "type": "int",
+          "name": "bitShift"
+        }
+      ],
+      "return_type": "int"
+    },
+    "0x32E9BE04": {
+      "name": "FLOOR",
+      "comment": "",
+      "params": [
+        {
+          "type": "float",
+          "name": "value"
+        }
+      ],
+      "return_type": "int"
+    },
+    "0xD536A1DF": {
+      "name": "CEIL",
+      "comment": "",
+      "params": [
+        {
+          "type": "float",
+          "name": "value"
+        }
+      ],
+      "return_type": "int"
+    },
+    "0x323B0E24": {
+      "name": "ROUND",
+      "comment": "",
+      "params": [
+        {
+          "type": "float",
+          "name": "value"
+        }
+      ],
+      "return_type": "int"
+    },
+    "0x67116627": {
+      "name": "TO_FLOAT",
+      "comment": "",
+      "params": [
+        {
+          "type": "int",
+          "name": "value"
+        }
+      ],
+      "return_type": "float"
+    },
+    "0x5A25520E": {
+      "name": "SNAPSHOT_GLOBALS",
+      "comment": "",
+      "params": [],
+      "return_type": "void"
+    },
+    "0x2B547FE6": {
+      "name": "GET_LATEST_CONSOLE_COMMAND",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0xAA3EC981": {
+      "name": "RESET_LATEST_CONSOLE_COMMAND",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x9DE3DE24": {
+      "name": "GET_CONSOLE_COMMAND_TOKEN",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x608F5BC6": {
+      "name": "GET_NUM_CONSOLE_COMMAND_TOKENS",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
     }
   },
   "CAM": {
@@ -28505,6 +28505,153 @@
       "return_type": "void"
     }
   },
+  "INTERSECTION": {
+    "0x9CD3AD70": {
+      "name": "FIND_INTERSECTION",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        },
+        {
+          "type": "Any",
+          "name": "p1"
+        },
+        {
+          "type": "Any",
+          "name": "p2"
+        },
+        {
+          "type": "Any",
+          "name": "p3"
+        },
+        {
+          "type": "Any",
+          "name": "p4"
+        },
+        {
+          "type": "Any",
+          "name": "p5"
+        },
+        {
+          "type": "Any",
+          "name": "p6"
+        },
+        {
+          "type": "Any",
+          "name": "p7"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x6AD8EEAF": {
+      "name": "FIND_GROUND_INTERSECTION",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        },
+        {
+          "type": "Any",
+          "name": "p1"
+        },
+        {
+          "type": "Any",
+          "name": "p2"
+        },
+        {
+          "type": "Any",
+          "name": "p3"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x77964B0C": {
+      "name": "FIND_GROUND_INTERSECTION_WITH_MATERIAL",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x4F193BE4": {
+      "name": "FIND_WATER_INTERSECTION",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        },
+        {
+          "type": "Any",
+          "name": "p1"
+        },
+        {
+          "type": "Any",
+          "name": "p2"
+        },
+        {
+          "type": "Any",
+          "name": "p3"
+        },
+        {
+          "type": "Any",
+          "name": "p4"
+        },
+        {
+          "type": "Any",
+          "name": "p5"
+        },
+        {
+          "type": "Any",
+          "name": "p6"
+        },
+        {
+          "type": "Any",
+          "name": "p7"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x5219B7D0": {
+      "name": "GET_MATERIAL_AT_VECTOR",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x451A8EF2": {
+      "name": "GET_ACTOR_GROUND_MATERIAL",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    },
+    "0x1E81DB60": {
+      "name": "IS_POSITION_INDOORS",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "Any"
+    }
+  },
   "INVENTORY": {
     "0xBAA5D41B": {
       "name": "ADD_ITEM",
@@ -40524,77 +40671,6 @@
       "return_type": "Any"
     }
   },
-  "PED": {
-    "0xD02757C1": {
-      "name": "CAN_ACTOR_ENUM_PLAY_SPEECH_CONTEXT",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        }
-      ],
-      "return_type": "int"
-    },
-    "0x886E06C2": {
-      "name": "REGISTER_ACTOR_SPEECH_CONTEXT",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "const char*",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
-        },
-        {
-          "type": "Any",
-          "name": "p5"
-        }
-      ],
-      "return_type": "int*"
-    },
-    "0xB6839756": {
-      "name": "FINISH_REGISTERING_ACTOR_SPEECH_CONTEXTS",
-      "comment": "",
-      "params": [],
-      "return_type": "int*"
-    },
-    "0xCB139D15": {
-      "name": "REGISTER_NUM_SPEECH_CONTEXTS",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "const char*"
-    },
-    "0xF07F5E41": {
-      "name": "REGISTER_NUM_CONTEXT_TYPES",
-      "comment": "",
-      "params": [],
-      "return_type": "int"
-    }
-  },
   "PERSCHAR": {
     "0x2CA16327": {
       "name": "ACTIVATE_ACTOR_FOR_PERS_CHAR",
@@ -44143,6 +44219,77 @@
         }
       ],
       "return_type": "void"
+    }
+  },
+  "SPEECH": {
+    "0xD02757C1": {
+      "name": "CAN_ACTOR_ENUM_PLAY_SPEECH_CONTEXT",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        },
+        {
+          "type": "Any",
+          "name": "p1"
+        }
+      ],
+      "return_type": "int"
+    },
+    "0x886E06C2": {
+      "name": "REGISTER_ACTOR_SPEECH_CONTEXT",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        },
+        {
+          "type": "const char*",
+          "name": "p1"
+        },
+        {
+          "type": "Any",
+          "name": "p2"
+        },
+        {
+          "type": "Any",
+          "name": "p3"
+        },
+        {
+          "type": "Any",
+          "name": "p4"
+        },
+        {
+          "type": "Any",
+          "name": "p5"
+        }
+      ],
+      "return_type": "int*"
+    },
+    "0xB6839756": {
+      "name": "FINISH_REGISTERING_ACTOR_SPEECH_CONTEXTS",
+      "comment": "",
+      "params": [],
+      "return_type": "int*"
+    },
+    "0xCB139D15": {
+      "name": "REGISTER_NUM_SPEECH_CONTEXTS",
+      "comment": "",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "const char*"
+    },
+    "0xF07F5E41": {
+      "name": "REGISTER_NUM_CONTEXT_TYPES",
+      "comment": "",
+      "params": [],
+      "return_type": "int"
     }
   },
   "SQUADS": {
@@ -53733,153 +53880,6 @@
         }
       ],
       "return_type": "int"
-    }
-  },
-  "WORLD2": {
-    "0x9CD3AD70": {
-      "name": "FIND_INTERSECTION",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
-        },
-        {
-          "type": "Any",
-          "name": "p5"
-        },
-        {
-          "type": "Any",
-          "name": "p6"
-        },
-        {
-          "type": "Any",
-          "name": "p7"
-        }
-      ],
-      "return_type": "Any"
-    },
-    "0x6AD8EEAF": {
-      "name": "FIND_GROUND_INTERSECTION",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        }
-      ],
-      "return_type": "Any"
-    },
-    "0x77964B0C": {
-      "name": "FIND_GROUND_INTERSECTION_WITH_MATERIAL",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
-    },
-    "0x4F193BE4": {
-      "name": "FIND_WATER_INTERSECTION",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
-        },
-        {
-          "type": "Any",
-          "name": "p5"
-        },
-        {
-          "type": "Any",
-          "name": "p6"
-        },
-        {
-          "type": "Any",
-          "name": "p7"
-        }
-      ],
-      "return_type": "Any"
-    },
-    "0x5219B7D0": {
-      "name": "GET_MATERIAL_AT_VECTOR",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
-    },
-    "0x451A8EF2": {
-      "name": "GET_ACTOR_GROUND_MATERIAL",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
-    },
-    "0x1E81DB60": {
-      "name": "IS_POSITION_INDOORS",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
     }
   }
 }
