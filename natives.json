@@ -41358,7 +41358,7 @@
       "return_type": "void"
     },
     "0xFD91BE0D": {
-      "name": "_0xFD91BE0D",
+      "name": "NET_GAMER_SETMY_JPN_TITLE",
       "comment": "",
       "params": [
         {
@@ -41369,7 +41369,7 @@
       "return_type": "int"
     },
     "0xE2E6C722": {
-      "name": "_0xE2E6C722",
+      "name": "NET_GAMER_GET_JPN_TITLE",
       "comment": "",
       "params": [
         {
@@ -41380,7 +41380,7 @@
       "return_type": "int"
     },
     "0xCE8F6304": {
-      "name": "_0xCE8F6304",
+      "name": "NET_GAMER_BARKER_ACCEPT",
       "comment": "",
       "params": [
         {
@@ -41391,7 +41391,7 @@
       "return_type": "int"
     },
     "0xAB32D5D9": {
-      "name": "_0xAB32D5D9",
+      "name": "NET_GAMER_BARKER_REJECT",
       "comment": "",
       "params": [
         {
