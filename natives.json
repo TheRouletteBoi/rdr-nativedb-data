@@ -33632,19 +33632,19 @@
       "return_type": "BOOL"
     },
     "0x097BB984": {
-      "name": "_0x097BB984",
+      "name": "NET_CHALLENGE_LB_IS_LOCAL_GAMER_INFO_VALID",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xEA7ADF42": {
-      "name": "_0xEA7ADF42",
+      "name": "NET_CHALLENGE_LB_GET_LOCAL_GAMER_NAME",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x3A8C77AD": {
-      "name": "_0x3A8C77AD",
+      "name": "NET_CHALLENGE_LB_GET_LOCAL_GAMER_STATS",
       "comment": "",
       "params": [
         {
@@ -33655,19 +33655,19 @@
       "return_type": "int"
     },
     "0xE89C6E4F": {
-      "name": "_0xE89C6E4F",
+      "name": "NET_CHALLENGE_LB_IS_TOP_FRIEND_INFO_VALID",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x0791F35A": {
-      "name": "_0x0791F35A",
+      "name": "NET_CHALLENGE_LB_GET_TOP_FRIEND_NAME",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x49C2B05F": {
-      "name": "_0x49C2B05F",
+      "name": "NET_CHALLENGE_LB_GET_TOP_FRIEND_STATS",
       "comment": "",
       "params": [
         {
@@ -33678,19 +33678,19 @@
       "return_type": "int"
     },
     "0xC813DBEF": {
-      "name": "_0xC813DBEF",
+      "name": "NET_CHALLENGE_LB_IS_TOP_SCORER_INFO_VALID",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xE6B4F505": {
-      "name": "_0xE6B4F505",
+      "name": "NET_CHALLENGE_LB_GET_TOP_SCORER_NAME",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x70AF0351": {
-      "name": "_0x70AF0351",
+      "name": "NET_CHALLENGE_LB_GET_TOP_SCORER_STATS",
       "comment": "",
       "params": [
         {
@@ -33707,13 +33707,13 @@
       "return_type": "int"
     },
     "0xA7F231B0": {
-      "name": "_0xA7F231B0",
+      "name": "NET_CHALLENGE_LB_GET_SCORER_ABOVE_PLAYER_NAME",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x984749B4": {
-      "name": "_0x984749B4",
+      "name": "NET_CHALLENGE_LB_GET_SCORER_ABOVE_PLAYER_STATS",
       "comment": "",
       "params": [
         {
