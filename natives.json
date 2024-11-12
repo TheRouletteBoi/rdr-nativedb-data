@@ -8267,7 +8267,7 @@
       "return_type": "void"
     },
     "0xB1B643E0": {
-      "name": "_0xB1B643E0",
+      "name": "DLC_REPLACE_EXISTING_ANIM_SET",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -15472,7 +15472,7 @@
       "return_type": "Any"
     },
     "0x5FE80264": {
-      "name": "_0x5FE80264",
+      "name": "GET_MOUSE_SENSITIVITY",
       "comment": "PC only",
       "params": [
         {
@@ -24187,7 +24187,7 @@
       "return_type": "void"
     },
     "0xE18BCD70": {
-      "name": "_0xE18BCD70",
+      "name": "GRINGO_PLAY_ANIM_ON_ACTOR",
       "comment": "",
       "params": [
         {
@@ -24243,7 +24243,7 @@
       "return_type": "int"
     },
     "0xB8C419C3": {
-      "name": "_0xB8C419C3",
+      "name": "GRINGO_PLAY_ANIM_ON_ACTOR_WITH_PROP_COMPONENT",
       "comment": "",
       "params": [
         {
@@ -24387,7 +24387,7 @@
       "return_type": "int"
     },
     "0x87BA5FE9": {
-      "name": "_0x87BA5FE9",
+      "name": "GRINGO_GET_ACTOR_SPECIFIC_AST_FILENAME",
       "comment": "",
       "params": [
         {
@@ -31393,7 +31393,7 @@
       "return_type": "int"
     },
     "0x0B24362F": {
-      "name": "_0x0B24362F",
+      "name": "OBJECT_LOCATOR_ATTACH_TO_OBJECT_BONE",
       "comment": "",
       "params": [
         {
@@ -31436,7 +31436,7 @@
       "return_type": "int"
     },
     "0xE25F407D": {
-      "name": "_0xE25F407D",
+      "name": "OBJECT_LOCATOR_ATTACH_TO_FRAGMENT_LOCATOR",
       "comment": "",
       "params": [
         {
@@ -31479,7 +31479,7 @@
       "return_type": "int"
     },
     "0xEB33480A": {
-      "name": "_0xEB33480A",
+      "name": "OBJECT_LOCATOR_ATTACH_TO_OBJECT",
       "comment": "",
       "params": [
         {
@@ -31518,7 +31518,7 @@
       "return_type": "int"
     },
     "0x88F7432C": {
-      "name": "_0x88F7432C",
+      "name": "OBJECT_LOCATOR_GET_LOCATOR_LOCAL_ORIENTATION",
       "comment": "",
       "params": [
         {
@@ -31533,7 +31533,7 @@
       "return_type": "int"
     },
     "0x04507DBC": {
-      "name": "_0x04507DBC",
+      "name": "OBJECT_LOCATOR_GET_LOCATOR_LOCAL_POSITION",
       "comment": "",
       "params": [
         {
@@ -32360,7 +32360,7 @@
       "return_type": "int*"
     },
     "0x579C2014": {
-      "name": "_0x579C2014",
+      "name": "NET_ACTOR_GET_SCRIPT_INT",
       "comment": "",
       "params": [
         {
@@ -32371,7 +32371,7 @@
       "return_type": "int"
     },
     "0x7837890B": {
-      "name": "_NET_SET_EQUIP_TYPE",
+      "name": "NET_ACTOR_SET_EQUIP_TYPE",
       "comment": "",
       "params": [
         {
@@ -32382,7 +32382,7 @@
       "return_type": "void"
     },
     "0xA6D794FE": {
-      "name": "_0xA6D794FE",
+      "name": "NET_ACTOR_SET_SCRIPT_INT",
       "comment": "",
       "params": [
         {
@@ -32423,7 +32423,7 @@
       "return_type": "int"
     },
     "0xC09B114B": {
-      "name": "_NET_ACTOR_OBJECT_ID",
+      "name": "NET_ACTOR_SET_ALLOW_BLIP_SYNC",
       "comment": "",
       "params": [
         {
@@ -32438,7 +32438,7 @@
       "return_type": "int"
     },
     "0x7284A71B": {
-      "name": "_NET_ACTOR_OBJECT_ID_2",
+      "name": "NET_ACTOR_SET_GRINGO_NAVIGATION_COMPLETE",
       "comment": "",
       "params": [
         {
@@ -39553,7 +39553,7 @@
       "return_type": "int"
     },
     "0x7AB17813": {
-      "name": "_0x7AB17813",
+      "name": "SWITCH_ACTOR_ENUM_VARIATION",
       "comment": "",
       "params": [
         {
@@ -39564,7 +39564,7 @@
       "return_type": "int"
     },
     "0x95FBA0B0": {
-      "name": "_SET_PLAYER_TO_ENUM",
+      "name": "SWITCH_PLAYER_TO_ENUM",
       "comment": "",
       "params": [
         {
@@ -52533,7 +52533,7 @@
       "return_type": "int*"
     },
     "0x01C7193C": {
-      "name": "_0x01C7193C",
+      "name": "INIT_NATIVE_WEAPONENUM_CATEGORY",
       "comment": "",
       "params": [],
       "return_type": "int"
