@@ -34670,7 +34670,7 @@
       "return_type": "int"
     },
     "0x6B72661F": {
-      "name": "_0x6B72661F",
+      "name": "GET_MOBILE_LAYOUT_FROM_OBJECT",
       "comment": "",
       "params": [
         {
@@ -34703,7 +34703,7 @@
       "return_type": "int"
     },
     "0x50A7E334": {
-      "name": "_0x50A7E334",
+      "name": "GET_NAV_QUERY_FROM_OBJECT",
       "comment": "",
       "params": [
         {
