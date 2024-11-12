@@ -41496,7 +41496,7 @@
       "return_type": "Any"
     },
     "0x1958F478": {
-      "name": "END_SCRIPTED_REQUEST",
+      "name": "NET_GAMER_ICON_FORCE_VISIBLE",
       "comment": "",
       "params": [
         {
