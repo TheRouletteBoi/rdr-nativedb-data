@@ -7576,7 +7576,7 @@
       "return_type": "void"
     },
     "0xC8B149B4": {
-      "name": "_0xC8B149B4",
+      "name": "AMBIENT_ENABLE_ELEVATION_DERIVATIVE_IN_AREA_FILTER",
       "comment": "",
       "params": [
         {
@@ -7587,7 +7587,7 @@
       "return_type": "void"
     },
     "0x54BD1C65": {
-      "name": "_0x54BD1C65",
+      "name": "AMBIENT_SET_ELEVATION_DERIVATIVE_IN_AREA_FILTER",
       "comment": "",
       "params": [
         {
@@ -7969,7 +7969,7 @@
       "return_type": "void"
     },
     "0x07EC142B": {
-      "name": "_RESET_ACTION_TREE_FOR_ACTOR",
+      "name": "RESET_ACTIONTREE_FOR_ACTOR",
       "comment": "",
       "params": [
         {
@@ -8454,7 +8454,7 @@
       "return_type": "int"
     },
     "0xB57D4110": {
-      "name": "_0xB57D4110",
+      "name": "SET_OBJECT_ANIMATOR_ANIMATION",
       "comment": "",
       "params": [
         {
@@ -10268,7 +10268,7 @@
       "return_type": "int"
     },
     "0x8A6D03BE": {
-      "name": "_0x8A6D03BE",
+      "name": "AUDIO_SET_MAX_CREATURE_FOOTSTEP_UPDATES",
       "comment": "",
       "params": [
         {
