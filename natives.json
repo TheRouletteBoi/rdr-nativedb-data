@@ -17074,7 +17074,7 @@
       "return_type": "int"
     },
     "0x82F80FEA": {
-      "name": "_0x82F80FEA",
+      "name": "CUTSCENE_MANAGER_SET_TRANSITION_FROM_GAMECAMERA",
       "comment": "",
       "params": [
         {
@@ -17085,7 +17085,7 @@
       "return_type": "int"
     },
     "0xCBE7BE6A": {
-      "name": "_0xCBE7BE6A",
+      "name": "CUTSCENE_MANAGER_SET_TRANSITION_TO_GAMECAMERA",
       "comment": "",
       "params": [
         {
@@ -17096,7 +17096,7 @@
       "return_type": "int"
     },
     "0x9E6A776F": {
-      "name": "_0x9E6A776F",
+      "name": "CUTSCENE_MANAGER_RESET_GAMECAMERA_ON_EXIT",
       "comment": "",
       "params": [
         {
@@ -17111,7 +17111,7 @@
       "return_type": "int"
     },
     "0x47FAE768": {
-      "name": "_0x47FAE768",
+      "name": "CUTSCENE_MANAGER_ORIENT_GAMECAMERA_ON_EXIT",
       "comment": "",
       "params": [
         {
@@ -17151,7 +17151,7 @@
       "return_type": "int"
     },
     "0xE0BE8235": {
-      "name": "_0xE0BE8235",
+      "name": "CUTSCENE_MANAGER_SET_HIDE_NONCUTSCENE_ACTORS",
       "comment": "",
       "params": [
         {
@@ -24540,7 +24540,7 @@
       "return_type": "int"
     },
     "0xEEE9C799": {
-      "name": "_GRINGO_ACTOR_MOVE_TO_AND_FACE_2",
+      "name": "GRINGO_ACTOR_MOVE_TO_AND_FACE_WITH_USER_OFFSET",
       "comment": "",
       "params": [
         {
@@ -52663,7 +52663,7 @@
       "return_type": "const char*"
     },
     "0xBE06C265": {
-      "name": "_0xBE06C265",
+      "name": "_GET_WEAPON_ICON_NAME",
       "comment": "",
       "params": [
         {
