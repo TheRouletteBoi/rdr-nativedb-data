@@ -6934,7 +6934,7 @@
       "return_type": "int"
     },
     "0x515E17DC": {
-      "name": "_0x515E17DC",
+      "name": "DEBUG_GET_AMBIENT_BANK_DISABLE_SPAWN_NEW_ACTORS",
       "comment": "",
       "params": [
         {
@@ -11202,7 +11202,7 @@
       "return_type": "void"
     },
     "0x5E07BF3F": {
-      "name": "_0x5E07BF3F",
+      "name": "CAMERA_MANUAL_CUT",
       "comment": "",
       "params": [],
       "return_type": "void"
@@ -11395,7 +11395,7 @@
       "return_type": "int"
     },
     "0xE13B49BD": {
-      "name": "_0xE13B49BD",
+      "name": "_IS_GAME_CAMERA_AUTO_CENTERING",
       "comment": "",
       "params": [
         {
@@ -11421,7 +11421,7 @@
       "return_type": "int"
     },
     "0x4062688A": {
-      "name": "_0x4062688A",
+      "name": "_IS_GAME_CAMERA_AUTO_TILTING",
       "comment": "",
       "params": [
         {
