@@ -15115,7 +15115,7 @@
       "return_type": "int"
     },
     "0x358F874F": {
-      "name": "_IS_KEY_DOWN",
+      "name": "IS_DEBUGKEY_DOWN",
       "comment": "",
       "params": [
         {
@@ -15126,7 +15126,7 @@
       "return_type": "BOOL"
     },
     "0xCBC97619": {
-      "name": "_IS_KEY_PRESSED",
+      "name": "IS_DEBUGKEY_PRESSED",
       "comment": "",
       "params": [
         {
