@@ -41765,7 +41765,7 @@
   },
   "PLAYSTATS": {
     "0x2547029C": {
-      "name": "_0x2547029C",
+      "name": "PLAYSTAT_INT",
       "comment": "",
       "params": [
         {
@@ -41815,7 +41815,7 @@
       "return_type": "Any"
     },
     "0x713B1D7F": {
-      "name": "_0x713B1D7F",
+      "name": "PLAYSTAT_STRING",
       "comment": "",
       "params": [
         {
@@ -41830,7 +41830,7 @@
       "return_type": "Any"
     },
     "0x9C80A3A4": {
-      "name": "_START",
+      "name": "PLAYSTAT_DEED_NAMED",
       "comment": "",
       "params": [
         {
@@ -41857,7 +41857,7 @@
       "return_type": "Any"
     },
     "0x27A00456": {
-      "name": "_MP_DEED_START",
+      "name": "PLAYSTAT_MP_DEED_START",
       "comment": "",
       "params": [
         {
@@ -41868,7 +41868,7 @@
       "return_type": "Any"
     },
     "0x120E6123": {
-      "name": "_MP_DEED_COMPLETE",
+      "name": "PLAYSTAT_MP_DEED_COMPLETE",
       "comment": "",
       "params": [
         {
@@ -41879,7 +41879,7 @@
       "return_type": "Any"
     },
     "0x4585821E": {
-      "name": "_MP_DEED_COMPLETE_EX",
+      "name": "PLAYSTAT_MP_DEED_COMPLETE_EX",
       "comment": "",
       "params": [
         {
@@ -41902,7 +41902,7 @@
       "return_type": "Any"
     },
     "0x46C39437": {
-      "name": "_MP_COOP_COMPLETE",
+      "name": "PLAYSTAT_MP_COOP_COMPLETE",
       "comment": "",
       "params": [
         {
