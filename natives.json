@@ -6416,7 +6416,7 @@
       "return_type": "int"
     }
   },
-  "AI_SPEECH2": {
+  "AI_SPEECH_CONTEXT": {
     "0xD85BAFA8": {
       "name": "SPEECH_CONTEXT_INIT_DATA",
       "comment": "",
