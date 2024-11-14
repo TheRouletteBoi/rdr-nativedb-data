@@ -11658,7 +11658,7 @@
       "return_type": "int"
     },
     "0x9A4CD54B": {
-      "name": "_0x9A4CD54B",
+      "name": "IS_CURRENT_CAMERA_CHANNEL_TRANSITIONING",
       "comment": "",
       "params": [
         {
@@ -25497,61 +25497,37 @@
       "return_type": "int"
     },
     "0x4803C120": {
-      "name": "_0x4803C120",
+      "name": "F2VSTR",
       "comment": "",
       "params": [
         {
           "type": "float",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
-        },
-        {
-          "type": "Any",
-          "name": "p5"
-        },
-        {
-          "type": "Any",
-          "name": "p6"
+          "name": "value"
         }
       ],
-      "return_type": "int"
+      "return_type": "const char*"
     },
     "0xFA6BDD8E": {
-      "name": "_CREATE_FONT",
+      "name": "F2STR",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "value"
         },
         {
           "type": "Any",
           "name": "p1"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "precision"
         }
       ],
-      "return_type": "int"
+      "return_type": "const char*"
     },
     "0x47EF426D": {
-      "name": "_0x47EF426D",
+      "name": "I2STR",
       "comment": "",
       "params": [
         {
@@ -25562,29 +25538,29 @@
       "return_type": "const char*"
     },
     "0x52C10147": {
-      "name": "_0x52C10147",
+      "name": "V2STR",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Vector3*",
+          "name": "value"
         }
       ],
-      "return_type": "int"
+      "return_type": "const char*"
     },
     "0x5E339E16": {
       "name": "FLOAT_TO_STRING_VERBOSE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "value"
         }
       ],
-      "return_type": "int"
+      "return_type": "const char*"
     },
     "0x8ED1FF95": {
-      "name": "_FLOAT_TO_STRING",
+      "name": "FLOAT_TO_STRING_FORMATED",
       "comment": "",
       "params": [
         {
@@ -25607,8 +25583,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "value"
         }
       ],
       "return_type": "const char*"
@@ -25619,7 +25595,7 @@
       "params": [
         {
           "type": "Vector3*",
-          "name": "p0"
+          "name": "value"
         }
       ],
       "return_type": "const char*"
