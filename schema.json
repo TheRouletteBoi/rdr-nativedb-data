@@ -1,0 +1,74 @@
+{
+	"type": "object",
+	"patternProperties": {
+		"^([A-Z_]+[A-Z0-9_]*|_0x[0-9A-F]{8})$": {
+			"type": "object",
+			"patternProperties": {
+				"^0x[0-9A-F]{8}$": {
+					"type": "object",
+					"properties": {
+						"name": { "$ref": "#/$defs/native_name" },
+						"comment": { "type": "string" },
+						"params": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"type": { "$ref": "#/$defs/param_type" },
+									"name": {
+										"type": "string",
+										"pattern": "^[A-Za-z_]+[A-Za-z0-9_]*$"
+									}
+								},
+								"required": ["type", "name"],
+								"additionalProperties": false
+							}
+						},
+						"return_type": { "$ref": "#/$defs/return_type" }
+					},
+					"required": ["name", "comment", "params", "return_type"],
+					"additionalProperties": false
+				}
+			},
+			"additionalProperties": false
+		}
+	},
+	"additionalProperties": false,
+	"$defs": {
+		"native_name": {
+			"type": "string",
+			"pattern": "^([A-Z_]+[A-Z0-9_]*|_0x[0-9A-F]{8})$"
+		},
+		"param_type": {
+			"type": "string",
+			"enum": [
+				"int", "int*",
+				"float", "float*",
+				"BOOL", "BOOL*",
+				"char*", "const char*",
+                "Actor", "Actor*",
+                "ActorSet", "ActorSet*",
+				"Any", "Any*",
+				"Blip", "Blip*",
+				"Cam", "Cam*",
+                "FireHandle", "FireHandle*",
+				"Hash", "Hash*",
+				"Iterator", "Iterator*",
+				"IteratorSet", "IteratorSet*",
+                "JournalHandle", "JournalHandle*",
+                "Layout", "Layout*",
+                "Mount", "Mount*",
+				"Object", "Object*",
+				"Ped", "Ped*",
+				"Player", "Player*",
+				"ScrHandle", "ScrHandle*",
+				"Vector3*",
+				"Vehicle", "Vehicle*"
+			]
+		},
+		"return_type": {
+			"type": "string",
+			"enum": ["void", "int", "float", "BOOL", "const char*", "Actor", "Actor*", "Any", "Any*", "Blip", "Cam", "Hash", "Iterator", "IteratorSet", "Layout", "Mount","Object", "Ped", "Player", "ScrHandle", "Vector3", "Vehicle"]
+		}
+	}
+}
