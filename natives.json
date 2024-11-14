@@ -42457,7 +42457,7 @@
       "return_type": "int"
     },
     "0x84FB15FA": {
-      "name": "_SET_ZONE_FORCE_SPAWN_DISTANCE_2",
+      "name": "SET_ZONE_ALLOWED_SPAWN_READY_TOO_CLOSE",
       "comment": "",
       "params": [
         {
