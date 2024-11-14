@@ -10817,46 +10817,46 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "scriptName"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p1"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x4A2100E4": {
       "name": "START_NEW_SCRIPT_WITH_ARGS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "scriptName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "Any*",
+          "name": "args"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "argCount"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "stackSize"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x35785333": {
       "name": "SETTIMERA",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "value"
         }
       ],
       "return_type": "void"
@@ -10865,7 +10865,7 @@
       "name": "TIMESTEP",
       "comment": "",
       "params": [],
-      "return_type": "Any"
+      "return_type": "float"
     },
     "0xECF8EB5F": {
       "name": "PRINTSTRING",
@@ -10873,7 +10873,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "value"
+          "name": "str"
         }
       ],
       "return_type": "void"
@@ -10912,15 +10912,15 @@
       "params": [
         {
           "type": "float",
-          "name": "p0"
+          "name": "x"
         },
         {
           "type": "float",
-          "name": "p1"
+          "name": "y"
         },
         {
           "type": "float",
-          "name": "p2"
+          "name": "z"
         }
       ],
       "return_type": "void"
@@ -10956,15 +10956,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "base"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "exponent"
         }
       ],
-      "return_type": "Any"
+      "return_type": "float"
     },
     "0x1FCF1ECD": {
       "name": "VMAG",
@@ -10972,15 +10972,15 @@
       "params": [
         {
           "type": "float",
-          "name": "p0"
+          "name": "x"
         },
         {
           "type": "float",
-          "name": "p1"
+          "name": "y"
         },
         {
           "type": "float",
-          "name": "p2"
+          "name": "z"
         }
       ],
       "return_type": "float"
@@ -11130,46 +11130,31 @@
     "0x2B547FE6": {
       "name": "GET_LATEST_CONSOLE_COMMAND",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "const char*"
     },
     "0xAA3EC981": {
       "name": "RESET_LATEST_CONSOLE_COMMAND",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0x9DE3DE24": {
       "name": "GET_CONSOLE_COMMAND_TOKEN",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "token"
         }
       ],
-      "return_type": "Any"
+      "return_type": "const char*"
     },
     "0x608F5BC6": {
       "name": "GET_NUM_CONSOLE_COMMAND_TOKENS",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "int"
     }
   },
   "CAM": {
@@ -53305,44 +53290,36 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "volume"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "FireId",
+          "name": "fireHandle"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "fireProperty"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "float",
+          "name": "x"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "float",
+          "name": "y"
         },
         {
-          "type": "Any",
-          "name": "p5"
+          "type": "float",
+          "name": "z"
         },
         {
-          "type": "Any",
-          "name": "p6"
+          "type": "BOOL",
+          "name": "isInfinite"
         },
         {
-          "type": "Any",
-          "name": "p7"
-        },
-        {
-          "type": "Any",
-          "name": "p8"
-        },
-        {
-          "type": "Any",
-          "name": "p9"
+          "type": "BOOL",
+          "name": "shouldSpread"
         }
       ],
       "return_type": "Any"
@@ -53362,13 +53339,8 @@
     "0x5402321A": {
       "name": "CREATE_FIRE_PROPERTY",
       "comment": "",
-      "params": [
-        {
-          "type": "Any*",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "int"
     },
     "0x2AC74780": {
       "name": "GET_FIRE_PROPERTY",
@@ -53386,20 +53358,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "x"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "y"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "z"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "float",
+          "name": "radius"
         }
       ],
       "return_type": "void"
@@ -53434,19 +53406,19 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "sectorName"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xAD5613FD": {
       "name": "ENABLE_WORLD_SECTOR",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "sectorName"
         }
       ],
       "return_type": "void"
@@ -53456,8 +53428,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "sectorName"
         }
       ],
       "return_type": "void"
@@ -53467,8 +53439,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "sectorName"
         }
       ],
       "return_type": "void"
@@ -53478,8 +53450,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "sectorName"
         }
       ],
       "return_type": "void"
@@ -53489,28 +53461,33 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "sectorName"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x63A83655": {
       "name": "SHOW_CHILD_SECTOR",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "sectorName"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xE437932A": {
       "name": "SET_USE_ACTOR_STAGGER",
       "comment": "PS4/Switch/PC only",
-      "params": [],
-      "return_type": "int"
+      "params": [
+        {
+          "type": "int",
+          "name": "actor"
+        }
+      ],
+      "return_type": "void"
     },
     "0xBBAE9CBD": {
       "name": "FIRE_CREATE_HANDLE",
@@ -53523,8 +53500,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "FireId",
+          "name": "fireHandle"
         }
       ],
       "return_type": "BOOL"
@@ -53534,12 +53511,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "FireId",
+          "name": "fireHandle"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "deactivate"
         }
       ],
       "return_type": "void"
@@ -53549,51 +53526,19 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "FireId",
+          "name": "fireHandle"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "releaseStrength"
         },
         {
           "type": "float",
           "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
-        },
-        {
-          "type": "Any",
-          "name": "p5"
-        },
-        {
-          "type": "Any",
-          "name": "p6"
-        },
-        {
-          "type": "Any",
-          "name": "p7"
-        },
-        {
-          "type": "Any",
-          "name": "p8"
-        },
-        {
-          "type": "Any",
-          "name": "p9"
-        },
-        {
-          "type": "Any",
-          "name": "p10"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x91396EB7": {
       "name": "FIRE_FIND_HANDLE_FROM_ATTACHED_ACTOR",
@@ -53611,12 +53556,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
-          "name": "actor"
+          "type": "FireId",
+          "name": "fireHandle"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
       "return_type": "void"
@@ -53626,23 +53571,31 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "FireId",
+          "name": "fireHandle"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "x"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "y"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "float",
+          "name": "z"
+        },        
+        {
+          "type": "int",
+          "name": "heightFlag"
+        },        
+        {
+          "type": "int",
+          "name": "flag"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x30C4CA99": {
       "name": "FIRE_IS_ACTOR_ON_FIRE",
@@ -53650,10 +53603,10 @@
       "params": [
         {
           "type": "Actor",
-          "name": "p0"
+          "name": "actor"
         }
       ],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0x15001332": {
       "name": "FIRE_STOP_ALL_FIRES",
@@ -53667,7 +53620,7 @@
       "params": [
         {
           "type": "Actor",
-          "name": "p0"
+          "name": "actor"
         }
       ],
       "return_type": "void"
@@ -53699,12 +53652,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "FireId",
+          "name": "fireHandle"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
       "return_type": "void"
@@ -53714,12 +53667,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "FireId",
+          "name": "fireHandle"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "damageAllowed"
         }
       ],
       "return_type": "void"
@@ -53744,12 +53697,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "FireId",
+          "name": "fireHandle"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "maxFlames"
         }
       ],
       "return_type": "void"
@@ -53759,12 +53712,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "FireId",
+          "name": "fireHandle"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "targetFillPercent"
         }
       ],
       "return_type": "void"
@@ -53774,12 +53727,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "FireId",
+          "name": "fireHandle"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "growRate"
         }
       ],
       "return_type": "void"
@@ -53789,23 +53742,27 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "FireId",
+          "name": "fireHandle"
+        },
+        {
+          "type": "float",
+          "name": "decayRate"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x6471D75C": {
       "name": "FIRE_SET_EXPIRE_ALLOWED",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "FireId",
+          "name": "fireHandle"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "allowExpire"
         }
       ],
       "return_type": "void"
@@ -53831,19 +53788,19 @@
       "params": [
         {
           "type": "float",
-          "name": "p0"
+          "name": "x"
         },
         {
           "type": "float",
-          "name": "p1"
+          "name": "y"
         },
         {
           "type": "float",
-          "name": "p2"
+          "name": "z"
         },
         {
           "type": "float",
-          "name": "p3"
+          "name": "radius"
         }
       ],
       "return_type": "int"
@@ -53853,8 +53810,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "volumeIndex"
         }
       ],
       "return_type": "int"
@@ -53876,10 +53833,10 @@
       "params": [
         {
           "type": "BOOL",
-          "name": "toggle"
+          "name": "isActive"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     }
   }
 }
