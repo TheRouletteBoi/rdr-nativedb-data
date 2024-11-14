@@ -32801,7 +32801,7 @@
       "return_type": "int"
     },
     "0xD923CD1B": {
-      "name": "_0xD923CD1B",
+      "name": "NET_SET_QUICKMATCH_PLAYLIST_RANGE",
       "comment": "",
       "params": [
         {
@@ -33511,7 +33511,7 @@
       "return_type": "int"
     },
     "0x76F09F04": {
-      "name": "_0x76F09F04",
+      "name": "NET_GET_NEAREST_FRIEND_NAME",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -33535,7 +33535,7 @@
       "return_type": "int"
     },
     "0xFC564903": {
-      "name": "_0xFC564903",
+      "name": "NET_GET_NEAREST_FRIEND_RANK",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -33779,7 +33779,7 @@
       "return_type": "int"
     },
     "0xC00C8C94": {
-      "name": "_0xC00C8C94",
+      "name": "NET_GET_PLAYER_COLOR_IDX",
       "comment": "",
       "params": [
         {
@@ -33828,7 +33828,7 @@
       "return_type": "int"
     },
     "0xFE83A4FE": {
-      "name": "_0xFE83A4FE",
+      "name": "NET_IS_GAMER_RADAR_BLIP_VISIBLE",
       "comment": "",
       "params": [
         {
