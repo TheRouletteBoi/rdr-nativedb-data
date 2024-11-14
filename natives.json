@@ -7099,19 +7099,6 @@
       "return_type": "float*"
     }
   },
-  "ALLOC": {
-    "0x724B4E9B": {
-      "name": "UI_ADDICON",
-      "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "int"
-    }
-  },
   "AMBIENCE": {
     "0x2A3B1045": {
       "name": "AMBIENCE_AUDIO_ENTITY_UPDATE_TERRITORY",
@@ -51157,6 +51144,19 @@
     "0x2DFDDDD9": {
       "name": "GET_RUNNING_BENCHMARK",
       "comment": "PC only, hash generated at runtime",
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        }
+      ],
+      "return_type": "int"
+    }
+  },
+  "UI_HUD": {
+    "0x724B4E9B": {
+      "name": "UI_ADDICON",
+      "comment": "",
       "params": [
         {
           "type": "Any",
