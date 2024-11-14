@@ -1784,7 +1784,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "float*"
+      "return_type": "void"
     },
     "0xA393AC4E": {
       "name": "SET_PLAYER_TO_PLAYER_DAMAGE_SCALE_FACTOR",
@@ -1795,7 +1795,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "float*"
+      "return_type": "void"
     },
     "0x05CFE1E9": {
       "name": "SET_NPC_TO_ACTOR_DAMAGE_SCALE_FACTOR",
@@ -2127,13 +2127,13 @@
           "name": "p0"
         }
       ],
-      "return_type": "float*"
+      "return_type": "void"
     },
     "0xF1779E65": {
       "name": "RESET_PLAYER_TARGET_WEIGHT",
       "comment": "",
       "params": [],
-      "return_type": "float*"
+      "return_type": "void"
     },
     "0xA819497B": {
       "name": "SET_HARDLOCK_TARGET_ANGLE_WEIGHTING",
@@ -2148,7 +2148,7 @@
           "name": "p1"
         }
       ],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0x8BE2D8B0": {
       "name": "SET_ZOMBIE_TARGET_MODE",
@@ -7096,7 +7096,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "float*"
+      "return_type": "void"
     }
   },
   "ALLOC": {
@@ -9934,7 +9934,7 @@
       "name": "AUDIO_ENABLE_PLAYER_TAUNTS",
       "comment": "",
       "params": [],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0xE0553D6B": {
       "name": "AUDIO_INIT_CAUCASIAN_ARMY_AE_RANGE",
@@ -10630,13 +10630,13 @@
       "name": "AUDIO_MG_START",
       "comment": "",
       "params": [],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0xEA2B35DB": {
       "name": "AUDIO_MG_STOP",
       "comment": "",
       "params": [],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0x0CCE435E": {
       "name": "AUDIO_MG_FILLET_START",
@@ -10906,7 +10906,7 @@
       "params": [],
       "return_type": "void"
     },
-    "0x85F31FB": {
+    "0x085F31FB": {
       "name": "PRINTVECTOR",
       "comment": "",
       "params": [
@@ -11201,11 +11201,11 @@
           "name": "result"
         },
         {
-          "type": "Vector3",
+          "type": "Vector3*",
           "name": "source"
         },
         {
-          "type": "Vector3",
+          "type": "Vector3*",
           "name": "target"
         },
         {
@@ -11445,7 +11445,7 @@
           "name": "p5"
         }
       ],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0x87E40FB8": {
       "name": "ENABLE_GAME_CAMERA_FOCUS",
@@ -11760,11 +11760,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Camera",
-          "name": "Cam"
+          "type": "Cam",
+          "name": "cam"
         },
         {
-          "type": "Vector3",
+          "type": "Vector3*",
           "name": "Direction"
         },
         {
@@ -12267,7 +12267,7 @@
           "name": "p6"
         }
       ],
-      "return_type": "Camera"
+      "return_type": "Cam"
     },
     "0x54A417F3": {
       "name": "CREATE_CAMERASHOT_IN_LAYOUT",
@@ -13916,7 +13916,7 @@
       "name": "GET_CUTSCENE_TUNER_SCRIPT_NAME",
       "comment": "",
       "params": [],
-      "return_type": "int*"
+      "return_type": "Any"
     },
     "0xD8218A5B": {
       "name": "GET_CUTSCENE_TUNER_CUTSCENE_INDEX",
@@ -18315,7 +18315,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0xDAD46FAB": {
       "name": "RESET_GLOBAL_ACTOR_WEAPON_BIAS",
@@ -19470,7 +19470,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0xC28A5950": {
       "name": "SET_ACTOR_ALLOW_PLAYER_GREET_RESPONSES",
@@ -20495,7 +20495,7 @@
           "name": "p1"
         }
       ],
-      "return_type": "int*"
+      "return_type": "Any"
     },
     "0xF7DA8F09": {
       "name": "COPY_EVENT",
@@ -25270,7 +25270,7 @@
       "comment": "",
       "params": [
         {
-          "type": "GUIWindow",
+          "type": "int",
           "name": "parent"
         },
         {
@@ -25367,7 +25367,7 @@
           "name": "windowName"
         }
       ],
-      "return_type": "GUIWindow"
+      "return_type": "int"
     },
     "0xA7FF2899": {
       "name": "GUI_MOVE_WINDOW_ABS",
@@ -25404,7 +25404,7 @@
       "comment": "",
       "params": [
         {
-          "type": "GUIWindow",
+          "type": "int",
           "name": "p0"
         }
       ],
@@ -25471,7 +25471,7 @@
       "name": "GUI_MAIN_WINDOW",
       "comment": "",
       "params": [],
-      "return_type": "GUIWindow"
+      "return_type": "int"
     },
     "0xB498108A": {
       "name": "_0xB498108A",
@@ -28706,7 +28706,7 @@
       "params": [],
       "return_type": "Any"
     },
-    "0xE712FCB": {
+    "0x0E712FCB": {
       "name": "SET_MAX_ITEM_COUNT",
       "comment": "",
       "params": [
@@ -28811,7 +28811,7 @@
       ],
       "return_type": "Any"
     },
-    "0xC38F697": {
+    "0x0C38F697": {
       "name": "HAS_ACCESSORY",
       "comment": "",
       "params": [
@@ -29141,7 +29141,7 @@
       ],
       "return_type": "Any"
     },
-    "0xCDD6F94": {
+    "0x0CDD6F94": {
       "name": "GET_WEAPON_IN_HAND_CRC",
       "comment": "",
       "params": [
@@ -31941,7 +31941,7 @@
           "name": "p1"
         }
       ],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0x50E637D7": {
       "name": "_0x50E637D7",
@@ -32151,13 +32151,13 @@
       "name": "NET_APPLY_RELEVANCY_OVERRIDE",
       "comment": "",
       "params": [],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0x72B03551": {
       "name": "NET_CLEAR_RELEVANCY_OVERRIDE",
       "comment": "",
       "params": [],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0x860FCDBD": {
       "name": "GET_SLOT_FOR_HOST",
@@ -32207,7 +32207,7 @@
           "name": "count"
         },
         {
-          "type": "bool",
+          "type": "BOOL",
           "name": "pushToQueue"
         }
       ],
@@ -32489,7 +32489,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0x579C2014": {
       "name": "NET_ACTOR_GET_SCRIPT_INT",
@@ -33335,13 +33335,13 @@
       "name": "FLAG_FILE_CRC_MISMATCH",
       "comment": "",
       "params": [],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0x489A2B93": {
       "name": "NET_SET_UNLOCK",
       "comment": "PS4/Switch/PC only",
       "params": [],
-      "return_type": "int*"
+      "return_type": "void"
     }
   },
   "NET2": {
@@ -35422,11 +35422,11 @@
           "name": "p2"
         },
         {
-          "type": "Vector3",
+          "type": "Vector3*",
           "name": "p3"
         },
         {
-          "type": "Vector3",
+          "type": "Vector3*",
           "name": "p4"
         },
         {
@@ -36160,7 +36160,7 @@
           "name": "p1"
         }
       ],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0x65C3D8F6": {
       "name": "_0x65C3D8F6",
@@ -36269,7 +36269,7 @@
           "name": "p1"
         }
       ],
-      "return_type": "int*"
+      "return_type": "Any"
     },
     "0x2CB3B980": {
       "name": "GET_OBJECTSET_FROM_OBJECT",
@@ -36457,7 +36457,7 @@
           "name": "p8"
         },
         {
-          "type": "char",
+          "type": "BOOL",
           "name": "p9"
         }
       ],
@@ -36504,7 +36504,7 @@
           "name": "p8"
         },
         {
-          "type": "char",
+          "type": "BOOL",
           "name": "p9"
         }
       ],
@@ -36574,7 +36574,7 @@
           "name": "p2"
         },
         {
-          "type": "char",
+          "type": "int",
           "name": "p3"
         },
         {
@@ -36609,7 +36609,7 @@
           "name": "p2"
         },
         {
-          "type": "char",
+          "type": "int",
           "name": "p3"
         },
         {
@@ -37826,7 +37826,7 @@
           "name": "p0"
         },
         {
-          "type": "char",
+          "type": "int",
           "name": "p1"
         }
       ],
@@ -37841,7 +37841,7 @@
           "name": "p0"
         },
         {
-          "type": "char",
+          "type": "int",
           "name": "p1"
         }
       ],
@@ -38559,7 +38559,7 @@
           "name": "Obj"
         },
         {
-          "type": "Vector3",
+          "type": "Vector3*",
           "name": "Position"
         }
       ],
@@ -38574,7 +38574,7 @@
           "name": "Obj"
         },
         {
-          "type": "Vector3",
+          "type": "Vector3*",
           "name": "Position"
         }
       ],
@@ -39069,7 +39069,7 @@
           "name": "p0"
         },
         {
-          "type": "char",
+          "type": "Any",
           "name": "p1"
         }
       ],
@@ -40600,7 +40600,7 @@
       ],
       "return_type": "Any"
     },
-    "0x920DB21": {
+    "0x0920DB21": {
       "name": "_0x0920DB21",
       "comment": "PC only",
       "params": [
@@ -42823,7 +42823,7 @@
       "name": "RESET_PROPS_IN_WORLD",
       "comment": "",
       "params": [],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0xCF1B9B11": {
       "name": "RESET_PROPS_IN_VOLUME",
@@ -44251,13 +44251,13 @@
           "name": "p5"
         }
       ],
-      "return_type": "int*"
+      "return_type": "void"
     },
     "0xB6839756": {
       "name": "FINISH_REGISTERING_ACTOR_SPEECH_CONTEXTS",
       "comment": "",
       "params": [],
-      "return_type": "int*"
+      "return_type": "const char*"
     },
     "0xCB139D15": {
       "name": "REGISTER_NUM_SPEECH_CONTEXTS",
@@ -44268,7 +44268,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "const char*"
+      "return_type": "void"
     },
     "0xF07F5E41": {
       "name": "REGISTER_NUM_CONTEXT_TYPES",
@@ -50217,7 +50217,7 @@
       ],
       "return_type": "Any"
     },
-    "0x61A2A3C": {
+    "0x061A2A3C": {
       "name": "GET_TIME_OF_DAY_AS_INT",
       "comment": "",
       "params": [
@@ -52006,7 +52006,7 @@
       ],
       "return_type": "Any"
     },
-    "0x6D055AB": {
+    "0x06D055AB": {
       "name": "TRAIN_GET_POSITION",
       "comment": "",
       "params": [
@@ -52115,7 +52115,7 @@
       ],
       "return_type": "void"
     },
-    "0xABD83C0": {
+    "0x0ABD83C0": {
       "name": "SET_VEHICLE_EJECTION_ENABLED",
       "comment": "",
       "params": [
@@ -52656,13 +52656,13 @@
           "name": "p0"
         }
       ],
-      "return_type": "int*"
+      "return_type": "const char*"
     },
     "0xE8739A48": {
       "name": "GET_WEAPON_FRAGMENT_NAME",
       "comment": "",
       "params": [],
-      "return_type": "int*"
+      "return_type": "const char*"
     },
     "0x01C7193C": {
       "name": "INIT_NATIVE_WEAPONENUM_CATEGORY",
@@ -53294,8 +53294,8 @@
           "name": "volume"
         },
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         },
         {
           "type": "int",
@@ -53500,8 +53500,8 @@
       "comment": "",
       "params": [
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         }
       ],
       "return_type": "BOOL"
@@ -53511,8 +53511,8 @@
       "comment": "",
       "params": [
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         },
         {
           "type": "BOOL",
@@ -53526,8 +53526,8 @@
       "comment": "",
       "params": [
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         },
         {
           "type": "float",
@@ -53556,8 +53556,8 @@
       "comment": "",
       "params": [
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         },
         {
           "type": "Actor",
@@ -53571,8 +53571,8 @@
       "comment": "",
       "params": [
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         },
         {
           "type": "float",
@@ -53652,8 +53652,8 @@
       "comment": "",
       "params": [
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         },
         {
           "type": "Actor",
@@ -53667,8 +53667,8 @@
       "comment": "",
       "params": [
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         },
         {
           "type": "BOOL",
@@ -53697,8 +53697,8 @@
       "comment": "",
       "params": [
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         },
         {
           "type": "int",
@@ -53712,8 +53712,8 @@
       "comment": "",
       "params": [
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         },
         {
           "type": "float",
@@ -53727,8 +53727,8 @@
       "comment": "",
       "params": [
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         },
         {
           "type": "float",
@@ -53742,8 +53742,8 @@
       "comment": "",
       "params": [
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         },
         {
           "type": "float",
@@ -53757,8 +53757,8 @@
       "comment": "",
       "params": [
         {
-          "type": "FireId",
-          "name": "fireHandle"
+          "type": "FireHandle",
+          "name": "handle"
         },
         {
           "type": "BOOL",
