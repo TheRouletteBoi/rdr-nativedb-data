@@ -10817,46 +10817,46 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "scriptName"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p1"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x4A2100E4": {
       "name": "START_NEW_SCRIPT_WITH_ARGS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "scriptName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "Any*",
+          "name": "args"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "argCount"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "stackSize"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x35785333": {
       "name": "SETTIMERA",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "value"
         }
       ],
       "return_type": "void"
@@ -10865,7 +10865,7 @@
       "name": "TIMESTEP",
       "comment": "",
       "params": [],
-      "return_type": "Any"
+      "return_type": "float"
     },
     "0xECF8EB5F": {
       "name": "PRINTSTRING",
@@ -10873,7 +10873,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "value"
+          "name": "str"
         }
       ],
       "return_type": "void"
@@ -10912,15 +10912,15 @@
       "params": [
         {
           "type": "float",
-          "name": "p0"
+          "name": "x"
         },
         {
           "type": "float",
-          "name": "p1"
+          "name": "y"
         },
         {
           "type": "float",
-          "name": "p2"
+          "name": "z"
         }
       ],
       "return_type": "void"
@@ -10956,15 +10956,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "base"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "exponent"
         }
       ],
-      "return_type": "Any"
+      "return_type": "float"
     },
     "0x1FCF1ECD": {
       "name": "VMAG",
@@ -10972,15 +10972,15 @@
       "params": [
         {
           "type": "float",
-          "name": "p0"
+          "name": "x"
         },
         {
           "type": "float",
-          "name": "p1"
+          "name": "y"
         },
         {
           "type": "float",
-          "name": "p2"
+          "name": "z"
         }
       ],
       "return_type": "float"
@@ -11130,46 +11130,31 @@
     "0x2B547FE6": {
       "name": "GET_LATEST_CONSOLE_COMMAND",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "const char*"
     },
     "0xAA3EC981": {
       "name": "RESET_LATEST_CONSOLE_COMMAND",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0x9DE3DE24": {
       "name": "GET_CONSOLE_COMMAND_TOKEN",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "token"
         }
       ],
-      "return_type": "Any"
+      "return_type": "const char*"
     },
     "0x608F5BC6": {
       "name": "GET_NUM_CONSOLE_COMMAND_TOKENS",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "int"
     }
   },
   "CAM": {
