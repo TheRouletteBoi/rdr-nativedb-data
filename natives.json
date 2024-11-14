@@ -40105,7 +40105,7 @@
       "return_type": "int"
     },
     "0x03B2D067": {
-      "name": "_0x03B2D067",
+      "name": "SAVE_POP_SET_BIRDS_SPAWNING_FROM_TREES",
       "comment": "",
       "params": [
         {
@@ -40127,7 +40127,7 @@
       "return_type": "void"
     },
     "0xC1195126": {
-      "name": "_0xC1195126",
+      "name": "SAVE_POP_SET_HUMAN_SPAWNING_IN_TOWN",
       "comment": "",
       "params": [
         {
@@ -40138,7 +40138,7 @@
       "return_type": "int"
     },
     "0x00CDD849": {
-      "name": "_0x00CDD849",
+      "name": "SAVE_POP_SET_HUMAN_SPAWNING_IN_TOWN_CONVERSATION_FULL",
       "comment": "",
       "params": [
         {
@@ -40149,7 +40149,7 @@
       "return_type": "int"
     },
     "0x6138B1B8": {
-      "name": "_0x6138B1B8",
+      "name": "SAVE_POP_SET_HUMAN_SPAWNING_IN_TOWN_CONVERSATION_RESPONSE",
       "comment": "",
       "params": [
         {
