@@ -16412,7 +16412,7 @@
       "return_type": "int"
     },
     "0x9265B24B": {
-      "name": "_GET_COVER_LOCATIONS_IN_VOLUME",
+      "name": "FIND_COVER_LOCATIONS_IN_VOLUME",
       "comment": "",
       "params": [
         {
@@ -42193,13 +42193,13 @@
       "return_type": "int"
     },
     "0x7ABDE1F0": {
-      "name": "_0x7ABDE1F0",
+      "name": "SET_FLOCK_DEFAULT_POPULATION_MAX_PER_CELL",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x7D7F9770": {
-      "name": "_0x7D7F9770",
+      "name": "SET_INDIVIDUAL_DEFAULT_POPULATION_MAX_PER_CELL",
       "comment": "",
       "params": [],
       "return_type": "int"
