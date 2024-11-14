@@ -40999,7 +40999,7 @@
       "return_type": "int"
     },
     "0x544BCE48": {
-      "name": "_0x544BCE48",
+      "name": "SET_PROP_ANGULAR_VELOCITY_DEGS",
       "comment": "",
       "params": [
         {
@@ -41118,7 +41118,7 @@
       "return_type": "int"
     },
     "0x734CC17B": {
-      "name": "_0x734CC17B",
+      "name": "LOCATE_PHYSINST_OF_TYPE",
       "comment": "",
       "params": [
         {
@@ -41149,7 +41149,7 @@
       "return_type": "int"
     },
     "0x4FF36FA7": {
-      "name": "_0x4FF36FA7",
+      "name": "LOCATE_PHYSINST_OF_PARTIAL_TYPE",
       "comment": "",
       "params": [
         {
@@ -41180,7 +41180,7 @@
       "return_type": "int"
     },
     "0xC5E372BC": {
-      "name": "_0xC5E372BC",
+      "name": "LOCATE_PHYSINSTS_OF_PARTIAL_TYPE",
       "comment": "",
       "params": [
         {
