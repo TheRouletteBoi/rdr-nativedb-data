@@ -7101,7 +7101,7 @@
   },
   "ALLOC": {
     "0x724B4E9B": {
-      "name": "_FONT_SCALE",
+      "name": "UI_ADDICON",
       "comment": "",
       "params": [
         {
