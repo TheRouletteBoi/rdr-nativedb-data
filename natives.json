@@ -6383,7 +6383,7 @@
       "return_type": "void"
     },
     "0x829F3E70": {
-      "name": "DEBUG_PLAYER_LOG",
+      "name": "AI_SPEECH_SET_DEFAULT_PACKAGE",
       "comment": "",
       "params": [
         {
