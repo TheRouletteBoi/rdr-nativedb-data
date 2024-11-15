@@ -265,7 +265,7 @@
     },
     "0xB114332D": {
       "name": "GET_DEBUG_PADINDEX",
-      "comment": "",
+      "comment": "Not present in the retail version! It just returns -1.",
       "params": [],
       "return_type": "int"
     },
@@ -11512,7 +11512,7 @@
     },
     "0xF3623B64": {
       "name": "SET_DEBUG_CAMERA_MODE",
-      "comment": "",
+      "comment": "Not present in the retail version! It's just a nullsub.",
       "params": [],
       "return_type": "int"
     },
@@ -14198,7 +14198,7 @@
     },
     "0x505A8057": {
       "name": "SET_DEBUG_DRAW",
-      "comment": "",
+      "comment": "Not present in the retail version! It's just a nullsub.",
       "params": [
         {
           "type": "Any",
@@ -14209,19 +14209,19 @@
     },
     "0xFF0B53EF": {
       "name": "GET_DEBUG_DRAW_STATE",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 0.",
       "params": [],
       "return_type": "int"
     },
     "0x6DE957C6": {
       "name": "_0x6DE957C6",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 0.",
       "params": [],
       "return_type": "int"
     },
     "0xA81DABA3": {
       "name": "SCRIPT_BREAKPOINT",
-      "comment": "",
+      "comment": "Not present in the retail version! It's just a nullsub.",
       "params": [
         {
           "type": "Any",
@@ -14232,7 +14232,7 @@
     },
     "0x5AC72FCC": {
       "name": "GRINGO_DEBUG_CHECK_SOUND",
-      "comment": "",
+      "comment": "Not present in the retail version! It's just a nullsub.",
       "params": [
         {
           "type": "Any",
