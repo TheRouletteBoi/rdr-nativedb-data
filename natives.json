@@ -396,7 +396,7 @@
       "return_type": "void"
     },
     "0x9613C2D0": {
-      "name": "_0x9613C2D0",
+      "name": "IS_PLAYER_CONTROLLABLE",
       "comment": "",
       "params": [],
       "return_type": "int"
