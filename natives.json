@@ -15534,8 +15534,8 @@
       "return_type": "void"
     },
     "0x3C2D93C1": {
-      "name": "_0x3C2D93C1",
-      "comment": "",
+      "name": "DRAW_STRING_CURRENT_FONT",
+      "comment": "Name could be false positive",
       "params": [
         {
           "type": "float",
@@ -16215,7 +16215,7 @@
       "return_type": "void"
     },
     "0x6CD7DCE1": {
-      "name": "_0x6CD7DCE1",
+      "name": "GET_COMMANDLINE_START_POS",
       "comment": "",
       "params": [
         {
@@ -16257,13 +16257,13 @@
       "return_type": "void"
     },
     "0x814D97E8": {
-      "name": "_0x814D97E8",
+      "name": "IS_STARTPOS_IN_COMMANDLINE",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
     },
     "0x3B004817": {
-      "name": "_0x3B004817",
+      "name": "_WAS_LAST_RESET_FOR_MULTIPLAYER",
       "comment": "",
       "params": [],
       "return_type": "BOOL"
