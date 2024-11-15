@@ -16792,7 +16792,7 @@
       "return_type": "int"
     },
     "0x49D2C1DA": {
-      "name": "_0x49D2C1DA",
+      "name": "CURVE_CALCULATE_DISTANCE_BY_FORCED_COMPONENT_SUBDIVISION_BOUNDS",
       "comment": "",
       "params": [
         {
@@ -28820,7 +28820,7 @@
       "return_type": "void"
     },
     "0x7BF75BCE": {
-      "name": "_0x7BF75BCE",
+      "name": "ACTOR_GET_ITEM_CRC_AT_INDEX",
       "comment": "",
       "params": [
         {
@@ -28831,7 +28831,7 @@
       "return_type": "Any"
     },
     "0x7F4D5AE0": {
-      "name": "_0x7F4D5AE0",
+      "name": "ACTOR_GET_ACCESSORY_CRC_AT_INDEX",
       "comment": "",
       "params": [
         {
@@ -28842,7 +28842,7 @@
       "return_type": "Any"
     },
     "0x608DCAEF": {
-      "name": "_0x608DCAEF",
+      "name": "ACTOR_GET_COLLECTABLE_CRC_AT_INDEX",
       "comment": "",
       "params": [
         {
@@ -29116,7 +29116,7 @@
       "return_type": "Any"
     },
     "0x612066E5": {
-      "name": "_0x612066E5",
+      "name": "GET_WEAPON_IN_HAND_NAME",
       "comment": "",
       "params": [
         {
@@ -29504,7 +29504,7 @@
       "return_type": "void"
     },
     "0xE224AC6F": {
-      "name": "IS_FRONTEND_DEATH",
+      "name": "_GET_AMMO_AMOUNT",
       "comment": "",
       "params": [
         {
