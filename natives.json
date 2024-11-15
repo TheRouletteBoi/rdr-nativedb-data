@@ -25267,7 +25267,7 @@
   "GUI": {
     "0xA20246AB": {
       "name": "GUI_MAKE_WINDOW",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 0.",
       "params": [
         {
           "type": "int",
@@ -25290,7 +25290,7 @@
     },
     "0x68FC1001": {
       "name": "GUI_MAKE_TEXT",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 0.",
       "params": [
         {
           "type": "int",
@@ -25325,7 +25325,7 @@
     },
     "0xA2A68BAD": {
       "name": "GUI_MAKE_OVERLAY",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 0.",
       "params": [
         {
           "type": "Any",
@@ -25356,7 +25356,7 @@
     },
     "0xF6207DF5": {
       "name": "GUI_WINDOWS_WITH_VALUES",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 0.",
       "params": [
         {
           "type": "int",
@@ -25371,7 +25371,7 @@
     },
     "0xA7FF2899": {
       "name": "GUI_MOVE_WINDOW_ABS",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 1.",
       "params": [
         {
           "type": "Any",
@@ -25390,7 +25390,7 @@
     },
     "0xFDED9B11": {
       "name": "GUI_CLOSE_WINDOW",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 1.",
       "params": [
         {
           "type": "Any",
@@ -25401,7 +25401,7 @@
     },
     "0xA2E6FECB": {
       "name": "GUI_WINDOW_VALID",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 1.",
       "params": [
         {
           "type": "int",
@@ -25412,7 +25412,7 @@
     },
     "0x5F3A1C35": {
       "name": "GUI_SET_TEXT",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 1.",
       "params": [
         {
           "type": "int",
@@ -25427,7 +25427,7 @@
     },
     "0x9CC6F183": {
       "name": "GUI_SET_TEXT_JUSTIFY",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 1.",
       "params": [
         {
           "type": "int",
@@ -25442,7 +25442,7 @@
     },
     "0x7600ED4B": {
       "name": "GUI_SET_TEXT_COLOR",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 1.",
       "params": [
         {
           "type": "int",
@@ -25469,7 +25469,7 @@
     },
     "0x5405B8AA": {
       "name": "GUI_MAIN_WINDOW",
-      "comment": "",
+      "comment": "This function is hard-coded to always return 0.",
       "params": [],
       "return_type": "int"
     },
@@ -25487,7 +25487,7 @@
     },
     "0xD019FF37": {
       "name": "GUI_MESSAGE_RELEASED_INPUT",
-      "comment": "Name could be false positive",
+      "comment": "Name could be false positive\nThis function is hard-coded to always return 0.",
       "params": [
         {
           "type": "Any",
