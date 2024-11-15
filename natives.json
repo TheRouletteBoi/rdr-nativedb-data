@@ -21295,7 +21295,7 @@
       "return_type": "int"
     },
     "0x013A0D25": {
-      "name": "AT_FIRED_LAST",
+      "name": "_SET_MELEE_MARKER_POS",
       "comment": "",
       "params": [
         {
@@ -21314,7 +21314,7 @@
       "return_type": "void"
     },
     "0x1182C34F": {
-      "name": "_0x1182C34F",
+      "name": "_SET_MELEE_MARKER_SIZE",
       "comment": "",
       "params": [
         {
@@ -21325,7 +21325,7 @@
       "return_type": "void"
     },
     "0xD0FB6AF0": {
-      "name": "_0xD0FB6AF0",
+      "name": "_SET_MELEE_MARKER_COLOR",
       "comment": "",
       "params": [
         {
@@ -21348,7 +21348,7 @@
       "return_type": "void"
     },
     "0xC00F8181": {
-      "name": "_0xC00F8181",
+      "name": "_SET_MELEE_MARKER_STROBE_INTENSITY",
       "comment": "",
       "params": [
         {
