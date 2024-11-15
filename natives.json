@@ -26248,7 +26248,7 @@
       "return_type": "void"
     },
     "0x247348C5": {
-      "name": "_0x247348C5",
+      "name": "UI_SET_PROMPT_ICON_STRING",
       "comment": "PC only",
       "params": [
         {
