@@ -36930,7 +36930,7 @@
       "return_type": "int"
     },
     "0x9189EB8B": {
-      "name": "_0x9189EB8B",
+      "name": "CREATE_VOLUME_SPAWNING_ZONE_VOLUME",
       "comment": "",
       "params": [
         {
