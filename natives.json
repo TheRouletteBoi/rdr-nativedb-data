@@ -11367,7 +11367,7 @@
       "return_type": "int"
     },
     "0xE13B49BD": {
-      "name": "_IS_GAME_CAMERA_AUTO_CENTERING",
+      "name": "GET_GAME_CAMERA_AUTO_CENTERING_STATE",
       "comment": "",
       "params": [
         {
@@ -11393,7 +11393,7 @@
       "return_type": "int"
     },
     "0x4062688A": {
-      "name": "_IS_GAME_CAMERA_AUTO_TILTING",
+      "name": "GET_GAME_CAMERA_AUTO_TILTING_STATE",
       "comment": "",
       "params": [
         {
