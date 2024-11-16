@@ -2367,8 +2367,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
+        },        
+        {
+          "type": "BOOL",
+          "name": "visible"
         }
       ],
       "return_type": "void"
@@ -2378,11 +2382,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     }
   },
   "AI_ANIMAL": {
