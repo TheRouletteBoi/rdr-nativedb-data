@@ -52162,8 +52162,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
       "return_type": "BOOL"
@@ -52173,20 +52173,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "x"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "y"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "z"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
       "return_type": "BOOL"
@@ -52196,12 +52196,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
       "return_type": "BOOL"
@@ -52211,46 +52211,46 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x6729EEFE": {
       "name": "GET_VOLUME_CENTER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         },
         {
-          "type": "float*",
-          "name": "p1"
+          "type": "float",
+          "name": "x"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "y"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "float",
+          "name": "z"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x14D5CFC3": {
       "name": "SET_VOLUME_ENABLED",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "enabled"
         }
       ],
       "return_type": "void"
@@ -52260,8 +52260,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
       "return_type": "BOOL"
@@ -52271,23 +52271,31 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
-      "return_type": "Any"
+      "return_type": "float"
     },
     "0xE9C34ACC": {
       "name": "GET_VOLUME_SCALE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "x"
+        },
+        {
+          "type": "float",
+          "name": "y"
+        },
+        {
+          "type": "float",
+          "name": "z"
         }
       ],
       "return_type": "void"
@@ -52297,23 +52305,23 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         },
         {
           "type": "Any",
           "name": "p1"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x026F7060": {
       "name": "FIND_VOL_SURFACE_POINTS_FOR_POINT",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         },
         {
           "type": "Any",
@@ -52328,7 +52336,7 @@
           "name": "p3"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     }
   },
   "WEAPON": {
