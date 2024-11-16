@@ -52770,7 +52770,7 @@
   "WEATHER": {
     "0x456D7F38": {
       "name": "SET_WEATHER",
-      "comment": "",
+      "comment": "weather:\nenum eWeatherType\n{\n\tWEATHER_CLEAR,\n\tWEATHER_FAIR,\n\tWEATHER_CLOUDY,\n\tWEATHER_RAINY,\n\tWEATHER_STORMY,\n\tWEATHER_SNOWY,\n\tWEATHER_INTERIOR_CLEAR,\n\tWEATHER_INTERIOR_FAIR,\n\tWEATHER_INTERIOR_CLOUDY,\n\tWEATHER_INTERIOR_RAINY,\n\tWEATHER_INTERIOR_STORMY,\n\tWEATHER_INTERIOR_SNOWY,\n\tWEATHER_CAVE,\n\tWEATHER_THIEVES,\n\tWEATHER_FOREST,\n\tWEATHER_LOCATION_A,\n\tWEATHER_LOCATION_B,\n\tWEATHER_LOCATION_C,\n\tWEATHER_INTERIOR_THIEVES,\n\tWEATHER_INTERIOR_FOREST,\n\tWEATHER_INTERIOR_LOCATION_A,\n\tWEATHER_INTERIOR_LOCATION_B,\n\tWEATHER_INTERIOR_LOCATION_C\n};",
       "params": [
         {
           "type": "int",
@@ -52778,7 +52778,7 @@
         },
         {
           "type": "float",
-          "name": "time"
+          "name": "transitionSpeed"
         }
       ],
       "return_type": "void"
@@ -52787,7 +52787,7 @@
       "name": "GET_WEATHER",
       "comment": "",
       "params": [],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xC157CA40": {
       "name": "SET_WEATHER_COMPLEX",
@@ -52861,16 +52861,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "direction"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "intensity"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "transitionSpeed"
         }
       ],
       "return_type": "void"
@@ -52892,7 +52892,7 @@
       "params": [
         {
           "type": "float",
-          "name": "value"
+          "name": "rainIntensity"
         }
       ],
       "return_type": "void"
@@ -52900,72 +52900,59 @@
     "0xF0C9645A": {
       "name": "SET_LIGHTNING_AMOUNT",
       "comment": "",
-      "params": [],
-      "return_type": "Any"
+      "params": [
+        {
+          "type": "float",
+          "name": "lightningIntensity"
+        }
+      ],
+      "return_type": "void"
     },
     "0xC4C59CA4": {
       "name": "SET_WEATHER_TYPE_GOOD",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "BOOL",
+          "name": "isGoodWeather"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0xA915DC46": {
       "name": "SET_WEATHER_TYPE_RAINY",
-      "comment": "",
+      "comment": "rainType:\nenum eRainType\n{\n\tRAINY_LIGHT,\n\tRAINY_MODERATE,\n\tRAINY_HEAVY,\n\tRAINY_TORRENTIAL\n};",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "rainType"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x9B390724": {
       "name": "TRIGGER_LIGHTNING_SEQUENCE",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0x858FD48D": {
       "name": "TRIGGER_CLOUD_LIGHTNING_SEQUENCE",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0x17BCED9F": {
       "name": "ENABLE_WEATHER_SPHERE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "BOOL",
+          "name": "enableWeather"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "allAreasAffected"
         }
       ],
       "return_type": "void"
@@ -52973,19 +52960,24 @@
     "0xFEEC4EE2": {
       "name": "IS_WEATHER_SPHERE_ENABLED",
       "comment": "",
-      "params": [],
-      "return_type": "Any"
+      "params": [
+        {
+          "type": "BOOL",
+          "name": "toggle"
+        }
+      ],
+      "return_type": "BOOL"
     },
     "0x21A68D47": {
-      "name": "_0x21A68D47",
+      "name": "_SET_SKY_IS_INTRO_RUNNING",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "BOOL",
+          "name": "isIntroRunning"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x8291ED47": {
       "name": "_0x8291ED47",
