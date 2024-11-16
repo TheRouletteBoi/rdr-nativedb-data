@@ -2231,16 +2231,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "layoutName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "isActive"
         }
       ],
       "return_type": "int"
@@ -2250,8 +2250,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         }
       ],
       "return_type": "BOOL"
@@ -2272,12 +2272,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
+          "type": "ActorSet",
+          "name": "actorSet"
         }
       ],
       "return_type": "void"
@@ -2287,53 +2283,53 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xE09DB6C1": {
       "name": "ADD_ACTORSET_MEMBER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0xD637E449": {
       "name": "REMOVE_ACTORSET_MEMBER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "actor"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xC6FE68DF": {
       "name": "IS_ACTOR_IN_ACTORSET",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
@@ -2343,22 +2339,26 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
+        },
+        {
+          "type": "BOOL",
+          "name": "isActive"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xA24F4799": {
       "name": "GET_ACTORSET_SIZE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     }
   },
   "ACTOR_DRAW": {
