@@ -47066,27 +47066,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
+          "type": "const char*",
+          "name": "stringData"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x82B4DCCE": {
       "name": "REQUEST_STRING_TABLE",
@@ -47094,7 +47078,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "p0"
+          "name": "stringTable"
         }
       ],
       "return_type": "void"
@@ -47105,7 +47089,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "p0"
+          "name": "stringTable"
         }
       ],
       "return_type": "BOOL"
@@ -47115,11 +47099,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "stringTable"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     }
   },
   "TARGETING": {
