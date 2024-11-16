@@ -46863,15 +46863,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "string"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "subString"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     },
     "0x43BE70B5": {
       "name": "STRING_TO_FLOAT",
@@ -46879,7 +46879,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "p0"
+          "name": "string"
         }
       ],
       "return_type": "float"
@@ -46889,113 +46889,112 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "string"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x84415E28": {
       "name": "STRING_TO_HASH",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "string"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x6CE4B233": {
       "name": "STRING_LENGTH",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "string"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x71D550C6": {
       "name": "STRINGTABLE_LENGTH",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "string"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x3E785560": {
       "name": "STRING_LOWER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "inputString"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0xBC5B2116": {
       "name": "STRING_UPPER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "inputString"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x346E91C2": {
       "name": "SET_OWNERSHIP_STRAGGLER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "ownerName"
+        },
+        {
+          "type": "const char*",
+          "name": "stragglerName"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x7FB72180": {
       "name": "STRING_NUM_TOKENS",
       "comment": "",
       "params": [],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xEE2791E5": {
       "name": "STRING_GET_TOKEN",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "token"
         }
       ],
-      "return_type": "Any"
+      "return_type": "const char*"
     },
     "0x10873616": {
       "name": "STRING_CLEAR_TOKENIZER",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0x8785E0CE": {
       "name": "SS_INIT",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "config"
         }
       ],
       "return_type": "void"
@@ -47005,31 +47004,31 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "registerName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "componentType"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "registrationFlags"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x20D34AC5": {
       "name": "SS_GET_STRING",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "stringIndex"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "fetchType"
         }
       ],
       "return_type": "const char*"
@@ -47039,52 +47038,42 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "stringReference"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "fetchType"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xEC1E8210": {
       "name": "SS_FINALIZE",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0xBEDF7AA8": {
       "name": "SS_UNFINALIZE",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0xAFFA5ABE": {
       "name": "SS_SET_TABLE_SIZE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "tableCategory"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "tableSize"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     }
   },
   "STRINGTABLE": {
