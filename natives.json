@@ -43149,7 +43149,7 @@
           "name": "enableClipping"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0xB84DE79E": {
       "name": "PRINT_FRAME_TIME",
@@ -43171,7 +43171,7 @@
           "name": "maxCascadeCount"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     }
   },
   "RIDING": {
