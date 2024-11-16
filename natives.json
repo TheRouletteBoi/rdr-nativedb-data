@@ -2231,16 +2231,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "layoutName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "isActive"
         }
       ],
       "return_type": "int"
@@ -2250,8 +2250,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         }
       ],
       "return_type": "BOOL"
@@ -2272,12 +2272,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
+          "type": "ActorSet",
+          "name": "actorSet"
         }
       ],
       "return_type": "void"
@@ -2287,53 +2283,53 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xE09DB6C1": {
       "name": "ADD_ACTORSET_MEMBER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0xD637E449": {
       "name": "REMOVE_ACTORSET_MEMBER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "actor"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xC6FE68DF": {
       "name": "IS_ACTOR_IN_ACTORSET",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
@@ -2343,22 +2339,26 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
+        },
+        {
+          "type": "BOOL",
+          "name": "isActive"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xA24F4799": {
       "name": "GET_ACTORSET_SIZE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "ActorSet",
+          "name": "actorSet"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     }
   },
   "ACTOR_DRAW": {
@@ -2367,8 +2367,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
+        },        
+        {
+          "type": "BOOL",
+          "name": "visible"
         }
       ],
       "return_type": "void"
@@ -2378,11 +2382,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     }
   },
   "AI_ANIMAL": {
@@ -43104,19 +43108,19 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "BOOL",
+          "name": "enableClipping"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0xB84DE79E": {
       "name": "PRINT_FRAME_TIME",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "frameIndex"
         }
       ],
       "return_type": "void"
@@ -43126,11 +43130,11 @@
       "comment": "PS4/Switch/PC only",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "maxCascadeCount"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     }
   },
   "RIDING": {
@@ -46787,32 +46791,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "string1"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "string2"
         },
         {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
-        },
-        {
-          "type": "Any",
-          "name": "p5"
-        },
-        {
-          "type": "Any",
-          "name": "p6"
+          "type": "int",
+          "name": "maxLength"
         }
       ],
       "return_type": "BOOL"
@@ -46822,15 +46810,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "string"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "subString"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     },
     "0x43BE70B5": {
       "name": "STRING_TO_FLOAT",
@@ -46838,7 +46826,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "p0"
+          "name": "string"
         }
       ],
       "return_type": "float"
@@ -46848,113 +46836,112 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "string"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x84415E28": {
       "name": "STRING_TO_HASH",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "string"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x6CE4B233": {
       "name": "STRING_LENGTH",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "string"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x71D550C6": {
       "name": "STRINGTABLE_LENGTH",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "string"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x3E785560": {
       "name": "STRING_LOWER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "inputString"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0xBC5B2116": {
       "name": "STRING_UPPER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "inputString"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x346E91C2": {
       "name": "SET_OWNERSHIP_STRAGGLER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "ownerName"
+        },
+        {
+          "type": "const char*",
+          "name": "stragglerName"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x7FB72180": {
       "name": "STRING_NUM_TOKENS",
       "comment": "",
       "params": [],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xEE2791E5": {
       "name": "STRING_GET_TOKEN",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "token"
         }
       ],
-      "return_type": "Any"
+      "return_type": "const char*"
     },
     "0x10873616": {
       "name": "STRING_CLEAR_TOKENIZER",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0x8785E0CE": {
       "name": "SS_INIT",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "config"
         }
       ],
       "return_type": "void"
@@ -46964,31 +46951,31 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "registerName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "componentType"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "registrationFlags"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x20D34AC5": {
       "name": "SS_GET_STRING",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "stringIndex"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "fetchType"
         }
       ],
       "return_type": "const char*"
@@ -46998,52 +46985,42 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "stringReference"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "fetchType"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xEC1E8210": {
       "name": "SS_FINALIZE",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0xBEDF7AA8": {
       "name": "SS_UNFINALIZE",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0xAFFA5ABE": {
       "name": "SS_SET_TABLE_SIZE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "tableCategory"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "tableSize"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     }
   },
   "STRINGTABLE": {
@@ -47052,27 +47029,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
+          "type": "const char*",
+          "name": "stringData"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x82B4DCCE": {
       "name": "REQUEST_STRING_TABLE",
@@ -47080,7 +47041,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "p0"
+          "name": "stringTable"
         }
       ],
       "return_type": "void"
@@ -47091,7 +47052,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "p0"
+          "name": "stringTable"
         }
       ],
       "return_type": "BOOL"
@@ -47101,11 +47062,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "stringTable"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     }
   },
   "TARGETING": {
@@ -52177,8 +52138,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
       "return_type": "BOOL"
@@ -52188,20 +52149,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "x"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "y"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "z"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
       "return_type": "BOOL"
@@ -52211,12 +52172,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
       "return_type": "BOOL"
@@ -52226,46 +52187,46 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x6729EEFE": {
       "name": "GET_VOLUME_CENTER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         },
         {
-          "type": "float*",
-          "name": "p1"
+          "type": "float",
+          "name": "x"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "y"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "float",
+          "name": "z"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x14D5CFC3": {
       "name": "SET_VOLUME_ENABLED",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "enabled"
         }
       ],
       "return_type": "void"
@@ -52275,8 +52236,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
       "return_type": "BOOL"
@@ -52286,23 +52247,31 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
-      "return_type": "Any"
+      "return_type": "float"
     },
     "0xE9C34ACC": {
       "name": "GET_VOLUME_SCALE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "x"
+        },
+        {
+          "type": "float",
+          "name": "y"
+        },
+        {
+          "type": "float",
+          "name": "z"
         }
       ],
       "return_type": "void"
@@ -52312,23 +52281,23 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         },
         {
           "type": "Any",
           "name": "p1"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x026F7060": {
       "name": "FIND_VOL_SURFACE_POINTS_FOR_POINT",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         },
         {
           "type": "Any",
@@ -52343,7 +52312,7 @@
           "name": "p3"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     }
   },
   "WEAPON": {
@@ -52785,7 +52754,7 @@
   "WEATHER": {
     "0x456D7F38": {
       "name": "SET_WEATHER",
-      "comment": "",
+      "comment": "weather:\nenum eWeatherType\n{\n\tWEATHER_CLEAR,\n\tWEATHER_FAIR,\n\tWEATHER_CLOUDY,\n\tWEATHER_RAINY,\n\tWEATHER_STORMY,\n\tWEATHER_SNOWY,\n\tWEATHER_INTERIOR_CLEAR,\n\tWEATHER_INTERIOR_FAIR,\n\tWEATHER_INTERIOR_CLOUDY,\n\tWEATHER_INTERIOR_RAINY,\n\tWEATHER_INTERIOR_STORMY,\n\tWEATHER_INTERIOR_SNOWY,\n\tWEATHER_CAVE,\n\tWEATHER_THIEVES,\n\tWEATHER_FOREST,\n\tWEATHER_LOCATION_A,\n\tWEATHER_LOCATION_B,\n\tWEATHER_LOCATION_C,\n\tWEATHER_INTERIOR_THIEVES,\n\tWEATHER_INTERIOR_FOREST,\n\tWEATHER_INTERIOR_LOCATION_A,\n\tWEATHER_INTERIOR_LOCATION_B,\n\tWEATHER_INTERIOR_LOCATION_C\n};",
       "params": [
         {
           "type": "int",
@@ -52793,7 +52762,7 @@
         },
         {
           "type": "float",
-          "name": "time"
+          "name": "transitionSpeed"
         }
       ],
       "return_type": "void"
@@ -52802,7 +52771,7 @@
       "name": "GET_WEATHER",
       "comment": "",
       "params": [],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xC157CA40": {
       "name": "SET_WEATHER_COMPLEX",
@@ -52876,16 +52845,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "direction"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "intensity"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "transitionSpeed"
         }
       ],
       "return_type": "void"
@@ -52907,7 +52876,7 @@
       "params": [
         {
           "type": "float",
-          "name": "value"
+          "name": "rainIntensity"
         }
       ],
       "return_type": "void"
@@ -52915,72 +52884,59 @@
     "0xF0C9645A": {
       "name": "SET_LIGHTNING_AMOUNT",
       "comment": "",
-      "params": [],
-      "return_type": "Any"
+      "params": [
+        {
+          "type": "float",
+          "name": "lightningIntensity"
+        }
+      ],
+      "return_type": "void"
     },
     "0xC4C59CA4": {
       "name": "SET_WEATHER_TYPE_GOOD",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "BOOL",
+          "name": "isGoodWeather"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0xA915DC46": {
       "name": "SET_WEATHER_TYPE_RAINY",
-      "comment": "",
+      "comment": "rainType:\nenum eRainType\n{\n\tRAINY_LIGHT,\n\tRAINY_MODERATE,\n\tRAINY_HEAVY,\n\tRAINY_TORRENTIAL\n};",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "rainType"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x9B390724": {
       "name": "TRIGGER_LIGHTNING_SEQUENCE",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0x858FD48D": {
       "name": "TRIGGER_CLOUD_LIGHTNING_SEQUENCE",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0x17BCED9F": {
       "name": "ENABLE_WEATHER_SPHERE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "BOOL",
+          "name": "enableWeather"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "allAreasAffected"
         }
       ],
       "return_type": "void"
@@ -52988,19 +52944,24 @@
     "0xFEEC4EE2": {
       "name": "IS_WEATHER_SPHERE_ENABLED",
       "comment": "",
-      "params": [],
-      "return_type": "Any"
+      "params": [
+        {
+          "type": "BOOL",
+          "name": "toggle"
+        }
+      ],
+      "return_type": "BOOL"
     },
     "0x21A68D47": {
-      "name": "_0x21A68D47",
+      "name": "_SET_SKY_IS_INTRO_RUNNING",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "BOOL",
+          "name": "isIntroRunning"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x8291ED47": {
       "name": "_0x8291ED47",
