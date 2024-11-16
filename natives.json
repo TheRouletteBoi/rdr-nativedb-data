@@ -43145,8 +43145,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "BOOL",
+          "name": "enableClipping"
         }
       ],
       "return_type": "Any"
@@ -43156,8 +43156,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "frameIndex"
         }
       ],
       "return_type": "void"
@@ -43167,8 +43167,8 @@
       "comment": "PS4/Switch/PC only",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "maxCascadeCount"
         }
       ],
       "return_type": "Any"
