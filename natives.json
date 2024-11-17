@@ -51124,11 +51124,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "iconId"
+        },
+        {
+          "type": "const char*",
+          "name": "iconName"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     }
   },
   "VEHICLES": {
