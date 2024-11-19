@@ -28416,13 +28416,13 @@
       "return_type": "void"
     },
     "0x6CC9CCE7": {
-      "name": "_0x6CC9CCE7",
+      "name": "_IS_ZOMBIE_DLC_ACTIVE",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x8701F1F6": {
-      "name": "_0x8701F1F6",
+      "name": "IS_HARDCORE_ACTIVE",
       "comment": "",
       "params": [],
       "return_type": "int"
