@@ -16044,7 +16044,7 @@
       "return_type": "int"
     },
     "0xFB46B5D6": {
-      "name": "_0xFB46B5D6",
+      "name": "IS_USING_KEYBOARD_AND_MOUSE",
       "comment": "PC only",
       "params": [
         {
@@ -29022,7 +29022,7 @@
       "return_type": "Any"
     },
     "0x5CAFCBD4": {
-      "name": "_0x5CAFCBD4",
+      "name": "ACTOR_SET_NEXT_EQUIP_SLOT_FROM_WEAPON_ENUM",
       "comment": "",
       "params": [],
       "return_type": "Any"
@@ -36250,7 +36250,7 @@
       "return_type": "int"
     },
     "0x50D39153": {
-      "name": "_0x50D39153",
+      "name": "GET_INDEXED_OBJECT_IN_OBJECTSET",
       "comment": "",
       "params": [
         {
@@ -37238,7 +37238,7 @@
       "return_type": "int"
     },
     "0xF1F8AFCA": {
-      "name": "_0xF1F8AFCA",
+      "name": "CREATE_RMPTFX_EMITTER_IN_LAYOUT",
       "comment": "",
       "params": [
         {
@@ -37273,7 +37273,7 @@
       "return_type": "int"
     },
     "0xFF8CBD07": {
-      "name": "_0xFF8CBD07",
+      "name": "CREATE_RMPTFX_EMITTER_ON_OBJECT",
       "comment": "",
       "params": [
         {
@@ -37304,7 +37304,7 @@
       "return_type": "int"
     },
     "0x2A902148": {
-      "name": "_0x2A902148",
+      "name": "CREATE_RMPTFX_EMITTER_ON_BONE",
       "comment": "",
       "params": [
         {
@@ -37339,7 +37339,7 @@
       "return_type": "int"
     },
     "0x39286DE5": {
-      "name": "_0x39286DE5",
+      "name": "CREATE_RMPTFX_EMITTER_ON_CURVE",
       "comment": "",
       "params": [
         {
