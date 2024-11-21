@@ -1241,7 +1241,7 @@
       "return_type": "void"
     },
     "0x7F454A92": {
-      "name": "_0x7F454A92",
+      "name": "GET_TIME_PLAYER_SHOT_CLOSE",
       "comment": "",
       "params": [
         {
