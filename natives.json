@@ -45954,7 +45954,7 @@
       "return_type": "int"
     },
     "0x5545C218": {
-      "name": "_0x5545C218",
+      "name": "GET_SAGPLAYER_STAT_FLOAT",
       "comment": "",
       "params": [
         {
@@ -45965,7 +45965,7 @@
       "return_type": "float"
     },
     "0xE623B382": {
-      "name": "_0xE623B382",
+      "name": "GET_SAGPLAYER_STAT_INT",
       "comment": "",
       "params": [
         {
@@ -45973,10 +45973,10 @@
           "name": "p0"
         }
       ],
-      "return_type": "float"
+      "return_type": "int"
     },
     "0x2104B1C0": {
-      "name": "PUSH_COMMAND_HANDLE",
+      "name": "SET_SAGPLAYER_STAT_FLOAT",
       "comment": "",
       "params": [
         {
@@ -45991,7 +45991,7 @@
       "return_type": "void"
     },
     "0xF1A723D0": {
-      "name": "_0xF1A723D0",
+      "name": "SET_SAGPLAYER_STAT_INT",
       "comment": "",
       "params": [
         {
