@@ -14860,7 +14860,7 @@
       "return_type": "int"
     },
     "0x44986367": {
-      "name": "_0x44986367",
+      "name": "VECTOR_FROM_HEADING_DEGS",
       "comment": "",
       "params": [
         {
@@ -18226,7 +18226,7 @@
       "return_type": "int"
     },
     "0xB89CC342": {
-      "name": "_0xB89CC342",
+      "name": "TRANSFORM_ACTOR_TO_WORLD",
       "comment": "",
       "params": [
         {
@@ -18905,7 +18905,7 @@
       "return_type": "BOOL"
     },
     "0x4A2DE1D0": {
-      "name": "_IS_MOVER_ON_VEHICLE_PATH",
+      "name": "IS_ACTOR_ON_VEHICLEPATH",
       "comment": "",
       "params": [
         {
