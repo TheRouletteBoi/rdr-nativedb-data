@@ -35717,7 +35717,7 @@
       "return_type": "int"
     },
     "0xA936E73B": {
-      "name": "_0xA936E73B",
+      "name": "MARK_LAYOUT_CONSIDER_WHOLE",
       "comment": "",
       "params": [
         {
