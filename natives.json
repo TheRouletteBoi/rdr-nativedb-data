@@ -6586,7 +6586,7 @@
       "return_type": "void"
     },
     "0xAC72E757": {
-      "name": "_0xAC72E757",
+      "name": "DISABLE_NONCOMBAT_SPEECH_UNIVERSAL",
       "comment": "",
       "params": [
         {
@@ -6601,7 +6601,7 @@
       "return_type": "void"
     },
     "0x99AFD2D1": {
-      "name": "_0x99AFD2D1",
+      "name": "DISABLE_NONCOMBAT_SPEECH_INDIVIDUAL",
       "comment": "",
       "params": [
         {
