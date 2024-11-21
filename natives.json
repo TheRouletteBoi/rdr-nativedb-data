@@ -32693,7 +32693,7 @@
       "return_type": "BOOL"
     },
     "0xF6E40FF3": {
-      "name": "_0xF6E40FF3",
+      "name": "NET_SEARCHBOT_FILTER_RESET",
       "comment": "",
       "params": [
         {
@@ -32820,7 +32820,7 @@
       "return_type": "int"
     },
     "0x7540959C": {
-      "name": "_NET_REQUEST_BECOME_GAME_HOST",
+      "name": "NET_SESSION_REQUEST_BECOME_HOST",
       "comment": "",
       "params": [
         {
@@ -33504,7 +33504,7 @@
       "return_type": "int"
     },
     "0xD7572C68": {
-      "name": "_0xD7572C68",
+      "name": "NET_GET_NEAREST_FRIEND_SCORE_INFO",
       "comment": "",
       "params": [
         {
@@ -33521,7 +33521,7 @@
       "return_type": "int"
     },
     "0xA684E813": {
-      "name": "_0xA684E813",
+      "name": "NET_GET_SLOT_OF_NEAREST_FRIEND",
       "comment": "",
       "params": [],
       "return_type": "int"
