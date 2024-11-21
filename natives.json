@@ -32939,7 +32939,7 @@
       "return_type": "void"
     },
     "0x50C18480": {
-      "name": "_0x50C18480",
+      "name": "NET_GAMERDATA_SET",
       "comment": "",
       "params": [
         {
@@ -50768,7 +50768,7 @@
       "return_type": "void"
     },
     "0xF53EB511": {
-      "name": "AI_SET_SPECIAL_AREAS_TIME",
+      "name": "UI_LABEL_SET_VALUE_B",
       "comment": "",
       "params": [
         {
