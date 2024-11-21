@@ -2199,7 +2199,7 @@
       "return_type": "void"
     },
     "0x968F0317": {
-      "name": "_0x968F0317",
+      "name": "GET_HOLD_TO_SPRINT",
       "comment": "PC only",
       "params": [
         {
