@@ -33071,7 +33071,7 @@
       "return_type": "int"
     },
     "0x63034F52": {
-      "name": "_0x63034F52",
+      "name": "NET_JOIN_SESSION_FROM_OBJ",
       "comment": "",
       "params": [
         {
@@ -50260,7 +50260,7 @@
   },
   "UI": {
     "0x97A50E69": {
-      "name": "_0x97A50E69",
+      "name": "UI_STACKPOP",
       "comment": "",
       "params": [
         {
@@ -50271,7 +50271,7 @@
       "return_type": "int"
     },
     "0xB1A2028A": {
-      "name": "_UI_ENTER_EXCLUSIVE",
+      "name": "UI_STACKPUSH",
       "comment": "",
       "params": [
         {
