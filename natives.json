@@ -33762,7 +33762,7 @@
       "return_type": "void"
     },
     "0x03962973": {
-      "name": "_0x03962973",
+      "name": "NET_GET_JOINWISH_PAD",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -34182,7 +34182,7 @@
       "return_type": "int"
     },
     "0xA6403262": {
-      "name": "_0xA6403262",
+      "name": "NET_XP_TOTAL_REPORT_CHANGE",
       "comment": "",
       "params": [
         {
@@ -40003,7 +40003,7 @@
       "return_type": "int"
     },
     "0xDF93BD7C": {
-      "name": "_0xDF93BD7C",
+      "name": "DESTROY_CURVEQUERY",
       "comment": "",
       "params": [
         {
