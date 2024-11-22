@@ -43454,33 +43454,16 @@
     "0xCEBD595A": {
       "name": "SHOP_CLEAR",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        }
-      ],
-      "return_type": "int"
+      "params": [],
+      "return_type": "void"
     },
     "0xE7F6AA5D": {
       "name": "SHOP_REFRESH",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -43490,8 +43473,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "bankBalance"
         }
       ],
       "return_type": "void"
@@ -43501,28 +43484,32 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "itemId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "isItemAvailable"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "price"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "quantity"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "int",
+          "name": "categoryId"
         },
         {
-          "type": "Any",
-          "name": "p5"
+          "type": "BOOL",
+          "name": "isDiscounted"
+        },
+        {
+          "type": "BOOL",
+          "name": "isFreeItem"
         }
       ],
       "return_type": "int"
@@ -43532,47 +43519,27 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "itemId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "quantity"
         },
         {
           "type": "Any",
           "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xFAF37414": {
       "name": "SHOP_GET_ITEM_QUANTITY",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
+          "type": "BOOL",
+          "name": "isDetailedCheck"
         }
       ],
       "return_type": "int"
@@ -43582,20 +43549,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "BOOL",
+          "name": "isDiscounted"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "purchasePrice"
         }
       ],
       "return_type": "int"
@@ -43607,22 +43566,6 @@
         {
           "type": "Any",
           "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
         }
       ],
       "return_type": "int"
@@ -43632,24 +43575,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
+          "type": "BOOL",
+          "name": "IsSale"
         }
       ],
       "return_type": "int"
@@ -43659,66 +43586,34 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "itemId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "BOOL",
+          "name": "isBlocked"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xB954DE78": {
       "name": "SHOP_IS_ITEM_BLOCKED",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "itemId"
         }
       ],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0x1BF8FD6D": {
       "name": "SHOP_GET_ITEM_MISC_FLAG",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "itemId"
         }
       ],
       "return_type": "int"
@@ -43726,24 +43621,7 @@
     "0x5A12BB48": {
       "name": "SHOP_IS_SELL_SELECTED",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        }
-      ],
+      "params": [],
       "return_type": "BOOL"
     },
     "0x3601E3E2": {
@@ -43751,98 +43629,75 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "BOOL",
+          "name": "isTabSelected"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xB84DE662": {
       "name": "SHOP_LOCK_INPUT",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
+          "type": "BOOL",
+          "name": "isInputLocked"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x2692B771": {
       "name": "SATCHEL_SET_ENABLED",
       "comment": "",
-      "params": [],
-      "return_type": "int"
+      "params": [
+        {
+          "type": "BOOL",
+          "name": "toggle"
+        }
+      ],
+      "return_type": "void"
     },
     "0xEB046CD9": {
       "name": "SATCHEL_TOGGLE_NO_PAUSE_OUTFIT",
       "comment": "",
       "params": [
         {
-          "type": "const char*",
-          "name": "p0"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x427F4D58": {
       "name": "SATCHEL_CREATE_OUTFIT",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "outfitName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "outfitCategory"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "quantity"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x0A87A573": {
       "name": "SATCHEL_SET_OUTFIT_STATE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "outfitId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "state"
         }
       ],
       "return_type": "int"
@@ -43852,8 +43707,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "outfitId"
         }
       ],
       "return_type": "int"
@@ -43863,37 +43718,37 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
+          "type": "int",
           "name": "p0"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "textureName"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x58018D83": {
       "name": "SATCHEL_ALLOW_OUTFIT_CHANGE",
       "comment": "",
       "params": [
         {
-          "type": "const char*",
-          "name": "p0"
+          "type": "BOOL",
+          "name": "isOutfitChangeAllowed"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x1C462085": {
       "name": "SATCHEL_SET_CURRENT_OUTFIT",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "outfitId"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     }
   },
   "SOCIALCLUB": {
@@ -50453,8 +50308,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "uiLayer"
         }
       ],
       "return_type": "void"
@@ -50487,7 +50342,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "p0"
+          "name": "uiLayer"
         }
       ],
       "return_type": "void"
@@ -50589,7 +50444,7 @@
           "name": "uiLayer"
         }
       ],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0x699CC85E": {
       "name": "UI_FOCUS",
@@ -50651,7 +50506,7 @@
         },
         {
           "type": "BOOL",
-          "name": "p1"
+          "name": "validateSelection"
         }
       ],
       "return_type": "int"
@@ -50661,12 +50516,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "uiLayer"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "enableStyle"
         }
       ],
       "return_type": "void"
@@ -50676,12 +50531,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "parentComponent"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "childComponent"
         }
       ],
       "return_type": "void"
@@ -50691,16 +50546,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "componentName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "dataKey"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "dataValue"
         }
       ],
       "return_type": "void"
@@ -50710,8 +50565,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "componentName"
         }
       ],
       "return_type": "int"
@@ -50721,20 +50576,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "animName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "animState"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "shouldAnimate"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "duration"
         }
       ],
       "return_type": "void"
@@ -50744,8 +50599,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "animName"
         }
       ],
       "return_type": "void"
@@ -50755,34 +50610,34 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "animName"
         }
       ],
       "return_type": "float"
     },
     "0x1F9EE9E1": {
       "name": "UI_REGISTER_STREAMING_TEXTURE",
-      "comment": "",
+      "comment": "textureConfig is a constant for texture grouping or streaming configuration, where '16' represents a specific group or setting.",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "texturePath"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "textureName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "isStreaming"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "textureConfig"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xE457546C": {
       "name": "UI_SET_STRING",
@@ -50831,16 +50686,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "uiElement"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "moneyType"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "amount"
         }
       ],
       "return_type": "void"
@@ -50861,15 +50716,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
+          "type": "Hash",
+          "name": "stringHash"
         }
       ],
-      "return_type": "int"
+      "return_type": "const char*"
     },
     "0x591339B9": {
       "name": "UI_MESSAGEBOX_SET_DESCRIPTION",
@@ -50877,52 +50728,56 @@
       "params": [
         {
           "type": "const char*",
-          "name": "p0"
+          "name": "messageBoxId"
         },
         {
           "type": "const char*",
-          "name": "p1"
+          "name": "messageDescription"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xB3FC8CB7": {
       "name": "UI_LABEL_SET_TEXT",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "labelID"
+        },
+        {
+          "type": "const char*",
+          "name": "labelText"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xDF50D8DE": {
       "name": "UI_LABEL_SET_VALUE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "labelId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "newValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xF53EB511": {
       "name": "AI_SET_SPECIAL_AREAS_TIME",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "areaId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "durationInSeconds"
         }
       ],
       "return_type": "void"
@@ -50932,12 +50787,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "buttonId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "buttonText"
         }
       ],
       "return_type": "void"
@@ -50947,11 +50802,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "textureId"
+        },        
+        {
+          "type": "const char*",
+          "name": "textureName"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x573BEF3B": {
       "name": "UI_TEXTURE_SET_HASH",
@@ -50970,7 +50829,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "entry"
+          "name": "labelId"
         },
         {
           "type": "const char*",
@@ -50999,57 +50858,57 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "progressBarId"
         },
         {
           "type": "float",
-          "name": "p1"
+          "name": "value"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xDF4627D1": {
       "name": "UI_SET_PROGRESS_BAR_CHANGE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "progressBarId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "changeValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xD792B93B": {
-      "name": "_0xD792B93B",
+      "name": "_UI_SET_AUTO_EXIT_TIME",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "uiElementId"
         },
         {
           "type": "float",
-          "name": "p1"
+          "name": "exitTime"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x191BA4DF": {
       "name": "UI_SET_ICON",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "iconId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "value"
         }
       ],
       "return_type": "void"
@@ -51066,15 +50925,15 @@
       "return_type": "void"
     },
     "0x9D20BDC4": {
-      "name": "_0x9D20BDC4",
+      "name": "_UI_IS_MOVIE_LOADED",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "movieName"
         }
       ],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0x1E732914": {
       "name": "UI_DISABLE_USE_CONTEXT_PROMPT",
@@ -51120,11 +50979,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "iconId"
+        },
+        {
+          "type": "const char*",
+          "name": "iconName"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     }
   },
   "VEHICLES": {
