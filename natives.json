@@ -1242,7 +1242,7 @@
     },
     "0x7F454A92": {
       "name": "GET_TIME_PLAYER_SHOT_CLOSE",
-      "comment": "",
+      "comment": "sagActorScript::LastTimeShotNearby",
       "params": [
         {
           "type": "Any",
@@ -3277,7 +3277,7 @@
   },
   "AI_ATTENTION": {
     "0x945F518F": {
-      "name": "_AI_ATTENTION_ADD_TARGET",
+      "name": "ADD_FIXED_ATTENTION_TARGET",
       "comment": "",
       "params": [
         {
@@ -4861,7 +4861,7 @@
       "return_type": "void"
     },
     "0xFF36BAED": {
-      "name": "_0xFF36BAED",
+      "name": "PLAYER_LOOK_AT_COORD",
       "comment": "",
       "params": [
         {
@@ -4880,7 +4880,7 @@
       "return_type": "int"
     },
     "0x6F37F42C": {
-      "name": "_0x6F37F42C",
+      "name": "PLAYER_STOP_LOOK_AT_COORD",
       "comment": "",
       "params": [
         {
@@ -10120,7 +10120,7 @@
       "return_type": "int"
     },
     "0x5FCF3B85": {
-      "name": "_AUDIO_INIT_FAC_US_LAW_ENFORCEMENT_VALUE",
+      "name": "AUDIO_INIT_FAC_FAC_U_S_LAW_ENFORCEMENT_VALUE",
       "comment": "",
       "params": [
         {
@@ -13880,7 +13880,7 @@
       "return_type": "void"
     },
     "0xCDA6BB6C": {
-      "name": "_IS_CUTSCENE_TUNER_PLAYING_BACK",
+      "name": "IS_CUTSCENE_TUNER_PLAYINGBACK",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -13898,7 +13898,7 @@
       "return_type": "int"
     },
     "0xFF1F1730": {
-      "name": "_GET_CUTSCENE_TUNER_CUTSCENE_INPUTS_OBJECT",
+      "name": "GET_CUTSCENE_TUNER_INPUTSOBJECT",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -14166,7 +14166,7 @@
   },
   "CORE": {
     "0x14993D3B": {
-      "name": "_0x14993D3B",
+      "name": "OVERRIDE_BENCHMARK_POS",
       "comment": "PC only",
       "params": [
         {
@@ -14177,7 +14177,7 @@
       "return_type": "Any"
     },
     "0xE8AB1D5B": {
-      "name": "_0xE8AB1D5B",
+      "name": "OVERRIDE_BENCHMARK_DIR",
       "comment": "PC only",
       "params": [
         {
@@ -14351,19 +14351,19 @@
       "return_type": "void"
     },
     "0x4C48EA4D": {
-      "name": "_GET_MAX_INSTRUCTION_COUNT",
+      "name": "SCRIPT_MAX_ALLOWED_INSTRUCTIONS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xD058BD70": {
-      "name": "_GET_USED_INSTRUCTION_COUNT",
+      "name": "SCRIPT_USED_INSTRUCTIONS",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0x26884138": {
-      "name": "_GET_REMAINING_INSTRUCTION_COUNT",
+      "name": "SCRIPT_REMAINING_INSTRUCTIONS",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -15201,7 +15201,7 @@
       "return_type": "float"
     },
     "0x062C5047": {
-      "name": "_0x062C5047",
+      "name": "IS_DIGITAL_ACTION_DOWN",
       "comment": "PC only",
       "params": [
         {
@@ -15212,7 +15212,7 @@
       "return_type": "Any"
     },
     "0xDA674AE0": {
-      "name": "_0xDA674AE0",
+      "name": "IS_DIGITAL_ACTION_PRESSED",
       "comment": "PC only",
       "params": [
         {
@@ -15223,7 +15223,7 @@
       "return_type": "Any"
     },
     "0x973F30EE": {
-      "name": "_0x973F30EE",
+      "name": "IS_DIGITAL_ACTION_RELEASED",
       "comment": "PC only",
       "params": [
         {
@@ -15426,7 +15426,7 @@
       "return_type": "Any"
     },
     "0x88F07597": {
-      "name": "_0x88F07597",
+      "name": "GET_MOUSE_DX",
       "comment": "PC only",
       "params": [
         {
@@ -15437,7 +15437,7 @@
       "return_type": "Any"
     },
     "0x3A62D87D": {
-      "name": "_0x3A62D87D",
+      "name": "GET_MOUSE_DY",
       "comment": "PC only",
       "params": [
         {
@@ -15585,7 +15585,7 @@
     },
     "0xD1D88EB8": {
       "name": "_0xD1D88EB8",
-      "comment": "",
+      "comment": "No-op / nullsub",
       "params": [
         {
           "type": "Any",
@@ -15596,7 +15596,7 @@
     },
     "0x21E19CD5": {
       "name": "_0x21E19CD5",
-      "comment": "",
+      "comment": "No-op / nullsub",
       "params": [
         {
           "type": "Any",
@@ -15607,7 +15607,7 @@
     },
     "0x1B6FE39B": {
       "name": "_0x1B6FE39B",
-      "comment": "",
+      "comment": "No-op / nullsub",
       "params": [
         {
           "type": "Any",
@@ -15618,7 +15618,7 @@
     },
     "0xAAEBAC28": {
       "name": "_0xAAEBAC28",
-      "comment": "",
+      "comment": "No-op / nullsub",
       "params": [
         {
           "type": "Any",
@@ -15629,31 +15629,31 @@
     },
     "0x913A5CB6": {
       "name": "_0x913A5CB6",
-      "comment": "",
+      "comment": "Returns -1",
       "params": [],
       "return_type": "int"
     },
     "0xD34F7B3A": {
       "name": "_0xD34F7B3A",
-      "comment": "",
+      "comment": "Returns -1",
       "params": [],
       "return_type": "int"
     },
     "0x191658C0": {
-      "name": "_0x191658C0",
-      "comment": "",
+      "name": "_DEBUG_GET_TEST_SCRIPT",
+      "comment": "Returns uint64 0",
       "params": [],
       "return_type": "int"
     },
     "0x95132289": {
       "name": "_0x95132289",
-      "comment": "",
+      "comment": "Returns uint64 0",
       "params": [],
       "return_type": "int"
     },
     "0xEB8325B3": {
       "name": "_0xEB8325B3",
-      "comment": "",
+      "comment": "No-op / nullsub",
       "params": [
         {
           "type": "Any",
@@ -15664,13 +15664,13 @@
     },
     "0xD3FE15FB": {
       "name": "_0xD3FE15FB",
-      "comment": "",
+      "comment": "Returns 0",
       "params": [],
       "return_type": "int"
     },
     "0x32D1DEB0": {
       "name": "_0x32D1DEB0",
-      "comment": "",
+      "comment": "Returns uint64 0",
       "params": [],
       "return_type": "int"
     },
@@ -15958,7 +15958,7 @@
       "return_type": "int"
     },
     "0x580D21D9": {
-      "name": "_SAVE_MANAGER_GET_RDR2EXTRAS_FILENAME",
+      "name": "GET_EXTRAS_FILE_NAME",
       "comment": "PC only",
       "params": [
         {
@@ -16010,7 +16010,7 @@
       "return_type": "BOOL"
     },
     "0xFC7766A0": {
-      "name": "_0xFC7766A0",
+      "name": "IS_30FPS",
       "comment": "PC only",
       "params": [
         {
@@ -17854,7 +17854,7 @@
       "return_type": "int"
     },
     "0x57D9950B": {
-      "name": "_DLC_FRAG_INIT_CLASS",
+      "name": "DLC_PREINITIALIZE_FRAGMENT_STUBS",
       "comment": "",
       "params": [
         {
@@ -18943,7 +18943,7 @@
       "return_type": "BOOL"
     },
     "0xA6AA7B9E": {
-      "name": "_IS_ACTOR_IN_WATER_OF_DEPTH",
+      "name": "IS_ACTOR_IN_WATER_OFDEPTH",
       "comment": "",
       "params": [
         {
@@ -21511,7 +21511,7 @@
       "return_type": "void"
     },
     "0x3B32AB84": {
-      "name": "_FX_CREATE_GLOW_INDICATOR_ATTACHED",
+      "name": "ADD_GLOW_TO_OBJECT",
       "comment": "",
       "params": [
         {
@@ -22506,7 +22506,7 @@
       "return_type": "int"
     },
     "0x211DE185": {
-      "name": "_CREATE_GRAVESTONE_TEXT_AT_LOCATOR",
+      "name": "CREATE_WANTEDPOSTER_TEXT",
       "comment": "",
       "params": [
         {
@@ -24578,7 +24578,7 @@
       "return_type": "void"
     },
     "0x6BA667B5": {
-      "name": "_GRINGO_VALIDATE_PROP",
+      "name": "GRINGO_REINIT_PROP",
       "comment": "",
       "params": [
         {
@@ -27373,7 +27373,7 @@
       "return_type": "void"
     },
     "0x1E98AFEC": {
-      "name": "_SET_HUD_MAP_OBJECTIVE_ONLY",
+      "name": "SET_BLIP_HUDMAP_ONLY",
       "comment": "",
       "params": [
         {
@@ -27388,7 +27388,7 @@
       "return_type": "void"
     },
     "0xFF3DB575": {
-      "name": "_SET_PAUSE_MAP_OBJECTIVE_ONLY",
+      "name": "SET_BLIP_PAUSEMAP_ONLY",
       "comment": "",
       "params": [
         {
@@ -27938,7 +27938,7 @@
       "return_type": "int"
     },
     "0xC6E36B1D": {
-      "name": "_HUD_SHOW_MISSION_LOADING_SCREEN",
+      "name": "UI_SHOW_MISSION_LOADINGSCREEN",
       "comment": "",
       "params": [
         {
@@ -27949,7 +27949,7 @@
       "return_type": "int"
     },
     "0xEF270DC9": {
-      "name": "_HUD_SHOW_RANDOM_LOADING_SCREEN",
+      "name": "UI_SHOW_RANDOM_LOADINGSCREEN",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -28416,7 +28416,7 @@
       "return_type": "void"
     },
     "0x6CC9CCE7": {
-      "name": "_IS_ZOMBIE_DLC_ACTIVE",
+      "name": "IS_DLC_ZOMBIEPACK_ACTIVE",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -29694,13 +29694,13 @@
       "return_type": "Any"
     },
     "0x7BF01CCB": {
-      "name": "_USE_ITEM_GET_CURRENT_ACTION",
+      "name": "GRINGOITEM_GET_ACTION",
       "comment": "",
       "params": [],
       "return_type": "Any"
     },
     "0x8EA46104": {
-      "name": "_USE_ITEM_CLEAR_CURRENT_ITEM_USE",
+      "name": "GRINGOITEM_CLEAR_FOR_NEW_USE",
       "comment": "",
       "params": [
         {
@@ -29727,7 +29727,7 @@
       "return_type": "Any"
     },
     "0xD2A140BC": {
-      "name": "_SET_PICKUPS_ARENT_NEW",
+      "name": "SET_PICKUPS_ARENT_NEW",
       "comment": "",
       "params": [],
       "return_type": "Any"
@@ -32720,7 +32720,7 @@
       "return_type": "int"
     },
     "0xC0849D70": {
-      "name": "_NET_SESSION_USE_QUICK_MATCH_FILTER",
+      "name": "NET_SEARCHBOT_USE_QUICKMATCH",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -32777,7 +32777,7 @@
       "return_type": "int"
     },
     "0xFA0E1F8B": {
-      "name": "_NET_SET_SESSION_MAX_GAMERS_OVERRIDE",
+      "name": "NET_SET_SLOTS_PRIORITY_CLIENTS",
       "comment": "",
       "params": [
         {
@@ -33545,7 +33545,7 @@
       "return_type": "int"
     },
     "0x7154D15B": {
-      "name": "_NET_SELECT_NEAREST_FRIENDS",
+      "name": "NET_LB_FRIENDS_SELECT_NEAREST",
       "comment": "",
       "params": [],
       "return_type": "int"
@@ -35765,7 +35765,7 @@
       "return_type": "void"
     },
     "0x000079CB": {
-      "name": "_FIXUP_MOBILE_LAYOUT_TRANSFORMS",
+      "name": "INIT_MOBILE_LAYOUT_OBJECTS",
       "comment": "",
       "params": [
         {
@@ -39386,8 +39386,8 @@
       "return_type": "int"
     },
     "0xC741F051": {
-      "name": "_0xC741F051",
-      "comment": "",
+      "name": "SET_LOCK_OFFSET_ACTORENUM_ANIMAL",
+      "comment": "gohActorEnumAnimal::SetLockPositionActorEnumAnimal",
       "params": [
         {
           "type": "int",
@@ -39789,7 +39789,7 @@
       "return_type": "Any"
     },
     "0x214AFB8C": {
-      "name": "_IS_TYPE_ID_VALID",
+      "name": "IS_ASSETTYPEID_VALID",
       "comment": "",
       "params": [
         {
@@ -39800,7 +39800,7 @@
       "return_type": "BOOL"
     },
     "0xFDF42AAC": {
-      "name": "_IS_TYPE_ID_VALID_BY_STRING",
+      "name": "IS_ASSETTYPEID_VALID_BY_STRING",
       "comment": "",
       "params": [
         {
@@ -40612,7 +40612,7 @@
       "return_type": "Any"
     },
     "0xB0E60B63": {
-      "name": "_0xB0E60B63",
+      "name": "SET_PAYING_BOUNTY",
       "comment": "PC only",
       "params": [
         {
@@ -41732,7 +41732,7 @@
       "return_type": "int"
     },
     "0x6F6D942B": {
-      "name": "_0x6F6D942B",
+      "name": "PLAYSTAT_INT3",
       "comment": "",
       "params": [
         {
@@ -41740,27 +41740,27 @@
           "name": "p0"
         },
         {
-          "type": "Any",
+          "type": "const char*",
           "name": "p1"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p2"
         },
         {
-          "type": "Any",
+          "type": "const char*",
           "name": "p3"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p4"
         },
         {
-          "type": "Any",
+          "type": "const char*",
           "name": "p5"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p6"
         }
       ],
@@ -44635,7 +44635,7 @@
       "return_type": "int"
     },
     "0x48588CCB": {
-      "name": "_SQUAD_GOAL_ADD_FLOCK_2",
+      "name": "SQUAD_GOAL_ADD_ANIMAL_HERD",
       "comment": "",
       "params": [
         {
@@ -45053,7 +45053,7 @@
       "return_type": "int"
     },
     "0x175BE678": {
-      "name": "_SQUAD_FLOCK_GET_FLOCKING_PARAMETER_2",
+      "name": "SQUAD_ANIMAL_HERD_SET_FLOCKING_PARAMETER",
       "comment": "",
       "params": [
         {
@@ -45080,7 +45080,7 @@
       "return_type": "int"
     },
     "0x5AEA32D1": {
-      "name": "_SQUAD_FLOCK_CLEAR_EXTERNAL_INFLUENCES",
+      "name": "SQUAD_ANIMAL_HERD_CLEAR_EXTERNAL_INFLUENCES",
       "comment": "",
       "params": [
         {
@@ -45095,7 +45095,7 @@
       "return_type": "int"
     },
     "0x484643F6": {
-      "name": "_SQUAD_FLOCK_CLEAR_EXTERNAL_INFLUENCES_FROM_OBJECT",
+      "name": "SQUAD_ANIMAL_HERD_CLEAR_EXTERNAL_INFLUENCES_FROM_OBJECT",
       "comment": "",
       "params": [
         {
@@ -45114,7 +45114,7 @@
       "return_type": "int"
     },
     "0x1CEB8BFF": {
-      "name": "_SQUAD_FLOCK_ADD_EXTERNAL_ALERT_2",
+      "name": "SQUAD_ANIMAL_HERD_ADD_EXTERNAL_ALERT",
       "comment": "",
       "params": [
         {
@@ -45141,7 +45141,7 @@
       "return_type": "int"
     },
     "0xB4D9B233": {
-      "name": "_SQUAD_FLOCK_ADD_EXTERNAL_REPULSION_2",
+      "name": "SQUAD_ANIMAL_HERD_ADD_EXTERNAL_REPULSION",
       "comment": "",
       "params": [
         {
@@ -50925,7 +50925,7 @@
       "return_type": "void"
     },
     "0x9D20BDC4": {
-      "name": "_UI_IS_MOVIE_LOADED",
+      "name": "UI_IS_FUIMOVIE_LOADED",
       "comment": "",
       "params": [
         {
@@ -52511,7 +52511,7 @@
       "return_type": "int"
     },
     "0xDB679ED9": {
-      "name": "_GET_WEAPON_ENUM_CATEGORY",
+      "name": "GET_WEAPON_CATEGORY_FROM_ENUM",
       "comment": "",
       "params": [
         {
@@ -52827,7 +52827,7 @@
       "return_type": "void"
     },
     "0x8291ED47": {
-      "name": "_WEATHER_GET_COMMAND_LINE_OVERRIDE",
+      "name": "OVERRIDE_BENCHMARK_WEATHER",
       "comment": "PC only",
       "params": [
         {
@@ -52838,7 +52838,7 @@
       "return_type": "Any"
     },
     "0xB288F455": {
-      "name": "_WEATHER_GET_COMMAND_LINE_VALUES_OVERRIDE",
+      "name": "OVERRIDE_BENCHMARK_TIME",
       "comment": "PC only",
       "params": [
         {
