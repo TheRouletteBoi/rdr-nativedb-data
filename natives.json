@@ -26107,7 +26107,7 @@
       "return_type": "int"
     },
     "0x2E84E682": {
-      "name": "_ACTOR_SET_ENABLED",
+      "name": "SET_WEAPON_SELECTION_ENABLED",
       "comment": "",
       "params": [
         {
@@ -26122,7 +26122,7 @@
       "return_type": "int"
     },
     "0x261A4C0E": {
-      "name": "_ACTOR_SET_MIN_RANGE",
+      "name": "SET_WEAPON_SELECTION_AI_MIN_RANGE_ACTOR",
       "comment": "",
       "params": [
         {
@@ -26141,7 +26141,7 @@
       "return_type": "int"
     },
     "0x79EFDF7E": {
-      "name": "_ACTOR_SET_MIN_RANGE_DEFAULT",
+      "name": "SET_WEAPON_SELECTION_AI_MIN_RANGE_DEFAULT",
       "comment": "",
       "params": [
         {
@@ -26152,7 +26152,7 @@
       "return_type": "int"
     },
     "0x5D863C30": {
-      "name": "_ACTOR_SET_MAX_RANGE",
+      "name": "SET_WEAPON_SELECTION_AI_MAX_RANGE_ACTOR",
       "comment": "",
       "params": [
         {
@@ -26171,7 +26171,7 @@
       "return_type": "int"
     },
     "0xF71A883A": {
-      "name": "_ACTOR_SET_BASE_PRIORITY",
+      "name": "SET_WEAPON_SELECTION_AI_BASE_PRIORITY_ACTOR",
       "comment": "",
       "params": [
         {
@@ -26190,7 +26190,7 @@
       "return_type": "int"
     },
     "0xCA669478": {
-      "name": "_ACTOR_SET_BASE_PRIORITY_DEFAULT",
+      "name": "SET_WEAPON_SELECTION_AI_BASE_PRIORITY_DEFAULT",
       "comment": "",
       "params": [
         {
@@ -26205,7 +26205,7 @@
       "return_type": "int"
     },
     "0x7DA34015": {
-      "name": "_ACTOR_SET_CAN_USE_INDOORS",
+      "name": "SET_WEAPON_SELECTION_AI_CAN_USE_INDOORS_DEFAULT",
       "comment": "",
       "params": [
         {
