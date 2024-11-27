@@ -39767,8 +39767,8 @@
       "return_type": "int"
     },
     "0x55E6227E": {
-      "name": "_GET_TYPE_ID_USING_ACTOR_ENUM",
-      "comment": "",
+      "name": "AE_GET_ASSET_ID",
+      "comment": "rdr2GOH::GetTypeIDUsingActorEnum",
       "params": [
         {
           "type": "Any",
