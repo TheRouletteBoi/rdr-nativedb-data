@@ -15731,7 +15731,7 @@
       "return_type": "int"
     },
     "0xC7612A79": {
-      "name": "_GET_PARAM_VALUE",
+      "name": "GET_CMD_LINE_PARAM",
       "comment": "",
       "params": [
         {
@@ -32333,7 +32333,7 @@
       "return_type": "int"
     },
     "0xA80C6DE6": {
-      "name": "_NET_IS_DATA_VALID_FOR_ALL_SLOTS_IN_CLIENT_BROADCAST_VARIABLES",
+      "name": "IS_DATA_VALID_FOR_HOST_BROADCAST_VARIABLES",
       "comment": "",
       "params": [
         {
