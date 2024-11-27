@@ -15628,31 +15628,31 @@
       "return_type": "int"
     },
     "0x913A5CB6": {
-      "name": "_0x913A5CB6",
+      "name": "SCRIPT_GETTESTREGION",
       "comment": "Returns -1",
       "params": [],
       "return_type": "int"
     },
     "0xD34F7B3A": {
-      "name": "_0xD34F7B3A",
+      "name": "SCRIPT_GETTESTMISSION",
       "comment": "Returns -1",
       "params": [],
       "return_type": "int"
     },
     "0x191658C0": {
-      "name": "_DEBUG_GET_TEST_SCRIPT",
+      "name": "SCRIPT_GETTESTSCRIPT",
       "comment": "Returns uint64 0",
       "params": [],
       "return_type": "int"
     },
     "0x95132289": {
-      "name": "_0x95132289",
+      "name": "SCRIPT_GETTESTSCRIPTCONTINUEMARK",
       "comment": "Returns uint64 0",
       "params": [],
       "return_type": "int"
     },
     "0xEB8325B3": {
-      "name": "_0xEB8325B3",
+      "name": "SCRIPT_SETTESTSCRIPTCONTINUEMARK",
       "comment": "No-op / nullsub",
       "params": [
         {
@@ -15663,13 +15663,13 @@
       "return_type": "void"
     },
     "0xD3FE15FB": {
-      "name": "_0xD3FE15FB",
+      "name": "SCRIPT_WANTAUTOMATION",
       "comment": "Returns 0",
       "params": [],
       "return_type": "int"
     },
     "0x32D1DEB0": {
-      "name": "_0x32D1DEB0",
+      "name": "SCRIPT_GETTESTTYPE",
       "comment": "Returns uint64 0",
       "params": [],
       "return_type": "int"
