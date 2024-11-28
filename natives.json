@@ -29228,7 +29228,7 @@
       "return_type": "BOOL"
     },
     "0xE094DB31": {
-      "name": "_IS_ACCESSORY_EQUIPPED",
+      "name": "IS_ACCESSORY_EQUIPPPED",
       "comment": "",
       "params": [],
       "return_type": "Any"
