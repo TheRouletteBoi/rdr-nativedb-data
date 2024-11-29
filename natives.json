@@ -21352,7 +21352,7 @@
       "return_type": "void"
     },
     "0xC00F8181": {
-      "name": "_SET_MELEE_MARKER_STROBE_INTENSITY",
+      "name": "_SET_MELEE_MARKER_STROBEINTENSITY",
       "comment": "",
       "params": [
         {
@@ -38678,7 +38678,7 @@
       "return_type": "BOOL"
     },
     "0x78B73E47": {
-      "name": "_GET_OBJECT_ATTACHMENT",
+      "name": "GET_OBJECT_ATTACHEMENT",
       "comment": "",
       "params": [
         {
