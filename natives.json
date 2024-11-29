@@ -25841,7 +25841,7 @@
       "return_type": "Any"
     },
     "0x4EEC6628": {
-      "name": "_SET_ACTOR_HEALTH_3",
+      "name": "SET_ACTOR_KNOCKOUTTIME",
       "comment": "",
       "params": [
         {
@@ -25856,7 +25856,7 @@
       "return_type": "void"
     },
     "0x479B997B": {
-      "name": "_SET_ACTOR_HEALTH_4",
+      "name": "SET_ACTOR_KNOCKOUTTIME_DEFAULT",
       "comment": "",
       "params": [
         {
