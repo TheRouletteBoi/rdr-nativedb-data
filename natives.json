@@ -2250,7 +2250,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "ActorSetName"
+          "name": "actorSetName"
         }
       ],
       "return_type": "ActorSet"
@@ -10474,7 +10474,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "music_name"
+          "name": "musicName"
         },
         {
           "type": "Any",
@@ -11520,7 +11520,7 @@
         },
         {
           "type": "const char*",
-          "name": "layout_name"
+          "name": "layoutName"
         },
         {
           "type": "int",
@@ -11731,7 +11731,7 @@
           "name": "camera"
         },
         {
-          "type": "Vector3",
+          "type": "Vector3*",
           "name": "direction"
         },
         {
@@ -15174,7 +15174,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "input_string"
+          "name": "inputString"
         },
         {
           "type": "Any",
@@ -15193,7 +15193,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "input_string"
+          "name": "inputString"
         },
         {
           "type": "Any",
@@ -15212,7 +15212,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "input_string"
+          "name": "inputString"
         },
         {
           "type": "Any",
@@ -15231,7 +15231,7 @@
       "params": [
         {
           "type": "const char*",
-          "name": "input_string"
+          "name": "inputString"
         },
         {
           "type": "Any",
@@ -19646,7 +19646,7 @@
           "name": "isReady"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xFB2B0CCF": {
       "name": "IS_ACTOR_READY_FOR_ACTION",
@@ -26194,7 +26194,7 @@
         },
         {
           "type": "const char*",
-          "name": "input_string"
+          "name": "inputString"
         }
       ],
       "return_type": "Any"
@@ -26894,7 +26894,7 @@
         },
         {
           "type": "int",
-          "name": "p3"
+          "name": "priority"
         },
         {
           "type": "int",
@@ -26921,7 +26921,7 @@
         },
         {
           "type": "int",
-          "name": "p3"
+          "name": "priority"
         },
         {
           "type": "int",
@@ -26948,7 +26948,7 @@
         },
         {
           "type": "int",
-          "name": "p3"
+          "name": "priority"
         },
         {
           "type": "int",
@@ -26966,34 +26966,26 @@
           "name": "blip"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "blipID"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xB2EAF8DD": {
       "name": "SET_BLIP_POS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "Vector3*",
+          "name": "position"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x1E6EC434": {
       "name": "SET_BLIP_SCALE",
@@ -27042,12 +27034,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "priority"
         }
       ],
       "return_type": "void"
@@ -27057,8 +27049,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         },
         {
           "type": "Any",
@@ -27080,12 +27072,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "flag"
         },
         {
           "type": "Any",
@@ -27099,12 +27091,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -27136,7 +27128,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Blip*",
+          "type": "Blip",
           "name": "blip"
         }
       ],
@@ -27147,11 +27139,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "int"
+      "return_type": "Blip"
     },
     "0xE3E30992": {
       "name": "GET_BLIP_ON_OBJECT",
@@ -27159,7 +27151,7 @@
       "params": [
         {
           "type": "Object",
-          "name": "p0"
+          "name": "object"
         }
       ],
       "return_type": "Blip"
@@ -27169,8 +27161,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         }
       ],
       "return_type": "int"
@@ -28428,15 +28420,15 @@
       "params": [
         {
           "type": "Vector3*",
-          "name": "in_coords"
+          "name": "inCoords"
         },
         {
           "type": "float",
           "name": "p1"
         },
         {
-          "type": "Vector3",
-          "name": "out_coords"
+          "type": "Vector3*",
+          "name": "outCoords"
         },
         {
           "type": "int*",
