@@ -51,6 +51,7 @@
 				"Any", "Any*",
 				"Blip", "Blip*",
 				"Cam", "Cam*",
+				"Camera", "Camera*",
                 "FireHandle", "FireHandle*",
 				"Hash", "Hash*",
 				"Iterator", "Iterator*",
@@ -62,6 +63,7 @@
 				"Ped", "Ped*",
 				"Player", "Player*",
 				"ScrHandle", "ScrHandle*",
+				"Script", "Script*",
 				"Vector3*",
 				"Vehicle", "Vehicle*",
 				"Volume", "Volume*"
@@ -69,7 +71,7 @@
 		},
 		"return_type": {
 			"type": "string",
-			"enum": ["void", "int", "float", "BOOL", "const char*", "Actor", "Actor*", "Any", "Any*", "Blip", "Cam", "Hash", "Iterator", "IteratorSet", "Layout", "Mount","Object", "Ped", "Player", "ScrHandle", "Vector3", "Vehicle", "Volume"]
+			"enum": [ "void", "int", "float", "BOOL", "const char*", "Actor", "Actor*", "Any", "Any*", "Blip", "Cam", "Camera", "Hash", "Iterator", "IteratorSet", "Layout", "Mount", "Object", "Ped", "Player", "ScrHandle", "Script", "Vector3", "Vehicle", "Volume" ]
 		}
 	}
 }
