@@ -40414,8 +40414,8 @@
   },
   "PC": {
     "0x8CF09BD7": {
-      "name": "_0x8CF09BD7",
-      "comment": "PC only",
+      "name": "SET_HOGTYING",
+      "comment": "PC only, used by lassogringo.wsc",
       "params": [
         {
           "type": "Any",
@@ -40425,8 +40425,8 @@
       "return_type": "Any"
     },
     "0xBAE0A3F8": {
-      "name": "_0xBAE0A3F8",
-      "comment": "PC only",
+      "name": "SET_FASTTRAVEL",
+      "comment": "PC only, used by passenger_camp.wsc / player_z.wsc / player.wsc",
       "params": [
         {
           "type": "Any",
@@ -40437,7 +40437,7 @@
     },
     "0x9F832205": {
       "name": "_0x9F832205",
-      "comment": "PC only",
+      "comment": "PC only, used by blackwater_z.wsc",
       "params": [
         {
           "type": "Any",
@@ -40448,7 +40448,7 @@
     },
     "0xF413FDB2": {
       "name": "_0xF413FDB2",
-      "comment": "PC only",
+      "comment": "PC only, used by event_treasurehunter_intro.wsc",
       "params": [
         {
           "type": "Any",
@@ -40459,7 +40459,7 @@
     },
     "0x63D3AAFC": {
       "name": "_0x63D3AAFC",
-      "comment": "PC only",
+      "comment": "PC only, used by event_law_repsonse_*.wsc",
       "params": [
         {
           "type": "Any",
@@ -40470,7 +40470,7 @@
     },
     "0x3B93B981": {
       "name": "_0x3B93B981",
-      "comment": "PC only",
+      "comment": "PC only, used by *_z.wsc",
       "params": [
         {
           "type": "Any",
@@ -40481,7 +40481,7 @@
     },
     "0x854ACCFE": {
       "name": "SET_HORSE_BREAK_INTRO",
-      "comment": "PC only",
+      "comment": "PC only, used by job_horsebreaking.wsc",
       "params": [
         {
           "type": "Any",
@@ -40492,7 +40492,7 @@
     },
     "0xEB0F9F0C": {
       "name": "_0xEB0F9F0C",
-      "comment": "PC only",
+      "comment": "PC only, used by event_bountyhunter.wsc",
       "params": [
         {
           "type": "Any",
@@ -40503,7 +40503,7 @@
     },
     "0xFD198D8B": {
       "name": "SET_SAVING_GAME",
-      "comment": "PC only",
+      "comment": "PC only, used by player_sleep_to_save.wsc",
       "params": [
         {
           "type": "Any",
@@ -40514,7 +40514,7 @@
     },
     "0xA62D75BA": {
       "name": "SET_SAVING_GAME_ZOMBIE",
-      "comment": "PC only",
+      "comment": "PC only, used by zombiepack_sleepgringo.wsc",
       "params": [
         {
           "type": "Any",
@@ -40524,8 +40524,8 @@
       "return_type": "Any"
     },
     "0x7C730896": {
-      "name": "_0x7C730896",
-      "comment": "PC only",
+      "name": "SET_FIRST_PAY_CUTSCENE",
+      "comment": "PC only, used by event_first_pay_cutscene.wsc",
       "params": [
         {
           "type": "Any",
@@ -40536,7 +40536,7 @@
     },
     "0x02859CE6": {
       "name": "_0x02859CE6",
-      "comment": "PC only",
+      "comment": "PC only, used by merchant05.wsc",
       "params": [
         {
           "type": "Any",
@@ -40546,8 +40546,8 @@
       "return_type": "Any"
     },
     "0x5B47E49A": {
-      "name": "_0x5B47E49A",
-      "comment": "PC only",
+      "name": "SET_ARMADILLO_MOVIE_PLAYING",
+      "comment": "PC only, used by armadillo.wsc",
       "params": [
         {
           "type": "Any",
@@ -40557,8 +40557,8 @@
       "return_type": "Any"
     },
     "0x97609434": {
-      "name": "_0x97609434",
-      "comment": "PC only",
+      "name": "SET_BLACKWATER_MOVIE_PLAYING",
+      "comment": "PC only, used by blackwater.wsc",
       "params": [
         {
           "type": "Any",
@@ -40568,8 +40568,8 @@
       "return_type": "Any"
     },
     "0x0920DB21": {
-      "name": "_0x0920DB21",
-      "comment": "PC only",
+      "name": "SET_IN_PRISON",
+      "comment": "PC only, used by event_player_in_jail.wsc",
       "params": [
         {
           "type": "Any",
@@ -40580,7 +40580,7 @@
     },
     "0x9CED1C7E": {
       "name": "_0x9CED1C7E",
-      "comment": "PC only",
+      "comment": "PC only, used by ranch02.wsc",
       "params": [
         {
           "type": "Any",
@@ -40591,7 +40591,7 @@
     },
     "0xD9DDA7E2": {
       "name": "_0xD9DDA7E2",
-      "comment": "PC only",
+      "comment": "PC only, used by gun01.wsc",
       "params": [
         {
           "type": "Any",
@@ -40602,7 +40602,7 @@
     },
     "0x14664FF4": {
       "name": "SET_USING_BINOCULARS",
-      "comment": "PC only",
+      "comment": "PC only, used by binoculars.wsc",
       "params": [
         {
           "type": "Any",
@@ -40613,7 +40613,7 @@
     },
     "0xB0E60B63": {
       "name": "SET_PAYING_BOUNTY",
-      "comment": "PC only",
+      "comment": "PC only, used by event_pay_bounty.wsc",
       "params": [
         {
           "type": "Any",
