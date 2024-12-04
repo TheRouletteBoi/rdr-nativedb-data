@@ -29452,7 +29452,7 @@
       "return_type": "void"
     },
     "0x98B3ABFA": {
-      "name": "_ADD_AMMO_OF_TYPE",
+      "name": "ACTOR_ADD_INV_AMMO",
       "comment": "",
       "params": [
         {
@@ -29463,7 +29463,7 @@
       "return_type": "Any"
     },
     "0x4372593E": {
-      "name": "_SET_ACTOR_AMMO_OF_TYPE",
+      "name": "ACTOR_SET_INV_AMMO",
       "comment": "",
       "params": [
         {
@@ -29474,7 +29474,7 @@
       "return_type": "void"
     },
     "0x6ADAAD87": {
-      "name": "_SET_ACTOR_MAX_AMMO_AMOUNT",
+      "name": "ACTOR_SET_INV_AMMO_MAX_AMOUNT",
       "comment": "",
       "params": [
         {
@@ -29489,7 +29489,7 @@
       "return_type": "void"
     },
     "0x4FE2B586": {
-      "name": "_SET_ACTOR_INFINITE_AMMO_FLAG",
+      "name": "ACTOR_SET_INV_AMMO_INFINITE",
       "comment": "",
       "params": [
         {
@@ -29508,7 +29508,7 @@
       "return_type": "void"
     },
     "0xE224AC6F": {
-      "name": "_GET_AMMO_AMOUNT",
+      "name": "ACTOR_GET_INV_AMMO",
       "comment": "",
       "params": [
         {
@@ -29531,7 +29531,7 @@
       "return_type": "Any"
     },
     "0x7AB368CF": {
-      "name": "_GET_MAX_AMMO_AMOUNT",
+      "name": "ACTOR_GET_INV_AMMO_MAX_AMOUNT",
       "comment": "",
       "params": [
         {
@@ -29546,7 +29546,7 @@
       "return_type": "Any"
     },
     "0xC666B987": {
-      "name": "_GET_ACTOR_INFINITE_AMMO_FLAG",
+      "name": "ACTOR_GET_INV_AMMO_INFINITE",
       "comment": "",
       "params": [
         {
