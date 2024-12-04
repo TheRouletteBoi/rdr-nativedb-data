@@ -79,11 +79,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "float"
     },
     "0x99BD9D6F": {
       "name": "GET_POSITION",
@@ -120,15 +120,15 @@
           "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "Vector3*",
+          "name": "axis"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p2"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0xECE8520B": {
       "name": "SET_ACTOR_HEADING",
@@ -169,39 +169,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
-        },
-        {
-          "type": "Any",
-          "name": "p5"
-        },
-        {
-          "type": "Any",
-          "name": "p6"
-        },
-        {
-          "type": "Any",
-          "name": "p7"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0x758F993A": {
       "name": "GET_PHYSINST_FROM_ACTOR",
@@ -219,15 +191,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "Actor",
+          "name": "actor2"
         }
       ],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0xB27E91E7": {
       "name": "IS_ACTOR_PLAYER",
@@ -279,15 +251,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
+          "type": "int",
           "name": "p0"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p1"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xC733BC9A": {
       "name": "SET_ENABLE_NAV_STICK_INPUT",
@@ -11137,7 +11109,7 @@
       "name": "GET_GAME_CAMERA",
       "comment": "",
       "params": [],
-      "return_type": "Camera"
+      "return_type": "Cam"
     },
     "0xCE956B28": {
       "name": "CAMERA_RESET",
@@ -11527,7 +11499,7 @@
           "name": "channel"
         }
       ],
-      "return_type": "Camera"
+      "return_type": "Cam"
     },
     "0xBCC98808": {
       "name": "GET_CURRENT_CAMERA_TYPE_FROM_CHANNEL",
@@ -11538,14 +11510,14 @@
           "name": "channel"
         }
       ],
-      "return_type": "Camera"
+      "return_type": "Cam"
     },
     "0x3EA55678": {
       "name": "SET_CURRENT_CAMERA_ON_CHANNEL",
       "comment": "",
       "params": [
         {
-          "type": "Camera",
+          "type": "Cam",
           "name": "camera"
         },
         {
@@ -11592,7 +11564,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Camera",
+          "type": "Cam",
           "name": "camera"
         },
         {
@@ -11648,7 +11620,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Camera",
+          "type": "Cam",
           "name": "camera"
         },
         {
@@ -11689,7 +11661,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Camera",
+          "type": "Cam",
           "name": "camera"
         },
         {
@@ -11712,7 +11684,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Camera",
+          "type": "Cam",
           "name": "camera"
         },
         {
@@ -11727,7 +11699,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Camera",
+          "type": "Cam",
           "name": "camera"
         },
         {
@@ -11746,7 +11718,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Camera",
+          "type": "Cam",
           "name": "camera"
         },
         {
@@ -11776,7 +11748,7 @@
       "comment": "Default game fov is 55.5f.",
       "params": [
         {
-          "type": "Camera",
+          "type": "Cam",
           "name": "camera"
         },
         {
@@ -11791,7 +11763,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Camera",
+          "type": "Cam",
           "name": "camera"
         }
       ],
@@ -11858,7 +11830,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Camera",
+          "type": "Cam",
           "name": "camera"
         },
         {
@@ -14240,7 +14212,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Script",
+          "type": "ScrHandle",
           "name": "script"
         }
       ],
@@ -14301,7 +14273,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Script",
+          "type": "ScrHandle",
           "name": "script"
         }
       ],
@@ -26159,12 +26131,12 @@
       "comment": "",
       "params": [
         {
-          "type": "int",
+          "type": "Prompt",
           "name": "prompt"
         },
         {
           "type": "const char*",
-          "name": "prompt_string"
+          "name": "promptString"
         }
       ],
       "return_type": "void"
@@ -26174,12 +26146,12 @@
       "comment": "",
       "params": [
         {
-          "type": "int",
+          "type": "Prompt",
           "name": "prompt"
         },
         {
           "type": "int",
-          "name": "icon"
+          "name": "promptIcon"
         }
       ],
       "return_type": "void"
@@ -26189,7 +26161,7 @@
       "comment": "PC only",
       "params": [
         {
-          "type": "int",
+          "type": "Prompt",
           "name": "prompt"
         },
         {
@@ -26197,14 +26169,14 @@
           "name": "inputString"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x545EC471": {
       "name": "UI_HIDE_PROMPT",
       "comment": "",
       "params": [
         {
-          "type": "int",
+          "type": "Prompt",
           "name": "prompt"
         }
       ],
@@ -26215,16 +26187,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "scaleformName"
         },
         {
           "type": "const char*",
-          "name": "p2"
+          "name": "scaleformVarName"
+        },
+        {
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "int"
@@ -26253,16 +26225,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "scaleformName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "scaleformVarName"
         },
         {
           "type": "float",
-          "name": "p2"
+          "name": "value"
         }
       ],
       "return_type": "int"
@@ -26272,19 +26244,19 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "scaleformName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "scaleformVarName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "value"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p3"
         }
       ],
@@ -26303,11 +26275,11 @@
           "name": "scaleformVarName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "string"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p3"
         }
       ],
@@ -26318,23 +26290,23 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "scaleformName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "scaleformVarName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "promptString"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "Prompt",
+          "name": "prompt"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p4"
         }
       ],
@@ -26345,15 +26317,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "scaleformName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "scaleformVarName"
         }
       ],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0x03568B83": {
       "name": "FLASH_GET_INT",
@@ -26361,11 +26333,11 @@
       "params": [
         {
           "type": "const char*",
-          "name": "ScaleName"
+          "name": "scaleformName"
         },
         {
           "type": "const char*",
-          "name": "ScaleVarName"
+          "name": "scaleformVarName"
         }
       ],
       "return_type": "int"
@@ -26375,12 +26347,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "scaleformName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "scaleformVarName"
         }
       ],
       "return_type": "float"
@@ -26391,38 +26363,38 @@
       "params": [
         {
           "type": "const char*",
-          "name": "p0"
+          "name": "scaleformName"
         },
         {
           "type": "const char*",
-          "name": "p1"
+          "name": "scaleformVarName"
         },
         {
           "type": "const char*",
-          "name": "p2"
+          "name": "promptString"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "Prompt",
+          "name": "prompt"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p4"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p5"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p6"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p7"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p8"
         }
       ],
@@ -29183,7 +29155,7 @@
       "return_type": "BOOL"
     },
     "0xE094DB31": {
-      "name": "_IS_ACCESSORY_EQUIPPED",
+      "name": "IS_ACCESSORY_EQUIPPPED",
       "comment": "",
       "params": [
         {
@@ -40012,7 +39984,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Camera",
+          "type": "Cam",
           "name": "camera"
         }
       ],
