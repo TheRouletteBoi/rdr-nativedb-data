@@ -27789,7 +27789,7 @@
       "return_type": "int"
     },
     "0x31A55281": {
-      "name": "_HUD_SET_WANTED",
+      "name": "WANTEDFX_ENABLED",
       "comment": "",
       "params": [
         {
@@ -27800,7 +27800,7 @@
       "return_type": "int"
     },
     "0x651C1FC2": {
-      "name": "_HUD_SET_WANTED_LEVEL",
+      "name": "WANTEDFX_SET_LEVEL",
       "comment": "",
       "params": [
         {
@@ -42515,7 +42515,7 @@
   },
   "PPPELEMENTS": {
     "0x598815BD": {
-      "name": "_PPP_SET_WANTED_OPACITY",
+      "name": "WANTEDFX_SET_OPACITY",
       "comment": "",
       "params": [
         {
@@ -42526,7 +42526,7 @@
       "return_type": "void"
     },
     "0xD1C91A7F": {
-      "name": "_PPP_SCR_FIRE_BLOOD_SPLAT",
+      "name": "FIRE_BLOODSPLATFX",
       "comment": "",
       "params": [
         {
@@ -42549,13 +42549,13 @@
       "return_type": "const char*"
     },
     "0x7E0CDD87": {
-      "name": "_PPP_CLEAR_DEATH_EFFECT",
+      "name": "CLEAR_DEATHFX",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xE6C1DBD9": {
-      "name": "_PPP_BINOCULARS_SET_ACTIVE",
+      "name": "BINOCULARSFX_ENABLED",
       "comment": "",
       "params": [
         {
@@ -42566,13 +42566,13 @@
       "return_type": "int"
     },
     "0x00EF33EF": {
-      "name": "_PPP_BINOCULARS_IS_LOADED",
+      "name": "BINOCULARSFX_ISLOADED",
       "comment": "",
       "params": [],
       "return_type": "int"
     },
     "0xDF505043": {
-      "name": "_PPP_SET_ZOMBIE_MODE",
+      "name": "ZOMBIEMODE_ENABLED",
       "comment": "",
       "params": [
         {
@@ -42583,7 +42583,7 @@
       "return_type": "Any"
     },
     "0xE613AE52": {
-      "name": "_PPP_SET_TEXTURE_OPACITY",
+      "name": "TEXTUREFX_SET_OPACITY",
       "comment": "",
       "params": [
         {
@@ -42594,7 +42594,7 @@
       "return_type": "void"
     },
     "0x84F3DD81": {
-      "name": "_PPP_SET_TEXTURE_POSITION",
+      "name": "TEXTUREFX_SET_POSITION",
       "comment": "",
       "params": [
         {
@@ -42609,7 +42609,7 @@
       "return_type": "void"
     },
     "0xF55B50ED": {
-      "name": "_PPP_SET_TEXTURE_ENABLED",
+      "name": "TEXTUREFX_ENABLED",
       "comment": "",
       "params": [
         {
@@ -42620,7 +42620,7 @@
       "return_type": "Any"
     },
     "0x6336182D": {
-      "name": "_PPP_SET_TEXTURE_NAME",
+      "name": "TEXTUREFX_SET_NAME",
       "comment": "",
       "params": [
         {
@@ -42631,7 +42631,7 @@
       "return_type": "int"
     },
     "0x3A6960B2": {
-      "name": "_PPP_SET_TEXTURE_SCALE",
+      "name": "TEXTUREFX_SET_SCALE",
       "comment": "",
       "params": [
         {
