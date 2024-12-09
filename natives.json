@@ -9,12 +9,8 @@
           "name": "actor"
         },
         {
-          "type": "float",
-          "name": "x"
-        },
-        {
-          "type": "float",
-          "name": "y"
+          "type": "Vector2",
+          "name": "xy"
         },
         {
           "type": "float",
@@ -44,12 +40,8 @@
           "name": "actor"
         },
         {
-          "type": "float",
-          "name": "x"
-        },
-        {
-          "type": "float",
-          "name": "y"
+          "type": "Vector2",
+          "name": "xy"
         },
         {
           "type": "float",
@@ -11665,12 +11657,8 @@
           "name": "camera"
         },
         {
-          "type": "float",
-          "name": "x"
-        },
-        {
-          "type": "float",
-          "name": "y"
+          "type": "Vector2",
+          "name": "xy"
         },
         {
           "type": "float",
@@ -11834,12 +11822,8 @@
           "name": "camera"
         },
         {
-          "type": "float",
-          "name": "x"
-        },
-        {
-          "type": "float",
-          "name": "y"
+          "type": "Vector2",
+          "name": "xy"
         },
         {
           "type": "float",
@@ -35132,24 +35116,16 @@
           "name": "gringoPath"
         },
         {
-          "type": "float",
-          "name": "positionX"
-        },
-        {
-          "type": "float",
-          "name": "positionY"
+          "type": "Vector2",
+          "name": "positionXY"
         },
         {
           "type": "float",
           "name": "positionZ"
         },
         {
-          "type": "float",
-          "name": "orientationX"
-        },
-        {
-          "type": "float",
-          "name": "orientationY"
+          "type": "Vector2",
+          "name": "orientationXY"
         },
         {
           "type": "float",
@@ -35347,16 +35323,24 @@
           "name": "propPath"
         },
         {
-          "type": "Vector3*",
-          "name": "position"
+          "type": "Vector2",
+          "name": "positionXY"
         },
         {
-          "type": "Vector3*",
-          "name": "orientation"
+          "type": "float",
+          "name": "positionZ"
+        },
+        {
+          "type": "Vector2",
+          "name": "orientationXY"
+        },
+        {
+          "type": "float",
+          "name": "orientationZ"
         },
         {
           "type": "BOOL",
-          "name": "p5"
+          "name": "p7"
         }
       ],
       "return_type": "Object"
@@ -38484,8 +38468,12 @@
           "name": "object"
         },
         {
-          "type": "Vector3*",
-          "name": "position"
+          "type": "Vector2",
+          "name": "positionXY"
+        },
+        {
+          "type": "float",
+          "name": "positionZ"
         }
       ],
       "return_type": "int"
@@ -38514,12 +38502,8 @@
           "name": "object"
         },
         {
-          "type": "float",
-          "name": "x"
-        },
-        {
-          "type": "float",
-          "name": "y"
+          "type": "Vector2",
+          "name": "xy"
         },
         {
           "type": "float",
@@ -38694,28 +38678,20 @@
           "name": "locator"
         },
         {
-          "type": "float",
-          "name": "p3"
+          "type": "Vector2",
+          "name": "posistionXY"
         },
         {
           "type": "float",
-          "name": "p4"
+          "name": "positionZ"
+        },
+        {
+          "type": "Vector2",
+          "name": "orientationXY"
         },
         {
           "type": "float",
-          "name": "p5"
-        },
-        {
-          "type": "float",
-          "name": "p6"
-        },
-        {
-          "type": "float",
-          "name": "p7"
-        },
-        {
-          "type": "float",
-          "name": "p8"
+          "name": "orientationZ"
         },
         {
           "type": "int",
@@ -39371,12 +39347,8 @@
           "name": "actorID"
         },
         {
-          "type": "float",
-          "name": "x"
-        },
-        {
-          "type": "float",
-          "name": "y"
+          "type": "Vector2",
+          "name": "xy"
         },
         {
           "type": "float",
@@ -39507,12 +39479,8 @@
           "name": "actorID"
         },
         {
-          "type": "float",
-          "name": "x"
-        },
-        {
-          "type": "float",
-          "name": "y"
+          "type": "Vector2",
+          "name": "xy"
         },
         {
           "type": "float",
@@ -39520,15 +39488,11 @@
         },
         {
           "type": "float",
-          "name": "xRot"
+          "name": "rotXY"
         },
         {
           "type": "float",
-          "name": "yRot"
-        },
-        {
-          "type": "float",
-          "name": "zRot"
+          "name": "rotZ"
         },
         {
           "type": "int",
