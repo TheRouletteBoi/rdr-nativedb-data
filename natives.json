@@ -40697,7 +40697,7 @@
           "name": "p1"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xAFB1DFA2": {
       "name": "IS_PHYSINST_ACTIVE",
@@ -41631,92 +41631,92 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "statName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "stat"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x6F6D942B": {
       "name": "PLAYSTAT_INT3",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "stat"
         },
         {
           "type": "const char*",
-          "name": "p1"
+          "name": "axisNameX"
         },
         {
           "type": "int",
-          "name": "p2"
+          "name": "scaledValueX"
         },
         {
           "type": "const char*",
-          "name": "p3"
+          "name": "axisNameY"
         },
         {
           "type": "int",
-          "name": "p4"
+          "name": "scaledValueY"
         },
         {
           "type": "const char*",
-          "name": "p5"
+          "name": "axisNameZ"
         },
         {
           "type": "int",
-          "name": "p6"
+          "name": "scaledValueZ"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x713B1D7F": {
       "name": "PLAYSTAT_STRING",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "statName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "stat"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x9C80A3A4": {
       "name": "PLAYSTAT_DEED_NAMED",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "deedId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "deedValue"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "deedName"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "BOOL",
+          "name": "isCompleted"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "BOOL",
+          "name": "isSuccess"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x27A00456": {
       "name": "PLAYSTAT_MP_DEED_START",
@@ -41768,31 +41768,35 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "missionName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "missionName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "numPlayers"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "timeSpent"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "int",
+          "name": "totalScore"
         },
         {
-          "type": "Any",
-          "name": "p5"
+          "type": "int",
+          "name": "rewardAmount"
+        },
+        {
+          "type": "BOOL",
+          "name": "isMissionSuccessful"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     }
   },
   "POPULATION": {
