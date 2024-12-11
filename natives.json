@@ -49901,11 +49901,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "timeOfDay"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x061A2A3C": {
       "name": "GET_TIME_OF_DAY_AS_INT",
@@ -49923,32 +49923,33 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "timeInSeconds"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x57FC0E16": {
       "name": "CONVERT_TIME_OF_DAY_TO_INT",
       "comment": "",
-      "params": [],
-      "return_type": "Any"
+      "params": [
+        {
+          "type": "int",
+          "name": "timeOfDay"
+        }
+      ],
+      "return_type": "int"
     },
     "0x0EBBDC34": {
       "name": "SET_DAY",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "dayOfWeek"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x2765C37E": {
       "name": "GET_HOUR",
@@ -49956,7 +49957,7 @@
       "params": [
         {
           "type": "int",
-          "name": "time"
+          "name": "hour"
         }
       ],
       "return_type": "int"
@@ -49967,7 +49968,7 @@
       "params": [
         {
           "type": "int",
-          "name": "time"
+          "name": "minute"
         }
       ],
       "return_type": "int"
@@ -49978,7 +49979,7 @@
       "params": [
         {
           "type": "int",
-          "name": "time"
+          "name": "second"
         }
       ],
       "return_type": "int"
@@ -49989,7 +49990,7 @@
       "params": [
         {
           "type": "int",
-          "name": "time"
+          "name": "dayOfWeek"
         }
       ],
       "return_type": "int"
@@ -49999,24 +50000,24 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "hours"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "minutes"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "seconds"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "milliseconds"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "BOOL",
+          "name": "wrapAround"
         }
       ],
       "return_type": "void"
@@ -50026,11 +50027,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "timeOfDay"
+        },        
+        {
+          "type": "int",
+          "name": "timeToAdd"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x4E1DE7A5": {
       "name": "GET_TIME_OF_DAY",
@@ -50055,18 +50060,30 @@
           "name": "second"
         }
       ],
-      "return_type": "float"
+      "return_type": "int"
     },
     "0x0E453CF0": {
       "name": "MAKE_TIME_OF_DAY_EX",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int*",
+          "name": "hour"
+        },        
+        {
+          "type": "int*",
+          "name": "minute"
+        },   
+        {
+          "type": "int*",
+          "name": "second"
+        },
+        {
+          "type": "int*",
+          "name": "milliseconds"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x2DB3AC0F": {
       "name": "IS_LATER_THAN",
@@ -50077,7 +50094,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     },
     "0x9C9529D8": {
       "name": "IS_EARLIER_THAN",
