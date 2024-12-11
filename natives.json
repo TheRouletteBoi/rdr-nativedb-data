@@ -50167,8 +50167,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
