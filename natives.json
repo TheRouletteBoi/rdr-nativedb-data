@@ -40535,30 +40535,30 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar "
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x9B2A39BC": {
       "name": "DEACTIVATE_ACTOR_FOR_PERS_CHAR",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x6F8C238B": {
       "name": "DEACTIVATE_ACTORS_FOR_PERS_CHARS_IN_VOLUME",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         }
       ],
       "return_type": "void"
@@ -40568,56 +40568,56 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         }
       ],
-      "return_type": "Any"
+      "return_type": "Actor"
     },
     "0xD78D1B4F": {
       "name": "GET_PERS_CHAR_DEATH_TIMESTAMP",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Vector3*",
+          "name": "deathInfo"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x69DA275F": {
       "name": "GET_PERS_CHAR_FROM_ACTOR",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "PersChar"
     },
     "0x67258116": {
       "name": "SET_PERS_CHAR_SAFE_ZONE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "safeZoneRadius"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x5F3A1B81": {
       "name": "IS_PERS_CHAR_ALIVE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         }
       ],
       "return_type": "BOOL"
@@ -40627,27 +40627,27 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "fullRevive"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x2A709F33": {
       "name": "SET_PERS_CHAR_EXEMPT_FROM_AMBIENT_RESTRICTIONS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "exemptFromRestrictions"
         }
       ],
       "return_type": "void"
@@ -40657,12 +40657,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -40672,12 +40672,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "allowSpawnElsewhere"
         }
       ],
       "return_type": "void"
