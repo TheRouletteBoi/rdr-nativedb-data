@@ -40536,7 +40536,7 @@
       "params": [
         {
           "type": "PersChar",
-          "name": "persChar "
+          "name": "persChar"
         }
       ],
       "return_type": "void"
