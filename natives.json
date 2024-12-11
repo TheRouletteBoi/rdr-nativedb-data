@@ -42562,15 +42562,19 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Object",
+          "name": "object"
+        },
+        {
+          "type": "int",
+          "name": "rotationSpeed"
         },
         {
           "type": "float",
-          "name": "p1"
+          "name": "groundAngle   "
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x1D7845B7": {
       "name": "VISIBLE_RECTS_BOOLEAN",
