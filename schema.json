@@ -62,6 +62,7 @@
 				"Ped", "Ped*",
 				"Player", "Player*",
 				"Prompt", "Prompt*",
+				"PersChar", "PersChar*",
 				"ScrHandle", "ScrHandle*",
 				"Vector3*",
 				"Vector2",
