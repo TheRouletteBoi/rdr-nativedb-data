@@ -40594,7 +40594,7 @@
           "name": "actor"
         }
       ],
-      "return_type": "PersChar"
+      "return_type": "int"
     },
     "0x67258116": {
       "name": "SET_PERS_CHAR_SAFE_ZONE",
