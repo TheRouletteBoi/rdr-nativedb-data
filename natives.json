@@ -42571,7 +42571,7 @@
         },
         {
           "type": "float",
-          "name": "groundAngle   "
+          "name": "groundAngle"
         }
       ],
       "return_type": "void"
