@@ -43624,16 +43624,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "challengeName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "description"
         }
       ],
       "return_type": "void"
@@ -43658,47 +43658,39 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "textureName"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x10F5386D": {
       "name": "UI_CHALLENGE_SET_PROGRESS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "currentProgress"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "maxProgress"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "float",
+          "name": "threshold"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "const char*",
+          "name": "progressText"
         }
       ],
       "return_type": "void"
@@ -43708,62 +43700,46 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "detailText"
         }
       ],
       "return_type": "void"
     },
     "0x3731AC9F": {
       "name": "UI_CHALLENGE_SET_TROPHY_TYPE",
-      "comment": "",
+      "comment": "trophyType:\nenum eTrophyType\n{\n\tTROPHY_NONE = 0,\n\tTROPHY_BRONZE = 4,\n\tTROPHY_GOLD = 8,\n\t// todo\n};",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "trophyType"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x9CF5C747": {
       "name": "UI_CHALLENGE_SET_OBJECTIVE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "objectiveId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "objectiveDescription"
         }
       ],
       "return_type": "void"
@@ -43773,123 +43749,99 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "objectiveId"
         },
         {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "style"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x9272926C": {
       "name": "UI_CHALLENGE_SET_OBJECTIVE_STYLE_B",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "objectiveId"
         },
         {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "style"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xAFC9071D": {
       "name": "UI_CHALLENGE_SET_COLUMN_HEADER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "columnIndex"
         },
         {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "headerText"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x761A6750": {
       "name": "UI_CHALLENGE_SET_TIME_HEADER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "timeHeaderText"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xC201524D": {
       "name": "UI_CHALLENGE_SET_TIME_INFO",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "isTimeElapsed"
         },
         {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "timeInfoText"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x04A3022E": {
       "name": "UI_CHALLENGE_MAKE_CURRENT",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         }
       ],
       "return_type": "void"
