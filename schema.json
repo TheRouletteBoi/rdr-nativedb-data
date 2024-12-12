@@ -72,7 +72,7 @@
 		},
 		"return_type": {
 			"type": "string",
-			"enum": [ "void", "int", "float", "BOOL", "const char*", "Actor", "Actor*", "ActorSet", "Any", "Any*", "Blip", "Cam", "Hash", "Iterator", "IteratorSet", "Layout", "Mount", "Object", "Ped", "Player", "ScrHandle", "Vector3", "Vehicle", "Volume" ]
+			"enum": [ "void", "int", "float", "BOOL", "const char*", "Actor", "Actor*", "ActorSet", "Any", "Any*", "Blip", "Cam", "Hash", "Iterator", "IteratorSet", "Layout", "Mount", "Object", "Ped", "Player", "Prompt", "PersChar", "ScrHandle", "Vector3", "Vehicle", "Volume" ]
 		}
 	}
 }
