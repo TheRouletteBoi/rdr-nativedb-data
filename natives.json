@@ -41737,7 +41737,7 @@
         },
         {
           "type": "int",
-          "name": "missionName"
+          "name": "missionType"
         },
         {
           "type": "int",
