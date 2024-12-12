@@ -56,6 +56,7 @@
 				"Hash", "Hash*",
 				"Iterator", "Iterator*",
 				"IteratorSet", "IteratorSet*",
+				"Journal", "Journal*",
                                 "JournalHandle", "JournalHandle*",
                                 "Layout", "Layout*",
                                 "Mount", "Mount*",
@@ -74,7 +75,7 @@
 		},
 		"return_type": {
 			"type": "string",
-			"enum": [ "void", "int", "float", "BOOL", "const char*", "Actor", "Actor*", "ActorSet", "Any", "Any*", "Blip", "Cam", "Faction", "Hash", "Iterator", "IteratorSet", "Layout", "Mount", "Object", "Ped", "Player", "Prompt", "PersChar", "ScrHandle", "Vector3", "Vehicle", "Volume", "Weapon" ]
+			"enum": [ "void", "int", "float", "BOOL", "const char*", "Actor", "Actor*", "ActorSet", "Any", "Any*", "Blip", "Cam", "Faction", "Hash", "Iterator", "IteratorSet", "Journal", "Layout", "Mount", "Object", "Ped", "Player", "Prompt", "PersChar", "ScrHandle", "Vector3", "Vehicle", "Volume", "Weapon" ]
 		}
 	}
 }

@@ -29706,25 +29706,8 @@
     "0x45E34464": {
       "name": "RESET_EXCLUSIVE_JOURNAL_ID",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        }
-      ],
-      "return_type": "int"
+      "params": [],
+      "return_type": "void"
     },
     "0x44A1ED5C": {
       "name": "TOGGLE_COOP_JOURNAL_UI",
@@ -29758,51 +29741,23 @@
       "comment": "",
       "params": [
         {
-          "type": "int",
-          "name": "result"
+          "type": "Journal",
+          "name": "journalId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
-        },
-        {
-          "type": "Any",
-          "name": "p5"
+          "type": "BOOL",
+          "name": "isVisible"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xC450C870": {
       "name": "GET_JOURNAL_ENTRY",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "entryName"
         }
       ],
       "return_type": "int"
@@ -29812,23 +29767,23 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "entryName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "entryType"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "entryStatus"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "entryText"
         }
       ],
-      "return_type": "int"
+      "return_type": "Journal"
     },
     "0x619F1C3D": {
       "name": "CREATE_JOURNAL_ENTRY_BY_HASH",
