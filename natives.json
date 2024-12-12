@@ -22483,19 +22483,19 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "greetingContextId"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x751809BB": {
       "name": "SET_NON_VERBAL_GREETING_PROBABILITY",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "probability"
         }
       ],
       "return_type": "void"
@@ -22505,8 +22505,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "angle"
         }
       ],
       "return_type": "void"
@@ -22531,8 +22531,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "probability"
         }
       ],
       "return_type": "void"
@@ -22542,8 +22542,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "probability"
         }
       ],
       "return_type": "void"
@@ -22553,12 +22553,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "probability"
         }
       ],
       "return_type": "void"
@@ -22568,8 +22568,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "minInterval"
         }
       ],
       "return_type": "void"
@@ -22579,8 +22579,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "minInterval"
         }
       ],
       "return_type": "void"
@@ -22590,8 +22590,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "maxDistance"
         }
       ],
       "return_type": "void"
@@ -22601,8 +22601,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "minSpeed"
         }
       ],
       "return_type": "void"
@@ -22612,8 +22612,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "maxAngle"
         }
       ],
       "return_type": "void"
@@ -22623,8 +22623,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "timeoutDuration"
         }
       ],
       "return_type": "void"
