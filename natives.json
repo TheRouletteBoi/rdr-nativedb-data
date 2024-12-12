@@ -9,12 +9,8 @@
           "name": "actor"
         },
         {
-          "type": "Vector2",
-          "name": "xy"
-        },
-        {
-          "type": "float",
-          "name": "z"
+          "type": "Vector3*",
+          "name": "coords"
         },
         {
           "type": "BOOL",
@@ -720,16 +716,8 @@
           "name": "slot"
         },
         {
-          "type": "float*",
-          "name": "x"
-        },
-        {
-          "type": "float*",
-          "name": "y"
-        },
-        {
-          "type": "float*",
-          "name": "z"
+          "type": "Vector3*",
+          "name": "position"
         }
       ],
       "return_type": "Any"
@@ -8853,16 +8841,8 @@
           "name": "audioName"
         },
         {
-          "type": "float",
-          "name": "x"
-        },
-        {
-          "type": "float",
-          "name": "y"
-        },
-        {
-          "type": "float",
-          "name": "z"
+          "type": "Vector3*",
+          "name": "position"
         }
       ],
       "return_type": "void"
@@ -8876,16 +8856,8 @@
           "name": "p0"
         },
         {
-          "type": "float",
-          "name": "p1"
-        },
-        {
-          "type": "float",
-          "name": "p2"
-        },
-        {
-          "type": "float",
-          "name": "p3"
+          "type": "Vector3*",
+          "name": "position"
         },
         {
           "type": "Any",
@@ -14695,8 +14667,8 @@
       "comment": "",
       "params": [
         {
-          "type": "float*",
-          "name": "p0"
+          "type": "Vector3*",
+          "name": "vec"
         }
       ],
       "return_type": "float"
@@ -14779,16 +14751,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Vector3*",
+          "name": "position"
         },
         {
           "type": "float*",
-          "name": "p1"
+          "name": "screenX"
         },
         {
           "type": "float*",
-          "name": "p2"
+          "name": "screenY"
         }
       ],
       "return_type": "int"
@@ -18137,16 +18109,8 @@
           "name": "actor"
         },
         {
-          "type": "Any*",
-          "name": "p1"
-        },
-        {
-          "type": "Any*",
-          "name": "p2"
-        },
-        {
-          "type": "Any*",
-          "name": "p3"
+          "type": "Vector3*",
+          "name": "velocity"
         }
       ],
       "return_type": "Any"
@@ -28355,7 +28319,7 @@
           "name": "inCoords"
         },
         {
-          "type": "float",
+          "type": "Vector3*",
           "name": "p1"
         },
         {
@@ -28424,7 +28388,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
+          "type": "Vector3*",
           "name": "p0"
         }
       ],
@@ -46860,8 +46824,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
           "type": "Vector3*",
