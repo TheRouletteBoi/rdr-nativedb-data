@@ -10709,7 +10709,7 @@
         },
         {
           "type": "int",
-          "name": "p1"
+          "name": "stackSize"
         }
       ],
       "return_type": "int"
