@@ -2353,8 +2353,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "level"
         }
       ],
       "return_type": "void"
@@ -2391,20 +2391,24 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "useCaseId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "scriptPath"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "useCaseName"
+        },
+        {
+          "type": "int",
+          "name": "priority"
         }
       ],
       "return_type": "void"
@@ -2414,20 +2418,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "flockType"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "isEnabled"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "behaviorMode"
         }
       ],
       "return_type": "void"
@@ -2437,24 +2441,24 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "flockType"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "parameterId"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "float",
+          "name": "value"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "int",
+          "name": "behaviorMode"
         }
       ],
       "return_type": "void"
@@ -2464,24 +2468,24 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "flockType"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "parameterId"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "value"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "int",
+          "name": "behaviorMode"
         }
       ],
       "return_type": "void"
@@ -2491,78 +2495,82 @@
       "comment": "",
       "params": [
         {
-          "type": "float",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
+        },
+        {
+          "type": "float*",
+          "name": "position"
+        },
+        {
+          "type": "int",
+          "name": "reference"
         },
         {
           "type": "float",
-          "name": "p1"
+          "name": "distance"
         },
         {
           "type": "float",
-          "name": "p2"
+          "name": "parameter1"
         },
         {
           "type": "float",
-          "name": "p3"
+          "name": "parameter2"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "float",
+          "name": "parameter3"
         },
         {
-          "type": "Any",
-          "name": "p5"
-        },
-        {
-          "type": "Any",
-          "name": "p6"
+          "type": "int",
+          "name": "behaviorMode"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xF2110753": {
       "name": "ANIMAL_SPECIES_REMOVE_EXTERNAL_PATH_ATTRACTION",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "reference"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "behaviorMode"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x784C514C": {
       "name": "ANIMAL_SPECIES_ADD_EXTERNAL_RANDOM_NOISE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "minNoise"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "maxNoise"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "float",
+          "name": "baselineNoise"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "int",
+          "name": "behaviorMode"
         }
       ],
       "return_type": "void"
@@ -2572,24 +2580,24 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "targetSpeciesId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "repulsionStrength"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "float",
+          "name": "repulsionRadius"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "int",
+          "name": "behaviorMode"
         }
       ],
       "return_type": "void"
@@ -2599,12 +2607,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "reasoningType"
         }
       ],
       "return_type": "void"
@@ -2614,16 +2622,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "attributeId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "isSpecialCondition"
         }
       ],
       "return_type": "float"
@@ -2633,20 +2641,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "attributeId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "toggle"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "context"
         }
       ],
       "return_type": "void"
@@ -2656,20 +2664,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "attributeId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "value"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "context"
         }
       ],
       "return_type": "void"
@@ -2679,24 +2687,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "attributeId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "value"
         },
         {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
+          "type": "int*",
+          "name": "context"
         }
       ],
       "return_type": "void"
@@ -2706,40 +2710,32 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "attachmentName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "posX"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "posY"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "float",
+          "name": "posZ"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "float",
+          "name": "rotX"
         },
         {
-          "type": "Any",
-          "name": "p5"
+          "type": "float",
+          "name": "rotY"
         },
         {
-          "type": "Any",
-          "name": "p6"
-        },
-        {
-          "type": "Any",
-          "name": "p7"
-        },
-        {
-          "type": "Any",
-          "name": "p8"
+          "type": "float",
+          "name": "rotZ"
         }
       ],
       "return_type": "void"
@@ -2749,20 +2745,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "attachmentId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "attachmentType"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "parentBone"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "childBone"
         }
       ],
       "return_type": "void"
@@ -2772,12 +2768,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "preyId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "preyPropName"
         }
       ],
       "return_type": "void"
@@ -2787,20 +2783,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "attribId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "timeOfDay"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "flag"
         }
       ],
       "return_type": "void"
@@ -2810,23 +2806,23 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         }
       ],
       "return_type": "void"
     },
     "0xED6240F0": {
       "name": "ANIMAL_SPECIES_INIT_REGISTER",
-      "comment": "",
+      "comment": "AnimalSpecies:\nenum eAnimalSpecies\n{\n\tANIMAL_SPECIES_HUMAN = 0,\n\tANIMAL_SPECIES_NARMADILLO = 1,\n\tANIMAL_SPECIES_BAT = 2,\n\tANIMAL_SPECIES_BEAR = 3,\n\tANIMAL_SPECIES_BEAVER = 4,\n\tANIMAL_SPECIES_BIGHORN = 5,\n\tANIMAL_SPECIES_BOAR = 6,\n\tANIMAL_SPECIES_BOBCAT = 7,\n\tANIMAL_SPECIES_BUFFALO = 8,\n\tANIMAL_SPECIES_BULL = 9,\n\tANIMAL_SPECIES_CHICKEN = 10,\n\tANIMAL_SPECIES_COUGAR = 11,\n\tANIMAL_SPECIES_COW = 12,\n\tANIMAL_SPECIES_COYOTE = 13,\n\tANIMAL_SPECIES_CROW = 14,\n\tANIMAL_SPECIES_DEER = 15,\n\tANIMAL_SPECIES_DOG = 16,\n\tANIMAL_SPECIES_DUCK = 17,\n\tANIMAL_SPECIES_EAGLE = 18,\n\tANIMAL_SPECIES_ELK = 19,\n\tANIMAL_SPECIES_FOX = 20,\n\tANIMAL_SPECIES_GOAT = 21,\n\tANIMAL_SPECIES_HAWK = 22,\n\tANIMAL_SPECIES_HORSE = 23,\n\tANIMAL_SPECIES_MULE = 24,\n\tANIMAL_SPECIES_OWL = 25,\n\tANIMAL_SPECIES_PIG = 26,\n\tANIMAL_SPECIES_RABBIT = 27,\n\tANIMAL_SPECIES_RACCOON = 28,\n\tANIMAL_SPECIES_SHEEP = 29,\n\tANIMAL_SPECIES_SKUNK = 30,\n\tANIMAL_SPECIES_SNAKE = 31,\n\tANIMAL_SPECIES_SONGBIRD = 32,\n\tANIMAL_SPECIES_NSTREETDOG = 33,\n\tANIMAL_SPECIES_VULTURE = 34,\n\tANIMAL_SPECIES_WOLF = 35\n};",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "speciesName"
         }
       ],
       "return_type": "void"
@@ -2847,7 +2843,7 @@
       "name": "ANIMAL_SPECIES_GRINGO_LOAD_ALL",
       "comment": "",
       "params": [],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x98073A48": {
       "name": "ANIMAL_SPECIES_REL_CLEAR_ALL",
@@ -2860,16 +2856,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "actionId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -2879,12 +2875,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "predatorId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "preyId"
         }
       ],
       "return_type": "void"
@@ -2894,16 +2890,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "threatId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "isThreatened"
         }
       ],
       "return_type": "void"
@@ -2913,16 +2909,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "avoidSpeciesId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "isAvoiding"
         }
       ],
       "return_type": "void"
@@ -2932,16 +2928,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "predatorId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "preyId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "isHunting"
         }
       ],
       "return_type": "void"
@@ -2951,16 +2947,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "predatorId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "preyId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "isChasing"
         }
       ],
       "return_type": "void"
@@ -2970,16 +2966,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "actionId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "enable"
         }
       ],
       "return_type": "void"
@@ -2989,16 +2985,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "targetSpeciesId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "enable"
         }
       ],
       "return_type": "void"
@@ -3008,16 +3004,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "targetSpeciesId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "enable"
         }
       ],
       "return_type": "void"
@@ -3027,12 +3023,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "attackerSpeciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "targetSpeciesId"
         }
       ],
       "return_type": "int"
@@ -3042,16 +3038,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "attackerSpeciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "canAttack"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "isPredator"
         }
       ],
       "return_type": "void"
@@ -3061,16 +3057,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "warningSpeciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "targetSpeciesId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "canWarn"
         }
       ],
       "return_type": "void"
@@ -3080,16 +3076,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "animalSpeciesId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "foodId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "eatingIntensity"
         }
       ],
       "return_type": "void"
@@ -3099,8 +3095,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "animalId"
         }
       ],
       "return_type": "int"
@@ -3110,12 +3106,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "animalId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "domesticationStatus"
         }
       ],
       "return_type": "void"
@@ -3136,16 +3132,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "animalActor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "attribId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -3155,16 +3151,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "animalActor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "attribId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "value"
         }
       ],
       "return_type": "void"
@@ -3179,7 +3175,7 @@
         },
         {
           "type": "BOOL",
-          "name": "p1"
+          "name": "docileState"
         }
       ],
       "return_type": "void"
@@ -3189,24 +3185,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
@@ -3216,12 +3196,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
       "return_type": "int"
@@ -40559,30 +40535,30 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x9B2A39BC": {
       "name": "DEACTIVATE_ACTOR_FOR_PERS_CHAR",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x6F8C238B": {
       "name": "DEACTIVATE_ACTORS_FOR_PERS_CHARS_IN_VOLUME",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         }
       ],
       "return_type": "void"
@@ -40592,56 +40568,56 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         }
       ],
-      "return_type": "Any"
+      "return_type": "Actor"
     },
     "0xD78D1B4F": {
       "name": "GET_PERS_CHAR_DEATH_TIMESTAMP",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Vector3*",
+          "name": "deathInfo"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x69DA275F": {
       "name": "GET_PERS_CHAR_FROM_ACTOR",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x67258116": {
       "name": "SET_PERS_CHAR_SAFE_ZONE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "safeZoneRadius"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x5F3A1B81": {
       "name": "IS_PERS_CHAR_ALIVE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         }
       ],
       "return_type": "BOOL"
@@ -40651,27 +40627,27 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "fullRevive"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x2A709F33": {
       "name": "SET_PERS_CHAR_EXEMPT_FROM_AMBIENT_RESTRICTIONS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "exemptFromRestrictions"
         }
       ],
       "return_type": "void"
@@ -40681,12 +40657,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -40696,12 +40672,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "PersChar",
+          "name": "persChar"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "allowSpawnElsewhere"
         }
       ],
       "return_type": "void"
@@ -40721,7 +40697,7 @@
           "name": "p1"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xAFB1DFA2": {
       "name": "IS_PHYSINST_ACTIVE",
@@ -41655,92 +41631,92 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "statName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "stat"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x6F6D942B": {
       "name": "PLAYSTAT_INT3",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "stat"
         },
         {
           "type": "const char*",
-          "name": "p1"
+          "name": "axisNameX"
         },
         {
           "type": "int",
-          "name": "p2"
+          "name": "scaledValueX"
         },
         {
           "type": "const char*",
-          "name": "p3"
+          "name": "axisNameY"
         },
         {
           "type": "int",
-          "name": "p4"
+          "name": "scaledValueY"
         },
         {
           "type": "const char*",
-          "name": "p5"
+          "name": "axisNameZ"
         },
         {
           "type": "int",
-          "name": "p6"
+          "name": "scaledValueZ"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x713B1D7F": {
       "name": "PLAYSTAT_STRING",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "statName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "stat"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x9C80A3A4": {
       "name": "PLAYSTAT_DEED_NAMED",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "deedId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "deedValue"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "deedName"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "BOOL",
+          "name": "isCompleted"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "BOOL",
+          "name": "isSuccess"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x27A00456": {
       "name": "PLAYSTAT_MP_DEED_START",
@@ -41792,31 +41768,35 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "missionName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "missionName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "numPlayers"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "timeSpent"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "int",
+          "name": "totalScore"
         },
         {
-          "type": "Any",
-          "name": "p5"
+          "type": "int",
+          "name": "rewardAmount"
+        },
+        {
+          "type": "BOOL",
+          "name": "isMissionSuccessful"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     }
   },
   "POPULATION": {
@@ -42582,15 +42562,19 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Object",
+          "name": "object"
+        },
+        {
+          "type": "int",
+          "name": "rotationSpeed"
         },
         {
           "type": "float",
-          "name": "p1"
+          "name": "groundAngle"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x1D7845B7": {
       "name": "VISIBLE_RECTS_BOOLEAN",
@@ -49917,11 +49901,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "timeOfDay"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x061A2A3C": {
       "name": "GET_TIME_OF_DAY_AS_INT",
@@ -49939,32 +49923,33 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "timeInSeconds"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x57FC0E16": {
       "name": "CONVERT_TIME_OF_DAY_TO_INT",
       "comment": "",
-      "params": [],
-      "return_type": "Any"
+      "params": [
+        {
+          "type": "int",
+          "name": "timeOfDay"
+        }
+      ],
+      "return_type": "int"
     },
     "0x0EBBDC34": {
       "name": "SET_DAY",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "dayOfWeek"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x2765C37E": {
       "name": "GET_HOUR",
@@ -49972,7 +49957,7 @@
       "params": [
         {
           "type": "int",
-          "name": "time"
+          "name": "hour"
         }
       ],
       "return_type": "int"
@@ -49983,7 +49968,7 @@
       "params": [
         {
           "type": "int",
-          "name": "time"
+          "name": "minute"
         }
       ],
       "return_type": "int"
@@ -49994,7 +49979,7 @@
       "params": [
         {
           "type": "int",
-          "name": "time"
+          "name": "second"
         }
       ],
       "return_type": "int"
@@ -50005,7 +49990,7 @@
       "params": [
         {
           "type": "int",
-          "name": "time"
+          "name": "dayOfWeek"
         }
       ],
       "return_type": "int"
@@ -50015,24 +50000,24 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "hours"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "minutes"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "seconds"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "milliseconds"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "BOOL",
+          "name": "wrapAround"
         }
       ],
       "return_type": "void"
@@ -50042,11 +50027,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "timeOfDay"
+        },        
+        {
+          "type": "int",
+          "name": "timeToAdd"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x4E1DE7A5": {
       "name": "GET_TIME_OF_DAY",
@@ -50071,18 +50060,30 @@
           "name": "second"
         }
       ],
-      "return_type": "float"
+      "return_type": "int"
     },
     "0x0E453CF0": {
       "name": "MAKE_TIME_OF_DAY_EX",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int*",
+          "name": "hour"
+        },        
+        {
+          "type": "int*",
+          "name": "minute"
+        },   
+        {
+          "type": "int*",
+          "name": "second"
+        },
+        {
+          "type": "int*",
+          "name": "milliseconds"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x2DB3AC0F": {
       "name": "IS_LATER_THAN",
@@ -50093,7 +50094,7 @@
           "name": "p0"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     },
     "0x9C9529D8": {
       "name": "IS_EARLIER_THAN",
@@ -50183,8 +50184,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
