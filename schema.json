@@ -51,6 +51,7 @@
 				"Any", "Any*",
 				"Blip", "Blip*",
 				"Cam", "Cam*",
+				"Faction", "Faction*",
                                 "FireHandle", "FireHandle*",
 				"Hash", "Hash*",
 				"Iterator", "Iterator*",
@@ -73,7 +74,7 @@
 		},
 		"return_type": {
 			"type": "string",
-			"enum": [ "void", "int", "float", "BOOL", "const char*", "Actor", "Actor*", "ActorSet", "Any", "Any*", "Blip", "Cam", "Hash", "Iterator", "IteratorSet", "Layout", "Mount", "Object", "Ped", "Player", "Prompt", "PersChar", "ScrHandle", "Vector3", "Vehicle", "Volume", "Weapon" ]
+			"enum": [ "void", "int", "float", "BOOL", "const char*", "Actor", "Actor*", "ActorSet", "Any", "Any*", "Blip", "Cam", "Faction", "Hash", "Iterator", "IteratorSet", "Layout", "Mount", "Object", "Ped", "Player", "Prompt", "PersChar", "ScrHandle", "Vector3", "Vehicle", "Volume", "Weapon" ]
 		}
 	}
 }

@@ -20709,30 +20709,17 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "factionName"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x28413943": {
       "name": "RESET_FACTIONS",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0x52E2A611": {
       "name": "GET_ACTOR_FACTION",
@@ -20754,7 +20741,7 @@
           "name": "actor"
         },
         {
-          "type": "int",
+          "type": "Faction",
           "name": "faction"
         }
       ],
@@ -20765,7 +20752,7 @@
       "comment": "",
       "params": [
         {
-          "type": "int",
+          "type": "Faction",
           "name": "faction"
         }
       ],
@@ -20774,16 +20761,29 @@
     "0x22424394": {
       "name": "VERIFY_FACTION_ENUM",
       "comment": "",
-      "params": [],
-      "return_type": "Any"
+      "params": [
+        {
+          "type": "const char*",
+          "name": "factionName"
+        },
+        {
+          "type": "Faction",
+          "name": "faction"
+        }
+      ],
+      "return_type": "void"
     },
     "0xDCB960C5": {
       "name": "SET_FACTION_IS_LAWFUL_TO_ATTACK",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Faction",
+          "name": "faction"
+        },
+        {
+          "type": "BOOL",
+          "name": "canAttack"
         }
       ],
       "return_type": "void"
@@ -20804,8 +20804,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Faction",
+          "name": "factionAId"
+        },
+        {
+          "type": "Faction",
+          "name": "factionBId"
+        },
+        {
+          "type": "int",
+          "name": "relationshipStatus"
         }
       ],
       "return_type": "void"
@@ -20815,8 +20823,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Faction",
+          "name": "factionAId"
+        },
+        {
+          "type": "Faction",
+          "name": "factionBId"
+        },
+        {
+          "type": "int",
+          "name": "relationshipStatus"
         }
       ],
       "return_type": "void"
@@ -20826,8 +20842,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Faction",
+          "name": "ambientFactionAId"
+        },
+        {
+          "type": "Faction",
+          "name": "ambientFactionBId"
+        },
+        {
+          "type": "int",
+          "name": "relationshipStatus"
         }
       ],
       "return_type": "void"
@@ -20837,41 +20861,61 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Faction",
+          "name": "factionAId"
+        },
+        {
+          "type": "Faction",
+          "name": "factionBId"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0xF9C5DC76": {
       "name": "RESET_AMBIENT_FACTIONS_STATUS_TWO_WAY",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Faction",
+          "name": "ambientFactionAId"
+        },
+        {
+          "type": "Faction",
+          "name": "ambientFactionBId"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x8E56236D": {
       "name": "GET_FACTIONS_STATUS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Faction",
+          "name": "factionAId"
+        },
+        {
+          "type": "Faction",
+          "name": "factionBId"
         }
       ],
-      "return_type": "void"
+      "return_type": "BOOL"
     },
     "0x463F75F8": {
       "name": "SET_FACTION_TO_FACTION_ACCURACY_SCALE_FACTOR",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Faction",
+          "name": "attackerFactionId"
+        },
+        {
+          "type": "Faction",
+          "name": "targetFactionId"
+        },
+        {
+          "type": "float",
+          "name": "accuracyFactor"
         }
       ],
       "return_type": "void"
@@ -20881,8 +20925,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Faction",
+          "name": "attackerFactionId"
+        },
+        {
+          "type": "Faction",
+          "name": "targetFactionId"
+        },
+        {
+          "type": "float",
+          "name": "damageScaleFactor"
         }
       ],
       "return_type": "void"
@@ -20903,19 +20955,31 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Faction",
+          "name": "faction"
+        },
+        {
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xBC44D31D": {
       "name": "SET_FACTION_STATUS_TO_INDIVIDUAL_ACTOR",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Faction",
+          "name": "faction"
+        },
+        {
+          "type": "Actor",
+          "name": "actor"
+        },
+        {
+          "type": "int",
+          "name": "status"
         }
       ],
       "return_type": "void"
