@@ -29790,20 +29790,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Journal",
+          "name": "journal"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "entryType"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "entryStatus"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "entryText"
         }
       ],
       "return_type": "int"
@@ -29813,20 +29813,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "entryId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "BOOL",
+          "name": "checkVisibility"
         }
       ],
       "return_type": "BOOL"
@@ -29836,47 +29828,23 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
+          "type": "BOOL",
+          "name": "includeHidden"
         }
       ],
-      "return_type": "int"
+      "return_type": "Journal"
     },
     "0x49B02E18": {
       "name": "GET_JOURNAL_ENTRY_IN_LIST",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "entryIndex"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "BOOL",
+          "name": "includeHidden"
         }
       ],
       "return_type": "int"
@@ -29886,23 +29854,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "entryId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "BOOL",
+          "name": "markAsUnread"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x9C40CFAB": {
       "name": "APPEND_JOURNAL_ENTRY",
