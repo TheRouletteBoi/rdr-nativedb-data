@@ -20741,7 +20741,7 @@
           "name": "actor"
         },
         {
-          "type": "Faction",
+          "type": "int",
           "name": "faction"
         }
       ],
@@ -20752,7 +20752,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Faction",
+          "type": "int",
           "name": "faction"
         }
       ],
@@ -20767,7 +20767,7 @@
           "name": "factionName"
         },
         {
-          "type": "Faction",
+          "type": "int",
           "name": "faction"
         }
       ],
@@ -20778,7 +20778,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Faction",
+          "type": "int",
           "name": "faction"
         },
         {
@@ -20804,11 +20804,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Faction",
+          "type": "int",
           "name": "factionAId"
         },
         {
-          "type": "Faction",
+          "type": "int",
           "name": "factionBId"
         },
         {
@@ -20823,11 +20823,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Faction",
+          "type": "int",
           "name": "factionAId"
         },
         {
-          "type": "Faction",
+          "type": "int",
           "name": "factionBId"
         },
         {
@@ -20842,11 +20842,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Faction",
+          "type": "int",
           "name": "ambientFactionAId"
         },
         {
-          "type": "Faction",
+          "type": "int",
           "name": "ambientFactionBId"
         },
         {
@@ -20861,11 +20861,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Faction",
+          "type": "int",
           "name": "factionAId"
         },
         {
-          "type": "Faction",
+          "type": "int",
           "name": "factionBId"
         }
       ],
@@ -20876,11 +20876,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Faction",
+          "type": "int",
           "name": "ambientFactionAId"
         },
         {
-          "type": "Faction",
+          "type": "int",
           "name": "ambientFactionBId"
         }
       ],
@@ -20891,11 +20891,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Faction",
+          "type": "int",
           "name": "factionAId"
         },
         {
-          "type": "Faction",
+          "type": "int",
           "name": "factionBId"
         }
       ],
@@ -20906,11 +20906,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Faction",
+          "type": "int",
           "name": "attackerFactionId"
         },
         {
-          "type": "Faction",
+          "type": "int",
           "name": "targetFactionId"
         },
         {
@@ -20925,11 +20925,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Faction",
+          "type": "int",
           "name": "attackerFactionId"
         },
         {
-          "type": "Faction",
+          "type": "int",
           "name": "targetFactionId"
         },
         {
@@ -20955,7 +20955,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Faction",
+          "type": "int",
           "name": "faction"
         },
         {
@@ -20970,7 +20970,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Faction",
+          "type": "int",
           "name": "faction"
         },
         {
@@ -29741,7 +29741,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Journal",
+          "type": "JournalHandle ",
           "name": "journalId"
         },
         {
@@ -29783,14 +29783,14 @@
           "name": "entryText"
         }
       ],
-      "return_type": "Journal"
+      "return_type": "JournalHandle "
     },
     "0x619F1C3D": {
       "name": "CREATE_JOURNAL_ENTRY_BY_HASH",
       "comment": "",
       "params": [
         {
-          "type": "Journal",
+          "type": "JournalHandle ",
           "name": "journal"
         },
         {
@@ -29832,7 +29832,7 @@
           "name": "includeHidden"
         }
       ],
-      "return_type": "Journal"
+      "return_type": "JournalHandle "
     },
     "0x49B02E18": {
       "name": "GET_JOURNAL_ENTRY_IN_LIST",
@@ -51981,8 +51981,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "const char*",
@@ -52000,8 +52000,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "const char*",
@@ -52019,8 +52019,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "const char*",
@@ -52038,8 +52038,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "const char*",
@@ -52057,8 +52057,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "const char*",
@@ -52076,8 +52076,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "const char*",
@@ -52095,8 +52095,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "const char*",
@@ -52114,8 +52114,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "const char*",
@@ -52133,8 +52133,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "const char*",
@@ -52152,8 +52152,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "const char*",
@@ -52171,8 +52171,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "const char*",
@@ -52190,8 +52190,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "const char*",
@@ -52209,8 +52209,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
           "type": "float",
@@ -52396,8 +52396,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Weapon",
-          "name": "weapon"
+          "type": "int",
+          "name": "weaponEnum"
         }
       ],
       "return_type": "void"
