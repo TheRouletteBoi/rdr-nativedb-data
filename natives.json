@@ -930,8 +930,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
@@ -941,26 +941,26 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
     },
     "0x50D8C840": {
       "name": "SET_PLAYER_DEADEYE_POINTS",
-      "comment": "",
+      "comment": "points between 0.0f - 100.0f",
       "params": [
         {
           "type": "Actor",
           "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "points"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p2"
         }
       ],
@@ -990,11 +990,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "int"
+      "return_type": "float"
     },
     "0x09716951": {
       "name": "SET_DISABLE_DEADEYE",
@@ -1031,12 +1031,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "maxPoints"
         }
       ],
       "return_type": "void"
@@ -1076,12 +1076,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -1091,8 +1091,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
           "type": "float",
@@ -1231,7 +1231,7 @@
       "params": [
         {
           "type": "Actor",
-          "name": "p0"
+          "name": "actor"
         },
         {
           "type": "Any",
@@ -3106,7 +3106,7 @@
     },
     "0x7D0E25DF": {
       "name": "ANIMAL_ACTOR_GET_SPECIES",
-      "comment": "",
+      "comment": "https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eSpecies",
       "params": [
         {
           "type": "Actor",
@@ -11056,7 +11056,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
+          "type": "int",
           "name": "p0"
         }
       ],
@@ -11816,15 +11816,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Cam",
+          "name": "camera"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "Object",
+          "name": "object"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p2"
         }
       ],
@@ -14986,7 +14986,7 @@
     },
     "0xC3297B50": {
       "name": "IS_BUTTON_DOWN",
-      "comment": "",
+      "comment": "controllerButton: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eControllerButton",
       "params": [
         {
           "type": "int",
@@ -14994,7 +14994,7 @@
         },
         {
           "type": "int",
-          "name": "control"
+          "name": "controllerButton"
         },
         {
           "type": "Any",
@@ -15009,7 +15009,7 @@
     },
     "0x7BCB3F15": {
       "name": "IS_BUTTON_PRESSED",
-      "comment": "",
+      "comment": "controllerButton: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eControllerButton",
       "params": [
         {
           "type": "int",
@@ -15017,7 +15017,7 @@
         },
         {
           "type": "int",
-          "name": "control"
+          "name": "controllerButton"
         },
         {
           "type": "Any",
@@ -15032,7 +15032,7 @@
     },
     "0xB04EB731": {
       "name": "IS_BUTTON_RELEASED",
-      "comment": "",
+      "comment": "controllerButton: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eControllerButton",
       "params": [
         {
           "type": "int",
@@ -15040,7 +15040,7 @@
         },
         {
           "type": "int",
-          "name": "control"
+          "name": "controllerButton"
         },
         {
           "type": "Any",
@@ -15074,7 +15074,7 @@
     },
     "0x062C5047": {
       "name": "IS_DIGITAL_ACTION_DOWN",
-      "comment": "PC only",
+      "comment": "PC only, inputString: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/InputStrings",
       "params": [
         {
           "type": "const char*",
@@ -15093,7 +15093,7 @@
     },
     "0xDA674AE0": {
       "name": "IS_DIGITAL_ACTION_PRESSED",
-      "comment": "PC only",
+      "comment": "PC only, inputString: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/InputStrings",
       "params": [
         {
           "type": "const char*",
@@ -15112,7 +15112,7 @@
     },
     "0x973F30EE": {
       "name": "IS_DIGITAL_ACTION_RELEASED",
-      "comment": "PC only",
+      "comment": "PC only, inputString: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/InputStrings",
       "params": [
         {
           "type": "const char*",
@@ -15131,7 +15131,7 @@
     },
     "0xC1F9AC6B": {
       "name": "GET_ANALOGUE_ACTION",
-      "comment": "PC only",
+      "comment": "PC only, inputString: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/InputStrings",
       "params": [
         {
           "type": "const char*",
@@ -18431,8 +18431,8 @@
           "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -20219,15 +20219,15 @@
     },
     "0xBADB24FB": {
       "name": "SET_ACTOR_MAX_FRESHNESS",
-      "comment": "",
+      "comment": "maxValue between 0.0f - 100.0f",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "maxValue"
         }
       ],
       "return_type": "int"
@@ -20237,11 +20237,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "int"
+      "return_type": "float"
     },
     "0x5E54E254": {
       "name": "MAKE_BIRD_FLY_FROM_POINT",
@@ -20666,7 +20666,7 @@
   "EXPLOSION": {
     "0xE7023D23": {
       "name": "_CREATE_EXPLOSION",
-      "comment": "",
+      "comment": "explosionName: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/ExplosionStrings",
       "params": [
         {
           "type": "Vector3*",
@@ -20736,7 +20736,7 @@
     },
     "0x52E2A611": {
       "name": "GET_ACTOR_FACTION",
-      "comment": "",
+      "comment": "https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eFaction",
       "params": [
         {
           "type": "Actor",
@@ -20747,7 +20747,7 @@
     },
     "0xCC63951A": {
       "name": "SET_ACTOR_FACTION",
-      "comment": "",
+      "comment": "faction: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eFaction",
       "params": [
         {
           "type": "Actor",
@@ -20762,7 +20762,7 @@
     },
     "0x5E2F718D": {
       "name": "IS_FACTION_VALID",
-      "comment": "",
+      "comment": "faction: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eFaction",
       "params": [
         {
           "type": "int",
@@ -26052,7 +26052,7 @@
   "HUD": {
     "0xFA0CF208": {
       "name": "UI_SET_PROMPT_STRING",
-      "comment": "",
+      "comment": "promptString: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/InputStringsPrompts",
       "params": [
         {
           "type": "Prompt",
@@ -26067,7 +26067,7 @@
     },
     "0xA77E0DDF": {
       "name": "UI_SET_PROMPT_ICON",
-      "comment": "",
+      "comment": "promptIcon: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eControllerPrompt",
       "params": [
         {
           "type": "Prompt",
@@ -26774,7 +26774,7 @@
     },
     "0xEFB9362F": {
       "name": "ADD_BLIP_FOR_ACTOR",
-      "comment": "",
+      "comment": "blipID: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eBlipId",
       "params": [
         {
           "type": "Actor",
@@ -26801,7 +26801,7 @@
     },
     "0x0E5372EC": {
       "name": "ADD_BLIP_FOR_OBJECT",
-      "comment": "",
+      "comment": "blipID: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eBlipId",
       "params": [
         {
           "type": "Object",
@@ -26828,7 +26828,7 @@
     },
     "0xC6F43D0E": {
       "name": "ADD_BLIP_FOR_COORD",
-      "comment": "",
+      "comment": "blipID: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eBlipId",
       "params": [
         {
           "type": "Vector3*",
@@ -26855,7 +26855,7 @@
     },
     "0xABD125F6": {
       "name": "CHANGE_BLIP_ICON",
-      "comment": "",
+      "comment": "blipID: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eBlipId",
       "params": [
         {
           "type": "Blip",
@@ -26949,15 +26949,15 @@
           "name": "blip"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p1"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p2"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p3"
         }
       ],
@@ -27190,12 +27190,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -27205,12 +27205,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -27220,8 +27220,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         }
       ],
       "return_type": "int"
@@ -27231,11 +27231,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p1"
         }
       ],
@@ -27246,12 +27246,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "maxDistance"
         }
       ],
       "return_type": "void"
@@ -27261,12 +27261,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "minDistance"
         }
       ],
       "return_type": "void"
@@ -27276,12 +27276,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Blip",
+          "name": "blip"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -27982,8 +27982,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Vector3*",
+          "name": "waypointCoords"
         }
       ],
       "return_type": "int"
@@ -27992,7 +27992,7 @@
       "name": "IS_USER_DEFINED_WAYPOINT_CLEARED",
       "comment": "",
       "params": [],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0xA5BDC21D": {
       "name": "FIND_TRAFFIC_PATH",
@@ -28319,8 +28319,8 @@
           "name": "inCoords"
         },
         {
-          "type": "Vector3*",
-          "name": "p1"
+          "type": "float",
+          "name": "startHeight"
         },
         {
           "type": "Vector3*",
@@ -28338,11 +28338,27 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Vector3*",
+          "name": "inCoords"
+        },
+        {
+          "type": "float",
+          "name": "startHeight"
+        },
+        {
+          "type": "Vector3*",
+          "name": "outCoords"
+        },
+        {
+          "type": "int*",
+          "name": "p3"
+        },
+        {
+          "type": "int*",
+          "name": "p4"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x4F193BE4": {
       "name": "FIND_WATER_INTERSECTION",
@@ -28761,7 +28777,7 @@
     },
     "0x6AA0EAF2": {
       "name": "GIVE_WEAPON_TO_ACTOR",
-      "comment": "",
+      "comment": "weaponEnum: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eWeapon",
       "params": [
         {
           "type": "Actor",
@@ -28942,7 +28958,7 @@
     },
     "0xA4B2016D": {
       "name": "GET_WEAPON_IN_HAND",
-      "comment": "",
+      "comment": "https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eWeapon",
       "params": [
         {
           "type": "Actor",
@@ -29215,7 +29231,7 @@
     },
     "0x17883570": {
       "name": "GET_AMMOENUM_FOR_WEAPONENUM",
-      "comment": "",
+      "comment": "returns ammo enum from weaponEnum. https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eWeapon",
       "params": [
         {
           "type": "int",
@@ -29226,7 +29242,7 @@
     },
     "0xA8F64D32": {
       "name": "GET_WEAPONENUM_FOR_AMMOENUM",
-      "comment": "",
+      "comment": "returns weapon enum from ammoEnum. https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eAmmoEnum",
       "params": [
         {
           "type": "Actor",
@@ -29308,7 +29324,7 @@
     },
     "0x98B3ABFA": {
       "name": "ACTOR_ADD_INV_AMMO",
-      "comment": "",
+      "comment": "ammoEnum: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eAmmoEnum",
       "params": [
         {
           "type": "Actor",
@@ -29380,7 +29396,7 @@
     },
     "0xE224AC6F": {
       "name": "ACTOR_GET_INV_AMMO",
-      "comment": "",
+      "comment": "ammoEnum: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eAmmoEnum",
       "params": [
         {
           "type": "Actor",
@@ -29391,7 +29407,7 @@
           "name": "ammoEnum"
         },
         {
-          "type": "Any",
+          "type": "BOOL",
           "name": "p2"
         }
       ],
@@ -29399,7 +29415,7 @@
     },
     "0x7AB368CF": {
       "name": "ACTOR_GET_INV_AMMO_MAX_AMOUNT",
-      "comment": "",
+      "comment": "ammoEnum: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eAmmoEnum",
       "params": [
         {
           "type": "Actor",
@@ -34353,14 +34369,14 @@
     },
     "0x261ECB20": {
       "name": "GET_OBJECT_TYPE",
-      "comment": "",
+      "comment": "https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eObjectType",
       "params": [
         {
-          "type": "Any",
+          "type": "int",
           "name": "p0"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xADB08F12": {
       "name": "GET_NUM_OBJECTS_OF_TYPE",
@@ -34892,36 +34908,28 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Layout",
+          "name": "layout"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "layoutName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "Vector2",
+          "name": "positionXY"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "float",
+          "name": "positionZ"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "Vector2",
+          "name": "orientationXY"
         },
         {
-          "type": "Any",
-          "name": "p5"
-        },
-        {
-          "type": "Any",
-          "name": "p6"
-        },
-        {
-          "type": "Any",
-          "name": "p7"
+          "type": "float",
+          "name": "orientationZ"
         }
       ],
       "return_type": "int"
@@ -35049,7 +35057,7 @@
         },
         {
           "type": "const char*",
-          "name": "actorInLayout"
+          "name": "layoutName"
         },
         {
           "type": "const char*",
@@ -35256,7 +35264,7 @@
         },
         {
           "type": "const char*",
-          "name": "actorInLayout"
+          "name": "layoutName"
         },
         {
           "type": "const char*",
@@ -35543,12 +35551,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Layout",
+          "name": "layout"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "squadName"
         }
       ],
       "return_type": "int"
@@ -35558,15 +35566,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Layout",
+          "name": "layout"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "formationName"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p2"
         }
       ],
@@ -37825,7 +37833,7 @@
     },
     "0xBE553F84": {
       "name": "ITERATE_ON_OBJECT_TYPE",
-      "comment": "",
+      "comment": "https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eObjectType",
       "params": [
         {
           "type": "int",
@@ -37833,7 +37841,7 @@
         },
         {
           "type": "int",
-          "name": "type"
+          "name": "ObjectType"
         }
       ],
       "return_type": "void"
@@ -38029,11 +38037,11 @@
       "params": [
         {
           "type": "Layout",
-          "name": "p0"
+          "name": "layout"
         },
         {
           "type": "const char*",
-          "name": "p1"
+          "name": "layoutName"
         }
       ],
       "return_type": "Object"
@@ -38048,7 +38056,7 @@
         },
         {
           "type": "const char*",
-          "name": "actorName"
+          "name": "layoutName"
         }
       ],
       "return_type": "Actor"
@@ -38058,31 +38066,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Layout",
+          "name": "layout"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
-        },
-        {
-          "type": "Any",
-          "name": "p5"
+          "type": "const char*",
+          "name": "layoutName"
         }
       ],
-      "return_type": "int"
+      "return_type": "Volume"
     },
     "0xC9365FBC": {
       "name": "CLEAR_AMBIENT_OBJECTS_SPHERE",
@@ -38151,7 +38143,7 @@
           "name": "position"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x3C45D66A": {
       "name": "ROTATE_OBJECT_AROUND_AXIS",
@@ -39272,7 +39264,7 @@
     },
     "0x8D67F397": {
       "name": "CREATE_ACTOR_IN_LAYOUT",
-      "comment": "",
+      "comment": "actorEnum: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eActorEnum",
       "params": [
         {
           "type": "Layout",
@@ -39280,11 +39272,11 @@
         },
         {
           "type": "const char*",
-          "name": "actorName"
+          "name": "layoutName"
         },
         {
           "type": "int",
-          "name": "actorID"
+          "name": "actorEnum"
         },
         {
           "type": "Vector2",
@@ -39400,7 +39392,7 @@
     },
     "0x637E446B": {
       "name": "RESPAWN_PLAYER_ACTOR_IN_LAYOUT",
-      "comment": "",
+      "comment": "actorEnum: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eActorEnum",
       "params": [
         {
           "type": "Layout",
@@ -39412,11 +39404,11 @@
         },
         {
           "type": "const char*",
-          "name": "actorInLayout"
+          "name": "layoutName"
         },
         {
           "type": "int",
-          "name": "actorID"
+          "name": "actorEnum"
         },
         {
           "type": "Vector2",
@@ -39487,7 +39479,7 @@
     },
     "0x990614C1": {
       "name": "GET_ACTOR_ENUM_STRING_FROM_ENUM",
-      "comment": "",
+      "comment": "actorEnum: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eActorEnum",
       "params": [
         {
           "type": "int",
@@ -39593,7 +39585,7 @@
     },
     "0x9AA02DA7": {
       "name": "REQUEST_ASSET",
-      "comment": "",
+      "comment": "assetType: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eAssetType",
       "params": [
         {
           "type": "const char*",
@@ -39608,7 +39600,7 @@
     },
     "0x6005B514": {
       "name": "GET_ASSET_ID",
-      "comment": "",
+      "comment": "assetType: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eAssetType",
       "params": [
         {
           "type": "const char*",
@@ -43026,7 +43018,7 @@
         },
         {
           "type": "Mount",
-          "name": "setMount"
+          "name": "mount"
         }
       ],
       "return_type": "void"
@@ -43113,11 +43105,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Mount",
+          "name": "mount"
         }
       ],
-      "return_type": "Any"
+      "return_type": "Actor"
     },
     "0xDD31EC4E": {
       "name": "GET_MOUNT",
@@ -43165,8 +43157,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
-          "name": "actor"
+          "type": "Mount",
+          "name": "mount"
         },
         {
           "type": "int",
@@ -43180,8 +43172,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
-          "name": "actor"
+          "type": "Mount",
+          "name": "mount"
         },
         {
           "type": "int",
@@ -43195,15 +43187,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
-          "name": "actor"
+          "type": "Mount",
+          "name": "mount"
         },
         {
           "type": "int",
           "name": "accessory"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x6B6E05A8": {
       "name": "HORSE_ENABLE_AUTO_JUMP_FOR_AI_RIDERS",
@@ -43259,51 +43251,51 @@
     },
     "0xF3976D70": {
       "name": "HORSE_SET_CURR_FRESHNESS",
-      "comment": "",
+      "comment": "Stamina between 0.0f - 1.0f",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Mount",
+          "name": "mount"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "stamina"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xB8665D8A": {
       "name": "HORSE_GET_CURR_FRESHNESS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Mount",
+          "name": "mount"
         }
       ],
-      "return_type": "Any"
+      "return_type": "float"
     },
     "0x8754817D": {
       "name": "HORSE_LOCK_FRESHNESS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Mount",
+          "name": "mount"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x6AFA044B": {
       "name": "HORSE_UNLOCK_FRESHNESS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Mount",
+          "name": "mount"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xB731EB45": {
       "name": "HORSE_SET_INFINITE_FRESHNESS_CHEAT",
@@ -45882,7 +45874,7 @@
   "STREAM": {
     "0xB0A79FEE": {
       "name": "STREAMING_REQUEST_ACTOR",
-      "comment": "",
+      "comment": "actorEnum: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eActorEnum",
       "params": [
         {
           "type": "int",
@@ -46805,19 +46797,15 @@
       "comment": "",
       "params": [
         {
-          "type": "int*",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
         }
       ],
-      "return_type": "int"
+      "return_type": "Actor"
     },
     "0x8AE7281E": {
       "name": "GET_RETICLE_TARGET_POINT",
@@ -50101,7 +50089,7 @@
       "comment": "",
       "params": [
         {
-          "type": "float",
+          "type": "int",
           "name": "time"
         }
       ],
@@ -52374,7 +52362,7 @@
     },
     "0xDB679ED9": {
       "name": "GET_WEAPON_CATEGORY_FROM_ENUM",
-      "comment": "",
+      "comment": "https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eWeaponCategory",
       "params": [
         {
           "type": "int",
@@ -52385,7 +52373,7 @@
     },
     "0xD3E16075": {
       "name": "GET_AMMO_ENUM",
-      "comment": "",
+      "comment": "https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eAmmoEnum",
       "params": [
         {
           "type": "int",
@@ -52411,7 +52399,7 @@
     },
     "0xCCB57C38": {
       "name": "GET_AMMO_ENUM_STRING_FROM_ENUM",
-      "comment": "",
+      "comment": "returns the ammoEnums string name. https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eAmmoEnum",
       "params": [
         {
           "type": "int",
@@ -52422,7 +52410,7 @@
     },
     "0x2AF84928": {
       "name": "GET_AMMO_ENUM_ICON_NAME",
-      "comment": "",
+      "comment": "returns the ammoEnums icon name. https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eAmmoEnum",
       "params": [
         {
           "type": "int",
@@ -52484,14 +52472,14 @@
   "WEATHER": {
     "0x456D7F38": {
       "name": "SET_WEATHER",
-      "comment": "weather:\nenum eWeatherType\n{\n\tWEATHER_CLEAR,\n\tWEATHER_FAIR,\n\tWEATHER_CLOUDY,\n\tWEATHER_RAINY,\n\tWEATHER_STORMY,\n\tWEATHER_SNOWY,\n\tWEATHER_INTERIOR_CLEAR,\n\tWEATHER_INTERIOR_FAIR,\n\tWEATHER_INTERIOR_CLOUDY,\n\tWEATHER_INTERIOR_RAINY,\n\tWEATHER_INTERIOR_STORMY,\n\tWEATHER_INTERIOR_SNOWY,\n\tWEATHER_CAVE,\n\tWEATHER_THIEVES,\n\tWEATHER_FOREST,\n\tWEATHER_LOCATION_A,\n\tWEATHER_LOCATION_B,\n\tWEATHER_LOCATION_C,\n\tWEATHER_INTERIOR_THIEVES,\n\tWEATHER_INTERIOR_FOREST,\n\tWEATHER_INTERIOR_LOCATION_A,\n\tWEATHER_INTERIOR_LOCATION_B,\n\tWEATHER_INTERIOR_LOCATION_C\n};",
+      "comment": "https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eWeather",
       "params": [
         {
           "type": "int",
           "name": "weatherType"
         },
         {
-          "type": "float",
+          "type": "int",
           "name": "transitionSpeed"
         }
       ],
@@ -52499,7 +52487,7 @@
     },
     "0xEA026ED9": {
       "name": "GET_WEATHER",
-      "comment": "",
+      "comment": "https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eWeather",
       "params": [],
       "return_type": "int"
     },
