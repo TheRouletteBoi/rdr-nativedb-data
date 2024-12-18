@@ -10709,7 +10709,7 @@
         },
         {
           "type": "int",
-          "name": "p1"
+          "name": "stackSize"
         }
       ],
       "return_type": "int"
@@ -20709,30 +20709,17 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "factionName"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x28413943": {
       "name": "RESET_FACTIONS",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        }
-      ],
-      "return_type": "Any"
+      "params": [],
+      "return_type": "void"
     },
     "0x52E2A611": {
       "name": "GET_ACTOR_FACTION",
@@ -20774,16 +20761,29 @@
     "0x22424394": {
       "name": "VERIFY_FACTION_ENUM",
       "comment": "",
-      "params": [],
-      "return_type": "Any"
+      "params": [
+        {
+          "type": "const char*",
+          "name": "factionName"
+        },
+        {
+          "type": "int",
+          "name": "faction"
+        }
+      ],
+      "return_type": "void"
     },
     "0xDCB960C5": {
       "name": "SET_FACTION_IS_LAWFUL_TO_ATTACK",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "faction"
+        },
+        {
+          "type": "BOOL",
+          "name": "canAttack"
         }
       ],
       "return_type": "void"
@@ -20804,8 +20804,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "factionAId"
+        },
+        {
+          "type": "int",
+          "name": "factionBId"
+        },
+        {
+          "type": "int",
+          "name": "relationshipStatus"
         }
       ],
       "return_type": "void"
@@ -20815,8 +20823,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "factionAId"
+        },
+        {
+          "type": "int",
+          "name": "factionBId"
+        },
+        {
+          "type": "int",
+          "name": "relationshipStatus"
         }
       ],
       "return_type": "void"
@@ -20826,8 +20842,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "ambientFactionAId"
+        },
+        {
+          "type": "int",
+          "name": "ambientFactionBId"
+        },
+        {
+          "type": "int",
+          "name": "relationshipStatus"
         }
       ],
       "return_type": "void"
@@ -20837,41 +20861,61 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "factionAId"
+        },
+        {
+          "type": "int",
+          "name": "factionBId"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0xF9C5DC76": {
       "name": "RESET_AMBIENT_FACTIONS_STATUS_TWO_WAY",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "ambientFactionAId"
+        },
+        {
+          "type": "int",
+          "name": "ambientFactionBId"
         }
       ],
-      "return_type": "Any"
+      "return_type": "void"
     },
     "0x8E56236D": {
       "name": "GET_FACTIONS_STATUS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "factionAId"
+        },
+        {
+          "type": "int",
+          "name": "factionBId"
         }
       ],
-      "return_type": "void"
+      "return_type": "BOOL"
     },
     "0x463F75F8": {
       "name": "SET_FACTION_TO_FACTION_ACCURACY_SCALE_FACTOR",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "attackerFactionId"
+        },
+        {
+          "type": "int",
+          "name": "targetFactionId"
+        },
+        {
+          "type": "float",
+          "name": "accuracyFactor"
         }
       ],
       "return_type": "void"
@@ -20881,8 +20925,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "attackerFactionId"
+        },
+        {
+          "type": "int",
+          "name": "targetFactionId"
+        },
+        {
+          "type": "float",
+          "name": "damageScaleFactor"
         }
       ],
       "return_type": "void"
@@ -20903,19 +20955,31 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "faction"
+        },
+        {
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0xBC44D31D": {
       "name": "SET_FACTION_STATUS_TO_INDIVIDUAL_ACTOR",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "faction"
+        },
+        {
+          "type": "Actor",
+          "name": "actor"
+        },
+        {
+          "type": "int",
+          "name": "status"
         }
       ],
       "return_type": "void"
@@ -22419,19 +22483,19 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "greetingContextId"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x751809BB": {
       "name": "SET_NON_VERBAL_GREETING_PROBABILITY",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "probability"
         }
       ],
       "return_type": "void"
@@ -22441,8 +22505,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "angle"
         }
       ],
       "return_type": "void"
@@ -22467,8 +22531,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "probability"
         }
       ],
       "return_type": "void"
@@ -22478,8 +22542,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "probability"
         }
       ],
       "return_type": "void"
@@ -22489,12 +22553,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "probability"
         }
       ],
       "return_type": "void"
@@ -22504,8 +22568,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "minInterval"
         }
       ],
       "return_type": "void"
@@ -22515,8 +22579,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "minInterval"
         }
       ],
       "return_type": "void"
@@ -22526,8 +22590,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "maxDistance"
         }
       ],
       "return_type": "void"
@@ -22537,8 +22601,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "minSpeed"
         }
       ],
       "return_type": "void"
@@ -22548,8 +22612,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "maxAngle"
         }
       ],
       "return_type": "void"
@@ -22559,8 +22623,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "float",
+          "name": "timeoutDuration"
         }
       ],
       "return_type": "void"
@@ -29658,25 +29722,8 @@
     "0x45E34464": {
       "name": "RESET_EXCLUSIVE_JOURNAL_ID",
       "comment": "",
-      "params": [
-        {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        }
-      ],
-      "return_type": "int"
+      "params": [],
+      "return_type": "void"
     },
     "0x44A1ED5C": {
       "name": "TOGGLE_COOP_JOURNAL_UI",
@@ -29711,50 +29758,22 @@
       "params": [
         {
           "type": "int",
-          "name": "result"
+          "name": "journalId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
-        },
-        {
-          "type": "Any",
-          "name": "p5"
+          "type": "BOOL",
+          "name": "isVisible"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xC450C870": {
       "name": "GET_JOURNAL_ENTRY",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "entryName"
         }
       ],
       "return_type": "int"
@@ -29764,20 +29783,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "const char*",
+          "name": "entryName"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "entryType"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "entryStatus"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "entryText"
         }
       ],
       "return_type": "int"
@@ -29787,20 +29806,20 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "journal"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "entryType"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "int",
+          "name": "entryStatus"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "entryText"
         }
       ],
       "return_type": "int"
@@ -29810,20 +29829,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "entryId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "BOOL",
+          "name": "checkVisibility"
         }
       ],
       "return_type": "BOOL"
@@ -29833,24 +29844,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
+          "type": "BOOL",
+          "name": "includeHidden"
         }
       ],
       "return_type": "int"
@@ -29860,20 +29855,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "entryIndex"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "BOOL",
+          "name": "includeHidden"
         }
       ],
       "return_type": "int"
@@ -29883,23 +29870,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "entryId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "BOOL",
+          "name": "markAsUnread"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x9C40CFAB": {
       "name": "APPEND_JOURNAL_ENTRY",
@@ -43616,16 +43595,16 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "challengeName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "description"
         }
       ],
       "return_type": "void"
@@ -43650,47 +43629,39 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "textureName"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x10F5386D": {
       "name": "UI_CHALLENGE_SET_PROGRESS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "currentProgress"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "maxProgress"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "float",
+          "name": "threshold"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "const char*",
+          "name": "progressText"
         }
       ],
       "return_type": "void"
@@ -43700,62 +43671,46 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "detailText"
         }
       ],
       "return_type": "void"
     },
     "0x3731AC9F": {
       "name": "UI_CHALLENGE_SET_TROPHY_TYPE",
-      "comment": "",
+      "comment": "trophyType:\nenum eTrophyType\n{\n\tTROPHY_NONE = 0,\n\tTROPHY_BRONZE = 4,\n\tTROPHY_GOLD = 8,\n\t// todo\n};",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "trophyType"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x9CF5C747": {
       "name": "UI_CHALLENGE_SET_OBJECTIVE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "objectiveId"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "const char*",
+          "name": "objectiveDescription"
         }
       ],
       "return_type": "void"
@@ -43765,123 +43720,99 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "objectiveId"
         },
         {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "style"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x9272926C": {
       "name": "UI_CHALLENGE_SET_OBJECTIVE_STYLE_B",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "objectiveId"
         },
         {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "style"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xAFC9071D": {
       "name": "UI_CHALLENGE_SET_COLUMN_HEADER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "columnIndex"
         },
         {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "headerText"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x761A6750": {
       "name": "UI_CHALLENGE_SET_TIME_HEADER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "timeHeaderText"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xC201524D": {
       "name": "UI_CHALLENGE_SET_TIME_INFO",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "isTimeElapsed"
         },
         {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
+          "type": "const char*",
+          "name": "timeInfoText"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x04A3022E": {
       "name": "UI_CHALLENGE_MAKE_CURRENT",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "challengeId"
         }
       ],
       "return_type": "void"
@@ -43893,43 +43824,47 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "speechContextId"
         }
       ],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0x886E06C2": {
       "name": "REGISTER_ACTOR_SPEECH_CONTEXT",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "speechId"
         },
         {
           "type": "const char*",
-          "name": "p1"
+          "name": "speechText"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "isEnabled"
         },
         {
-          "type": "Any",
-          "name": "p3"
+          "type": "int",
+          "name": "contextType"
         },
         {
-          "type": "Any",
-          "name": "p4"
+          "type": "BOOL",
+          "name": "isUrgent"
         },
         {
-          "type": "Any",
-          "name": "p5"
+          "type": "int",
+          "name": "languageId"
+        },
+        {
+          "type": "int",
+          "name": "voiceId"
         }
       ],
       "return_type": "void"
@@ -43938,15 +43873,15 @@
       "name": "FINISH_REGISTERING_ACTOR_SPEECH_CONTEXTS",
       "comment": "",
       "params": [],
-      "return_type": "const char*"
+      "return_type": "void"
     },
     "0xCB139D15": {
       "name": "REGISTER_NUM_SPEECH_CONTEXTS",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "numContexts"
         }
       ],
       "return_type": "void"
@@ -43954,8 +43889,13 @@
     "0xF07F5E41": {
       "name": "REGISTER_NUM_CONTEXT_TYPES",
       "comment": "",
-      "params": [],
-      "return_type": "int"
+      "params": [
+        {
+          "type": "int",
+          "name": "numContextTypes"
+        }
+      ],
+      "return_type": "void"
     }
   },
   "SQUADS": {
@@ -52029,243 +51969,243 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "statValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xA534CD14": {
       "name": "INIT_NATIVE_WEAPONENUM_RIFLE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "statValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xA72B6620": {
       "name": "INIT_NATIVE_WEAPONENUM_REPEATER",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "statValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x92FE3677": {
       "name": "INIT_NATIVE_WEAPONENUM_SNIPERRIFLE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "statValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xEA06907B": {
       "name": "INIT_NATIVE_WEAPONENUM_SHOTGUN",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "statValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xE0DF7B3B": {
       "name": "INIT_NATIVE_WEAPONENUM_THROWN",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "statValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xA2597101": {
       "name": "INIT_NATIVE_WEAPONENUM_THROWN_EXPLODING",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "statValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x2AD5D078": {
       "name": "INIT_NATIVE_WEAPONENUM_BOW",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "statValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xA6C4E59F": {
       "name": "INIT_NATIVE_WEAPONENUM_MELEE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "statValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xF82711CC": {
       "name": "INIT_NATIVE_WEAPONENUM_LASSO",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "statValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x82609DC7": {
       "name": "INIT_NATIVE_WEAPONENUM_TURRET",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "statValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x628E3173": {
       "name": "INIT_NATIVE_WEAPONENUM_CANNON",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "float",
+          "name": "statValue"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xCE5CCF2E": {
       "name": "INIT_NATIVE_WEAPONENUM_AMMO",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "ammoAttributes"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x6A9CFA2A": {
       "name": "GET_WEAPON_ENUM_STRING_FROM_ENUM",
@@ -52325,14 +52265,23 @@
     "0x01C7193C": {
       "name": "INIT_NATIVE_WEAPONENUM_CATEGORY",
       "comment": "",
-      "params": [],
-      "return_type": "int"
+      "params": [
+        {
+          "type": "Any",
+          "name": "p0"
+        },
+        {
+          "type": "Any",
+          "name": "p1"
+        }
+      ],
+      "return_type": "void"
     },
     "0x0A23A69C": {
       "name": "FINALIZE_WEAPONENUM_CATEGORIES",
       "comment": "",
       "params": [],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0x0E4B7A33": {
       "name": "SET_WEAPONENUM_LOCKED",
@@ -52344,7 +52293,7 @@
         },
         {
           "type": "BOOL",
-          "name": "locked"
+          "name": "isLocked"
         }
       ],
       "return_type": "void"
@@ -52435,38 +52384,34 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "weaponEnum"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     },
     "0xF4641CF4": {
       "name": "ADD_IDLEFX_TO_WEAPON",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "weaponName"
         },
         {
           "type": "float",
-          "name": "p2"
+          "name": "posX"
         },
         {
           "type": "float",
-          "name": "p3"
+          "name": "posY"
         },
         {
           "type": "float",
-          "name": "p4"
+          "name": "posZ"
         }
       ],
-      "return_type": "int"
+      "return_type": "void"
     }
   },
   "WEATHER": {
