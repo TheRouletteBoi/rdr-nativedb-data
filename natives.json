@@ -29741,7 +29741,7 @@
       "comment": "",
       "params": [
         {
-          "type": "JournalHandle ",
+          "type": "JournalHandle",
           "name": "journalId"
         },
         {
