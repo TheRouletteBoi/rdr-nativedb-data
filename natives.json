@@ -29741,7 +29741,7 @@
       "comment": "",
       "params": [
         {
-          "type": "JournalHandle",
+          "type": "int",
           "name": "journalId"
         },
         {
@@ -29783,14 +29783,14 @@
           "name": "entryText"
         }
       ],
-      "return_type": "JournalHandle"
+      "return_type": "int"
     },
     "0x619F1C3D": {
       "name": "CREATE_JOURNAL_ENTRY_BY_HASH",
       "comment": "",
       "params": [
         {
-          "type": "JournalHandle",
+          "type": "int",
           "name": "journal"
         },
         {
@@ -29832,7 +29832,7 @@
           "name": "includeHidden"
         }
       ],
-      "return_type": "JournalHandle"
+      "return_type": "int"
     },
     "0x49B02E18": {
       "name": "GET_JOURNAL_ENTRY_IN_LIST",
