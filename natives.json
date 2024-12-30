@@ -14,15 +14,15 @@
         },
         {
           "type": "BOOL",
-          "name": "p4"
+          "name": "xAxis"
         },
         {
           "type": "BOOL",
-          "name": "p5"
+          "name": "yAxis"
         },
         {
           "type": "BOOL",
-          "name": "p6"
+          "name": "zAxis"
         }
       ],
       "return_type": "void"
@@ -37,11 +37,11 @@
         },
         {
           "type": "Vector2",
-          "name": "xy"
+          "name": "coordsXY"
         },
         {
           "type": "float",
-          "name": "z"
+          "name": "coordsZ"
         },
         {
           "type": "float",
@@ -49,15 +49,15 @@
         },
         {
           "type": "BOOL",
-          "name": "p5"
+          "name": "xAxis"
         },
         {
           "type": "BOOL",
-          "name": "p6"
+          "name": "yAxis"
         },
         {
           "type": "BOOL",
-          "name": "p7"
+          "name": "zAxis"
         }
       ],
       "return_type": "void"
@@ -184,7 +184,7 @@
         },
         {
           "type": "Actor",
-          "name": "actor2"
+          "name": "target"
         }
       ],
       "return_type": "BOOL"
@@ -269,8 +269,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
-          "name": "actor"
+          "type": "Player",
+          "name": "player"
         },
         {
           "type": "BOOL",
@@ -292,8 +292,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
-          "name": "actor"
+          "type": "Player",
+          "name": "player"
         },
         {
           "type": "BOOL",
@@ -307,8 +307,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
-          "name": "actor"
+          "type": "Player",
+          "name": "player"
+        },
+        {
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -318,8 +322,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
-          "name": "actor"
+          "type": "Player",
+          "name": "player"
         },
         {
           "type": "int",
@@ -333,12 +337,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
-          "name": "actor"
+          "type": "Player",
+          "name": "player"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -346,7 +350,12 @@
     "0x9613C2D0": {
       "name": "IS_PLAYER_CONTROLLABLE",
       "comment": "",
-      "params": [],
+      "params": [
+        {
+          "type": "Player",
+          "name": "player"
+        }
+      ],
       "return_type": "int"
     },
     "0x6576AD43": {
@@ -354,8 +363,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Player",
+          "name": "player"
         }
       ],
       "return_type": "BOOL"
@@ -364,6 +373,10 @@
       "name": "IS_PLAYER_IN_COMBAT_WITHIN",
       "comment": "",
       "params": [
+        {
+          "type": "Player",
+          "name": "player"
+        },
         {
           "type": "float",
           "name": "p0"
@@ -457,8 +470,12 @@
       "comment": "",
       "params": [
         {
+          "type": "Player",
+          "name": "player"
+        },
+        {
           "type": "float",
-          "name": "p0"
+          "name": "value"
         }
       ],
       "return_type": "int"
@@ -468,8 +485,12 @@
       "comment": "",
       "params": [
         {
+          "type": "Player",
+          "name": "player"
+        },
+        {
           "type": "float",
-          "name": "p0"
+          "name": "value"
         }
       ],
       "return_type": "int"
@@ -1478,7 +1499,7 @@
         },
         {
           "type": "BOOL",
-          "name": "p0"
+          "name": "allowed"
         }
       ],
       "return_type": "void"
@@ -1631,8 +1652,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
@@ -1918,11 +1939,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
+          "type": "int",
           "name": "p1"
         }
       ],
@@ -1933,11 +1954,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0xA4677DD2": {
       "name": "SET_ALLOW_COLD_WEATHER_BREATH",
@@ -2238,7 +2259,7 @@
           "name": "actorSet"
         },
         {
-          "type": "int",
+          "type": "Actor",
           "name": "actor"
         }
       ],
@@ -2253,7 +2274,7 @@
           "name": "actorSet"
         },
         {
-          "type": "int",
+          "type": "Actor",
           "name": "actor"
         }
       ],
@@ -2268,7 +2289,7 @@
           "name": "actorSet"
         },
         {
-          "type": "int",
+          "type": "Actor",
           "name": "actor"
         }
       ],
@@ -2298,7 +2319,7 @@
           "name": "actorSet"
         }
       ],
-      "return_type": "BOOL"
+      "return_type": "int"
     }
   },
   "ACTOR_DRAW": {
@@ -4973,7 +4994,7 @@
           "name": "actor"
         },
         {
-          "type": "Actor",
+          "type": "Mount",
           "name": "mount"
         }
       ],
@@ -7567,12 +7588,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "animation"
         }
       ],
       "return_type": "BOOL"
@@ -7683,8 +7704,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
@@ -7940,8 +7961,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
@@ -7981,15 +8002,15 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "nodeString"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     },
     "0x5E84F53E": {
       "name": "GET_CURR_ACTION_NODE_PLAY_TIME",
@@ -11523,8 +11544,8 @@
           "name": "p0"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "channel"
         }
       ],
       "return_type": "int"
@@ -11538,8 +11559,8 @@
           "name": "p0"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "channel"
         }
       ],
       "return_type": "int"
@@ -11549,11 +11570,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "channel"
         }
       ],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0x02BD5362": {
       "name": "IS_CAMERA_ACTIVE_ON_CHANNEL",
@@ -11575,8 +11596,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Cam",
+          "name": "camera"
         }
       ],
       "return_type": "void"
@@ -11586,12 +11607,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Cam",
+          "name": "camera"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "channel"
         }
       ],
       "return_type": "void"
@@ -11606,11 +11627,11 @@
         },
         {
           "type": "Vector2",
-          "name": "xy"
+          "name": "positionXY"
         },
         {
           "type": "float",
-          "name": "z"
+          "name": "positionZ"
         }
       ],
       "return_type": "void"
@@ -11669,12 +11690,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Cam",
+          "name": "camera"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "Vector3*",
+          "name": "vector"
         }
       ],
       "return_type": "void"
@@ -11710,12 +11731,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Cam",
+          "name": "camera"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "value"
         }
       ],
       "return_type": "void"
@@ -11725,8 +11746,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Cam",
+          "name": "camera"
         }
       ],
       "return_type": "float"
@@ -11736,12 +11757,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Cam",
+          "name": "camera"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "value"
         }
       ],
       "return_type": "void"
@@ -11751,12 +11772,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Cam",
+          "name": "camera"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "float",
+          "name": "value"
         }
       ],
       "return_type": "void"
@@ -11771,11 +11792,11 @@
         },
         {
           "type": "Vector2",
-          "name": "xy"
+          "name": "orientationXY"
         },
         {
           "type": "float",
-          "name": "z"
+          "name": "orientationZ"
         },
         {
           "type": "BOOL",
@@ -18765,8 +18786,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
@@ -18814,19 +18835,19 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0x8842C62D": {
       "name": "IS_ACTOR_RIDEABLE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
@@ -18841,7 +18862,7 @@
         },
         {
           "type": "BOOL",
-          "name": "p0"
+          "name": "rideable"
         }
       ],
       "return_type": "void"
@@ -30608,11 +30629,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     },
     "0xA610DC79": {
       "name": "IS_ACTOR_HOGTIED",
@@ -30630,8 +30651,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
       "return_type": "BOOL"
@@ -30704,11 +30725,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     },
     "0xBCED635B": {
       "name": "IS_HOGTIE_PUTDOWN_OBSTRUCTED",
@@ -34301,7 +34322,7 @@
       "comment": "",
       "params": [
         {
-          "type": "int",
+          "type": "Iterator",
           "name": "iterator"
         }
       ],
@@ -35709,8 +35730,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Object",
+          "name": "object"
         }
       ],
       "return_type": "void"
@@ -35731,8 +35752,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
       "return_type": "void"
@@ -35742,72 +35763,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
-        },
-        {
-          "type": "Any",
-          "name": "p5"
-        },
-        {
-          "type": "Any",
-          "name": "p6"
-        },
-        {
-          "type": "Any",
-          "name": "p7"
-        },
-        {
-          "type": "Any",
-          "name": "p8"
-        },
-        {
-          "type": "Any",
-          "name": "p9"
-        },
-        {
-          "type": "Any",
-          "name": "p10"
-        },
-        {
-          "type": "Any",
-          "name": "p11"
-        },
-        {
-          "type": "Any",
-          "name": "p12"
-        },
-        {
-          "type": "Any",
-          "name": "p13"
-        },
-        {
-          "type": "Any",
-          "name": "p14"
-        },
-        {
-          "type": "Any",
-          "name": "p15"
-        },
-        {
-          "type": "Any",
-          "name": "p16"
+          "type": "PersChar",
+          "name": "persChar"
         }
       ],
       "return_type": "void"
@@ -35817,8 +35774,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Volume",
+          "name": "volume"
         }
       ],
       "return_type": "void"
@@ -35861,8 +35818,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Iterator",
+          "name": "iterator"
         }
       ],
       "return_type": "void"
@@ -35872,28 +35829,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
-        },
-        {
-          "type": "Any",
-          "name": "p1"
-        },
-        {
-          "type": "Any",
-          "name": "p2"
-        },
-        {
-          "type": "Any",
-          "name": "p3"
-        },
-        {
-          "type": "Any",
-          "name": "p4"
-        },
-        {
-          "type": "Any",
-          "name": "p5"
+          "type": "PersChar",
+          "name": "persChar"
         }
       ],
       "return_type": "int"
@@ -35903,8 +35840,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "pointLight"
         }
       ],
       "return_type": "void"
@@ -35914,8 +35851,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "populationSet"
         }
       ],
       "return_type": "void"
@@ -35925,8 +35862,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "zone"
         }
       ],
       "return_type": "void"
@@ -35936,8 +35873,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "int",
+          "name": "crime"
         }
       ],
       "return_type": "void"
@@ -37730,7 +37667,7 @@
       "comment": "",
       "params": [
         {
-          "type": "int",
+          "type": "Iterator",
           "name": "iterator"
         }
       ],
@@ -37741,7 +37678,7 @@
       "comment": "",
       "params": [
         {
-          "type": "int",
+          "type": "Iterator",
           "name": "iterator"
         }
       ],
@@ -37752,7 +37689,7 @@
       "comment": "",
       "params": [
         {
-          "type": "int",
+          "type": "Iterator",
           "name": "iterator"
         }
       ],
@@ -37763,7 +37700,7 @@
       "comment": "",
       "params": [
         {
-          "type": "int",
+          "type": "Iterator",
           "name": "iterator"
         }
       ],
@@ -37820,7 +37757,7 @@
         },
         {
           "type": "int",
-          "name": "ObjectType"
+          "name": "objectType"
         }
       ],
       "return_type": "void"
@@ -37933,7 +37870,7 @@
       "comment": "",
       "params": [
         {
-          "type": "int",
+          "type": "Iterator",
           "name": "iterator"
         },
         {
@@ -37989,7 +37926,7 @@
       "comment": "",
       "params": [
         {
-          "type": "int",
+          "type": "Iterator",
           "name": "iterator"
         }
       ],
@@ -38414,11 +38351,11 @@
         },
         {
           "type": "Vector2",
-          "name": "xy"
+          "name": "orientationXY"
         },
         {
           "type": "float",
-          "name": "z"
+          "name": "orientationZ"
         }
       ],
       "return_type": "int"
@@ -38436,8 +38373,12 @@
           "name": "p1"
         },
         {
-          "type": "float",
+          "type": "int",
           "name": "p2"
+        },
+        {
+          "type": "int",
+          "name": "p3"
         }
       ],
       "return_type": "int"
@@ -38590,7 +38531,7 @@
         },
         {
           "type": "Vector2",
-          "name": "posistionXY"
+          "name": "positionXY"
         },
         {
           "type": "float",
@@ -39259,23 +39200,19 @@
         },
         {
           "type": "Vector2",
-          "name": "xy"
+          "name": "positionXY"
         },
         {
           "type": "float",
-          "name": "z"
+          "name": "positionZ"
+        },
+        {
+          "type": "Vector2",
+          "name": "orientationXY"
         },
         {
           "type": "float",
-          "name": "rotx"
-        },
-        {
-          "type": "float",
-          "name": "roty"
-        },
-        {
-          "type": "float",
-          "name": "rotz"
+          "name": "orientationZ"
         }
       ],
       "return_type": "Actor"
@@ -39391,19 +39328,19 @@
         },
         {
           "type": "Vector2",
-          "name": "xy"
+          "name": "positionXY"
         },
         {
           "type": "float",
-          "name": "z"
+          "name": "positionZ"
+        },
+        {
+          "type": "Vector2",
+          "name": "orientationXY"
         },
         {
           "type": "float",
-          "name": "rotXY"
-        },
-        {
-          "type": "float",
-          "name": "rotZ"
+          "name": "orientationZ"
         },
         {
           "type": "int",
@@ -39417,11 +39354,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     },
     "0x0B28E9EC": {
       "name": "GET_ACTOR_ENUM",
@@ -39473,7 +39410,7 @@
       "params": [
         {
           "type": "int",
-          "name": "p0"
+          "name": "actorEnum"
         }
       ],
       "return_type": "int"
@@ -39870,8 +39807,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
-          "name": "actor"
+          "type": "Cam",
+          "name": "camera"
         }
       ],
       "return_type": "void"
@@ -42551,8 +42488,8 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Object",
+          "name": "object"
         }
       ],
       "return_type": "BOOL"
@@ -42562,12 +42499,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Object",
+          "name": "object"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "void"
@@ -42895,31 +42832,31 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Object",
+          "name": "object"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "variableMesh"
         }
       ],
-      "return_type": "int"
+      "return_type": "BOOL"
     },
     "0x8287F8B3": {
       "name": "PROP_ENABLE_VARIABLE_MESH",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Object",
+          "name": "object"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "int",
+          "name": "variableMesh"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "BOOL",
+          "name": "toggle"
         }
       ],
       "return_type": "int"
@@ -49921,7 +49858,7 @@
         {
           "type": "int",
           "name": "timeOfDay"
-        },        
+        },
         {
           "type": "int",
           "name": "timeToAdd"
@@ -49961,11 +49898,11 @@
         {
           "type": "int*",
           "name": "hour"
-        },        
+        },
         {
           "type": "int*",
           "name": "minute"
-        },   
+        },
         {
           "type": "int*",
           "name": "second"
@@ -50629,7 +50566,7 @@
         {
           "type": "const char*",
           "name": "textureId"
-        },        
+        },
         {
           "type": "const char*",
           "name": "textureName"
@@ -50832,11 +50769,11 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         },
         {
-          "type": "Any",
+          "type": "BOOL",
           "name": "p1"
         }
       ],
@@ -50880,28 +50817,33 @@
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     },
     "0x1BA90C92": {
       "name": "IS_ACTOR_JACKING_VEHICLE",
       "comment": "",
-      "params": [],
-      "return_type": "Any"
+      "params": [
+        {
+          "type": "Actor",
+          "name": "actor"
+        }
+      ],
+      "return_type": "BOOL"
     },
     "0x12325AE7": {
       "name": "IS_ACTOR_INSIDE_VEHICLE",
       "comment": "",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Actor",
+          "name": "actor"
         }
       ],
-      "return_type": "Any"
+      "return_type": "BOOL"
     },
     "0xDE19A1F9": {
       "name": "IS_ACTOR_RIDING_VEHICLE",
@@ -51128,12 +51070,12 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
+          "type": "Vehicle",
           "name": "vehicle"
         },
         {
           "type": "int",
-          "name": "seat"
+          "name": "seatId"
         },
         {
           "type": "BOOL",
@@ -51147,7 +51089,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
+          "type": "Vehicle",
           "name": "vehicle"
         }
       ],
@@ -51158,7 +51100,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
+          "type": "Vehicle",
           "name": "vehicle"
         }
       ],
@@ -51174,7 +51116,7 @@
         },
         {
           "type": "int",
-          "name": "p1"
+          "name": "accessory"
         }
       ],
       "return_type": "void"
@@ -51203,12 +51145,12 @@
           "name": "actor"
         },
         {
-          "type": "Actor",
+          "type": "Vehicle",
           "name": "vehicle"
         },
         {
           "type": "int",
-          "name": "p2"
+          "name": "harnessId"
         },
         {
           "type": "BOOL",
@@ -51634,7 +51576,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
+          "type": "Vehicle",
           "name": "vehicle"
         },
         {
@@ -51664,7 +51606,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
+          "type": "Vehicle",
           "name": "vehicle"
         },
         {
@@ -51679,7 +51621,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
+          "type": "Vehicle",
           "name": "vehicle"
         }
       ],
@@ -51690,7 +51632,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
+          "type": "Vehicle",
           "name": "vehicle"
         },
         {
@@ -51705,7 +51647,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
+          "type": "Vehicle",
           "name": "vehicle"
         },
         {
@@ -51720,7 +51662,7 @@
       "comment": "",
       "params": [
         {
-          "type": "Actor",
+          "type": "Vehicle",
           "name": "vehicle"
         },
         {
@@ -53185,11 +53127,11 @@
         {
           "type": "float",
           "name": "z"
-        },        
+        },
         {
           "type": "int",
           "name": "heightFlag"
-        },        
+        },
         {
           "type": "int",
           "name": "flag"
