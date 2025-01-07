@@ -18980,7 +18980,7 @@
     },
     "0xDA2F6203": {
       "name": "ACTOR_ENABLE_VARIABLE_MESH",
-      "comment": "",
+      "comment": "variableMesh: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eVariableMesh",
       "params": [
         {
           "type": "Actor",
@@ -18999,7 +18999,7 @@
     },
     "0x5DE31288": {
       "name": "ACTOR_IS_VARIABLE_MESH_ENABLED",
-      "comment": "",
+      "comment": "variableMesh: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eVariableMesh",
       "params": [
         {
           "type": "Actor",
@@ -29301,7 +29301,7 @@
     },
     "0xA091179F": {
       "name": "ACTOR_HAS_VARIABLE_MESH",
-      "comment": "",
+      "comment": "variableMesh: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eVariableMesh",
       "params": [
         {
           "type": "Actor",
@@ -39423,7 +39423,7 @@
     },
     "0x7AB17813": {
       "name": "SWITCH_ACTOR_ENUM_VARIATION",
-      "comment": "",
+      "comment": "outfitId: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eOutfit",
       "params": [
         {
           "type": "Actor",
@@ -39490,7 +39490,7 @@
     },
     "0xB54567B9": {
       "name": "GET_CURRENT_ACTOR_ENUM_VARIATION",
-      "comment": "",
+      "comment": "outfitId: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/eOutfit",
       "params": [
         {
           "type": "Actor",
