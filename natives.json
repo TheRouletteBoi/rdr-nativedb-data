@@ -40214,7 +40214,7 @@
       "return_type": "Any"
     },
     "0x9F832205": {
-      "name": "_0x9F832205",
+      "name": "SET_BLACKWATERSURVIVOR",
       "comment": "PC only, used by blackwater_z.wsc",
       "params": [
         {
@@ -40225,7 +40225,7 @@
       "return_type": "Any"
     },
     "0xF413FDB2": {
-      "name": "_0xF413FDB2",
+      "name": "SET_TAKING_TREASUREMAP",
       "comment": "PC only, used by event_treasurehunter_intro.wsc",
       "params": [
         {
@@ -40236,7 +40236,7 @@
       "return_type": "Any"
     },
     "0x63D3AAFC": {
-      "name": "_0x63D3AAFC",
+      "name": "SET_BRIBING_LAW_ENFORCEMENT",
       "comment": "PC only, used by event_law_repsonse_*.wsc",
       "params": [
         {
@@ -40247,7 +40247,7 @@
       "return_type": "Any"
     },
     "0x3B93B981": {
-      "name": "_0x3B93B981",
+      "name": "SET_BOSS_ZOMBIE_SPAWNING",
       "comment": "PC only, used by *_z.wsc",
       "params": [
         {
@@ -40269,7 +40269,7 @@
       "return_type": "Any"
     },
     "0xEB0F9F0C": {
-      "name": "_0xEB0F9F0C",
+      "name": "SET_COLLECTING_BOUNTY_PAY",
       "comment": "PC only, used by event_bountyhunter.wsc",
       "params": [
         {
@@ -40313,7 +40313,7 @@
       "return_type": "Any"
     },
     "0x02859CE6": {
-      "name": "_0x02859CE6",
+      "name": "SET_MERCHANT05_RACE_FINISHED",
       "comment": "PC only, used by merchant05.wsc",
       "params": [
         {
@@ -40357,7 +40357,7 @@
       "return_type": "Any"
     },
     "0x9CED1C7E": {
-      "name": "_0x9CED1C7E",
+      "name": "SET_STAGECOACH_TUTORIAL",
       "comment": "PC only, used by ranch02.wsc",
       "params": [
         {
@@ -40368,7 +40368,7 @@
       "return_type": "Any"
     },
     "0xD9DDA7E2": {
-      "name": "_0xD9DDA7E2",
+      "name": "SET_GUN01_HOSTAGE_SCENE",
       "comment": "PC only, used by gun01.wsc",
       "params": [
         {
