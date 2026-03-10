@@ -15902,6 +15902,12 @@
       ],
       "return_type": "Any"
     },
+    "0x4A012B39": {
+      "name": "IS_MOBILE",
+      "comment": "Mobile only",
+      "params": [],
+      "return_type": "BOOL"
+    },
     "0xB427CB25": {
       "name": "_ARE_BUMPER_BUTTONS_SWAPPED",
       "comment": "",
@@ -15930,6 +15936,29 @@
         }
       ],
       "return_type": "Any"
+    },
+    "0x282E55F5": {
+      "name": "IS_USING_TOUCH_INTERFACE",
+      "comment": "Mobile only",
+      "params": [],
+      "return_type": "BOOL"
+    },
+    "0x141E1F68": {
+      "name": "SHOW_TOUCH_JOYSTICK",
+      "comment": "Mobile only",
+      "params": [
+        {
+          "type": "BOOL",
+          "name": "toggle"
+        }
+      ],
+      "return_type": "void"
+    },
+    "0x3F416C75": {
+      "name": "GET_TOUCH_RADIAL_DELTA",
+      "comment": "Mobile only",
+      "params": [],
+      "return_type": "float"
     },
     "0xC3C0F1F2": {
       "name": "IS_PLAYER_SIGNED_IN",
